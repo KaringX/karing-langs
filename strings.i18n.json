@@ -6,7 +6,7 @@
         }
     },
     "ServerManager": {
-        "noServerAvaliable": "No server avaliable, Make sure the Profile Link or Profile File is valid",
+        "noServerAvaliable": "No server available, Make sure the Profile Link or Profile File is valid",
         "timeout": "Connect Timeout",
         "by_current": "Current Server",
         "selector": "Auto Select Server",
