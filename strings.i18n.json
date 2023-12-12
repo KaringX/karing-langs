@@ -1,0 +1,321 @@
+{
+    "main": {
+        "tray": {
+            "menuOpen": "    Open    ",
+            "menuExit": "    Exit    "
+        }
+    },
+    "ServerManager": {
+        "noServerAvaliable": "No server avaliable, Make sure the Profile Link or Profile File is valid",
+        "timeout": "Connect Timeout",
+        "by_current": "Current Server",
+        "selector": "Auto Select Server",
+        "direct": "Direct",
+        "block": "Block",
+        "filePathCannotEmpty": "The file path can not be empty",
+        "fileNotExist": "File does not exist:$p",
+        "urlCannotEmpty": "Link can not be empty",
+        "invalidUrl": "Invalid Profile Link",
+        "parseFailed": "Parsing Profile failed"
+    },
+    "HttpUtils": {
+        "serverError": "Server Error:$p",
+        "serverResponseEmpty": "Server Error: Response data is empty"
+    },
+    "ClashYamlUtils": {
+        "invalidFileContent": "Profile file is invalid",
+        "invalidFileContentNoProxy": "Profile file is invalid: proxies: not found"
+    },
+    "AboutScreen": {
+        "title": "About"
+    },
+    "AddConfigByCustomScreen": {
+        "title": "Add Custom Profile"
+    },
+    "AddConfigByImportFromFileScreen": {
+        "title": "Import Profile File",
+        "enableRoutingGroup": "Enable Routing Group Strategy",
+        "chooseFile": "Select File",
+        "remark": "Remark",
+        "remarkHit": "Remark [Required]",
+        "add": "Add",
+        "remarkCannotEmpty": "Remarks can not be empty",
+        "remarkTooLong": "Remarks up to 32 characters",
+        "remarkExist": "Remark already exists, please use another name",
+        "configExist": "The Profile already exists, please do not add it repeatedly",
+        "addSuccess": "Added successfully",
+        "addFailed": "Add failed:$p"
+    },
+    "AddConfigBySubscriptionLinkScreen": {
+        "title": "Add Subscription Link",
+        "enableRoutingGroup": "Enable Routing Group Strategy",
+        "subscriptionLink": "Subscription Link",
+        "subscriptionLinkHit": "Subscription Link [Required] (Support Clash,V2ray(batch supported),Stash,Karing,Sing-box,Shadowsocks,Sub Profile links)",
+        "remark": "Remark",
+        "remarkHit": "Remark [Link]",
+        "addSubscription": "Add",
+        "subscriptionCannotEmpty": "Profile Link can not be empty",
+        "remarkCannotEmpty": "Remarks can not be empty",
+        "remarkTooLong": "Remarks up to 32 characters",
+        "remarkExist": "Remark already exists, please use another name",
+        "configExist": "The Profile already exists, please do not add it repeatedly",
+        "invalidUrl": "The Profile Link is too long",
+        "addSuccess": "Added successfully",
+        "addFailed": "Add failed:$p",
+        "addFailedFormatException": "Format error, please retry adding with a different profile link type:",
+        "addFailed403": "Add failed:$p, Please try to open the Profile Link using the browser that came with the device and import the Profile File downloaded by the browser into this app"
+    },
+    "ChangeDnsScreen": {
+        "title": "DNS"
+    },
+    "ChangeLanguageScreen": {
+        "title": "Language",
+        "search": "Search",
+        "next": "Next"
+    },
+    "ChangeRegionScreen": {
+        "title": "Country Or Region",
+        "done": "Done",
+        "search": "Search",
+        "Regions": "  Tip: Please set your current country or region correctly, otherwise it may cause network performance problems"
+    },
+    "ColorPickerScreen": {
+        "ok": "Ok",
+        "cancel": "Cancel",
+        "defaultColor": "Default"
+    },
+    "DialogUtils": {
+        "showAlertDialog": {
+            "title": "Info",
+            "ok": "Ok"
+        },
+        "showConfirmDialog": {
+            "ok": "Ok",
+            "cancel": "Cancel"
+        },
+        "showLoadingDialog": {
+            "loading": "Loading..."
+        },
+        "showQRContentDialog": {
+            "scanResult": "Scan Result",
+            "add": "To add"
+        }
+    },
+    "FileContentViewerScreen": {
+        "title": "File Content Viewer",
+        "chooseFile": "Select File",
+        "cearFileContent": "Are you sure to clear the content of the file?",
+        "cearConfFileContent": "Are you sure to clear the content of the Profile file? Clearing the Profile file may cause data loss or abnormal application functions, please operate with caution"
+    },
+    "GeoSiteCodesScreen": {
+        "title": "GeoSite Groups",
+        "search": "Search",
+        "detail": "GeoSite details:$p"
+    },
+    "HomeScreen": {
+        "noAvailableServer": "No Servers Available, Please Add Profile",
+        "toSelectServer": "Please Select a Server",
+        "selector": "Auto Select Server",
+        "clashSubscriptionLink": "Add Clash Profile Link",
+        "connectState": {
+            "connected": "Connected",
+            "disconnected": "Disconnected"
+        },
+        "systemProxy": "System Proxy",
+        "systemProxyTips": "socks:$sp,http(s):$hp",
+        "forwardAll": "Forward All",
+        "forwardAllTips": "When enabled, all traffic is forwarded through the proxy server",
+        "updateFailed": "Update failed:$p",
+        "trafficTotal": "Traffic Total",
+        "trafficProxy": "Traffic Forward",
+        "upDownSpeed": "Speed"
+    },
+    "LaunchFailedScreen": {
+        "invalidProfile": "The application failed to start, please download and install the application from the official channel",
+        "startFromUNC": "Invalid installation path, please reinstall",
+        "appleTestFlight": "Apple TestFlight",
+        "appleAppStore": "Apple App Store",
+        "download": "Download",
+        "quit": "Quit"
+    },
+    "NetConnectionsScreen": {
+        "title": "Connections",
+        "selector": "Auto Select Server",
+        "direct": "Direct",
+        "block": "Block",
+        "dns": "DNS",
+        "copyCSV": "Copied to CSV format"
+    },
+    "AddConfigByScanQrcodeScanScreen": {
+        "title": "Scan QR Code",
+        "copy": "Copy Link",
+        "open": "Open Link",
+        "add": "Add",
+        "requestCam": "Please enable camera permission",
+        "requestAccess": "Please go to System Settings - Privacy and Security - Screen Recording to add permissions for this application",
+        "screenshotImage": "Screenshot",
+        "scanImage": "Scan From Image",
+        "scanNoResult": "Failed to parse the image, please make sure the screenshot is a valid QR code",
+        "scanEmptyResult": "Scan Result is empty",
+        "scanException": "Failed to parse the image, please make sure the screenshot is a valid QR code:$p"
+    },
+    "QrcodeScreen": {
+        "title": "QR Code",
+        "tooLong": "The text is too long to display"
+    },
+    "RoutingGroupAddScreen": {
+        "title": "Add Routing Group"
+    },
+    "RoutingGroupEditScreen": {
+        "title": "Edit Routing Group"
+    },
+    "RoutingGroupImportScreen": {
+        "title": "Import Routing Group",
+        "chooseFile": "Select File",
+        "add": "Add"
+    },
+    "RoutingGroupListScreen": {
+        "title": "Routing Group",
+        "confirmDel": "Are you sure to delete routing group?"
+    },
+    "RoutingGroupStrategyScreen": {
+        "title": "Routing Group Strategy",
+        "by_current": "Current Server",
+        "selector": "Auto Select Server",
+        "direct": "Direct",
+        "block": "Block",
+        "builtInGeoSiteGroup": "GeoSite"
+    },
+    "ServerSelectScreen": {
+        "title": "Select Server",
+        "selector": "Auto Select Server",
+        "autoSelectServer": "Auto select the server with the lowest latency",
+        "recommend": "Recommend",
+        "recentUse": "Recently Used",
+        "myFav": "My Favs",
+        "testLatencyConnected": "Do not disconnect during the test, otherwise the test will be interrupted and a test already in progress may generate wrong results",
+        "testLatencyDisconnected": "Please open the connection first",
+        "updateFailed": "Update failed:$p"
+    },
+    "SubAndConfigScreen": {
+        "title": "Profiles",
+        "canNotRefresh": "Not a Profile Link, does not support refresh",
+        "testLatencyConnected": "Do not disconnect during the test, otherwise the test will be interrupted and a test already in progress may generate wrong results",
+        "testLatencyDisconnected": "Please open the connection first",
+        "updateFailed": "Update failed:$p",
+        "confirmDel": "Are you sure to delete Profile?",
+        "atLeastOneEnable": "Cannot be disabled, please keep at least one profile enable",
+        "modifyRemark": "Modify Remark",
+        "remarkCannotEmpty": "Remarks can not be empty",
+        "remarkTooLong": "Remarks up to 32 characters",
+        "remarkExist": "Remark already exists, please use another name"
+    },
+    "SettingScreen": {
+        "title": "Settings",
+        "titleAddConifg": "Add Profile",
+        "addConfigByLink": "Add Profile Link",
+        "addConfigByImport": "Import Profile File",
+        "addConfigByScanQR": "Scan Profile Link From QR code",
+        "addConfigByCustom": "Add Custom Profile",
+        "addConfigNotSupport": "Unsupported protocol",
+        "getTranffic": "Get Traffic",
+        "tutorial": "Tutorial",
+        "notice": "Notice",
+        "htmlBoard": "Online Panel",
+        "htmlBoardNeedConnect": "Please open the connection first",
+        "appleSystemStatus": "Apple System Status",
+        "googleSystemStatus": "Google System Status",
+        "myConfigView": "Profiles",
+        "speedTest": "Speed Test",
+        "myNetwork": "My IP",
+        "myConfigExport": "Export",
+        "myConfigShare": "Share",
+        "subscriptionAutoUpdate": "Auto-update Profile Link",
+        "subscriptionAutoUpdateTips": "12 Hours",
+        "dnsSetting": "DNS",
+        "routingGroup": "Routing Group Strategy",
+        "builtInGeoSiteGroup": "GeoSite",
+        "builtInGeoSiteDirectOptimization": "GeoSite Direct connection optimization",
+        "builtInGeoSiteDirectOptimizationTips": "When turned on, Apple[apple,apple-ads,apple-dev,apple-pki,apple-update] will use the direct connection mode to obtain a better network experience",
+        "routingGroupImport": "Import Routing Group Profile",
+        "routingGroupAdd": "Add Routing Group",
+        "routingGroupList": "Routing Group",
+        "autoSelectServerInterval": "[Auto Select Server] Latency Checks Interval",
+        "autoSelectServerIntervalTips": "[Auto Select Server]The shorter the time interval, the more timely the server latency data updates, which will occupy more resources and consume more power",
+        "autoSelectServerFavFirst": "[Auto Select Server] Pri-Use [My Favs]",
+        "autoSelectServerFavFirstTips": "If the [My Favs] list is not empty, Then use the servers in [My Favs]",
+        "autoSelectServerFilter": "[Auto Select Server] Filter Invalid Servers",
+        "autoSelectServerFilterTips": "Server latency checks that fail will be filtered out",
+        "proxyAutoConnectAfterLaunch": "Auto Connection after Launch",
+        "proxyAutoSetSystemProxy": "Auto Set System Proxy when Connecting",
+        "proxyDisconnectWhenQuit": "Close connection when exiting app",
+        "proxyAllowLanConnect": "Allow Others to Connect",
+        "proxyAllowLanConnectTips": "socks:$sp,http(s):$hp",
+        "proxyClusterEnable": "Enable the Socks/Http Proxy Cluster",
+        "proxyClusterAllowLanConnect": "Allow Others to Connect to Cluster",
+        "proxyClusterAllowLanConnectTips": "http://127.0.0.1:$hp/get_proxies",
+        "proxyClusterAuth": "Proxy Cluster Authentication",
+        "proxyClusterConfirm": "Please confirm that the servers latency have been checked, and proxy services will not be created if they are not checked or checked incorrectly",
+        "tunMode": "TUN Mode",
+        "tunModeTips": "The TUN mode will take over all the traffic of the system [In this mode, you can leave the system proxy unenabled]",
+        "tunModeRunAsAdmin": "The TUN mode requires system administrator permissions, please restart the app as an administrator",
+        "launchAtStartupSwitch": "Launch at Startup",
+        "quitWhenSwitchSystemUser": "Exit app when switch system users",
+        "handleKaringScheme": "Handle System karing:// Call",
+        "handleClashScheme": "Handle System clash:// Call",
+        "handleStashScheme": "Handle System stash:// Call",
+        "languageChange": "Language",
+        "regionsChange": "Country Or Region",
+        "enableDebugLog": "Enable Debug Log",
+        "FilesAndLogsViewFile": "View Files",
+        "enablePprof": "Enable pprof",
+        "pprofMonitor": "pprof Board",
+        "FilesAndLogsOpenDir": "Open File Directory",
+        "github": "Github",
+        "wiki": "Wiki",
+        "appleTestFlight": "Apple TestFlight",
+        "appleAppStore": "Apple App Store",
+        "hasNewVersion": "Update Version $p",
+        "follow": "Follow Us",
+        "feedback": "Feedback",
+        "contactUs": "Contact Us",
+        "rateInApp": "Rate Us",
+        "rateInAppStore": "Rate Us in App Store",
+        "about": "About",
+        "version": "Version",
+        "termOfUse": "Term of Service",
+        "privacyPolicy": "Privacy Policy",
+        "disableUAReport": "Turn Off Action Data Report",
+        "disableUAReportTip": "Action data reporting helps us improve the product experience, but closing it is not conducive to rapid optimization and improvement of the product"
+    },
+    "ShareForwordScreen": {
+        "title": "Follow/Share"
+    },
+    "SentryFeedbackScreen": {
+        "title": "Feedback",
+        "content": "Feedback Content",
+        "contentHit": "Required, up to 500 characters",
+        "submit": "Submit",
+        "contentCannotEmpty": "Feedback content can not be empty",
+        "submitDone": "Thanks for your feedback"
+    },
+    "SplashScreen": {},
+    "UpdateScreen": {
+        "versinReady": "The new version[$p] is ready",
+        "update": "Restart To Update",
+        "cancel": "Not Now"
+    },
+    "UserAgreementScreen": {
+        "privacyFirst": "Your Privacy Comes First",
+        "termOfUse": "Terms of Service",
+        "privacyPolicy": "Privacy & Policy",
+        "agreeAndContinue": "Accept & Continue"
+    },
+    "AutoConfUtils": {
+        "requestUrlFailed": "Failed to request Profile Link:$p"
+    },
+    "locales(map)": {
+        "en": "English",
+        "zh-CN": "简体中文"
+    }
+}
