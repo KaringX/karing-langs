@@ -6,10 +6,10 @@
         }
     },
     "ServerManager": {
-        "noServerAvaliable": "No server available, Make sure the Profile Link or Profile File is valid",
+        "noServerAvaliable": "No server avaliable, Make sure the Profile Link or Profile File is valid",
         "timeout": "Connect Timeout",
-        "by_current": "Current Server",
-        "selector": "Auto Select Server",
+        "byCurrentSelected": "Current Selected",
+        "selector": "Auto Select",
         "direct": "Direct",
         "block": "Block",
         "filePathCannotEmpty": "The file path can not be empty",
@@ -24,7 +24,7 @@
     },
     "ClashYamlUtils": {
         "invalidFileContent": "Profile file is invalid",
-        "invalidFileContentNoProxy": "Profile file is invalid: proxies: not found"
+        "invalidFileContentNoProxy": "Profile file is invalid: 'proxies:' not found"
     },
     "AboutScreen": {
         "title": "About"
@@ -79,11 +79,6 @@
         "search": "Search",
         "Regions": "  Tip: Please set your current country or region correctly, otherwise it may cause network performance problems"
     },
-    "ColorPickerScreen": {
-        "ok": "Ok",
-        "cancel": "Cancel",
-        "defaultColor": "Default"
-    },
     "DialogUtils": {
         "showAlertDialog": {
             "title": "Info",
@@ -104,8 +99,8 @@
     "FileContentViewerScreen": {
         "title": "File Content Viewer",
         "chooseFile": "Select File",
-        "cearFileContent": "Are you sure to clear the content of the file?",
-        "cearConfFileContent": "Are you sure to clear the content of the Profile file? Clearing the Profile file may cause data loss or abnormal application functions, please operate with caution"
+        "clearFileContent": "Are you sure to clear the content of the file?",
+        "clearFileContentTips": "Are you sure to clear the content of the Profile file? Clearing the Profile file may cause data loss or abnormal application functions, please operate with caution"
     },
     "GeoSiteCodesScreen": {
         "title": "GeoSite Groups",
@@ -115,8 +110,9 @@
     "HomeScreen": {
         "noAvailableServer": "No Servers Available, Please Add Profile",
         "toSelectServer": "Please Select a Server",
-        "selector": "Auto Select Server",
         "clashSubscriptionLink": "Add Clash Profile Link",
+        "v2raySubscriptionLink": "Add V2ray/Stash Profile Link",
+        "selector": "Auto Select",
         "connectState": {
             "connected": "Connected",
             "disconnected": "Disconnected"
@@ -140,21 +136,21 @@
     },
     "NetConnectionsScreen": {
         "title": "Connections",
-        "selector": "Auto Select Server",
+        "selector": "Auto Select",
         "direct": "Direct",
         "block": "Block",
         "dns": "DNS",
-        "copyCSV": "Copied to CSV format"
+        "copyAsCSV": "Copied to CSV format"
     },
     "AddConfigByScanQrcodeScanScreen": {
         "title": "Scan QR Code",
         "copy": "Copy Link",
         "open": "Open Link",
         "add": "Add",
-        "requestCam": "Please enable camera permission",
-        "requestAccess": "Please go to System Settings - Privacy and Security - Screen Recording to add permissions for this application",
-        "screenshotImage": "Screenshot",
-        "scanImage": "Scan From Image",
+        "requestCameraPermission": "Please enable camera permission",
+        "requestScreenAccess": "Please go to System Settings - Privacy and Security - Screen Recording to add permissions for this application",
+        "screenshot": "Screenshot",
+        "scanFromImage": "Scan From Image",
         "scanNoResult": "Failed to parse the image, please make sure the screenshot is a valid QR code",
         "scanEmptyResult": "Scan Result is empty",
         "scanException": "Failed to parse the image, please make sure the screenshot is a valid QR code:$p"
@@ -180,11 +176,11 @@
     },
     "RoutingGroupStrategyScreen": {
         "title": "Routing Group Strategy",
-        "by_current": "Current Server",
-        "selector": "Auto Select Server",
+        "byCurrentSelected": "Current Selected",
+        "selector": "Auto Select",
         "direct": "Direct",
         "block": "Block",
-        "builtInGeoSiteGroup": "GeoSite"
+        "geoSite": "GeoSite"
     },
     "ServerSelectScreen": {
         "title": "Select Server",
@@ -230,28 +226,28 @@
         "myNetwork": "My IP",
         "myConfigExport": "Export",
         "myConfigShare": "Share",
-        "subscriptionAutoUpdate": "Auto-update Profile Link",
+        "subscriptionAutoUpdate": "Auto-update Profile",
         "subscriptionAutoUpdateTips": "12 Hours",
         "dnsSetting": "DNS",
-        "routingGroup": "Routing Group Strategy",
-        "builtInGeoSiteGroup": "GeoSite",
-        "builtInGeoSiteDirectOptimization": "GeoSite Direct connection optimization",
-        "builtInGeoSiteDirectOptimizationTips": "When turned on, Apple[apple,apple-ads,apple-dev,apple-pki,apple-update] will use the direct connection mode to obtain a better network experience",
+        "geoSiteGroup": "GeoSite",
+        "geoSiteDirectOptimization": "GeoSite Direct connection optimization",
+        "geoSiteDirectOptimizationTips": "When turned on, Apple[apple,apple-ads,apple-dev,apple-pki,apple-update] will use the direct connection mode to obtain a better network experience",
+        "routingGroupStrategy": "Routing Group Strategy",
         "routingGroupImport": "Import Routing Group Profile",
         "routingGroupAdd": "Add Routing Group",
         "routingGroupList": "Routing Group",
-        "autoSelectServerInterval": "[Auto Select Server] Latency Checks Interval",
-        "autoSelectServerIntervalTips": "[Auto Select Server]The shorter the time interval, the more timely the server latency data updates, which will occupy more resources and consume more power",
-        "autoSelectServerFavFirst": "[Auto Select Server] Pri-Use [My Favs]",
+        "autoSelectServerInterval": "[Auto Select] Latency Checks Interval",
+        "autoSelectServerIntervalTips": "[Auto Select]The shorter the time interval, the more timely the server latency data updates, which will occupy more resources and consume more power",
+        "autoSelectServerFavFirst": "[Auto Select] Pri-Use [My Favs]",
         "autoSelectServerFavFirstTips": "If the [My Favs] list is not empty, Then use the servers in [My Favs]",
-        "autoSelectServerFilter": "[Auto Select Server] Filter Invalid Servers",
+        "autoSelectServerFilter": "[Auto Select] Filter Invalid Servers",
         "autoSelectServerFilterTips": "Server latency checks that fail will be filtered out",
         "proxyAutoConnectAfterLaunch": "Auto Connection after Launch",
-        "proxyAutoSetSystemProxy": "Auto Set System Proxy when Connecting",
-        "proxyDisconnectWhenQuit": "Close connection when exiting app",
+        "proxyAutoSetSystemProxy": "Auto Set System Proxy when Connected",
+        "proxyDisconnectWhenQuit": "Disconnect when App Exits",
         "proxyAllowLanConnect": "Allow Others to Connect",
         "proxyAllowLanConnectTips": "socks:$sp,http(s):$hp",
-        "proxyClusterEnable": "Enable the Socks/Http Proxy Cluster",
+        "proxyClusterEnable": "Enable Socks/Http Proxy Cluster",
         "proxyClusterAllowLanConnect": "Allow Others to Connect to Cluster",
         "proxyClusterAllowLanConnectTips": "http://127.0.0.1:$hp/get_proxies",
         "proxyClusterAuth": "Proxy Cluster Authentication",
@@ -260,7 +256,7 @@
         "tunModeTips": "The TUN mode will take over all the traffic of the system [In this mode, you can leave the system proxy unenabled]",
         "tunModeRunAsAdmin": "The TUN mode requires system administrator permissions, please restart the app as an administrator",
         "launchAtStartupSwitch": "Launch at Startup",
-        "quitWhenSwitchSystemUser": "Exit app when switch system users",
+        "quitWhenSwitchSystemUser": "Exit App when Switch System Users",
         "handleKaringScheme": "Handle System karing:// Call",
         "handleClashScheme": "Handle System clash:// Call",
         "handleStashScheme": "Handle System stash:// Call",
@@ -269,10 +265,8 @@
         "enableDebugLog": "Enable Debug Log",
         "FilesAndLogsViewFile": "View Files",
         "enablePprof": "Enable pprof",
-        "pprofMonitor": "pprof Board",
+        "pprofPanel": "pprof Panel",
         "FilesAndLogsOpenDir": "Open File Directory",
-        "github": "Github",
-        "wiki": "Wiki",
         "appleTestFlight": "Apple TestFlight",
         "appleAppStore": "Apple App Store",
         "hasNewVersion": "Update Version $p",
