@@ -8,7 +8,7 @@
     "ServerManager": {
         "noServerAvaliable": "Нет доступных серверов, убедитесь что подписка или файл конфигурации корректен.",
         "timeout": "Таймаут при соединении",
-        "by_current": "Текущий сервер",
+        "byCurrentSelected": "Текущий сервер",
         "selector": "Авто-выбор сервера",
         "direct": "Напрямую",
         "block": "Блокировать",
@@ -79,11 +79,6 @@
         "search": "Поиск",
         "Regions": "  Совет: Пожалуйста, правильно укажите текущую страну или регион, в противном случае это может вызвать проблемы с производительностью сети."
     },
-    "ColorPickerScreen": {
-        "ok": "Ок",
-        "cancel": "Закрыть",
-        "defaultColor": "По-умолчанию"
-    },
     "DialogUtils": {
         "showAlertDialog": {
             "title": "Инфо",
@@ -104,8 +99,8 @@
     "FileContentViewerScreen": {
         "title": "Просмотр содержимого файла",
         "chooseFile": "Выберите файл",
-        "cearFileContent": "Вы уверены, что очистите содержимое файла?",
-        "cearConfFileContent": "Are you sure to clear the content of the Profile file? Clearing the Profile file may cause data loss or abnormal application functions, please operate with caution"
+        "clearFileContent": "Вы уверены, что очистите содержимое файла?",
+        "clearFileContentTips": "Are you sure to clear the content of the Profile file? Clearing the Profile file may cause data loss or abnormal application functions, please operate with caution"
     },
     "GeoSiteCodesScreen": {
         "title": "GeoSite группы",
@@ -115,8 +110,9 @@
     "HomeScreen": {
         "noAvailableServer": "Нет доступных серверов. Пожалуйста, добавьте подписку или профиль.",
         "toSelectServer": "Выберите сервер",
-        "selector": "Авто-выбор сервера",
         "clashSubscriptionLink": "Добавить ссылку на Clash-подписку",
+	"v2raySubscriptionLink": "Add V2ray/Stash Profile Link",
+        "selector": "Авто-выбор сервера",
         "connectState": {
             "connected": "Подключено",
             "disconnected": "Отключено"
@@ -144,17 +140,17 @@
         "direct": "Напрямую",
         "block": "Блокировать",
         "dns": "DNS",
-        "copyCSV": "Скопировали в CSV формате"
+        "copyAsCSV": "Скопировали в CSV формате"
     },
     "AddConfigByScanQrcodeScanScreen": {
         "title": "Сканировать QR-код",
         "copy": "Скопировать ссылку",
         "open": "Открыть ссылку",
         "add": "Добавить",
-        "requestCam": "Пожалуйста, разрешите приложению доступ к камере",
-        "requestAccess": "Please go to System Settings - Privacy and Security - Screen Recording to add permissions for this application",
-        "screenshotImage": "Скриншот",
-        "scanImage": "Сканировать изображение",
+        "requestCameraPermission": "Пожалуйста, разрешите приложению доступ к камере",
+        "requestScreenAccess": "Please go to System Settings - Privacy and Security - Screen Recording to add permissions for this application",
+        "screenshot": "Скриншот",
+        "scanFromImage": "Сканировать изображение",
         "scanNoResult": "Не удалось проанализировать изображение. Убедитесь, что снимок экрана представляет собой действительный QR-код.",
         "scanEmptyResult": "Пустой результат сканирования.",
         "scanException": "Failed to parse the image, please make sure the screenshot is a valid QR code:$p"
@@ -180,11 +176,11 @@
     },
     "RoutingGroupStrategyScreen": {
         "title": "Стратегия роутинг-группы",
-        "by_current": "Текущий сервер",
+        "byCurrentSelected": "Текущий сервер",
         "selector": "Авто-выбор сервера",
         "direct": "Напрямую",
         "block": "Блокировать",
-        "builtInGeoSiteGroup": "GeoSite"
+        "geoSite": "GeoSite"
     },
     "ServerSelectScreen": {
         "title": "Выбор сервера",
@@ -233,10 +229,10 @@
         "subscriptionAutoUpdate": "Авто-обновление подписки",
         "subscriptionAutoUpdateTips": "12 часов",
         "dnsSetting": "DNS",
-        "routingGroup": "Routing Group Strategy",
-        "builtInGeoSiteGroup": "GeoSite",
-        "builtInGeoSiteDirectOptimization": "GeoSite Direct connection optimization",
-        "builtInGeoSiteDirectOptimizationTips": "When turned on, Apple[apple,apple-ads,apple-dev,apple-pki,apple-update] will use the direct connection mode to obtain a better network experience",
+        "geoSiteGroup": "GeoSite",
+        "geoSiteDirectOptimization": "GeoSite Direct connection optimization",
+        "geoSiteDirectOptimizationTips": "When turned on, Apple[apple,apple-ads,apple-dev,apple-pki,apple-update] will use the direct connection mode to obtain a better network experience",
+        "routingGroupStrategy": "Routing Group Strategy",
         "routingGroupImport": "Import Routing Group Profile",
         "routingGroupAdd": "Add Routing Group",
         "routingGroupList": "Роутинг-группа",
@@ -269,12 +265,10 @@
         "enableDebugLog": "Включить Debug лог",
         "FilesAndLogsViewFile": "Посмотреть файлы",
         "enablePprof": "Включить pprof",
-        "pprofMonitor": "pprof Board",
+        "pprofPanel": "pprof Board",
         "FilesAndLogsOpenDir": "Open File Directory",
-        "github": "Github",
-        "wiki": "Wiki",
         "appleTestFlight": "Apple TestFlight",
-        "appleAppStore": "Apple App Store",
+        "appleAppStore": "Apple AppStore",
         "hasNewVersion": "Update Version $p",
         "follow": "Подписаться на нас",
         "feedback": "Отзыв",
@@ -317,6 +311,6 @@
     "locales(map)": {
         "en": "English",
         "zh-CN": "简体中文",
-        "ru-RU": "Русский"
+        "ru": "Русский"
     }
 }
