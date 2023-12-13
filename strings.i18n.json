@@ -130,7 +130,7 @@
         "invalidProfile": "The application failed to start, please download and install the application from the official channel",
         "startFromUNC": "Invalid installation path, please reinstall",
         "appleTestFlight": "Apple TestFlight",
-        "appleAppStore": "Apple App Store",
+        "appleAppStore": "Apple AppStore",
         "download": "Download",
         "quit": "Quit"
     },
@@ -310,6 +310,7 @@
     },
     "locales(map)": {
         "en": "English",
-        "zh-CN": "简体中文"
+        "zh-CN": "简体中文",
+        "ru": "Русский"
     }
 }
