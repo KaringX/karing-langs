@@ -130,7 +130,7 @@
         "invalidProfile": "应用启动失败,请从正规途径下载安装应用",
         "startFromUNC": "无效的安装路径,请重新安装",
         "appleTestFlight": "苹果 TestFlight",
-        "appleAppStore": "苹果 App Store",
+        "appleAppStore": "苹果 AppStore",
         "download": "下载",
         "quit": "退出"
     },
@@ -268,7 +268,7 @@
         "pprofPanel": "pprof面板",
         "FilesAndLogsOpenDir": "打开文件目录",
         "appleTestFlight": "苹果 TestFlight",
-        "appleAppStore": "苹果 App Store",
+        "appleAppStore": "苹果 AppStore",
         "hasNewVersion": "更新版本 $p",
         "follow": "关注我们",
         "feedback": "反馈",
@@ -310,6 +310,7 @@
     },
     "locales(map)": {
         "en": "English",
-        "zh-CN": "简体中文"
+        "zh-CN": "简体中文",
+        "ru": "Русский"
     }
 }
