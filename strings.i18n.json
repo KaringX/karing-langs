@@ -127,11 +127,10 @@
         "upDownSpeed": "Speed"
     },
     "LaunchFailedScreen": {
-        "invalidProfile": "The application failed to start, please download and install the application from the official channel",
-        "startFromUNC": "Invalid installation path, please reinstall",
-        "appleTestFlight": "Apple TestFlight",
-        "appleAppStore": "Apple AppStore",
-        "download": "Download",
+        "invalidProcess": "The app failed to start [Invalid process name], please reinstall the app to a separate directory",
+        "invalidProfile": "The app failed to start [Failed to access the profile], please reinstall the app",
+        "startFromUNC": "The installation path is invalid, please reinstall it to a valid path",
+        "website": "Website",
         "quit": "Quit"
     },
     "NetConnectionsScreen": {
@@ -310,7 +309,6 @@
     },
     "locales(map)": {
         "en": "English",
-        "zh-CN": "简体中文",
-        "ru": "Русский"
+        "zh-CN": "简体中文"
     }
 }
