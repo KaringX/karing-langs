@@ -6,17 +6,17 @@
         }
     },
     "ServerManager": {
-        "noServerAvaliable": "Нет доступных серверов, убедитесь что подписка или файл конфигурации корректен.",
+        "noServerAvaliable": "Нет доступных серверов, убедитесь что подписка или файл конфигурации корректен",
         "timeout": "Таймаут при соединении",
         "byCurrentSelected": "Текущий сервер",
         "selector": "Авто-выбор сервера",
         "direct": "Напрямую",
         "block": "Блокировать",
-        "filePathCannotEmpty": "Путь к файлу не может быть пустым.",
+        "filePathCannotEmpty": "Путь к файлу не может быть пустым",
         "fileNotExist": "Файла не существует:$p",
-        "urlCannotEmpty": "Ссылка не может быть пустой.",
+        "urlCannotEmpty": "Ссылка не может быть пустой",
         "invalidUrl": "Некорректная ссылка на подписку",
-        "parseFailed": "Получение подписки провалено."
+        "parseFailed": "Получение подписки провалено"
     },
     "HttpUtils": {
         "serverError": "Ошибка сервера:$p",
@@ -34,7 +34,7 @@
     },
     "AddConfigByImportFromFileScreen": {
         "title": "Импорт файла конфигурации",
-        "enableRoutingGroup": "Включить стратегию роутинг-группы",
+        "enableRoutingGroup": "группа маршрутизации",
         "chooseFile": "Выбрать файл",
         "remark": "Примечание",
         "remarkHit": "Примечание [обязательно]",
@@ -42,15 +42,15 @@
         "remarkCannotEmpty": "Примечание не может быть пустом",
         "remarkTooLong": "Примечания до 32 символов",
         "remarkExist": "Примечание уже существует, используй другое имя",
-        "configExist": "Профиль уже существует, пожалуйста, не добавляйте его повторно.",
+        "configExist": "Профиль уже существует, пожалуйста, не добавляйте его повторно",
         "addSuccess": "Успешно добавили",
         "addFailed": "Ошибка при добавлении:$p"
     },
     "AddConfigBySubscriptionLinkScreen": {
         "title": "Добавить ссылку подписку",
-        "enableRoutingGroup": "Включить стратегию роутинг-группы",
+        "enableRoutingGroup": "группа маршрутизации",
         "subscriptionLink": "Ссылка подписка",
-        "subscriptionLinkHit": "Ссылка подписки [обязательно] (Поддержка Clash,V2ray(batch supported),Stash,Karing,Sing-box,Shadowsocks,Sub Profile links)",
+        "subscriptionLinkHit": "Ссылка подписки [обязательно] (Поддержка Clash,V2ray(пакетная поддержка),Stash,Karing,Sing-box,Shadowsocks,Sub Ссылки на профиль)",
         "remark": "Примечание",
         "remarkHit": "Примечание [ссылка]",
         "addSubscription": "Добавить",
@@ -58,12 +58,12 @@
         "remarkCannotEmpty": "Примечание не может быть пустым.",
         "remarkTooLong": "Примечания до 32 символов",
         "remarkExist": "Примечание уже существует, используй другое имя",
-        "configExist": "Профиль уже существует, пожалуйста, не добавляйте его повторно.",
+        "configExist": "Профиль уже существует, пожалуйста, не добавляйте его повторно",
         "invalidUrl": "Ссылка подписки слишком длинная.",
         "addSuccess": "Успешно добавили",
         "addFailed": "Ошибка при добавлении:$p",
         "addFailedFormatException": "Ошибка при форматировании, пожалуйста, повторите попытку добавления, используя другой тип ссылки на профиль:",
-        "addFailed403": "Ошибка при добавлении:$p, Please try to open the Profile Link using the browser that came with the device and import the Profile File downloaded by the browser into this app"
+        "addFailed403": "Ошибка при добавлении:$p, Попробуйте открыть ссылку на профиль с помощью браузера, поставляемого с устройством, и импортировать файл профиля, загруженный браузером, в это приложение"
     },
     "ChangeDnsScreen": {
         "title": "DNS"
@@ -77,7 +77,7 @@
         "title": "Страна или регион",
         "done": "Готово",
         "search": "Поиск",
-        "Regions": "  Совет: Пожалуйста, правильно укажите текущую страну или регион, в противном случае это может вызвать проблемы с производительностью сети."
+        "Regions": "  Совет: Пожалуйста, правильно укажите текущую страну или регион, в противном случае это может вызвать проблемы с производительностью сети"
     },
     "DialogUtils": {
         "showAlertDialog": {
@@ -92,15 +92,15 @@
             "loading": "Загрузка..."
         },
         "showQRContentDialog": {
-            "scanResult": "Scan Result",
-            "add": "To add"
+            "scanResult": "Результат сканирования",
+            "add": "Добавить"
         }
     },
     "FileContentViewerScreen": {
         "title": "Просмотр содержимого файла",
         "chooseFile": "Выберите файл",
         "clearFileContent": "Вы уверены, что очистите содержимое файла?",
-        "clearFileContentTips": "Are you sure to clear the content of the Profile file? Clearing the Profile file may cause data loss or abnormal application functions, please operate with caution"
+        "clearFileContentTips": "Вы уверены, что очистите содержимое файла профиля? Очистка файла профиля может привести к потере данных или некорректной работе приложения, действуйте осторожно"
     },
     "GeoSiteCodesScreen": {
         "title": "GeoSite группы",
@@ -108,10 +108,10 @@
         "detail": "GeoSite детали:$p"
     },
     "HomeScreen": {
-        "noAvailableServer": "Нет доступных серверов. Пожалуйста, добавьте подписку или профиль.",
+        "noAvailableServer": "Нет доступных серверов. Пожалуйста, добавьте подписку или профиль",
         "toSelectServer": "Выберите сервер",
         "clashSubscriptionLink": "Добавить ссылку на Clash-подписку",
-	"v2raySubscriptionLink": "Add V2ray/Stash Profile Link",
+        "v2raySubscriptionLink": "Добавить ссылку на профиль V2ray/Stash",
         "selector": "Авто-выбор сервера",
         "connectState": {
             "connected": "Подключено",
@@ -119,18 +119,18 @@
         },
         "systemProxy": "Системные прокси",
         "systemProxyTips": "socks:$sp,http(s):$hp",
-        "forwardAll": "Forward All",
-        "forwardAllTips": "When enabled, all traffic is forwarded through the proxy server",
-        "updateFailed": "Update failed:$p",
+        "forwardAll": "Переслать все",
+        "forwardAllTips": "Если этот параметр включен, весь трафик перенаправляется через прокси-сервер",
+        "updateFailed": "Не удалось обновить:$p",
         "trafficTotal": "Трафик, всего",
-        "trafficProxy": "Traffic Forward",
+        "trafficProxy": "Трафик вперед",
         "upDownSpeed": "Скорость"
     },
     "LaunchFailedScreen": {
-        "invalidProcess": "The app failed to start [Invalid process name], please reinstall the app to a separate directory",
-        "invalidProfile": "The app failed to start [Failed to access the profile], please reinstall the app",
-        "startFromUNC": "The installation path is invalid, please reinstall it to a valid path",
-        "website": "Website",
+        "invalidProcess": "Не удалось запустить приложение [Неверное имя процесса], переустановите приложение в отдельный каталог",
+        "invalidProfile": "Не удалось запустить приложение [Не удалось получить доступ к профилю], переустановите приложение",
+        "startFromUNC": "Путь установки недействителен, переустановите его по допустимому пути",
+        "website": "Веб-сайт",
         "quit": "Выйти"
     },
     "NetConnectionsScreen": {
@@ -147,22 +147,22 @@
         "open": "Открыть ссылку",
         "add": "Добавить",
         "requestCameraPermission": "Пожалуйста, разрешите приложению доступ к камере",
-        "requestScreenAccess": "Please go to System Settings - Privacy and Security - Screen Recording to add permissions for this application",
+        "requestScreenAccess": "Пожалуйста, перейдите в «Настройки системы» — «Конфиденциальность и безопасность» — «Запись экрана», чтобы добавить разрешения для этого приложения",
         "screenshot": "Скриншот",
-        "scanFromImage": "Сканировать изображение",
+        "scanFromImage": "Открыть",
         "scanNoResult": "Не удалось проанализировать изображение. Убедитесь, что снимок экрана представляет собой действительный QR-код.",
         "scanEmptyResult": "Пустой результат сканирования.",
-        "scanException": "Failed to parse the image, please make sure the screenshot is a valid QR code:$p"
+        "scanException": "Не удалось проанализировать изображение. Убедитесь, что снимок экрана представляет собой действительный QR-код:$p"
     },
     "QrcodeScreen": {
         "title": "QR-код",
         "tooLong": "Слишком большой текст для отображения"
     },
     "RoutingGroupAddScreen": {
-        "title": "Add Routing Group"
+        "title": "Добавить группу маршрутизации"
     },
     "RoutingGroupEditScreen": {
-        "title": "Edit Routing Group"
+        "title": "Редактировать группу маршрутизации"
     },
     "RoutingGroupImportScreen": {
         "title": "Импорты роутинг-группу",
@@ -188,38 +188,38 @@
         "recommend": "Рекомендуемые",
         "recentUse": "Недавно использованные",
         "myFav": "Мои избранные",
-        "testLatencyConnected": "Do not disconnect during the test, otherwise the test will be interrupted and a test already in progress may generate wrong results",
+        "testLatencyConnected": "Не отключайте соединение во время теста, иначе тест будет прерван, а уже выполняющийся тест может дать неправильные результаты",
         "testLatencyDisconnected": "Пожалуйста, для начала подключитесь.",
         "updateFailed": "Обновление неуспешно:$p"
     },
     "SubAndConfigScreen": {
         "title": "Профили",
-        "canNotRefresh": "Not a Profile Link, does not support refresh",
-        "testLatencyConnected": "Do not disconnect during the test, otherwise the test will be interrupted and a test already in progress may generate wrong results",
+        "canNotRefresh": "Не ссылка на профиль, не поддерживает обновление",
+        "testLatencyConnected": "Не отключайте соединение во время теста, иначе тест будет прерван, а уже выполняющийся тест может дать неправильные результаты",
         "testLatencyDisconnected": "Пожалуйста, для начала подключитесь.",
-        "updateFailed": "Update failed:$p",
-        "confirmDel": "Are you sure to delete Profile?",
-        "atLeastOneEnable": "Cannot be disabled, please keep at least one profile enable",
-        "modifyRemark": "Modify Remark",
-        "remarkCannotEmpty": "Remarks can not be empty",
-        "remarkTooLong": "Remarks up to 32 characters",
-        "remarkExist": "Remark already exists, please use another name"
+        "updateFailed": "Не удалось обновить:$p",
+        "confirmDel": "Вы уверены, что удалили профиль?",
+        "atLeastOneEnable": "Невозможно отключить, оставьте включенным хотя бы один профиль",
+        "modifyRemark": "Изменить примечание",
+        "remarkCannotEmpty": "Замечания не могут быть пустыми",
+        "remarkTooLong": "Примечания до 32 символов",
+        "remarkExist": "Примечание уже существует, используйте другое имя"
     },
     "SettingScreen": {
         "title": "Настройки",
         "titleAddConifg": "Добавить профиль",
         "addConfigByLink": "Добавить подписку",
         "addConfigByImport": "Импорт файла конфигурации",
-        "addConfigByScanQR": "Scan Profile Link From QR code",
+        "addConfigByScanQR": "Сканировать ссылку на профиль из QR-кода",
         "addConfigByCustom": "Добавить кастомный профиль",
         "addConfigNotSupport": "Протокол не поддерживается",
-        "getTranffic": "Get Traffic",
+        "getTranffic": "Получить трафик",
         "tutorial": "Обучение",
         "notice": "Уведомление",
         "htmlBoard": "Web-панель",
-        "htmlBoardNeedConnect": "Please open the connection first",
-        "appleSystemStatus": "Apple System Status",
-        "googleSystemStatus": "Google System Status",
+        "htmlBoardNeedConnect": "Пожалуйста, сначала откройте соединение",
+        "appleSystemStatus": "Статус системы Apple",
+        "googleSystemStatus": "Статус системы Google",
         "myConfigView": "Профили",
         "speedTest": "Тест скорость",
         "myNetwork": "Мой IP",
@@ -229,46 +229,46 @@
         "subscriptionAutoUpdateTips": "12 часов",
         "dnsSetting": "DNS",
         "geoSiteGroup": "GeoSite",
-        "geoSiteDirectOptimization": "GeoSite Direct connection optimization",
-        "geoSiteDirectOptimizationTips": "When turned on, Apple[apple,apple-ads,apple-dev,apple-pki,apple-update] will use the direct connection mode to obtain a better network experience",
-        "routingGroupStrategy": "Routing Group Strategy",
-        "routingGroupImport": "Import Routing Group Profile",
-        "routingGroupAdd": "Add Routing Group",
+        "geoSiteDirectOptimization": "GeoSite Оптимизация прямого соединения",
+        "geoSiteDirectOptimizationTips": "При включении Apple[apple,apple-ads,apple-dev,apple-pki,apple-update] будет использовать режим прямого подключения для улучшения работы сети",
+        "routingGroupStrategy": "Стратегия группы маршрутизации",
+        "routingGroupImport": "Импорт профиля группы маршрутизации",
+        "routingGroupAdd": "Добавить группу маршрутизации",
         "routingGroupList": "Роутинг-группа",
-        "autoSelectServerInterval": "[Auto Select] Latency Checks Interval",
-        "autoSelectServerIntervalTips": "[Auto Select]The shorter the time interval, the more timely the server latency data updates, which will occupy more resources and consume more power",
-        "autoSelectServerFavFirst": "[Auto Select] Pri-Use [My Favs]",
-        "autoSelectServerFavFirstTips": "If the [My Favs] list is not empty, Then use the servers in [My Favs]",
-        "autoSelectServerFilter": "[Auto Select] Filter Invalid Servers",
-        "autoSelectServerFilterTips": "Server latency checks that fail will be filtered out",
-        "proxyAutoConnectAfterLaunch": "Auto Connection after Launch",
-        "proxyAutoSetSystemProxy": "Auto Set System Proxy when Connected",
-        "proxyDisconnectWhenQuit": "Закрывать соединение при выходе из приложения",
-        "proxyAllowLanConnect": "Allow Others to Connect",
+        "autoSelectServerInterval": "[Авто Выбор] Интервал проверок задержки",
+        "autoSelectServerIntervalTips": "[Авто Выбор]Чем короче временной интервал, тем своевременнее обновляются данные о задержке сервера, что будет занимать больше ресурсов и потреблять больше энергии",
+        "autoSelectServerFavFirst": "[Авто Выбор] приоритет [Мои избранные]",
+        "autoSelectServerFavFirstTips": "If the [Мои избранные] list is not empty, Then use the servers in [Мои избранные]",
+        "autoSelectServerFilter": "[Авто Выбор] фильтровать сервер",
+        "autoSelectServerFilterTips": "Неудачные проверки задержки сервера будут отфильтрованы",
+        "proxyAutoConnectAfterLaunch": "Автоматическое подключение после запуска",
+        "proxyAutoSetSystemProxy": "Установить прокси после подключения",
+        "proxyDisconnectWhenQuit": "Выход из закрытого соединения",
+        "proxyAllowLanConnect": "Разрешить другим подключаться",
         "proxyAllowLanConnectTips": "socks:$sp,http(s):$hp",
-        "proxyClusterEnable": "Enable Socks/Http Proxy Cluster",
-        "proxyClusterAllowLanConnect": "Allow Others to Connect to Cluster",
+        "proxyClusterEnable": "Включить кластер прокси Socks/Http",
+        "proxyClusterAllowLanConnect": "Разрешить другим подключаться",
         "proxyClusterAllowLanConnectTips": "http://127.0.0.1:$hp/get_proxies",
-        "proxyClusterAuth": "Proxy Cluster Authentication",
-        "proxyClusterConfirm": "Please confirm that the servers latency have been checked, and proxy services will not be created if they are not checked or checked incorrectly",
-        "tunMode": "TUN Mode",
-        "tunModeTips": "The TUN mode will take over all the traffic of the system [In this mode, you can leave the system proxy unenabled]",
-        "tunModeRunAsAdmin": "The TUN mode requires system administrator permissions, please restart the app as an administrator",
-        "launchAtStartupSwitch": "Launch at Startup",
-        "quitWhenSwitchSystemUser": "Exit App when Switch System Users",
-        "handleKaringScheme": "Handle System karing:// Call",
-        "handleClashScheme": "Handle System clash:// Call",
-        "handleStashScheme": "Handle System stash:// Call",
+        "proxyClusterAuth": "Аутентификация прокси-кластера",
+        "proxyClusterConfirm": "Пожалуйста, подтвердите, что задержка серверов проверена, и прокси-сервисы не будут созданы, если они не проверены или проверены неправильно",
+        "tunMode": "Режим TUN",
+        "tunModeTips": "Режим TUN возьмет на себя весь трафик системы [В этом режиме вы можете оставить системный прокси отключенным]",
+        "tunModeRunAsAdmin": "Для режима TUN требуются права системного администратора. Перезапустите приложение от имени администратора",
+        "launchAtStartupSwitch": "Запуск при запуске",
+        "quitWhenSwitchSystemUser": "Переключить пользователя, чтобы выйти",
+        "handleKaringScheme": "Ручка системы karing:// Позвонить",
+        "handleClashScheme": "Ручка системы clash:// Позвонить",
+        "handleStashScheme": "Ручка системы stash:// Позвонить",
         "languageChange": "Язык",
         "regionsChange": "Страна или регион",
         "enableDebugLog": "Включить Debug лог",
         "FilesAndLogsViewFile": "Посмотреть файлы",
         "enablePprof": "Включить pprof",
-        "pprofPanel": "pprof Panel",
-        "FilesAndLogsOpenDir": "Open File Directory",
+        "pprofPanel": "pprof Панель",
+        "FilesAndLogsOpenDir": "Открыть каталог файлов",
         "appleTestFlight": "Apple TestFlight",
         "appleAppStore": "Apple AppStore",
-        "hasNewVersion": "Update Version $p",
+        "hasNewVersion": "Обновить версию $p",
         "follow": "Подписаться на нас",
         "feedback": "Отзыв",
         "contactUs": "Связаться с нами",
@@ -276,17 +276,17 @@
         "rateInAppStore": "Оценить нас в App Store",
         "about": "О Karing",
         "version": "Версия",
-        "termOfUse": "Term of Service",
-        "privacyPolicy": "Privacy Policy",
-        "disableUAReport": "Turn Off Action Data Report",
-        "disableUAReportTip": "Action data reporting helps us improve the product experience, but closing it is not conducive to rapid optimization and improvement of the product"
+        "termOfUse": "Срок службы",
+        "privacyPolicy": "политика конфиденциальности",
+        "disableUAReport": "Отключить отчет о данных о действиях",
+        "disableUAReportTip": "Отчеты о данных о действиях помогают нам улучшить качество продукта, но их закрытие не способствует быстрой оптимизации и улучшению продукта"
     },
     "ShareForwordScreen": {
         "title": "Подписаться/Поделиться"
     },
     "SentryFeedbackScreen": {
-        "title": "Feedback",
-        "content": "Feedback Content",
+        "title": "Обратная связь",
+        "content": "Содержание обратной связи",
         "contentHit": "Обязательно, до 500 символов",
         "submit": "Отправить",
         "contentCannotEmpty": "Отзыв не может быть пустым.",
@@ -299,13 +299,13 @@
         "cancel": "Не сейчас"
     },
     "UserAgreementScreen": {
-        "privacyFirst": "Your Privacy Comes First",
-        "termOfUse": "Terms of Service",
-        "privacyPolicy": "Privacy & Policy",
-        "agreeAndContinue": "Accept & Continue"
+        "privacyFirst": "Ваша конфиденциальность превыше всего",
+        "termOfUse": "Условия использования",
+        "privacyPolicy": "Политика конфиденциальности",
+        "agreeAndContinue": "Принять и продолжить"
     },
     "AutoConfUtils": {
-        "requestUrlFailed": "Failed to request Profile Link:$p"
+        "requestUrlFailed": "Не удалось запросить ссылку на профиль:$p"
     },
     "locales(map)": {
         "en": "English",
