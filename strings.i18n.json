@@ -226,7 +226,7 @@
         "myConfigExport": "Export",
         "myConfigShare": "Share",
         "subscriptionAutoUpdate": "Auto-update Profile",
-        "subscriptionAutoUpdateTips": "12 Hours",
+        "subscriptionAutoUpdateTips": "8 Hours",
         "dnsSetting": "DNS",
         "geoSiteGroup": "GeoSite",
         "geoSiteDirectOptimization": "GeoSite Direct connection optimization",
