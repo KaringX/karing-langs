@@ -226,7 +226,7 @@
         "myConfigExport": "Экспорт",
         "myConfigShare": "Поделиться",
         "subscriptionAutoUpdate": "Авто-обновление подписки",
-        "subscriptionAutoUpdateTips": "12 часов",
+        "subscriptionAutoUpdateTips": "8 часов",
         "dnsSetting": "DNS",
         "geoSiteGroup": "GeoSite",
         "geoSiteDirectOptimization": "GeoSite Оптимизация прямого соединения",
