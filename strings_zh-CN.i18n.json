@@ -226,7 +226,7 @@
         "myConfigExport": "导出",
         "myConfigShare": "分享",
         "subscriptionAutoUpdate": "自动更新配置",
-        "subscriptionAutoUpdateTips": "12小时",
+        "subscriptionAutoUpdateTips": "8小时",
         "dnsSetting": "DNS",
         "geoSiteGroup": "GeoSite",
         "geoSiteDirectOptimization": "GeoSite 直连优化",
