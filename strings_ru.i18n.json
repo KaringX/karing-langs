@@ -190,7 +190,8 @@
         "myFav": "Мои избранные",
         "testLatencyConnected": "Не отключайте соединение во время теста, иначе тест будет прерван, а уже выполняющийся тест может дать неправильные результаты",
         "testLatencyDisconnected": "Пожалуйста, для начала подключитесь.",
-        "updateFailed": "Обновление неуспешно:$p"
+        "updateFailed": "Обновление неуспешно:$p",
+        "selectLocal": "Выбранный сервер является локальным и может работать неправильно:$p"
     },
     "SubAndConfigScreen": {
         "title": "Профили",
@@ -237,7 +238,7 @@
         "routingGroupList": "Роутинг-группа",
         "autoSelectServerInterval": "[Авто Выбор] Интервал проверок задержки",
         "autoSelectServerIntervalTips": "[Авто Выбор]Чем короче временной интервал, тем своевременнее обновляются данные о задержке сервера, что будет занимать больше ресурсов и потреблять больше энергии",
-        "autoSelectServerFavFirst": "[Авто Выбор] приоритет [Мои избранные]",
+        "autoSelectServerFavFirst": "[Авто Выбор] приоритет[Мои избранные]",
         "autoSelectServerFavFirstTips": "If the [Мои избранные] list is not empty, Then use the servers in [Мои избранные]",
         "autoSelectServerFilter": "[Авто Выбор] фильтровать сервер",
         "autoSelectServerFilterTips": "Неудачные проверки задержки сервера будут отфильтрованы",
@@ -284,10 +285,11 @@
     "ShareForwordScreen": {
         "title": "Подписаться/Поделиться"
     },
-    "SentryFeedbackScreen": {
+    "FeedbackScreen": {
         "title": "Обратная связь",
         "content": "Содержание обратной связи",
         "contentHit": "Обязательно, до 500 символов",
+        "email": "Email",
         "submit": "Отправить",
         "contentCannotEmpty": "Отзыв не может быть пустым.",
         "submitDone": "Спасибо за ваш отзыв."
