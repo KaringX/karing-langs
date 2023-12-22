@@ -190,7 +190,8 @@
         "myFav": "My Favs",
         "testLatencyConnected": "Do not disconnect during the test, otherwise the test will be interrupted and a test already in progress may generate wrong results",
         "testLatencyDisconnected": "Please open the connection first",
-        "updateFailed": "Update failed:$p"
+        "updateFailed": "Update failed:$p",
+        "selectLocal": "The selected server is a local address and may not work properly:$p"
     },
     "SubAndConfigScreen": {
         "title": "Profiles",
@@ -284,10 +285,11 @@
     "ShareForwordScreen": {
         "title": "Follow/Share"
     },
-    "SentryFeedbackScreen": {
+    "FeedbackScreen": {
         "title": "Feedback",
         "content": "Feedback Content",
         "contentHit": "Required, up to 500 characters",
+        "email": "Email",
         "submit": "Submit",
         "contentCannotEmpty": "Feedback content can not be empty",
         "submitDone": "Thanks for your feedback"
