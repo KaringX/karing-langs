@@ -190,7 +190,8 @@
         "myFav": "我的收藏",
         "testLatencyConnected": "检测过程中不要断开连接,否则检测将被中断,并且已进行中的检测可能会生成错误的结果",
         "testLatencyDisconnected": "请先开启连接",
-        "updateFailed": "更新失败:$p"
+        "updateFailed": "更新失败:$p",
+        "selectLocal": "所选服务器为本地地址,可能无法正常使用:$p"
     },
     "SubAndConfigScreen": {
         "title": "我的配置",
@@ -284,10 +285,11 @@
     "ShareForwordScreen": {
         "title": "关注/分享 "
     },
-    "SentryFeedbackScreen": {
+    "FeedbackScreen": {
         "title": "反馈",
         "content": "反馈内容",
         "contentHit": "必填, 最长500字符",
+        "email": "Email",
         "submit": "提交",
         "contentCannotEmpty": "反馈内容不能为空",
         "submitDone": "谢谢您的支持"
