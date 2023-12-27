@@ -141,6 +141,11 @@
         "dns": "DNS",
         "copyAsCSV": "已复制为CSV格式"
     },
+    "ProfileFormatValidatorScreen": {
+        "title": "配置文件格式验证",
+        "validatorYaml": "验证 yaml/yml",
+        "validatorJson": "验证 json"
+    },
     "AddConfigByScanQrcodeScanScreen": {
         "title": "扫描二维码",
         "copy": "拷贝链接",
@@ -223,7 +228,8 @@
         "googleSystemStatus": "谷歌系统状态",
         "myConfigView": "我的配置",
         "speedTest": "测速",
-        "myNetwork": "我的IP",
+        "myNetwork": "我的网络",
+        "profileFormatValidator": "配置文件格式验证",
         "myConfigExport": "导出",
         "myConfigShare": "分享",
         "subscriptionAutoUpdate": "自动更新配置",
