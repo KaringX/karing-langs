@@ -141,6 +141,11 @@
         "dns": "DNS",
         "copyAsCSV": "Copied to CSV format"
     },
+    "ProfileFormatValidatorScreen": {
+        "title": "Profile Format Validator",
+        "validatorYaml": "Validator yaml/yml",
+        "validatorJson": "Validator json"
+    },
     "AddConfigByScanQrcodeScanScreen": {
         "title": "Scan QR Code",
         "copy": "Copy Link",
@@ -223,7 +228,8 @@
         "googleSystemStatus": "Google System Status",
         "myConfigView": "Profiles",
         "speedTest": "Speed Test",
-        "myNetwork": "My IP",
+        "myNetwork": "My Network",
+        "profileFormatValidator": "Profile Format Validator",
         "myConfigExport": "Export",
         "myConfigShare": "Share",
         "subscriptionAutoUpdate": "Auto-update Profile",
