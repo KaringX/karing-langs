@@ -232,6 +232,8 @@
         "profileFormatValidator": "配置文件格式验证",
         "myConfigExport": "导出",
         "myConfigShare": "分享",
+        "downloadProfilePreferProxy": "优先使用代理下载配置",
+        "downloadProfilePreferProxyTips": "如果当前已连接,则优先通过已连接的代理下载配置",
         "subscriptionAutoUpdate": "自动更新配置",
         "subscriptionAutoUpdateTips": "8小时",
         "dnsSetting": "DNS",
