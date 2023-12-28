@@ -232,6 +232,8 @@
         "profileFormatValidator": "Profile Format Validator",
         "myConfigExport": "Export",
         "myConfigShare": "Share",
+        "downloadProfilePreferProxy": "Prefer Proxy to Download Profile",
+        "downloadProfilePreferProxyTips": "If currently connected, the profile will be downloaded through the connected proxy first",
         "subscriptionAutoUpdate": "Auto-update Profile",
         "subscriptionAutoUpdateTips": "8 Hours",
         "dnsSetting": "DNS",
