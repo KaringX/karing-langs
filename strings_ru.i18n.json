@@ -232,6 +232,8 @@
         "profileFormatValidator": "Валидатор профиля",
         "myConfigExport": "Экспорт",
         "myConfigShare": "Поделиться",
+        "downloadProfilePreferProxy": "Настройка приоритетной загрузки прокси",
+        "downloadProfilePreferProxyTips": "Если подключение установлено, конфигурация сначала будет загружена через подключенный прокси-сервер",
         "subscriptionAutoUpdate": "Авто-обновление подписки",
         "subscriptionAutoUpdateTips": "8 часов",
         "dnsSetting": "DNS",
