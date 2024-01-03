@@ -49,6 +49,7 @@
     "AddConfigBySubscriptionLinkScreen": {
         "title": "Добавить ссылку подписку",
         "enableRoutingGroup": "группа маршрутизации",
+        "updateTimerInterval": "Интервал обновления",
         "subscriptionLink": "Ссылка подписка",
         "subscriptionLinkHit": "Ссылка подписки [обязательно] (Поддержка Clash,V2ray(пакетная поддержка),Stash,Karing,Sing-box,Shadowsocks,Sub Ссылки на профиль)",
         "remark": "Примечание",
@@ -66,7 +67,8 @@
         "addFailed403": "Ошибка при добавлении:$p, Попробуйте открыть ссылку на профиль с помощью браузера, поставляемого с устройством, и импортировать файл профиля, загруженный браузером, в это приложение"
     },
     "ChangeDnsScreen": {
-        "title": "DNS"
+        "title": "DNS",
+        "testLatencyConnected": "Пожалуйста, сначала отключитесь"
     },
     "ChangeLanguageScreen": {
         "title": "Язык",
@@ -86,7 +88,8 @@
         },
         "showConfirmDialog": {
             "ok": "Ок",
-            "cancel": "Закрыть"
+            "cancel": "Закрыть",
+            "feedback": "обратная связь"
         },
         "showLoadingDialog": {
             "loading": "Загрузка..."
@@ -228,14 +231,11 @@
         "googleSystemStatus": "Статус системы Google",
         "myConfigView": "Профили",
         "speedTest": "Тест скорость",
-        "myNetwork": "Мой сеть",
         "profileFormatValidator": "Валидатор профиля",
         "myConfigExport": "Экспорт",
         "myConfigShare": "Поделиться",
         "downloadProfilePreferProxy": "Настройка приоритетной загрузки прокси",
         "downloadProfilePreferProxyTips": "Если подключение установлено, конфигурация сначала будет загружена через подключенный прокси-сервер",
-        "subscriptionAutoUpdate": "Авто-обновление подписки",
-        "subscriptionAutoUpdateTips": "8 часов",
         "dnsSetting": "DNS",
         "geoSiteGroup": "GeoSite",
         "geoSiteDirectOptimization": "GeoSite Оптимизация прямого соединения",
@@ -244,11 +244,12 @@
         "routingGroupImport": "Импорт профиля группы маршрутизации",
         "routingGroupAdd": "Добавить группу маршрутизации",
         "routingGroupList": "Роутинг-группа",
-        "autoSelectServerInterval": "[Авто Выбор] Интервал проверок задержки",
-        "autoSelectServerIntervalTips": "[Авто Выбор]Чем короче временной интервал, тем своевременнее обновляются данные о задержке сервера, что будет занимать больше ресурсов и потреблять больше энергии",
-        "autoSelectServerFavFirst": "[Авто Выбор] приоритет[Мои избранные]",
+        "autoSelect": "Авто Выбор",
+        "autoSelectServerInterval": "Интервал проверок задержки",
+        "autoSelectServerIntervalTips": "Чем короче временной интервал, тем своевременнее обновляются данные о задержке сервера, что будет занимать больше ресурсов и потреблять больше энергии",
+        "autoSelectServerFavFirst": "приоритет[Мои избранные]",
         "autoSelectServerFavFirstTips": "If the [Мои избранные] list is not empty, Then use the servers in [Мои избранные]",
-        "autoSelectServerFilter": "[Авто Выбор] фильтровать сервер",
+        "autoSelectServerFilter": "фильтровать сервер",
         "autoSelectServerFilterTips": "Неудачные проверки задержки сервера будут отфильтрованы",
         "proxyAutoConnectAfterLaunch": "Автоматическое подключение после запуска",
         "proxyAutoSetSystemProxy": "Установить прокси после подключения",
@@ -269,12 +270,16 @@
         "handleClashScheme": "Ручка системы clash:// Позвонить",
         "handleStashScheme": "Ручка системы stash:// Позвонить",
         "languageChange": "Язык",
+        "removeSystemVPNConfig": "Удалить конфигурацию VPN системы",
+        "removeSystemVPNConfigConfirm": "Подтвердите удаление конфигурации VPN системы?",
         "regionsChange": "Страна или регион",
+        "devOptions":"Параметры разработчика",
         "enableDebugLog": "Включить Debug лог",
         "FilesAndLogsViewFile": "Посмотреть файлы",
         "enablePprof": "Включить pprof",
         "pprofPanel": "pprof Панель",
         "FilesAndLogsOpenDir": "Открыть каталог файлов",
+        "download": "скачать",
         "appleTestFlight": "Apple TestFlight",
         "appleAppStore": "Apple AppStore",
         "hasNewVersion": "Обновить версию $p",
@@ -298,6 +303,7 @@
         "content": "Содержание обратной связи",
         "contentHit": "Обязательно, до 500 символов",
         "email": "Email",
+        "telegram": "Telegram",
         "submit": "Отправить",
         "contentCannotEmpty": "Отзыв не может быть пустым.",
         "submitDone": "Спасибо за ваш отзыв."
