@@ -49,6 +49,7 @@
     "AddConfigBySubscriptionLinkScreen": {
         "title": "Add Subscription Link",
         "enableRoutingGroup": "Enable Routing Group Strategy",
+        "updateTimerInterval": "Update interval",
         "subscriptionLink": "Subscription Link",
         "subscriptionLinkHit": "Subscription Link [Required] (Support Clash,V2ray(batch supported),Stash,Karing,Sing-box,Shadowsocks,Sub Profile links)",
         "remark": "Remark",
@@ -66,7 +67,8 @@
         "addFailed403": "Add failed:$p, Please try to open the Profile Link using the browser that came with the device and import the Profile File downloaded by the browser into this app"
     },
     "ChangeDnsScreen": {
-        "title": "DNS"
+        "title": "DNS",
+        "testLatencyConnected": "Please disconnect first"
     },
     "ChangeLanguageScreen": {
         "title": "Language",
@@ -86,7 +88,8 @@
         },
         "showConfirmDialog": {
             "ok": "Ok",
-            "cancel": "Cancel"
+            "cancel": "Cancel",
+            "feedback": "Feedback"
         },
         "showLoadingDialog": {
             "loading": "Loading..."
@@ -228,14 +231,11 @@
         "googleSystemStatus": "Google System Status",
         "myConfigView": "Profiles",
         "speedTest": "Speed Test",
-        "myNetwork": "My Network",
         "profileFormatValidator": "Profile Format Validator",
         "myConfigExport": "Export",
         "myConfigShare": "Share",
         "downloadProfilePreferProxy": "Prefer Proxy to Download Profile",
         "downloadProfilePreferProxyTips": "If currently connected, the profile will be downloaded through the connected proxy first",
-        "subscriptionAutoUpdate": "Auto-update Profile",
-        "subscriptionAutoUpdateTips": "8 Hours",
         "dnsSetting": "DNS",
         "geoSiteGroup": "GeoSite",
         "geoSiteDirectOptimization": "GeoSite Direct connection optimization",
@@ -244,11 +244,12 @@
         "routingGroupImport": "Import Routing Group Profile",
         "routingGroupAdd": "Add Routing Group",
         "routingGroupList": "Routing Group",
-        "autoSelectServerInterval": "[Auto Select] Latency Checks Interval",
-        "autoSelectServerIntervalTips": "[Auto Select]The shorter the time interval, the more timely the server latency data updates, which will occupy more resources and consume more power",
-        "autoSelectServerFavFirst": "[Auto Select] Pri-Use [My Favs]",
+        "autoSelect": "Auto Select",
+        "autoSelectServerInterval": "Latency Checks Interval",
+        "autoSelectServerIntervalTips": "The shorter the time interval, the more timely the server latency data updates, which will occupy more resources and consume more power",
+        "autoSelectServerFavFirst": "Pri-Use [My Favs]",
         "autoSelectServerFavFirstTips": "If the [My Favs] list is not empty, Then use the servers in [My Favs]",
-        "autoSelectServerFilter": "[Auto Select] Filter Invalid Servers",
+        "autoSelectServerFilter": "Filter Invalid Servers",
         "autoSelectServerFilterTips": "Server latency checks that fail will be filtered out",
         "proxyAutoConnectAfterLaunch": "Auto Connection after Launch",
         "proxyAutoSetSystemProxy": "Auto Set System Proxy when Connected",
@@ -269,12 +270,16 @@
         "handleClashScheme": "Handle System clash:// Call",
         "handleStashScheme": "Handle System stash:// Call",
         "languageChange": "Language",
+        "removeSystemVPNConfig": "Delete system VPN configuration",
+        "removeSystemVPNConfigConfirm": "Confirm To Delete system VPN configuration?",
         "regionsChange": "Country Or Region",
+        "devOptions":"Developer Options",
         "enableDebugLog": "Enable Debug Log",
         "FilesAndLogsViewFile": "View Files",
         "enablePprof": "Enable pprof",
         "pprofPanel": "pprof Panel",
         "FilesAndLogsOpenDir": "Open File Directory",
+        "download": "Download",
         "appleTestFlight": "Apple TestFlight",
         "appleAppStore": "Apple AppStore",
         "hasNewVersion": "Update Version $p",
@@ -298,6 +303,7 @@
         "content": "Feedback Content",
         "contentHit": "Required, up to 500 characters",
         "email": "Email",
+        "telegram": "Telegram",
         "submit": "Submit",
         "contentCannotEmpty": "Feedback content can not be empty",
         "submitDone": "Thanks for your feedback"
