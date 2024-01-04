@@ -63,7 +63,7 @@
         "invalidUrl": "The Profile Link is too long",
         "addSuccess": "Added successfully",
         "addFailed": "Add failed:$p",
-        "addFailedFormatException": "Format error, please retry adding with a different profile link type:",
+        "addFailedFormatException": "The format is wrong, please correct it and add it again:",
         "addFailed403": "Add failed:$p, Please try to open the Profile Link using the browser that came with the device and import the Profile File downloaded by the browser into this app"
     },
     "ChangeDnsScreen": {
@@ -237,6 +237,8 @@
         "downloadProfilePreferProxy": "Prefer Proxy to Download Profile",
         "downloadProfilePreferProxyTips": "If currently connected, the profile will be downloaded through the connected proxy first",
         "dnsSetting": "DNS",
+        "dnsSettingTips": "Used for sites where the [Country Or Region] are set to CN, as well as proxy server domain name resolution. [DNS Over Proxy] is used for other domain name resolutions",
+        "dnsOverProxySetting": "DNS Over Proxy",
         "geoSiteGroup": "GeoSite",
         "geoSiteDirectOptimization": "GeoSite Direct connection optimization",
         "geoSiteDirectOptimizationTips": "When turned on, Apple[apple,apple-ads,apple-dev,apple-pki,apple-update] will use the direct connection mode to obtain a better network experience",
