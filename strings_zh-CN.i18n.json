@@ -63,7 +63,7 @@
         "invalidUrl": "配置链接长度过长",
         "addSuccess": "添加成功",
         "addFailed": "添加失败:$p",
-        "addFailedFormatException": "格式错误,请用其他配置链接类型重试添加:",
+        "addFailedFormatException": "格式错误,请订正后重新添加:",
         "addFailed403": "添加失败:$p, 请尝试使用设备自带的浏览器打开配置链接,并将浏览器下载的配置文件导入到本应用"
     },
     "ChangeDnsScreen": {
@@ -237,6 +237,8 @@
         "downloadProfilePreferProxy": "优先使用代理下载配置",
         "downloadProfilePreferProxyTips": "如果当前已连接,则优先通过已连接的代理下载配置",
         "dnsSetting": "DNS",
+        "dnsSettingTips": "用于[国家与地区]设置为CN的站点,以及代理服务器域名解析,除此之外的域名解析走[代理DNS]",
+        "dnsOverProxySetting": "代理DNS",
         "geoSiteGroup": "GeoSite",
         "geoSiteDirectOptimization": "GeoSite 直连优化",
         "geoSiteDirectOptimizationTips": "开启后,苹果[apple,apple-ads,apple-dev,apple-pki,apple-update]将使用直连模式,以便获取更快的网络体验",
