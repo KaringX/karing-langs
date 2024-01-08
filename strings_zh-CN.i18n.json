@@ -27,7 +27,20 @@
         "invalidFileContentNoProxy": "配置文件无效:没有找到 proxies: 信息"
     },
     "AboutScreen": {
-        "title": "关于"
+        "title": "关于",
+        "name": "名称",
+        "version": "版本",
+        "installRefer": "安装参考",
+        "termOfUse": "使用条款",
+        "privacyPolicy": "隐私政策",
+        "disableUAReport": "关闭行为数据上报",
+        "disableUAReportTip": "行为数据上报有助于我们改进产品体验,关闭后将不利于产品的快速优化改进",
+        "devOptions":"开发者选项",
+        "enableDebugLog": "开启调试日志",
+        "FilesAndLogsViewFile": "查看文件",
+        "enablePprof": "启用pprof",
+        "pprofPanel": "pprof面板",
+        "FilesAndLogsOpenDir": "打开文件目录"
     },
     "AddConfigByCustomScreen": {
         "title": "添加自定义配置"
@@ -144,11 +157,6 @@
         "dns": "DNS",
         "copyAsCSV": "已复制为CSV格式"
     },
-    "ProfileFormatValidatorScreen": {
-        "title": "配置文件格式验证",
-        "validatorYaml": "验证 yaml/yml",
-        "validatorJson": "验证 json"
-    },
     "AddConfigByScanQrcodeScanScreen": {
         "title": "扫描二维码",
         "copy": "拷贝链接",
@@ -232,6 +240,8 @@
         "myConfigView": "我的配置",
         "speedTest": "测速",
         "profileFormatValidator": "配置文件格式验证",
+        "profileFormatValidatorYaml": "验证 yaml/yml",
+        "profileFormatValidatorJson": "验证 json",
         "myConfigExport": "导出",
         "myConfigShare": "分享",
         "downloadProfilePreferProxy": "优先使用代理下载配置",
@@ -239,6 +249,7 @@
         "dnsSetting": "DNS",
         "dnsSettingTips": "用于[国家与地区]设置为CN的站点,以及代理服务器域名解析,除此之外的域名解析走[代理DNS]",
         "dnsOverProxySetting": "代理DNS",
+        "enableGeoSiteGroup": "启用GeoSite",
         "geoSiteGroup": "GeoSite",
         "geoSiteDirectOptimization": "GeoSite 直连优化",
         "geoSiteDirectOptimizationTips": "开启后,苹果[apple,apple-ads,apple-dev,apple-pki,apple-update]将使用直连模式,以便获取更快的网络体验",
@@ -268,19 +279,14 @@
         "tunModeRunAsAdmin": "TUN模式需要系统管理员权限,请以管理员身份重新启动应用",
         "launchAtStartupSwitch": "开机启动",
         "quitWhenSwitchSystemUser": "切换系统用户时退出应用",
-        "handleKaringScheme": "处理系统karing://调用",
-        "handleClashScheme": "处理系统clash://调用",
-        "handleStashScheme": "处理系统stash://调用",
+        "handleScheme": "系统Scheme调用",
+        "handleKaringScheme": "处理karing://调用",
+        "handleClashScheme": "处理clash://调用",
+        "handleStashScheme": "处理stash://调用",
         "languageChange": "语言",
         "removeSystemVPNConfig": "删除系统VPN配置",
         "removeSystemVPNConfigConfirm": "确认删除系统VPN配置?",
         "regionsChange": "国家与地区",
-        "devOptions":"开发者选项",
-        "enableDebugLog": "开启调试日志",
-        "FilesAndLogsViewFile": "查看文件",
-        "enablePprof": "启用pprof",
-        "pprofPanel": "pprof面板",
-        "FilesAndLogsOpenDir": "打开文件目录",
         "download": "下载",
         "appleTestFlight": "苹果 TestFlight",
         "appleAppStore": "苹果 AppStore",
@@ -291,11 +297,7 @@
         "rateInApp": "评分",
         "rateInAppStore": "在App Store上评分",
         "about": "关于",
-        "version": "版本",
-        "termOfUse": "使用条款",
-        "privacyPolicy": "隐私政策",
-        "disableUAReport": "关闭行为数据上报",
-        "disableUAReportTip": "行为数据上报有助于我们改进产品体验,关闭后将不利于产品的快速优化改进"
+        "version": "版本"
     },
     "ShareForwordScreen": {
         "title": "关注/分享 "
