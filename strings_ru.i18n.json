@@ -27,7 +27,20 @@
         "invalidFileContentNoProxy": "Файл конфигурации некорректен: прокси: не найдены"
     },
     "AboutScreen": {
-        "title": "О Karing"
+        "title": "О Karing",
+        "name": "имя",
+        "version": "версия",
+        "installRefer": "установить ссылку",
+        "termOfUse": "Условия использования",
+        "privacyPolicy": "политика конфиденциальности",
+        "disableUAReport": "Отключить аналитику",
+        "disableUAReportTip": "Аналитика помогают нам улучшить качество продукта, но отключение не способствует быстрой оптимизации и улучшению продукта",
+        "devOptions":"Параметры разработчика",
+        "enableDebugLog": "Включить debug-лог",
+        "FilesAndLogsViewFile": "Посмотреть файлы",
+        "enablePprof": "Включить pprof",
+        "pprofPanel": "pprof панель",
+        "FilesAndLogsOpenDir": "Открыть каталог файлов"
     },
     "AddConfigByCustomScreen": {
         "title": "Добавить кастомный профиль"
@@ -144,11 +157,6 @@
         "dns": "DNS",
         "copyAsCSV": "Скопировали в CSV формате"
     },
-    "ProfileFormatValidatorScreen": {
-        "title": "Валидатор профиля",
-        "validatorYaml": "проверять yaml/yml",
-        "validatorJson": "проверять json"
-    },
     "AddConfigByScanQrcodeScanScreen": {
         "title": "Сканировать QR-код",
         "copy": "Скопировать ссылку",
@@ -232,6 +240,8 @@
         "myConfigView": "Профили",
         "speedTest": "Тест скорости",
         "profileFormatValidator": "Валидатор профиля",
+        "profileFormatValidatorYaml": "проверять yaml/yml",
+        "profileFormatValidatorJson": "проверять json",
         "myConfigExport": "Экспорт",
         "myConfigShare": "Поделиться",
         "downloadProfilePreferProxy": "Настройка приоритетной загрузки прокси",
@@ -239,6 +249,7 @@
         "dnsSetting": "DNS",
         "dnsSettingTips": "Используется для сайтов, где для параметра [Страна или регион] установлено значение CN, а также для разрешения доменного имени прокси-сервера. Для другого разрешения доменного имени используйте [DNS через прокси]",
         "dnsOverProxySetting": "DNS через прокси",
+        "enableGeoSiteGroup": "Включить GeoSite",
         "geoSiteGroup": "GeoSite",
         "geoSiteDirectOptimization": "GeoSite: оптимизация прямого соединения",
         "geoSiteDirectOptimizationTips": "При включении Apple[apple,apple-ads,apple-dev,apple-pki,apple-update] будет использоваться режим прямого подключения для улучшения работы сети",
@@ -268,19 +279,14 @@
         "tunModeRunAsAdmin": "Для режима TUN требуются права администратора. Перезапустите приложение от имени администратора",
         "launchAtStartupSwitch": "Запуск при включении",
         "quitWhenSwitchSystemUser": "Переключить пользователя, чтобы выйти",
-        "handleKaringScheme": "Ручка системы karing:// Позвонить",
-        "handleClashScheme": "Ручка системы clash:// Позвонить",
-        "handleStashScheme": "Ручка системы stash:// Позвонить",
+        "handleScheme": "системы Scheme Позвонить",
+        "handleKaringScheme": "Ручка karing:// Позвонить",
+        "handleClashScheme": "Ручка clash:// Позвонить",
+        "handleStashScheme": "Ручка stash:// Позвонить",
         "languageChange": "Язык",
         "removeSystemVPNConfig": "Удалить профиль VPN",
         "removeSystemVPNConfigConfirm": "Вы уверены, что хотите удалить профиль VPN с устройства?",
         "regionsChange": "Страна или регион",
-        "devOptions":"Параметры разработчика",
-        "enableDebugLog": "Включить debug-лог",
-        "FilesAndLogsViewFile": "Посмотреть файлы",
-        "enablePprof": "Включить pprof",
-        "pprofPanel": "pprof панель",
-        "FilesAndLogsOpenDir": "Открыть каталог файлов",
         "download": "скачать",
         "appleTestFlight": "Apple TestFlight",
         "appleAppStore": "Apple AppStore",
@@ -291,11 +297,7 @@
         "rateInApp": "Оценить нас",
         "rateInAppStore": "Оценить нас в App Store",
         "about": "О Karing",
-        "version": "Версия",
-        "termOfUse": "Условия использования",
-        "privacyPolicy": "Политика конфиденциальности",
-        "disableUAReport": "Отключить аналитику",
-        "disableUAReportTip": "Аналитика помогают нам улучшить качество продукта, но отключение не способствует быстрой оптимизации и улучшению продукта"
+        "version": "Версия"
     },
     "ShareForwordScreen": {
         "title": "Подписаться/Поделиться"
