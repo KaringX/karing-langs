@@ -27,7 +27,20 @@
         "invalidFileContentNoProxy": "Profile file is invalid: 'proxies:' not found"
     },
     "AboutScreen": {
-        "title": "About"
+        "title": "About",
+        "name": "Name",
+        "version": "Version",
+        "installRefer": "Install Refer",
+        "termOfUse": "Term of Service",
+        "privacyPolicy": "Privacy Policy",
+        "disableUAReport": "Turn Off Action Data Report",
+        "disableUAReportTip": "Action data reporting helps us improve the product experience, but closing it is not conducive to rapid optimization and improvement of the product",
+        "devOptions":"Developer Options",
+        "enableDebugLog": "Enable Debug Log",
+        "FilesAndLogsViewFile": "View Files",
+        "enablePprof": "Enable pprof",
+        "pprofPanel": "pprof Panel",
+        "FilesAndLogsOpenDir": "Open File Directory"
     },
     "AddConfigByCustomScreen": {
         "title": "Add Custom Profile"
@@ -144,11 +157,6 @@
         "dns": "DNS",
         "copyAsCSV": "Copied to CSV format"
     },
-    "ProfileFormatValidatorScreen": {
-        "title": "Profile Format Validator",
-        "validatorYaml": "Validator yaml/yml",
-        "validatorJson": "Validator json"
-    },
     "AddConfigByScanQrcodeScanScreen": {
         "title": "Scan QR Code",
         "copy": "Copy Link",
@@ -232,6 +240,8 @@
         "myConfigView": "Profiles",
         "speedTest": "Speed Test",
         "profileFormatValidator": "Profile Format Validator",
+        "profileFormatValidatorYaml": "Validator yaml/yml",
+        "profileFormatValidatorJson": "Validator json",
         "myConfigExport": "Export",
         "myConfigShare": "Share",
         "downloadProfilePreferProxy": "Prefer Proxy to Download Profile",
@@ -239,6 +249,7 @@
         "dnsSetting": "DNS",
         "dnsSettingTips": "Used for sites where the [Country Or Region] are set to CN, as well as proxy server domain name resolution. [DNS Over Proxy] is used for other domain name resolutions",
         "dnsOverProxySetting": "DNS Over Proxy",
+        "enableGeoSiteGroup": "Enable GeoSite",
         "geoSiteGroup": "GeoSite",
         "geoSiteDirectOptimization": "GeoSite Direct connection optimization",
         "geoSiteDirectOptimizationTips": "When turned on, Apple[apple,apple-ads,apple-dev,apple-pki,apple-update] will use the direct connection mode to obtain a better network experience",
@@ -268,19 +279,14 @@
         "tunModeRunAsAdmin": "The TUN mode requires system administrator permissions, please restart the app as an administrator",
         "launchAtStartupSwitch": "Launch at Startup",
         "quitWhenSwitchSystemUser": "Exit App when Switch System Users",
-        "handleKaringScheme": "Handle System karing:// Call",
-        "handleClashScheme": "Handle System clash:// Call",
-        "handleStashScheme": "Handle System stash:// Call",
+        "handleScheme": "System Scheme Call",
+        "handleKaringScheme": "Handle karing:// Call",
+        "handleClashScheme": "Handle clash:// Call",
+        "handleStashScheme": "Handle stash:// Call",
         "languageChange": "Language",
         "removeSystemVPNConfig": "Delete system VPN configuration",
         "removeSystemVPNConfigConfirm": "Confirm To Delete system VPN configuration?",
         "regionsChange": "Country Or Region",
-        "devOptions":"Developer Options",
-        "enableDebugLog": "Enable Debug Log",
-        "FilesAndLogsViewFile": "View Files",
-        "enablePprof": "Enable pprof",
-        "pprofPanel": "pprof Panel",
-        "FilesAndLogsOpenDir": "Open File Directory",
         "download": "Download",
         "appleTestFlight": "Apple TestFlight",
         "appleAppStore": "Apple AppStore",
@@ -291,11 +297,7 @@
         "rateInApp": "Rate Us",
         "rateInAppStore": "Rate Us in AppStore",
         "about": "About",
-        "version": "Version",
-        "termOfUse": "Term of Service",
-        "privacyPolicy": "Privacy Policy",
-        "disableUAReport": "Turn Off Action Data Report",
-        "disableUAReportTip": "Action data reporting helps us improve the product experience, but closing it is not conducive to rapid optimization and improvement of the product"
+        "version": "Version"
     },
     "ShareForwordScreen": {
         "title": "Follow/Share"
