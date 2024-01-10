@@ -217,7 +217,7 @@
     },
     "SubAndConfigScreen": {
         "title": "Profiles",
-        "canNotRefresh": "Not a Profile Link, does not support refresh",
+        "canNotRefresh": "Not a Profile Link, does not support update",
         "testLatencyConnected": "Do not disconnect during the test, otherwise the test will be interrupted and a test already in progress may generate wrong results",
         "testLatencyDisconnected": "Please open the connection first",
         "updateFailed": "Update failed:$p",
@@ -227,6 +227,9 @@
         "remarkCannotEmpty": "Remarks can not be empty",
         "remarkTooLong": "Remarks up to 32 characters",
         "remarkExist": "Remark already exists, please use another name"
+    },
+    "SubAndConfigSortScreen": {
+        "title": "Reorder"
     },
     "SettingScreen": {
         "title": "Settings",
