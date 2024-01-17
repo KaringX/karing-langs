@@ -131,6 +131,8 @@
         "toSelectServer": "Please Select a Server",
         "clashSubscriptionLink": "Add Clash Profile Link",
         "v2raySubscriptionLink": "Add V2ray/Stash Profile Link",
+        "invalidServer": "The server is invalid, please choose again",
+        "expiredServer": "No servers available, profiles may be expired",
         "selector": "Auto Select",
         "connectState": {
             "connected": "Connected",
