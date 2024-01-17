@@ -131,6 +131,8 @@
         "toSelectServer": "Выберите сервер",
         "clashSubscriptionLink": "Добавить ссылку на Clash-подписку",
         "v2raySubscriptionLink": "Добавить ссылку на профиль V2ray/Stash",
+        "invalidServer": "Срок действия сервера истек, пожалуйста, выберите еще раз",
+        "expiredServer": "Нет доступного сервера, возможно, конфигурация устарела",
         "selector": "Авто-выбор сервера",
         "connectState": {
             "connected": "Подключено",
