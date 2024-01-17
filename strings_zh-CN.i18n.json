@@ -131,6 +131,8 @@
         "toSelectServer": "请选择服务器",
         "clashSubscriptionLink": "添加Clash配置链接",
         "v2raySubscriptionLink": "添加V2ray/Stash配置链接",
+        "invalidServer": "服务器已失效,请重新选择",
+        "expiredServer": "无可用服务器,配置可能已过期",
         "selector": "自动选择",
         "connectState": {
             "connected": "已连接",
@@ -236,7 +238,7 @@
         "titleAddConifg": "添加配置",
         "getTranffic": "获取流量",
         "tutorial": "使用教程",
-        "notice": "公告",
+        "notice": "通知",
         "htmlBoard": "在线面板",
         "htmlBoardNeedConnect": "请先开启连接",
         "appleSystemStatus": "苹果系统状态",
