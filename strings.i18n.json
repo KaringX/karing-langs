@@ -129,9 +129,8 @@
     "HomeScreen": {
         "noAvailableServer": "No Servers Available, Please Add Profile",
         "toSelectServer": "Please Select a Server",
-        "clashSubscriptionLink": "Add Clash Profile Link",
-        "v2raySubscriptionLink": "Add V2ray/Stash Profile Link",
         "invalidServer": "The server is invalid, please choose again",
+        "disabledServer": "The server is disabled, please choose again",
         "expiredServer": "No servers available, profiles may be expired",
         "selector": "Auto Select",
         "connectState": {
@@ -215,7 +214,10 @@
         "testLatencyConnected": "Do not disconnect during the test, otherwise the test will be interrupted and a test already in progress may generate wrong results",
         "testLatencyDisconnected": "Please open the connection first",
         "updateFailed": "Update failed:$p",
-        "selectLocal": "The selected server is a local address and may not work properly:$p"
+        "selectLocal": "The selected server is a local address and may not work properly:$p",
+        "selectDisabled": "This server has been disabled",
+        "disableServer" :"Disable",
+        "enableServer" :"Enable"
     },
     "SubAndConfigScreen": {
         "title": "Profiles",
@@ -228,7 +230,9 @@
         "modifyRemark": "Modify Remark",
         "remarkCannotEmpty": "Remarks can not be empty",
         "remarkTooLong": "Remarks up to 32 characters",
-        "remarkExist": "Remark already exists, please use another name"
+        "remarkExist": "Remark already exists, please use another name",
+        "disableServer" :"Disable",
+        "enableServer" :"Enable"
     },
     "SubAndConfigSortScreen": {
         "title": "Reorder"
@@ -256,9 +260,17 @@
         "portSettingControl": "Control and Sync",
         "portSettingCluster": "Cluster Service",
         "modifyPort": "Modify Port",
+        "enableIPv6": "Enable IPv6",
+        "enableIPv6Tips": "Before enabling, please confirm that your network supports IPv6, otherwise some traffic cannot be accessed normally.",
         "dnsSetting": "DNS",
-        "dnsSettingTips": "Used for sites where the [Country Or Region] are set to CN, as well as proxy server domain name resolution. [DNS Over Proxy] is used for other domain name resolutions",
-        "dnsOverProxySetting": "DNS Over Proxy",
+        "takeOverSystemDns": "Take over System DNS",
+        "dnsTypeOutbound":"Proxy Server",
+        "dnsTypeLocal":"GeoSite",
+        "dnsTypeRemote": "Others",
+        "takeOverSystemDnsTips": "Only available in TUN mode",
+        "dnsTypeOutboundTips": "Domain name resolution for proxy server[https recommended]",
+        "dnsTypeLocalTips": "Domain name resolution for sites (Geosites) where [Country or Region] is set to [CN]",
+        "dnsTypeRemoteTips": "Domain name resolution for all others except the above two items",
         "geoSite": "GeoSite",
         "enableGeoSiteGroup": "Enable GeoSite",
         "geoSiteDirectOptimization": "Direct connection optimization",
@@ -294,8 +306,8 @@
         "handleStashScheme": "Handle stash:// Call",
         "removeSystemVPNConfig": "Delete system VPN configuration",
         "removeSystemVPNConfigConfirm": "Confirm To Delete system VPN configuration?",
-        "sleepWithSystem": "Follow System to Sleep",
-        "sleepWithSystemTips": "After the system goes to sleep, the VPN service automatically enters the sleep state; after the system is restored, the VPN service automatically resumes",
+        "sleepWithSystem": "Automatic Sleep",
+        "sleepWithSystemTips": "After the system goes to sleep, the VPN suspends service; after the system resumes, the VPN automatically resumes service.",
         "download": "Download",
         "appleTestFlight": "Apple TestFlight",
         "appleAppStore": "Apple AppStore",
