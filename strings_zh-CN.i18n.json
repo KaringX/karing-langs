@@ -129,9 +129,8 @@
     "HomeScreen": {
         "noAvailableServer": "无可用服务器,去添加配置",
         "toSelectServer": "请选择服务器",
-        "clashSubscriptionLink": "添加Clash配置链接",
-        "v2raySubscriptionLink": "添加V2ray/Stash配置链接",
         "invalidServer": "服务器已失效,请重新选择",
+        "disabledServer": "服务器已被禁用,请重新选择",
         "expiredServer": "无可用服务器,配置可能已过期",
         "selector": "自动选择",
         "connectState": {
@@ -215,7 +214,10 @@
         "testLatencyConnected": "检测过程中不要断开连接,否则检测将被中断,并且已进行中的检测可能会生成错误的结果",
         "testLatencyDisconnected": "请先开启连接",
         "updateFailed": "更新失败:$p",
-        "selectLocal": "所选服务器为本地地址,可能无法正常使用:$p"
+        "selectLocal": "所选服务器为本地地址,可能无法正常使用:$p",
+        "selectDisabled": "该服务器已被禁用",
+        "disableServer" :"禁用",
+        "enableServer" :"启用"
     },
     "SubAndConfigScreen": {
         "title": "我的配置",
@@ -228,7 +230,9 @@
         "modifyRemark": "修改备注",
         "remarkCannotEmpty": "备注不能为空",
         "remarkTooLong": "备注最长32字符",
-        "remarkExist": "备注已存在,请使用其他名称"
+        "remarkExist": "备注已存在,请使用其他名称",
+        "disableServer" :"禁用",
+        "enableServer" :"启用"
     },
     "SubAndConfigSortScreen": {
         "title": "排序"
@@ -256,9 +260,17 @@
         "portSettingControl": "控制与同步",
         "portSettingCluster": "集群服务",
         "modifyPort": "修改端口",
+        "enableIPv6": "启用IPv6",
+        "enableIPv6Tips": "启用前,请先确认你的网络已支持IPv6,否则某些流量无法正常访问",
         "dnsSetting": "DNS",
-        "dnsSettingTips": "用于[国家与地区]设置为CN的站点,以及代理服务器域名解析,除此之外的域名解析走[代理DNS]",
-        "dnsOverProxySetting": "代理DNS",
+        "takeOverSystemDns": "接管系统DNS",
+        "dnsTypeOutbound":"代理服务器",
+        "dnsTypeLocal":"GeoSite",
+        "dnsTypeRemote": "其他",
+        "takeOverSystemDnsTips": "仅适用于TUN模式",
+        "dnsTypeOutboundTips": "用于代理服务器域名解析[推荐https]",
+        "dnsTypeLocalTips": "用于[国家与地区]设置为[CN]的站点(Geosite)的域名解析",
+        "dnsTypeRemoteTips": "用于除上面两项以外的其他域名的解析",
         "geoSite": "GeoSite",
         "enableGeoSiteGroup": "启用GeoSite",
         "geoSiteDirectOptimization": "直连优化",
@@ -294,8 +306,8 @@
         "handleStashScheme": "处理stash://调用",
         "removeSystemVPNConfig": "删除系统VPN配置",
         "removeSystemVPNConfigConfirm": "确认删除系统VPN配置?",
-        "sleepWithSystem": "跟随系统休眠",
-        "sleepWithSystemTips": "系统休眠后,VPN服务自动进入休眠状态;系统恢复后,VPN服务自动恢复",
+        "sleepWithSystem": "自动休眠",
+        "sleepWithSystemTips": "系统休眠后,VPN暂停服务;系统恢复后,VPN自动恢复服务",
         "download": "下载",
         "appleTestFlight": "苹果 TestFlight",
         "appleAppStore": "苹果 AppStore",
