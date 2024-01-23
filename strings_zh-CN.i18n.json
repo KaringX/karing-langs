@@ -100,6 +100,7 @@
     "DialogUtils": {
         "showAlertDialog": {
             "title": "提示",
+            "copy":"拷贝",
             "ok": "确定"
         },
         "showConfirmDialog": {
@@ -242,6 +243,7 @@
         "titleAddConifg": "添加配置",
         "getTranffic": "获取流量",
         "tutorial": "使用教程",
+        "faq": "常见问题",
         "notice": "通知",
         "htmlBoard": "在线面板",
         "htmlBoardNeedConnect": "请先开启连接",
