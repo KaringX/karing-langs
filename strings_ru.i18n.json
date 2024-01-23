@@ -100,6 +100,7 @@
     "DialogUtils": {
         "showAlertDialog": {
             "title": "Инфо",
+            "copy":"Скопировать",
             "ok": "Ок"
         },
         "showConfirmDialog": {
@@ -242,6 +243,7 @@
         "titleAddConifg": "Добавить профиль",
         "getTranffic": "Получить трафик",
         "tutorial": "Обучение",
+        "faq": "Часто задаваемые вопросы",
         "notice": "Уведомления",
         "htmlBoard": "Веб-панель",
         "htmlBoardNeedConnect": "Пожалуйста, сначала откройте соединение",
