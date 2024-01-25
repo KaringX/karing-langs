@@ -195,7 +195,9 @@
         "selector": "Auto Select",
         "direct": "Direct",
         "block": "Block",
-        "geoSite": "GeoSite"
+        "geoSite": "GeoSite",
+        "finalSelect": "Final",
+        "finalSelectTips": "If no rule is hit, this rule will be used; turning on [Forward All] will cause this setting to become invalid"
     },
     "ServerSelectScreen": {
         "title": "Select Server",
@@ -281,8 +283,6 @@
         "autoSelectServerFilterTips": "Server latency checks that fail will be filtered out",
         "autoConnectAfterLaunch": "Auto Connection after Launch",
         "autoSetSystemProxy": "Auto Set System Proxy when Connected",
-        "finalDirect": "Default Direct connection",
-        "finalDirectTips": "if no rules are hit, the connection will be direct if enabled; but if [Forward All] is enabled , this will not work",
         "disconnectWhenQuit": "Disconnect when App Exits",
         "allowOtherHostsConnect": "Allow Others to Connect",
         "allowOtherHostsConnectTips": "socks:$sp,http(s):$hp",
