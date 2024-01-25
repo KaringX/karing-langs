@@ -195,7 +195,9 @@
         "selector": "自动选择",
         "direct": "直连",
         "block": "拦截",
-        "geoSite": "GeoSite"
+        "geoSite": "GeoSite",
+        "finalSelect": "默认",
+        "finalSelectTips": "如果未命中任何规则,则使用该规则;开启[全局转发]会导致此设置失效"
     },
     "ServerSelectScreen": {
         "title": "选择服务器",
@@ -281,8 +283,6 @@
         "autoSelectServerFilterTips": "服务器延迟检测失败的将会被过滤掉",
         "autoConnectAfterLaunch": "启动后自动连接",
         "autoSetSystemProxy": "连接后自动设置系统代理",
-        "finalDirect": "默认直连",
-        "finalDirectTips": "启用后,如果未命中任何规则,则直连;但是如果开启[全局转发],此设置不生效",
         "disconnectWhenQuit": "退出应用时关闭连接",
         "allowOtherHostsConnect": "允许其他主机接入",
         "allowOtherHostsConnectTips": "socks:$sp,http(s):$hp",
