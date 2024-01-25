@@ -18,14 +18,6 @@
         "invalidUrl": "Invalid Profile Link",
         "parseFailed": "Parsing Profile failed"
     },
-    "HttpUtils": {
-        "serverError": "Server Error:$p",
-        "serverResponseEmpty": "Server Error: Response data is empty"
-    },
-    "ClashYamlUtils": {
-        "invalidFileContent": "Profile file is invalid",
-        "invalidFileContentNoProxy": "Profile file is invalid: 'proxies:' not found"
-    },
     "AboutScreen": {
         "title": "About",
         "name": "Name",
@@ -289,6 +281,8 @@
         "autoSelectServerFilterTips": "Server latency checks that fail will be filtered out",
         "autoConnectAfterLaunch": "Auto Connection after Launch",
         "autoSetSystemProxy": "Auto Set System Proxy when Connected",
+        "finalDirect": "Default Direct connection",
+        "finalDirectTips": "if no rules are hit, the connection will be direct if enabled; but if [Forward All] is enabled , this will not work",
         "disconnectWhenQuit": "Disconnect when App Exits",
         "allowOtherHostsConnect": "Allow Others to Connect",
         "allowOtherHostsConnectTips": "socks:$sp,http(s):$hp",
@@ -340,9 +334,6 @@
         "termOfUse": "Terms of Service",
         "privacyPolicy": "Privacy & Policy",
         "agreeAndContinue": "Accept & Continue"
-    },
-    "AutoConfUtils": {
-        "requestUrlFailed": "Failed to request Profile Link:$p"
     },
     "locales(map)": {
         "en": "English",
