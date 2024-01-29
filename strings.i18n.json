@@ -201,6 +201,7 @@
     },
     "ServerSelectScreen": {
         "title": "Select Server",
+        "hideInvalidServer": "Hide Invalid Servers",
         "selector": "Auto Select Server",
         "autoSelectServer": "Auto select the server with the lowest latency",
         "recommend": "Recommend",
