@@ -201,6 +201,7 @@
     },
     "ServerSelectScreen": {
         "title": "Выбор сервера",
+        "hideInvalidServer": "Скрыть недействительные серверы",
         "selector": "Авто-выбор сервера",
         "autoSelectServer": "Авто-выбор сервера с наименьшей задержкой",
         "recommend": "Рекомендуемые",
