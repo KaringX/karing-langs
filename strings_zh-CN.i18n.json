@@ -201,6 +201,7 @@
     },
     "ServerSelectScreen": {
         "title": "选择服务器",
+        "hideInvalidServer": "隐藏无效服务器",
         "selector": "自动选择",
         "autoSelectServer": "自动选择连接延迟最低的服务器",
         "recommend": "推荐",
