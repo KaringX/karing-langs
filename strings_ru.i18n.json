@@ -201,7 +201,6 @@
     },
     "ServerSelectScreen": {
         "title": "Выбор сервера",
-        "hideInvalidServer": "Скрыть недействительные серверы",
         "selector": "Авто-выбор сервера",
         "autoSelectServer": "Авто-выбор сервера с наименьшей задержкой",
         "recommend": "Рекомендуемые",
@@ -282,6 +281,7 @@
         "autoSelectServerFavFirstTips": "Если список [Мои избранные] не пуст, то будут использоваться серверы из [Мои избранные]",
         "autoSelectServerFilter": "фильтровать сервер",
         "autoSelectServerFilterTips": "Неудачные проверки задержки сервера будут отфильтрованы",
+        "hideInvalidServer": "Скрыть недействительные серверы",
         "autoConnectAfterLaunch": "Автоматическое подключение после запуска",
         "autoSetSystemProxy": "Установить прокси после подключения",
         "disconnectWhenQuit": "Отключаться при выходе из приложения",
