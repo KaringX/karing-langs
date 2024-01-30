@@ -201,7 +201,6 @@
     },
     "ServerSelectScreen": {
         "title": "Select Server",
-        "hideInvalidServer": "Hide Invalid Servers",
         "selector": "Auto Select Server",
         "autoSelectServer": "Auto select the server with the lowest latency",
         "recommend": "Recommend",
@@ -282,6 +281,7 @@
         "autoSelectServerFavFirstTips": "If the [My Favs] list is not empty, Then use the servers in [My Favs]",
         "autoSelectServerFilter": "Filter Invalid Servers",
         "autoSelectServerFilterTips": "Server latency checks that fail will be filtered out",
+        "hideInvalidServer": "Hide Invalid Servers",
         "autoConnectAfterLaunch": "Auto Connection after Launch",
         "autoSetSystemProxy": "Auto Set System Proxy when Connected",
         "disconnectWhenQuit": "Disconnect when App Exits",
