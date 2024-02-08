@@ -27,7 +27,7 @@
         "privacyPolicy": "Privacy Policy",
         "disableUAReport": "Turn Off Action Data Report",
         "disableUAReportTip": "Action data reporting helps us improve the product experience, but closing it is not conducive to rapid optimization and improvement of the product",
-        "devOptions":"Developer Options",
+        "devOptions": "Developer Options",
         "enableDebugLog": "Enable Debug Log",
         "FilesAndLogsViewFile": "View Files",
         "enablePprof": "Enable pprof",
@@ -92,7 +92,7 @@
     "DialogUtils": {
         "showAlertDialog": {
             "title": "Info",
-            "copy":"Copy",
+            "copy": "Copy",
             "ok": "Ok"
         },
         "showConfirmDialog": {
@@ -211,8 +211,8 @@
         "updateFailed": "Update failed:$p",
         "selectLocal": "The selected server is a local address and may not work properly:$p",
         "selectDisabled": "This server has been disabled",
-        "disableServer" :"Disable",
-        "enableServer" :"Enable"
+        "disableServer": "Disable",
+        "enableServer": "Enable"
     },
     "SubAndConfigScreen": {
         "title": "Profiles",
@@ -226,8 +226,8 @@
         "remarkCannotEmpty": "Remarks can not be empty",
         "remarkTooLong": "Remarks up to 32 characters",
         "remarkExist": "Remark already exists, please use another name",
-        "disableServer" :"Disable",
-        "enableServer" :"Enable"
+        "disableServer": "Disable",
+        "enableServer": "Enable"
     },
     "SubAndConfigSortScreen": {
         "title": "Reorder"
@@ -249,6 +249,7 @@
         "profileFormatValidatorJson": "Validator json",
         "downloadProfilePreferProxy": "Prefer Proxy to Download Profile",
         "downloadProfilePreferProxyTips": "If currently connected, the profile will be downloaded through the connected proxy first",
+        "reloadAfterProfileUpdate": "Reload after Profile update",
         "portSetting": "Port",
         "portSettingRule": "Rule Based",
         "portSettingDirect": "All Direct",
@@ -260,8 +261,8 @@
         "enableIPv6Tips": "Before enabling, please confirm that your network supports IPv6, otherwise some traffic cannot be accessed normally.",
         "dnsSetting": "DNS",
         "takeOverSystemDns": "Take over System DNS",
-        "dnsTypeOutbound":"Proxy Server",
-        "dnsTypeLocal":"GeoSite",
+        "dnsTypeOutbound": "Proxy Server",
+        "dnsTypeLocal": "GeoSite",
         "dnsTypeRemote": "Others",
         "takeOverSystemDnsTips": "Only available in TUN mode",
         "dnsTypeOutboundTips": "Domain name resolution for proxy server[https recommended]",
@@ -285,6 +286,7 @@
         "autoConnectAfterLaunch": "Auto Connection after Launch",
         "autoSetSystemProxy": "Auto Set System Proxy when Connected",
         "disconnectWhenQuit": "Disconnect when App Exits",
+        "networkShare": "Network Sharing",
         "allowOtherHostsConnect": "Allow Others to Connect",
         "allowOtherHostsConnectTips": "socks:$sp,http(s):$hp",
         "enableCluster": "Enable Socks/Http Proxy Cluster",
