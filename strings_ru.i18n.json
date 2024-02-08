@@ -27,7 +27,7 @@
         "privacyPolicy": "политика конфиденциальности",
         "disableUAReport": "Отключить аналитику",
         "disableUAReportTip": "Аналитика помогают нам улучшить качество продукта, но отключение не способствует быстрой оптимизации и улучшению продукта",
-        "devOptions":"Параметры разработчика",
+        "devOptions": "Параметры разработчика",
         "enableDebugLog": "Включить debug-лог",
         "FilesAndLogsViewFile": "Посмотреть файлы",
         "enablePprof": "Включить pprof",
@@ -92,7 +92,7 @@
     "DialogUtils": {
         "showAlertDialog": {
             "title": "Инфо",
-            "copy":"Скопировать",
+            "copy": "Скопировать",
             "ok": "Ок"
         },
         "showConfirmDialog": {
@@ -211,8 +211,8 @@
         "updateFailed": "Обновление неуспешно:$p",
         "selectLocal": "Выбранный сервер является локальным и может работать неправильно:$p",
         "selectDisabled": "Сервер отключен",
-        "disableServer" :"Запрещать",
-        "enableServer" :"давать возможность"
+        "disableServer": "Запрещать",
+        "enableServer": "давать возможность"
     },
     "SubAndConfigScreen": {
         "title": "Профили",
@@ -226,8 +226,8 @@
         "remarkCannotEmpty": "Замечания не могут быть пустыми",
         "remarkTooLong": "Примечания до 32 символов",
         "remarkExist": "Примечание уже существует, используйте другое имя",
-        "disableServer" :"Запрещать",
-        "enableServer" :"давать возможность"
+        "disableServer": "Запрещать",
+        "enableServer": "давать возможность"
     },
     "SubAndConfigSortScreen": {
         "title": "переставить"
@@ -249,6 +249,7 @@
         "profileFormatValidatorJson": "проверять json",
         "downloadProfilePreferProxy": "Настройка приоритетной загрузки прокси",
         "downloadProfilePreferProxyTips": "Если подключение установлено, конфигурация сначала будет загружена через подключенный прокси-сервер",
+        "reloadAfterProfileUpdate": "Перезагрузить после обновления конфигурации",
         "portSetting": "порт",
         "portSettingRule": "основанный на правилах",
         "portSettingDirect": "Полное прямое соединение",
@@ -260,8 +261,8 @@
         "enableIPv6Tips": "Перед включением убедитесь, что ваша сеть поддерживает IPv6, в противном случае нормальный доступ к некоторому трафику будет невозможен.",
         "dnsSetting": "DNS",
         "takeOverSystemDns": "Взять на себя управление DNS системы",
-        "dnsTypeOutbound":"Прокси сервер",
-        "dnsTypeLocal":"GeoSite",
+        "dnsTypeOutbound": "Прокси сервер",
+        "dnsTypeLocal": "GeoSite",
         "dnsTypeRemote": "другой",
         "takeOverSystemDnsTips": "Доступно только в режиме TUN",
         "dnsTypeOutboundTips": "Для разрешения доменных имен прокси-сервера рекомендуется использовать безопасный DNS[Рекомендую https]",
@@ -285,6 +286,7 @@
         "autoConnectAfterLaunch": "Автоматическое подключение после запуска",
         "autoSetSystemProxy": "Установить прокси после подключения",
         "disconnectWhenQuit": "Отключаться при выходе из приложения",
+        "networkShare": "общий доступ к сети",
         "allowOtherHostsConnect": "Разрешить другим подключаться",
         "allowOtherHostsConnectTips": "socks:$sp,http(s):$hp",
         "enableCluster": "Включить кластер прокси Socks/Http",
