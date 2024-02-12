@@ -157,6 +157,11 @@
     "NetInterfacesScreen": {
         "title": "Net Interfaces"
     },
+    "PerAppAndroidScreen": {
+        "title": "Per-App Inbound Proxy",
+        "whiteListMode": "Whitelist Mode",
+        "whiteListModeTip": "When enabled: only the apps that have been checked are proxies; when not enabled: only the apps that are not checked are proxies."
+    },
     "AddConfigByScanQrcodeScanScreen": {
         "title": "Scan QR Code",
         "copy": "Copy Link",
@@ -250,6 +255,7 @@
         "downloadProfilePreferProxy": "Prefer Proxy to Download Profile",
         "downloadProfilePreferProxyTips": "If currently connected, the profile will be downloaded through the connected proxy first",
         "reloadAfterProfileUpdate": "Reload after Profile update",
+        "reloadAfterGeoUpdate": "Reload after GeoSite/GeoIp update",
         "portSetting": "Port",
         "portSettingRule": "Rule Based",
         "portSettingDirect": "All Direct",
@@ -269,9 +275,11 @@
         "dnsTypeLocalTips": "Domain name resolution for sites (Geosites) where [Country or Region] is set to [CN]",
         "dnsTypeRemoteTips": "Domain name resolution for all others except the above two items",
         "geoSite": "GeoSite",
-        "enableGeoSiteGroup": "Enable GeoSite",
+        "enableGeoSite": "Enable GeoSite",
         "geoSiteDirectOptimization": "Direct connection optimization",
         "geoSiteDirectOptimizationTips": "When turned on, Apple[apple,apple-ads,apple-dev,apple-pki,apple-update] will use the direct connection mode to obtain a better network experience",
+        "geoIp": "GeoIp",
+        "enableGeoIp": "Enable GeoIp",
         "routingGroupImport": "Import Routing Group Profile",
         "routingGroupAdd": "Add Routing Group",
         "routingGroupList": "Routing Group",
