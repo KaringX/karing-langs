@@ -207,6 +207,7 @@
     "ServerSelectScreen": {
         "title": "Select Server",
         "selector": "Auto Select Server",
+        "empty": "Default",
         "autoSelectServer": "Auto select the server with the lowest latency",
         "recommend": "Recommend",
         "recentUse": "Recently Used",
@@ -295,6 +296,8 @@
         "autoSetSystemProxy": "Auto Set System Proxy when Connected",
         "disconnectWhenQuit": "Disconnect when App Exits",
         "networkShare": "Network Sharing",
+        "frontProxy": "Front Proxy",
+        "frontProxyTips": "Data->Front proxy server->Proxy server->Target server",
         "allowOtherHostsConnect": "Allow Others to Connect",
         "allowOtherHostsConnectTips": "socks:$sp,http(s):$hp",
         "enableCluster": "Enable Socks/Http Proxy Cluster",
