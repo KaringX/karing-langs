@@ -207,6 +207,7 @@
     "ServerSelectScreen": {
         "title": "选择服务器",
         "selector": "自动选择",
+        "empty": "默认",
         "autoSelectServer": "自动选择连接延迟最低的服务器",
         "recommend": "推荐",
         "recentUse": "最近使用",
@@ -295,6 +296,8 @@
         "autoSetSystemProxy": "连接后自动设置系统代理",
         "disconnectWhenQuit": "退出应用时关闭连接",
         "networkShare": "网络共享",
+        "frontProxy": "前置代理",
+        "frontProxyTips": "数据->前置代理服务器->代理服务器->目标服务器",
         "allowOtherHostsConnect": "允许其他主机接入",
         "allowOtherHostsConnectTips": "socks:$sp,http(s):$hp",
         "enableCluster": "开启Socks/Http代理集群",
