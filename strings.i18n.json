@@ -39,7 +39,7 @@
     },
     "AddConfigByImportFromFileScreen": {
         "title": "Import Profile File",
-        "enableRoutingGroup": "Enable Routing Group Strategy",
+        "enableDiversionRules": "Enable Diversion Rules",
         "chooseFile": "Select File",
         "remark": "Remark",
         "remarkHit": "Remark [Required]",
@@ -53,7 +53,7 @@
     },
     "AddConfigBySubscriptionLinkScreen": {
         "title": "Add Subscription Link",
-        "enableRoutingGroup": "Enable Routing Group Strategy",
+        "enableDiversionRules": "Enable Diversion Rules",
         "updateTimerInterval": "Update interval",
         "subscriptionLink": "Subscription Link",
         "subscriptionLinkHit": "Subscription Link [Required] (Support Clash,V2ray(batch supported),Stash,Karing,Sing-box,Shadowsocks,Sub Profile links)",
@@ -117,7 +117,7 @@
     "GeoSiteCodesScreen": {
         "title": "GeoSite Groups",
         "search": "Search",
-        "detail": "GeoSite details:$p"
+        "detail": "$p"
     },
     "HomeScreen": {
         "noAvailableServer": "No Servers Available, Please Add Profile",
@@ -179,23 +179,8 @@
         "title": "QR Code",
         "tooLong": "The text is too long to display"
     },
-    "RoutingGroupAddScreen": {
-        "title": "Add Routing Group"
-    },
-    "RoutingGroupEditScreen": {
-        "title": "Edit Routing Group"
-    },
-    "RoutingGroupImportScreen": {
-        "title": "Import Routing Group",
-        "chooseFile": "Select File",
-        "add": "Add"
-    },
-    "RoutingGroupListScreen": {
-        "title": "Routing Group",
-        "confirmDel": "Are you sure to delete routing group?"
-    },
-    "RoutingGroupStrategyScreen": {
-        "title": "Routing Group Strategy",
+    "DiversionRulesScreen": {
+        "title": "Diversion Rules",
         "byCurrentSelected": "Current Selected",
         "selector": "Auto Select",
         "direct": "Direct",
@@ -256,7 +241,7 @@
         "downloadProfilePreferProxy": "Prefer Proxy to Download Profile",
         "downloadProfilePreferProxyTips": "If currently connected, the profile will be downloaded through the connected proxy first",
         "reloadAfterProfileUpdate": "Reload after Profile update",
-        "reloadAfterGeoUpdate": "Reload after GeoSite/GeoIp update",
+        "reloadAfterGeoUpdate": "Reload after GeoSite/GeoIP update",
         "portSetting": "Port",
         "portSettingRule": "Rule Based",
         "portSettingDirect": "All Direct",
@@ -279,11 +264,8 @@
         "enableGeoSite": "Enable GeoSite",
         "geoSiteDirectOptimization": "Direct connection optimization",
         "geoSiteDirectOptimizationTips": "When turned on, Apple[apple,apple-ads,apple-dev,apple-pki,apple-update] will use the direct connection mode to obtain a better network experience",
-        "geoIp": "GeoIp",
-        "enableGeoIp": "Enable GeoIp",
-        "routingGroupImport": "Import Routing Group Profile",
-        "routingGroupAdd": "Add Routing Group",
-        "routingGroupList": "Routing Group",
+        "geoIp": "GeoIP",
+        "enableGeoIp": "Enable GeoIP",
         "autoSelect": "Auto Select",
         "autoSelectServerInterval": "Latency Checks Interval",
         "autoSelectServerIntervalTips": "The shorter the time interval, the more timely the server latency data updates, which will occupy more resources and consume more power",
