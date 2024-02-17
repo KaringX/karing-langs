@@ -39,7 +39,7 @@
     },
     "AddConfigByImportFromFileScreen": {
         "title": "导入配置文件",
-        "enableRoutingGroup": "启用路由组策略",
+        "enableDiversionRules": "启用分流规则",
         "chooseFile": "选择文件",
         "remark": "备注",
         "remarkHit": "备注[必填]",
@@ -53,7 +53,7 @@
     },
     "AddConfigBySubscriptionLinkScreen": {
         "title": "添加配置链接",
-        "enableRoutingGroup": "启用路由组策略",
+        "enableDiversionRules": "启用分流规则",
         "updateTimerInterval": "更新时间间隔",
         "subscriptionLink": "配置链接",
         "subscriptionLinkHit": "配置链接[必填] (支持Clash,V2ray(支持批量),Stash,Karing,Sing-box,Shadowsocks,Sub,Github配置链接)",
@@ -117,7 +117,7 @@
     "GeoSiteCodesScreen": {
         "title": "GeoSite",
         "search": "搜索",
-        "detail": "GeoSite详情:$p"
+        "detail": "$p"
     },
     "HomeScreen": {
         "noAvailableServer": "无可用服务器,去添加配置",
@@ -179,23 +179,8 @@
         "title": "二维码",
         "tooLong": "文本过长,无法展示"
     },
-    "RoutingGroupAddScreen": {
-        "title": "添加路由组"
-    },
-    "RoutingGroupEditScreen": {
-        "title": "编辑路由组"
-    },
-    "RoutingGroupImportScreen": {
-        "title": "导入路由组",
-        "chooseFile": "选择文件",
-        "add": "添加"
-    },
-    "RoutingGroupListScreen": {
-        "title": "路由组",
-        "confirmDel": "确认删除路由组?"
-    },
-    "RoutingGroupStrategyScreen": {
-        "title": "路由组策略",
+    "DiversionRulesScreen": {
+        "title": "分流规则",
         "byCurrentSelected": "当前选择",
         "selector": "自动选择",
         "direct": "直连",
@@ -256,7 +241,7 @@
         "downloadProfilePreferProxy": "优先使用代理下载配置",
         "downloadProfilePreferProxyTips": "如果当前已连接,则优先通过已连接的代理下载配置",
         "reloadAfterProfileUpdate": "配置更新后重新加载",
-        "reloadAfterGeoUpdate": "GeoSite/GeoIp更新后重新加载",
+        "reloadAfterGeoUpdate": "GeoSite/GeoIP更新后重新加载",
         "portSetting": "端口",
         "portSettingRule": "基于规则",
         "portSettingDirect": "全直连",
@@ -279,11 +264,8 @@
         "enableGeoSite": "启用GeoSite",
         "geoSiteDirectOptimization": "直连优化",
         "geoSiteDirectOptimizationTips": "开启后,苹果[apple,apple-ads,apple-dev,apple-pki,apple-update]将使用直连模式,以便获取更快的网络体验",
-        "geoIp": "GeoIp",
-        "enableGeoIp": "启用GeoIp",
-        "routingGroupImport": "导入路由组配置",
-        "routingGroupAdd": "添加路由组",
-        "routingGroupList": "路由组",
+        "geoIp": "GeoIP",
+        "enableGeoIp": "启用GeoIP",
         "autoSelect": "自动选择",
         "autoSelectServerInterval": "延迟检测时间间隔",
         "autoSelectServerIntervalTips": "延迟检测时间间隔越短,服务器延迟数据更新越及时,会占用更多资源,耗电更快",
