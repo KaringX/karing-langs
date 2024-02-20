@@ -84,7 +84,7 @@
         "title": "国家与地区",
         "done": "完成",
         "search": "搜索",
-        "Regions": "  提示:请正确的设置你当前所在国家或地区,否则可能导能网络性能问题"
+        "Regions": "  提示:请正确设置你当前所在国家或地区,否则可能会导致分流错误"
     },
     "ChangeSpeedTestScreen": {
         "title": "测速网站"
@@ -177,7 +177,11 @@
     },
     "QrcodeScreen": {
         "title": "二维码",
-        "tooLong": "文本过长,无法展示"
+        "tooLong": "文本过长,无法展示",
+        "copy": "拷贝链接",
+        "open": "打开链接",
+        "share": "分享链接",
+        "shareImage": "分享二维码"
     },
     "DiversionRulesScreen": {
         "title": "分流规则",
@@ -260,10 +264,11 @@
         "dnsTypeOutboundTips": "用于代理服务器域名解析[推荐https]",
         "dnsTypeLocalTips": "用于[国家与地区]设置为[CN]的站点(Geosite)的域名解析",
         "dnsTypeRemoteTips": "用于除上面两项以外的其他域名的解析",
+        "diversion": "分流",
         "geoSite": "GeoSite",
         "enableGeoSite": "启用GeoSite",
-        "geoSiteDirectOptimization": "直连优化",
-        "geoSiteDirectOptimizationTips": "开启后,苹果[apple,apple-ads,apple-dev,apple-pki,apple-update]将使用直连模式,以便获取更快的网络体验",
+        "geoSiteDirectOptimization": "苹果直连优化",
+        "geoSiteDirectOptimizationTips": "开启后,苹果GeoSite[apple,apple-ads,apple-dev,apple-pki,apple-update]将使用直连模式,以便获取更快的网络体验",
         "geoIp": "GeoIP",
         "enableGeoIp": "启用GeoIP",
         "autoSelect": "自动选择",
