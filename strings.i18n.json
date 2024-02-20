@@ -84,7 +84,7 @@
         "title": "Country Or Region",
         "done": "Done",
         "search": "Search",
-        "Regions": "  Tip: Please set your current country or region correctly, otherwise it may cause network performance problems"
+        "Regions": "  Tip: Please set your current country or region correctly, otherwise it may cause network diversion problems"
     },
     "ChangeSpeedTestScreen": {
         "title": "Speed Test Website"
@@ -177,7 +177,11 @@
     },
     "QrcodeScreen": {
         "title": "QR Code",
-        "tooLong": "The text is too long to display"
+        "tooLong": "The text is too long to display",
+        "copy": "Copy Link",
+        "open": "Open Link",
+        "share": "Share Link",
+        "shareImage": "Share QR Code"
     },
     "DiversionRulesScreen": {
         "title": "Diversion Rules",
@@ -260,10 +264,354 @@
         "dnsTypeOutboundTips": "Domain name resolution for proxy server[https recommended]",
         "dnsTypeLocalTips": "Domain name resolution for sites (Geosites) where [Country or Region] is set to [CN]",
         "dnsTypeRemoteTips": "Domain name resolution for all others except the above two items",
+        "diversion": "Diversion",
         "geoSite": "GeoSite",
         "enableGeoSite": "Enable GeoSite",
-        "geoSiteDirectOptimization": "Direct connection optimization",
-        "geoSiteDirectOptimizationTips": "When turned on, Apple[apple,apple-ads,apple-dev,apple-pki,apple-update] will use the direct connection mode to obtain a better network experience",
+        "geoSiteDirectOptimization": "Apple Direct connection optimization",
+        "geoSiteDirectOptimizationTips": "When turned on, Apple GeoSite[apple,apple-ads,apple-dev,apple-pki,apple-update] will use the direct connection mode to obtain a better network experience",
+        "geoIp": "GeoIP",
+        "enableGeoIp": "Enable GeoIP",
+        "autoSelect": "Auto Select",
+        "autoSelectServerInterval": "Latency Checks Interval",
+        "autoSelectServerIntervalTips": "The shorter the time interval, the more timely the server latency data updates, which will occupy more resources and consume more power",
+        "autoSelectServerFavFirst": "Pri-Use [My Favs]",
+        "autoSelectServerFavFirstTips": "If the [My Favs] list is not empty, Then use the servers in [My Favs]",
+        "autoSelectServerFilter": "Filter Invalid Servers",
+        "autoSelectServerFilterTips": "Server latency checks that fail will be filtered out",
+        "hideInvalidServer": "Hide Invalid Servers",
+        "autoConnectAfterLaunch": "Auto Connection after Launch",
+        "autoSetSystemProxy": "Auto Set System Proxy when Connected",
+        "disconnectWhenQuit": "Disconnect when App Exits",
+        "networkShare": "Network Sharing",
+        "frontProxy": "Front Proxy",
+        "frontProxyTips": "Data->Front proxy server->Proxy server->Target server",
+        "allowOtherHostsConnect": "Allow Others to Connect",
+        "allowOtherHostsConnectTips": "socks:$sp,http(s):$hp",
+        "enableCluster": "Enable Socks/Http Proxy Cluster",
+        "clusterAllowOtherHostsConnect": "Allow Others to Connect to Cluster",
+        "clusterAllowOtherHostsConnectTips": "http://127.0.0.1:$hp/get_proxies",
+        "clusterAuth": "Proxy Cluster Authentication",
+        "clusterConfirm": "Please confirm that the servers latency have been checked, and proxy services will not be created if they are not checked or checked incorrectly",
+        "tunMode": "TUN Mode",
+        "tunModeTips": "The TUN mode will take over all the traffic of the system [In this mode, you can leave the system proxy unenabled]",
+        "tunModeRunAsAdmin": "The TUN mode requires system administrator permissions, please restart the app as an administrator",
+        "launchAtStartupSwitch": "Launch at Startup",
+        "quitWhenSwitchSystemUser": "Exit App when Switch System Users",
+        "handleScheme": "System Scheme Call",
+        "handleKaringScheme": "Handle karing:// Call",
+        "handleClashScheme": "Handle clash:// Call",
+        "handleStashScheme": "Handle stash:// Call",
+        "removeSystemVPNConfig": "Delete system VPN configuration",
+        "removeSystemVPNConfigConfirm": "Confirm To Delete system VPN configuration?",
+        "sleepWithSystem": "Automatic Sleep",
+        "sleepWithSystemTips": "After the system goes to sleep, the VPN suspends service; after the system resumes, the VPN automatically resumes service.",
+        "download": "Download",
+        "appleTestFlight": "Apple TestFlight",
+        "appleAppStore": "Apple AppStore",
+        "hasNewVersion": "Update Version $p",
+        "follow": "Follow Us",
+        "contactUs": "Contact Us",
+        "rateInApp": "Rate Us",
+        "rateInAppStore": "Rate Us in AppStore"
+    },
+    "FeedbackScreen": {
+        "title": "Feedback",
+        "content": "Feedback Content",
+        "contentHit": "Required, up to 500 characters",
+        "email": "Email",
+        "telegram": "Telegram",
+        "submit": "Submit",
+        "contentCannotEmpty": "Feedback content can not be empty",
+        "submitDone": "Thanks for your feedback"
+    },
+    "SplashScreen": {},
+    "UpdateScreen": {
+        "versinReady": "The new version[$p] is ready",
+        "update": "Restart To Update",
+        "cancel": "Not Now"
+    },
+    "UserAgreementScreen": {
+        "privacyFirst": "Your Privacy Comes First",
+        "termOfUse": "Terms of Service",
+        "privacyPolicy": "Privacy & Policy",
+        "agreeAndContinue": "Accept & Continue"
+    },
+    "locales(map)": {
+        "en": "English",
+        "zh-CN": "简体中文",
+        "ru": "Русский"
+    }
+}{
+    "main": {
+        "tray": {
+            "menuOpen": "    Open    ",
+            "menuExit": "    Exit    "
+        }
+    },
+    "ServerManager": {
+        "noServerAvaliable": "No server avaliable, Make sure the Profile Link or Profile File is valid",
+        "timeout": "Connect Timeout",
+        "byCurrentSelected": "Current Selected",
+        "selector": "Auto Select",
+        "direct": "Direct",
+        "block": "Block",
+        "filePathCannotEmpty": "The file path can not be empty",
+        "fileNotExist": "File does not exist:$p",
+        "urlCannotEmpty": "Link can not be empty",
+        "invalidUrl": "Invalid Profile Link",
+        "parseFailed": "Parsing Profile failed"
+    },
+    "AboutScreen": {
+        "title": "About",
+        "name": "Name",
+        "version": "Version",
+        "installRefer": "Install Refer",
+        "termOfUse": "Term of Service",
+        "privacyPolicy": "Privacy Policy",
+        "disableUAReport": "Turn Off Action Data Report",
+        "disableUAReportTip": "Action data reporting helps us improve the product experience, but closing it is not conducive to rapid optimization and improvement of the product",
+        "devOptions": "Developer Options",
+        "enableDebugLog": "Enable Debug Log",
+        "FilesAndLogsViewFile": "View Files",
+        "enablePprof": "Enable pprof",
+        "pprofPanel": "pprof Panel",
+        "FilesAndLogsOpenDir": "Open File Directory"
+    },
+    "AddConfigByCustomScreen": {
+        "title": "Add Custom Profile"
+    },
+    "AddConfigByImportFromFileScreen": {
+        "title": "Import Profile File",
+        "enableDiversionRules": "Enable Diversion Rules",
+        "chooseFile": "Select File",
+        "remark": "Remark",
+        "remarkHit": "Remark [Required]",
+        "add": "Add",
+        "remarkCannotEmpty": "Remarks can not be empty",
+        "remarkTooLong": "Remarks up to 32 characters",
+        "remarkExist": "Remark already exists, please use another name",
+        "configExist": "The Profile already exists, please do not add it repeatedly",
+        "addSuccess": "Added successfully",
+        "addFailed": "Add failed:$p"
+    },
+    "AddConfigBySubscriptionLinkScreen": {
+        "title": "Add Subscription Link",
+        "enableDiversionRules": "Enable Diversion Rules",
+        "updateTimerInterval": "Update interval",
+        "subscriptionLink": "Subscription Link",
+        "subscriptionLinkHit": "Subscription Link [Required] (Support Clash,V2ray(batch supported),Stash,Karing,Sing-box,Shadowsocks,Sub Profile links)",
+        "remark": "Remark",
+        "remarkHit": "Remark [Link]",
+        "addSubscription": "Add",
+        "subscriptionCannotEmpty": "Profile Link can not be empty",
+        "remarkCannotEmpty": "Remarks can not be empty",
+        "remarkTooLong": "Remarks up to 32 characters",
+        "remarkExist": "Remark already exists, please use another name",
+        "configExist": "The Profile already exists, please do not add it repeatedly",
+        "invalidUrl": "The Profile Link is too long",
+        "addSuccess": "Added successfully",
+        "addFailed": "Add failed:$p",
+        "addFailedFormatException": "The format is wrong, please correct it and add it again:",
+        "addFailed403": "Add failed:$p, Please try to open the Profile Link using the browser that came with the device and import the Profile File downloaded by the browser into this app"
+    },
+    "ChangeDnsScreen": {
+        "title": "DNS",
+        "testLatencyConnected": "Please disconnect first"
+    },
+    "ChangeLanguageScreen": {
+        "title": "Language",
+        "search": "Search",
+        "next": "Next"
+    },
+    "ChangeRegionScreen": {
+        "title": "Country Or Region",
+        "done": "Done",
+        "search": "Search",
+        "Regions": "  Tip: Please set your current country or region correctly, otherwise it may cause network diversion problems"
+    },
+    "ChangeSpeedTestScreen": {
+        "title": "Speed Test Website"
+    },
+    "DialogUtils": {
+        "showAlertDialog": {
+            "title": "Info",
+            "copy": "Copy",
+            "ok": "Ok"
+        },
+        "showConfirmDialog": {
+            "ok": "Ok",
+            "cancel": "Cancel",
+            "feedback": "Feedback"
+        },
+        "showLoadingDialog": {
+            "loading": "Loading..."
+        },
+        "showQRContentDialog": {
+            "scanResult": "Scan Result",
+            "add": "To add"
+        }
+    },
+    "FileContentViewerScreen": {
+        "title": "File Content Viewer",
+        "chooseFile": "Select File",
+        "clearFileContent": "Are you sure to clear the content of the file?",
+        "clearFileContentTips": "Are you sure to clear the content of the Profile file? Clearing the Profile file may cause data loss or abnormal application functions, please operate with caution"
+    },
+    "GeoSiteCodesScreen": {
+        "title": "GeoSite Groups",
+        "search": "Search",
+        "detail": "$p"
+    },
+    "HomeScreen": {
+        "noAvailableServer": "No Servers Available, Please Add Profile",
+        "toSelectServer": "Please Select a Server",
+        "invalidServer": "The server is invalid, please choose again",
+        "disabledServer": "The server is disabled, please choose again",
+        "expiredServer": "No servers available, profiles may be expired",
+        "selector": "Auto Select",
+        "connectState": {
+            "connected": "Connected",
+            "disconnected": "Disconnected"
+        },
+        "systemProxy": "System Proxy",
+        "systemProxyTips": "socks:$sp,http(s):$hp",
+        "forwardAll": "Forward All",
+        "forwardAllTips": "When enabled, all traffic is forwarded through the proxy server",
+        "updateFailed": "Update failed:$p",
+        "trafficTotal": "Traffic Total",
+        "trafficProxy": "Traffic Forward",
+        "upDownSpeed": "Speed"
+    },
+    "LaunchFailedScreen": {
+        "invalidProcess": "The app failed to start [Invalid process name], please reinstall the app to a separate directory",
+        "invalidProfile": "The app failed to start [Failed to access the profile], please reinstall the app",
+        "startFromUNC": "The installation path is invalid, please reinstall it to a valid path",
+        "website": "Website",
+        "quit": "Quit"
+    },
+    "NetConnectionsScreen": {
+        "title": "Connections",
+        "selector": "Auto Select",
+        "direct": "Direct",
+        "block": "Block",
+        "dns": "DNS",
+        "copyAsCSV": "Copied to CSV format"
+    },
+    "NetInterfacesScreen": {
+        "title": "Net Interfaces"
+    },
+    "PerAppAndroidScreen": {
+        "title": "Per-App Inbound Proxy",
+        "whiteListMode": "Whitelist Mode",
+        "whiteListModeTip": "When enabled: only the apps that have been checked are proxies; when not enabled: only the apps that are not checked are proxies."
+    },
+    "AddConfigByScanQrcodeScanScreen": {
+        "title": "Scan QR Code",
+        "copy": "Copy Link",
+        "open": "Open Link",
+        "add": "Add",
+        "requestCameraPermission": "Please enable camera permission",
+        "requestScreenAccess": "Please go to System Settings - Privacy and Security - Screen Recording to add permissions for this application",
+        "screenshot": "Screenshot",
+        "scanFromImage": "Scan From Image",
+        "scanNoResult": "Failed to parse the image, please make sure the screenshot is a valid QR code",
+        "scanEmptyResult": "Scan Result is empty",
+        "scanException": "Failed to parse the image, please make sure the screenshot is a valid QR code:$p"
+    },
+    "QrcodeScreen": {
+        "title": "QR Code",
+        "tooLong": "The text is too long to display",
+        "copy": "Copy Link",
+        "open": "Open Link",
+        "share": "Share Link",
+        "shareImage": "Share QR Code"
+    },
+    "DiversionRulesScreen": {
+        "title": "Diversion Rules",
+        "byCurrentSelected": "Current Selected",
+        "selector": "Auto Select",
+        "direct": "Direct",
+        "block": "Block",
+        "geoSite": "GeoSite",
+        "finalSelect": "Final",
+        "finalSelectTips": "If no rule is hit, this rule will be used; turning on [Forward All] will cause this setting to become invalid"
+    },
+    "ServerSelectScreen": {
+        "title": "Select Server",
+        "selector": "Auto Select Server",
+        "empty": "Default",
+        "autoSelectServer": "Auto select the server with the lowest latency",
+        "recommend": "Recommend",
+        "recentUse": "Recently Used",
+        "myFav": "My Favs",
+        "testLatencyConnected": "Do not disconnect during the test, otherwise the test will be interrupted and a test already in progress may generate wrong results",
+        "testLatencyDisconnected": "Please open the connection first",
+        "updateFailed": "Update failed:$p",
+        "selectLocal": "The selected server is a local address and may not work properly:$p",
+        "selectDisabled": "This server has been disabled",
+        "disableServer": "Disable",
+        "enableServer": "Enable"
+    },
+    "SubAndConfigScreen": {
+        "title": "Profiles",
+        "canNotRefresh": "Not a Profile Link, does not support update",
+        "testLatencyConnected": "Do not disconnect during the test, otherwise the test will be interrupted and a test already in progress may generate wrong results",
+        "testLatencyDisconnected": "Please open the connection first",
+        "updateFailed": "Update failed:$p",
+        "confirmDel": "Are you sure to delete Profile?",
+        "atLeastOneEnable": "Cannot be disabled, please keep at least one profile enable",
+        "modifyRemark": "Modify Remark",
+        "remarkCannotEmpty": "Remarks can not be empty",
+        "remarkTooLong": "Remarks up to 32 characters",
+        "remarkExist": "Remark already exists, please use another name",
+        "disableServer": "Disable",
+        "enableServer": "Enable"
+    },
+    "SubAndConfigSortScreen": {
+        "title": "Reorder"
+    },
+    "SettingScreen": {
+        "title": "Settings",
+        "titleAddConifg": "Add Profile",
+        "getTranffic": "Get Traffic",
+        "tutorial": "Tutorial",
+        "faq": "FAQ",
+        "notice": "Notice",
+        "htmlBoard": "Online Panel",
+        "htmlBoardNeedConnect": "Please open the connection first",
+        "appleSystemStatus": "Apple System Status",
+        "googleSystemStatus": "Google System Status",
+        "speedTest": "Speed Test",
+        "profileFormatValidator": "Profile Format Validator",
+        "profileFormatValidatorYaml": "Validator yaml/yml",
+        "profileFormatValidatorJson": "Validator json",
+        "downloadProfilePreferProxy": "Prefer Proxy to Download Profile",
+        "downloadProfilePreferProxyTips": "If currently connected, the profile will be downloaded through the connected proxy first",
+        "reloadAfterProfileUpdate": "Reload after Profile update",
+        "reloadAfterGeoUpdate": "Reload after GeoSite/GeoIP update",
+        "portSetting": "Port",
+        "portSettingRule": "Rule Based",
+        "portSettingDirect": "All Direct",
+        "portSettingForword": "All Forward",
+        "portSettingControl": "Control and Sync",
+        "portSettingCluster": "Cluster Service",
+        "modifyPort": "Modify Port",
+        "enableIPv6": "Enable IPv6",
+        "enableIPv6Tips": "Before enabling, please confirm that your network supports IPv6, otherwise some traffic cannot be accessed normally.",
+        "dnsSetting": "DNS",
+        "takeOverSystemDns": "Take over System DNS",
+        "dnsTypeOutbound": "Proxy Server",
+        "dnsTypeLocal": "GeoSite",
+        "dnsTypeRemote": "Others",
+        "takeOverSystemDnsTips": "Only available in TUN mode",
+        "dnsTypeOutboundTips": "Domain name resolution for proxy server[https recommended]",
+        "dnsTypeLocalTips": "Domain name resolution for sites (Geosites) where [Country or Region] is set to [CN]",
+        "dnsTypeRemoteTips": "Domain name resolution for all others except the above two items",
+        "diversion": "Diversion",
+        "geoSite": "GeoSite",
+        "enableGeoSite": "Enable GeoSite",
+        "geoSiteDirectOptimization": "Apple Direct connection optimization",
+        "geoSiteDirectOptimizationTips": "When turned on, Apple GeoSite[apple,apple-ads,apple-dev,apple-pki,apple-update] will use the direct connection mode to obtain a better network experience",
         "geoIp": "GeoIP",
         "enableGeoIp": "Enable GeoIP",
         "autoSelect": "Auto Select",
