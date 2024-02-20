@@ -39,7 +39,7 @@
     },
     "AddConfigByImportFromFileScreen": {
         "title": "Импорт файла конфигурации",
-        "enableRoutingGroup": "группа маршрутизации",
+        "enableDiversionRules": "группа Правила переадресации",
         "chooseFile": "Выбрать файл",
         "remark": "Примечание",
         "remarkHit": "Примечание [обязательно]",
@@ -53,7 +53,7 @@
     },
     "AddConfigBySubscriptionLinkScreen": {
         "title": "Добавление подписки",
-        "enableRoutingGroup": "Группа маршрутизации",
+        "enableDiversionRules": "Группа Правила переадресации",
         "updateTimerInterval": "Интервал обновления",
         "subscriptionLink": "Ссылка подписка",
         "subscriptionLinkHit": "Ссылка подписки [обязательно] (Поддержка Clash,V2ray(пакетная поддержка),Stash,Karing,Sing-box,Shadowsocks,Sub Ссылки на профиль)",
@@ -84,7 +84,7 @@
         "title": "Страна или регион",
         "done": "Готово",
         "search": "Поиск",
-        "Regions": "  Совет: Пожалуйста, правильно укажите текущую страну или регион, в противном случае это может вызвать проблемы с производительностью сети"
+        "Regions": "  Совет: Пожалуйста, правильно укажите текущую страну или регион, в противном случае это может вызвать проблемы с перенаправлением сети."
     },
     "ChangeSpeedTestScreen": {
         "title": "Сайт проверки скорости"
@@ -117,7 +117,7 @@
     "GeoSiteCodesScreen": {
         "title": "GeoSite-группы",
         "search": "Поиск",
-        "detail": "GeoSite детали:$p"
+        "detail": "$p"
     },
     "HomeScreen": {
         "noAvailableServer": "Нет доступных серверов. Пожалуйста, добавьте подписку или профиль",
@@ -177,25 +177,14 @@
     },
     "QrcodeScreen": {
         "title": "QR-код",
-        "tooLong": "Слишком большой текст для отображения"
+        "tooLong": "Слишком большой текст для отображения",
+        "copy": "Скопировать ссылку",
+        "open": "Открыть ссылку",
+        "share": "делиться ссылку",
+        "shareImage": "делиться QR-код"
     },
-    "RoutingGroupAddScreen": {
-        "title": "Добавить группу маршрутизации"
-    },
-    "RoutingGroupEditScreen": {
-        "title": "Редактировать группу маршрутизации"
-    },
-    "RoutingGroupImportScreen": {
-        "title": "Импорт группы маршрутизации",
-        "chooseFile": "Выбрать файл",
-        "add": "Добавить"
-    },
-    "RoutingGroupListScreen": {
-        "title": "Группа маршрутизации",
-        "confirmDel": "Вы уверены что хотите удалить группу маршрутизации?"
-    },
-    "RoutingGroupStrategyScreen": {
-        "title": "Стратегия маршрутизации",
+    "DiversionRulesScreen": {
+        "title": "Правила переадресации",
         "byCurrentSelected": "Текущий сервер",
         "selector": "Авто-выбор сервера",
         "direct": "Напрямую",
@@ -256,7 +245,7 @@
         "downloadProfilePreferProxy": "Настройка приоритетной загрузки прокси",
         "downloadProfilePreferProxyTips": "Если подключение установлено, конфигурация сначала будет загружена через подключенный прокси-сервер",
         "reloadAfterProfileUpdate": "Перезагрузить после обновления конфигурации",
-        "reloadAfterGeoUpdate": "Перезагрузить после обновления GeoSite/GeoIp",
+        "reloadAfterGeoUpdate": "Перезагрузить после обновления GeoSite/GeoIP",
         "portSetting": "порт",
         "portSettingRule": "основанный на правилах",
         "portSettingDirect": "Полное прямое соединение",
@@ -275,15 +264,13 @@
         "dnsTypeOutboundTips": "Для разрешения доменных имен прокси-сервера рекомендуется использовать безопасный DNS[Рекомендую https]",
         "dnsTypeLocalTips": "Разрешение доменных имен для сайтов (геосайтов), где для параметра [Страна или регион] установлено значение [CN]",
         "dnsTypeRemoteTips": "Используется для разрешения других доменных имен, кроме двух вышеуказанных элементов.",
+        "diversion": "Правила",
         "geoSite": "GeoSite",
         "enableGeoSite": "Включить GeoSite",
-        "geoSiteDirectOptimization": "Оптимизация прямого соединения",
-        "geoSiteDirectOptimizationTips": "При включении Apple[apple,apple-ads,apple-dev,apple-pki,apple-update] будет использоваться режим прямого подключения для улучшения работы сети",
-        "geoIp": "GeoIp",
-        "enableGeoIp": "Включить GeoIp",
-        "routingGroupImport": "Импорт профиля маршрутизации",
-        "routingGroupAdd": "Добавить группу маршрутизации",
-        "routingGroupList": "Группа маршрутизации",
+        "geoSiteDirectOptimization": "Apple Оптимизация прямого соединения",
+        "geoSiteDirectOptimizationTips": "При включении Apple GeoSite[apple,apple-ads,apple-dev,apple-pki,apple-update] будет использоваться режим прямого подключения для улучшения работы сети",
+        "geoIp": "GeoIP",
+        "enableGeoIp": "Включить GeoIP",
         "autoSelect": "Авто Выбор",
         "autoSelectServerInterval": "Интервал проверок задержки",
         "autoSelectServerIntervalTips": "Чем короче временной интервал, тем своевременнее обновляются данные о задержке сервера, что будет занимать больше ресурсов и потреблять больше энергии",
@@ -395,7 +382,7 @@
     },
     "AddConfigByImportFromFileScreen": {
         "title": "Импорт файла конфигурации",
-        "enableRoutingGroup": "группа маршрутизации",
+        "enableDiversionRules": "группа Правила переадресации",
         "chooseFile": "Выбрать файл",
         "remark": "Примечание",
         "remarkHit": "Примечание [обязательно]",
@@ -409,7 +396,7 @@
     },
     "AddConfigBySubscriptionLinkScreen": {
         "title": "Добавление подписки",
-        "enableRoutingGroup": "Группа маршрутизации",
+        "enableDiversionRules": "Группа Правила переадресации",
         "updateTimerInterval": "Интервал обновления",
         "subscriptionLink": "Ссылка подписка",
         "subscriptionLinkHit": "Ссылка подписки [обязательно] (Поддержка Clash,V2ray(пакетная поддержка),Stash,Karing,Sing-box,Shadowsocks,Sub Ссылки на профиль)",
@@ -440,7 +427,7 @@
         "title": "Страна или регион",
         "done": "Готово",
         "search": "Поиск",
-        "Regions": "  Совет: Пожалуйста, правильно укажите текущую страну или регион, в противном случае это может вызвать проблемы с производительностью сети"
+        "Regions": "  Совет: Пожалуйста, правильно укажите текущую страну или регион, в противном случае это может вызвать проблемы с перенаправлением сети."
     },
     "ChangeSpeedTestScreen": {
         "title": "Сайт проверки скорости"
@@ -473,7 +460,7 @@
     "GeoSiteCodesScreen": {
         "title": "GeoSite-группы",
         "search": "Поиск",
-        "detail": "GeoSite детали:$p"
+        "detail": "$p"
     },
     "HomeScreen": {
         "noAvailableServer": "Нет доступных серверов. Пожалуйста, добавьте подписку или профиль",
@@ -533,25 +520,14 @@
     },
     "QrcodeScreen": {
         "title": "QR-код",
-        "tooLong": "Слишком большой текст для отображения"
+        "tooLong": "Слишком большой текст для отображения",
+        "copy": "Скопировать ссылку",
+        "open": "Открыть ссылку",
+        "share": "делиться ссылку",
+        "shareImage": "делиться QR-код"
     },
-    "RoutingGroupAddScreen": {
-        "title": "Добавить группу маршрутизации"
-    },
-    "RoutingGroupEditScreen": {
-        "title": "Редактировать группу маршрутизации"
-    },
-    "RoutingGroupImportScreen": {
-        "title": "Импорт группы маршрутизации",
-        "chooseFile": "Выбрать файл",
-        "add": "Добавить"
-    },
-    "RoutingGroupListScreen": {
-        "title": "Группа маршрутизации",
-        "confirmDel": "Вы уверены что хотите удалить группу маршрутизации?"
-    },
-    "RoutingGroupStrategyScreen": {
-        "title": "Стратегия маршрутизации",
+    "DiversionRulesScreen": {
+        "title": "Правила переадресации",
         "byCurrentSelected": "Текущий сервер",
         "selector": "Авто-выбор сервера",
         "direct": "Напрямую",
@@ -612,7 +588,7 @@
         "downloadProfilePreferProxy": "Настройка приоритетной загрузки прокси",
         "downloadProfilePreferProxyTips": "Если подключение установлено, конфигурация сначала будет загружена через подключенный прокси-сервер",
         "reloadAfterProfileUpdate": "Перезагрузить после обновления конфигурации",
-        "reloadAfterGeoUpdate": "Перезагрузить после обновления GeoSite/GeoIp",
+        "reloadAfterGeoUpdate": "Перезагрузить после обновления GeoSite/GeoIP",
         "portSetting": "порт",
         "portSettingRule": "основанный на правилах",
         "portSettingDirect": "Полное прямое соединение",
@@ -631,15 +607,13 @@
         "dnsTypeOutboundTips": "Для разрешения доменных имен прокси-сервера рекомендуется использовать безопасный DNS[Рекомендую https]",
         "dnsTypeLocalTips": "Разрешение доменных имен для сайтов (геосайтов), где для параметра [Страна или регион] установлено значение [CN]",
         "dnsTypeRemoteTips": "Используется для разрешения других доменных имен, кроме двух вышеуказанных элементов.",
+        "diversion": "Правила",
         "geoSite": "GeoSite",
         "enableGeoSite": "Включить GeoSite",
-        "geoSiteDirectOptimization": "Оптимизация прямого соединения",
-        "geoSiteDirectOptimizationTips": "При включении Apple[apple,apple-ads,apple-dev,apple-pki,apple-update] будет использоваться режим прямого подключения для улучшения работы сети",
-        "geoIp": "GeoIp",
-        "enableGeoIp": "Включить GeoIp",
-        "routingGroupImport": "Импорт профиля маршрутизации",
-        "routingGroupAdd": "Добавить группу маршрутизации",
-        "routingGroupList": "Группа маршрутизации",
+        "geoSiteDirectOptimization": "Apple Оптимизация прямого соединения",
+        "geoSiteDirectOptimizationTips": "При включении Apple GeoSite[apple,apple-ads,apple-dev,apple-pki,apple-update] будет использоваться режим прямого подключения для улучшения работы сети",
+        "geoIp": "GeoIP",
+        "enableGeoIp": "Включить GeoIP",
         "autoSelect": "Авто Выбор",
         "autoSelectServerInterval": "Интервал проверок задержки",
         "autoSelectServerIntervalTips": "Чем короче временной интервал, тем своевременнее обновляются данные о задержке сервера, что будет занимать больше ресурсов и потреблять больше энергии",
