@@ -34,10 +34,10 @@
         "pprofPanel": "pprof面板",
         "FilesAndLogsOpenDir": "打开文件目录"
     },
-    "AddConfigByCustomScreen": {
+    "AddProfileByCustomScreen": {
         "title": "添加自定义配置"
     },
-    "AddConfigByImportFromFileScreen": {
+    "AddProfileByImportFromFileScreen": {
         "title": "导入配置文件",
         "enableDiversionRules": "启用分流规则",
         "chooseFile": "选择文件",
@@ -51,7 +51,7 @@
         "addSuccess": "添加成功",
         "addFailed": "添加失败:$p"
     },
-    "AddConfigBySubscriptionLinkScreen": {
+    "AddProfileBySubscriptionLinkScreen": {
         "title": "添加配置链接",
         "enableDiversionRules": "启用分流规则",
         "updateTimerInterval": "更新时间间隔",
@@ -87,7 +87,9 @@
         "Regions": "  提示:请正确设置你当前所在国家或地区,否则可能会导致分流错误"
     },
     "ChangeSpeedTestScreen": {
-        "title": "测速网站"
+        "title": "测速网址",
+        "add": "添加测速网址",
+        "error": "必须为有效的 https URL"
     },
     "DialogUtils": {
         "showAlertDialog": {
@@ -162,7 +164,7 @@
         "whiteListMode": "白名单模式",
         "whiteListModeTip": "启用后:仅代理已勾选的App;未启用:仅代理未勾选的App"
     },
-    "AddConfigByScanQrcodeScanScreen": {
+    "AddProfileByScanQrcodeScanScreen": {
         "title": "扫描二维码",
         "copy": "拷贝链接",
         "open": "打开链接",
@@ -190,7 +192,7 @@
         "direct": "直连",
         "block": "拦截",
         "geoSite": "GeoSite",
-        "finalSelect": "默认",
+        "finalSelect": "final",
         "finalSelectTips": "如果未命中任何规则,则使用该规则;开启[全局转发]会导致此设置失效"
     },
     "ServerSelectScreen": {
@@ -209,7 +211,7 @@
         "disableServer": "禁用",
         "enableServer": "启用"
     },
-    "SubAndConfigScreen": {
+    "MyProfilesScreen": {
         "title": "我的配置",
         "canNotRefresh": "非配置链接,不支持更新",
         "testLatencyConnected": "检测过程中不要断开连接,否则检测将被中断,并且已进行中的检测可能会生成错误的结果",
@@ -217,14 +219,17 @@
         "updateFailed": "更新失败:$p",
         "confirmDel": "确认删除配置?",
         "atLeastOneEnable": "无法禁用,请至少保留一个配置可用",
-        "modifyRemark": "修改备注",
+        "remark": "备注",
         "remarkCannotEmpty": "备注不能为空",
         "remarkTooLong": "备注最长32字符",
         "remarkExist": "备注已存在,请使用其他名称",
+        "url": "URL",
+        "urlInvalid": "无效URL",
+        "urlExist": "URL已存在,请使用其他URL",
         "disableServer": "禁用",
         "enableServer": "启用"
     },
-    "SubAndConfigSortScreen": {
+    "MyProfilesReorderScreen": {
         "title": "排序"
     },
     "SettingScreen": {
@@ -258,17 +263,17 @@
         "dnsSetting": "DNS",
         "takeOverSystemDns": "接管系统DNS",
         "dnsTypeOutbound": "代理服务器",
-        "dnsTypeLocal": "GeoSite",
-        "dnsTypeRemote": "其他",
+        "dnsTypeDirect": "直连流量",
+        "dnsTypeProxy": "代理流量",
         "takeOverSystemDnsTips": "仅适用于TUN模式",
-        "dnsTypeOutboundTips": "用于代理服务器域名解析[推荐https]",
-        "dnsTypeLocalTips": "用于[国家与地区]设置为[CN]的站点(Geosite)的域名解析",
-        "dnsTypeRemoteTips": "用于除上面两项以外的其他域名的解析",
+        "dnsTypeOutboundTips": "用于代理服务器的域名解析[推荐https]",
+        "dnsTypeDirectTips": "用于直连流量的域名解析",
+        "dnsTypeProxyTips": "用于代理流量的域名解析",
         "diversion": "分流",
         "geoSite": "GeoSite",
         "enableGeoSite": "启用GeoSite",
-        "geoSiteDirectOptimization": "苹果直连优化",
-        "geoSiteDirectOptimizationTips": "开启后,苹果GeoSite[apple,apple-ads,apple-dev,apple-pki,apple-update]将使用直连模式,以便获取更快的网络体验",
+        "geoSiteAppleDirectOptimization": "苹果直连优化",
+        "geoSiteAppleDirectOptimizationTips": "开启后,苹果GeoSite[apple,apple-ads,apple-dev,apple-pki,apple-update]将使用直连模式,以便获取更快的网络体验",
         "geoIp": "GeoIP",
         "enableGeoIp": "启用GeoIP",
         "autoSelect": "自动选择",
