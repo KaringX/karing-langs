@@ -134,11 +134,11 @@
         },
         "systemProxy": "系统代理",
         "systemProxyTips": "socks:$sp,http(s):$hp",
-        "forwardAll": "全局转发",
-        "forwardAllTips": "开启后,所有流量通过代理服务器转发",
+        "proxyAll": "全代理",
+        "proxyAllTips": "开启后,所有流量通过代理服务器转发",
         "updateFailed": "更新失败:$p",
         "trafficTotal": "总流量",
-        "trafficProxy": "转发流量",
+        "trafficProxy": "代理流量",
         "upDownSpeed": "速度"
     },
     "LaunchFailedScreen": {
@@ -193,7 +193,7 @@
         "block": "拦截",
         "geoSite": "GeoSite",
         "finalSelect": "final",
-        "finalSelectTips": "如果未命中任何规则,则使用该规则;开启[全局转发]会导致此设置失效"
+        "finalSelectTips": "如果未命中任何规则,则使用该规则;开启[全局代理]会导致此设置失效"
     },
     "ServerSelectScreen": {
         "title": "选择服务器",
@@ -253,8 +253,8 @@
         "reloadAfterGeoUpdate": "GeoSite/GeoIP更新后重新加载",
         "portSetting": "端口",
         "portSettingRule": "基于规则",
-        "portSettingDirect": "全直连",
-        "portSettingForword": "全转发",
+        "portSettingDirectAll": "全直连",
+        "portSettingProxyAll": "全代理",
         "portSettingControl": "控制与同步",
         "portSettingCluster": "集群服务",
         "modifyPort": "修改端口",
@@ -265,10 +265,12 @@
         "dnsTypeOutbound": "代理服务器",
         "dnsTypeDirect": "直连流量",
         "dnsTypeProxy": "代理流量",
+        "dnsTypeFinal": "final",
         "takeOverSystemDnsTips": "仅适用于TUN模式",
         "dnsTypeOutboundTips": "用于代理服务器的域名解析[推荐https]",
         "dnsTypeDirectTips": "用于直连流量的域名解析",
         "dnsTypeProxyTips": "用于代理流量的域名解析",
+        "dnsTypeFinalTips": "用于其他流量的域名解析",
         "diversion": "分流",
         "geoSite": "GeoSite",
         "enableGeoSite": "启用GeoSite",
