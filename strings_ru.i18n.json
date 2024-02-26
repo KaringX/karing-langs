@@ -134,11 +134,11 @@
         },
         "systemProxy": "Системные прокси",
         "systemProxyTips": "socks:$sp,http(s):$hp",
-        "forwardAll": "Проксировать все",
-        "forwardAllTips": "Если этот параметр включен, весь трафик перенаправляется через прокси-сервер",
+        "proxyAll": "прокси все",
+        "proxyAllTips": "Если этот параметр включен, весь трафик перенаправляется через прокси-сервер",
         "updateFailed": "Не удалось обновить:$p",
-        "trafficTotal": "Трафик, всего",
-        "trafficProxy": "Трафик, прокси",
+        "trafficTotal": "Трафик всего",
+        "trafficProxy": "Трафик прокси",
         "upDownSpeed": "Скорость"
     },
     "LaunchFailedScreen": {
@@ -193,7 +193,7 @@
         "block": "Блокировать",
         "geoSite": "GeoSite",
         "finalSelect": "final",
-        "finalSelectTips": "Если ни одно правило не соблюдается, будет использоваться это правило; включение [Проксировать все] приведет к тому, что этот параметр станет недействительным."
+        "finalSelectTips": "Если ни одно правило не соблюдается, будет использоваться это правило; включение [прокси все] приведет к тому, что этот параметр станет недействительным."
     },
     "ServerSelectScreen": {
         "title": "Выбор сервера",
@@ -253,8 +253,8 @@
         "reloadAfterGeoUpdate": "Перезагрузить после обновления GeoSite/GeoIP",
         "portSetting": "порт",
         "portSettingRule": "основанный на правилах",
-        "portSettingDirect": "Полное прямое соединение",
-        "portSettingForword": "Переслать все",
+        "portSettingDirectAll": "Полное прямое соединение",
+        "portSettingProxyAll": "прокси все",
         "portSettingControl": "Управление и синхронизация",
         "portSettingCluster": "Кластерный сервис",
         "modifyPort": "Изменить порт",
@@ -265,10 +265,12 @@
         "dnsTypeOutbound": "Прокси сервер",
         "dnsTypeDirect": "прямого поток",
         "dnsTypeProxy": "действующий поток",
+        "dnsTypeFinal": "final",
         "takeOverSystemDnsTips": "Доступно только в режиме TUN",
         "dnsTypeOutboundTips": "Для разрешения доменных имен прокси-сервера рекомендуется использовать безопасный DNS[Рекомендую https]",
         "dnsTypeDirectTips": "Разрешение доменных имен для прямого поток",
         "dnsTypeProxyTips": "Разрешение доменных имен для действующий поток",
+        "dnsTypeFinalTips": "Разрешение доменных имен для другой поток",
         "diversion": "Правила",
         "geoSite": "GeoSite",
         "enableGeoSite": "Включить GeoSite",
