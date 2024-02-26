@@ -134,11 +134,11 @@
         },
         "systemProxy": "System Proxy",
         "systemProxyTips": "socks:$sp,http(s):$hp",
-        "forwardAll": "Forward All",
-        "forwardAllTips": "When enabled, all traffic is forwarded through the proxy server",
+        "proxyAll": "Proxy All",
+        "proxyAllTips": "When enabled, all traffic is forwarded through the proxy server",
         "updateFailed": "Update failed:$p",
         "trafficTotal": "Traffic Total",
-        "trafficProxy": "Traffic Forward",
+        "trafficProxy": "Traffic Proxy",
         "upDownSpeed": "Speed"
     },
     "LaunchFailedScreen": {
@@ -193,7 +193,7 @@
         "block": "Block",
         "geoSite": "GeoSite",
         "finalSelect": "final",
-        "finalSelectTips": "If no rule is hit, this rule will be used; turning on [Forward All] will cause this setting to become invalid"
+        "finalSelectTips": "If no rule is hit, this rule will be used; turning on [Proxy All] will cause this setting to become invalid"
     },
     "ServerSelectScreen": {
         "title": "Select Server",
@@ -253,8 +253,8 @@
         "reloadAfterGeoUpdate": "Reload after GeoSite/GeoIP update",
         "portSetting": "Port",
         "portSettingRule": "Rule Based",
-        "portSettingDirect": "All Direct",
-        "portSettingForword": "All Forward",
+        "portSettingDirectAll": "Direct All",
+        "portSettingProxyAll": "Proxy All",
         "portSettingControl": "Control and Sync",
         "portSettingCluster": "Cluster Service",
         "modifyPort": "Modify Port",
@@ -265,10 +265,12 @@
         "dnsTypeOutbound": "Proxy Server",
         "dnsTypeDirect": "Direct Traffic",
         "dnsTypeProxy": "Proxy Traffic",
+        "dnsTypeFinal": "final",
         "takeOverSystemDnsTips": "Only available in TUN mode",
         "dnsTypeOutboundTips": "Domain name resolution for Proxy Server [https recommended]",
         "dnsTypeDirectTips": "Domain name resolution for Direct Traffic",
         "dnsTypeProxyTips": "Domain name resolution for Proxy Traffic",
+        "dnsTypeFinalTips": "Domain name resolution for Other Traffic",
         "diversion": "Diversion",
         "geoSite": "GeoSite",
         "enableGeoSite": "Enable GeoSite",
