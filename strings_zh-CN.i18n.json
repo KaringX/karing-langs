@@ -12,6 +12,7 @@
         "selector": "自动选择",
         "direct": "直连",
         "block": "拦截",
+        "custom": "自定义",
         "filePathCannotEmpty": "文件路径不能为空",
         "fileNotExist": "文件不存在:$p",
         "urlCannotEmpty": "链接不能为空",
@@ -154,7 +155,14 @@
         "direct": "直连",
         "block": "拦截",
         "dns": "DNS",
-        "copyAsCSV": "已复制为CSV格式"
+        "copyAsCSV": "已复制为CSV格式",
+        "select": "选择组",
+        "selectType": "选择类型",
+        "typeDomain": "域名",
+        "typeIP": "IP地址",
+        "typePackage": "包名",
+        "typeProcessName": "进程名",
+        "typeProcessPath": "进程路径"
     },
     "NetInterfacesScreen": {
         "title": "网络接口"
@@ -195,6 +203,18 @@
         "finalSelect": "final",
         "finalSelectTips": "如果未命中任何规则,则使用该规则;开启[全局代理]会导致此设置失效"
     },
+    "DiversionGroupCustomScreen": {
+        "title": "自定义分流组",
+        "add": "添加分流组",
+        "remark":"备注",
+        "remarkCannotEmpty": "备注不能为空",
+        "remarkTooLong": "备注最长32字符",
+        "remarkExist": "备注已存在,请使用其他名称",
+        "confirmDel": "确认删除?"
+    },
+    "DiversionGroupCustomEditScreen": {
+        "title": "编辑分流组"
+    },
     "ServerSelectScreen": {
         "title": "选择服务器",
         "selector": "自动选择",
@@ -213,11 +233,10 @@
     },
     "MyProfilesScreen": {
         "title": "我的配置",
-        "canNotRefresh": "非配置链接,不支持更新",
         "testLatencyConnected": "检测过程中不要断开连接,否则检测将被中断,并且已进行中的检测可能会生成错误的结果",
         "testLatencyDisconnected": "请先开启连接",
         "updateFailed": "更新失败:$p",
-        "confirmDel": "确认删除配置?",
+        "confirmDel": "确认删除?",
         "atLeastOneEnable": "无法禁用,请至少保留一个配置可用",
         "remark": "备注",
         "remarkCannotEmpty": "备注不能为空",
@@ -251,6 +270,7 @@
         "downloadProfilePreferProxyTips": "如果当前已连接,则优先通过已连接的代理下载配置",
         "reloadAfterProfileUpdate": "配置更新后重新加载",
         "reloadAfterGeoUpdate": "GeoSite/GeoIP更新后重新加载",
+        "diversionGroupCustom": "自定义分流组",
         "portSetting": "端口",
         "portSettingRule": "基于规则",
         "portSettingDirectAll": "全直连",
