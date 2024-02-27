@@ -12,6 +12,7 @@
         "selector": "Auto Select",
         "direct": "Direct",
         "block": "Block",
+        "custom": "Custom",
         "filePathCannotEmpty": "The file path can not be empty",
         "fileNotExist": "File does not exist:$p",
         "urlCannotEmpty": "Link can not be empty",
@@ -154,7 +155,14 @@
         "direct": "Direct",
         "block": "Block",
         "dns": "DNS",
-        "copyAsCSV": "Copied to CSV format"
+        "copyAsCSV": "Copied to CSV format",
+        "select": "Select Group",
+        "selectType": "Select Type",
+        "typeDomain": "Domain",
+        "typeIP": "IP Address",
+        "typePackage": "Package",
+        "typeProcessName": "Process Name",
+        "typeProcessPath": "Process Path"
     },
     "NetInterfacesScreen": {
         "title": "Net Interfaces"
@@ -195,6 +203,18 @@
         "finalSelect": "final",
         "finalSelectTips": "If no rule is hit, this rule will be used; turning on [Proxy All] will cause this setting to become invalid"
     },
+    "DiversionGroupCustomScreen": {
+        "title": "Custom Diversion Group",
+        "add": "Add Diversion Group",
+        "remark":"Remark",
+        "remarkCannotEmpty": "Remarks can not be empty",
+        "remarkTooLong": "Remarks up to 32 characters",
+        "remarkExist": "Remark already exists, please use another name",
+        "confirmDel": "Are you sure to delete?"
+    },
+    "DiversionGroupCustomEditScreen": {
+        "title": "Edit Diversion Group"
+    },
     "ServerSelectScreen": {
         "title": "Select Server",
         "selector": "Auto Select Server",
@@ -213,11 +233,10 @@
     },
     "MyProfilesScreen": {
         "title": "Profiles",
-        "canNotRefresh": "Not a Profile Link, does not support update",
         "testLatencyConnected": "Do not disconnect during the test, otherwise the test will be interrupted and a test already in progress may generate wrong results",
         "testLatencyDisconnected": "Please open the connection first",
         "updateFailed": "Update failed:$p",
-        "confirmDel": "Are you sure to delete Profile?",
+        "confirmDel": "Are you sure to delete?",
         "atLeastOneEnable": "Cannot be disabled, please keep at least one profile enable",
         "remark": "Remark",
         "remarkCannotEmpty": "Remarks can not be empty",
@@ -251,6 +270,7 @@
         "downloadProfilePreferProxyTips": "If currently connected, the profile will be downloaded through the connected proxy first",
         "reloadAfterProfileUpdate": "Reload after Profile update",
         "reloadAfterGeoUpdate": "Reload after GeoSite/GeoIP update",
+        "diversionGroupCustom": "Custom Distribution Group",
         "portSetting": "Port",
         "portSettingRule": "Rule Based",
         "portSettingDirectAll": "Direct All",
