@@ -12,6 +12,7 @@
         "selector": "Авто-выбор сервера",
         "direct": "Напрямую",
         "block": "Блокировать",
+        "custom": "настроить",
         "filePathCannotEmpty": "Путь к файлу не может быть пустым",
         "fileNotExist": "Файла не существует:$p",
         "urlCannotEmpty": "Ссылка не может быть пустой",
@@ -154,7 +155,14 @@
         "direct": "DIRECT",
         "block": "Блокировать",
         "dns": "DNS",
-        "copyAsCSV": "Скопировали в CSV формате"
+        "copyAsCSV": "Скопировали в CSV формате",
+        "select": "Выберите группу",
+        "selectType": "Выберите тип",
+        "typeDomain": "доменное имя",
+        "typeIP": "IP адрес",
+        "typePackage": "Имена пакетов",
+        "typeProcessName": "Имя процесса",
+        "typeProcessPath": "путь процесса"
     },
     "NetInterfacesScreen": {
         "title": "Сетевой интерфейс"
@@ -195,6 +203,18 @@
         "finalSelect": "final",
         "finalSelectTips": "Если ни одно правило не соблюдается, будет использоваться это правило; включение [прокси все] приведет к тому, что этот параметр станет недействительным."
     },
+    "DiversionGroupCustomScreen": {
+        "title": "Пользовательская группа рассылки",
+        "add": "Добавить группу шунтов",
+        "remark":"примечание",
+        "remarkCannotEmpty": "Примечание не может быть пустым.",
+        "remarkTooLong": "Примечания до 32 символов",
+        "remarkExist": "Примечание уже существует, используй другое имя",
+        "confirmDel": "подтвердить удаление?"
+    },
+    "DiversionGroupCustomEditScreen": {
+        "title": "Изменить группу переадресации"
+    },
     "ServerSelectScreen": {
         "title": "Выбор сервера",
         "selector": "Авто-выбор сервера",
@@ -213,11 +233,10 @@
     },
     "MyProfilesScreen": {
         "title": "Профили",
-        "canNotRefresh": "Не ссылка на профиль, не поддерживает обновление",
         "testLatencyConnected": "Не отключайте соединение во время теста, иначе тест будет прерван, а уже выполняющийся тест может дать неправильные результаты",
         "testLatencyDisconnected": "Пожалуйста, для начала подключитесь",
         "updateFailed": "Не удалось обновить:$p",
-        "confirmDel": "Вы уверены, что хотите удалить профиль?",
+        "confirmDel": "подтвердить удаление?",
         "atLeastOneEnable": "Невозможно отключить, оставьте включенным хотя бы один профиль",
         "remark": "примечание",
         "remarkCannotEmpty": "Замечания не могут быть пустыми",
@@ -251,6 +270,7 @@
         "downloadProfilePreferProxyTips": "Если подключение установлено, конфигурация сначала будет загружена через подключенный прокси-сервер",
         "reloadAfterProfileUpdate": "Перезагрузить после обновления конфигурации",
         "reloadAfterGeoUpdate": "Перезагрузить после обновления GeoSite/GeoIP",
+        "diversionGroupCustom": "Пользовательская группа рассылки",
         "portSetting": "порт",
         "portSettingRule": "основанный на правилах",
         "portSettingDirectAll": "Полное прямое соединение",
