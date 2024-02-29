@@ -223,7 +223,6 @@
         "recommend": "Recommend",
         "recentUse": "Recently Used",
         "myFav": "My Favs",
-        "testLatencyConnected": "Do not disconnect during the test, otherwise the test will be interrupted and a test already in progress may generate wrong results",
         "testLatencyDisconnected": "Please open the connection first",
         "updateFailed": "Update failed:$p",
         "selectLocal": "The selected server is a local address and may not work properly:$p",
@@ -233,7 +232,6 @@
     },
     "MyProfilesScreen": {
         "title": "Profiles",
-        "testLatencyConnected": "Do not disconnect during the test, otherwise the test will be interrupted and a test already in progress may generate wrong results",
         "testLatencyDisconnected": "Please open the connection first",
         "updateFailed": "Update failed:$p",
         "confirmDel": "Are you sure to delete?",
