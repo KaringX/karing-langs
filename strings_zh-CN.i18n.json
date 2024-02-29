@@ -223,7 +223,6 @@
         "recommend": "推荐",
         "recentUse": "最近使用",
         "myFav": "我的收藏",
-        "testLatencyConnected": "检测过程中不要断开连接,否则检测将被中断,并且已进行中的检测可能会生成错误的结果",
         "testLatencyDisconnected": "请先开启连接",
         "updateFailed": "更新失败:$p",
         "selectLocal": "所选服务器为本地地址,可能无法正常使用:$p",
@@ -233,7 +232,6 @@
     },
     "MyProfilesScreen": {
         "title": "我的配置",
-        "testLatencyConnected": "检测过程中不要断开连接,否则检测将被中断,并且已进行中的检测可能会生成错误的结果",
         "testLatencyDisconnected": "请先开启连接",
         "updateFailed": "更新失败:$p",
         "confirmDel": "确认删除?",
