@@ -265,8 +265,6 @@
         "notice": "通知",
         "htmlBoard": "在线面板",
         "htmlBoardNeedConnect": "请先开启连接",
-        "appleSystemStatus": "苹果系统状态",
-        "googleSystemStatus": "谷歌系统状态",
         "speedTest": "测速",
         "profileFormatValidator": "配置文件格式验证",
         "profileFormatValidatorYaml": "验证 yaml/yml",
