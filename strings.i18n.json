@@ -265,8 +265,6 @@
         "notice": "Notice",
         "htmlBoard": "Online Panel",
         "htmlBoardNeedConnect": "Please open the connection first",
-        "appleSystemStatus": "Apple System Status",
-        "googleSystemStatus": "Google System Status",
         "speedTest": "Speed Test",
         "profileFormatValidator": "Profile Format Validator",
         "profileFormatValidatorYaml": "Validator yaml/yml",
