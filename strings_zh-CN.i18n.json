@@ -74,7 +74,13 @@
     },
     "ChangeDnsScreen": {
         "title": "DNS",
-        "testLatencyConnected": "请先断开连接"
+        "testLatencyConnected": "请先断开连接",
+        "add": "添加DNS服务器",
+        "isp": "ISP",
+        "url": "URL",
+        "ispCanNotEmpty": "ISP 不能为空",
+        "urlCanNotEmpty": "URL 不能为空",
+        "error": "不支持的类型:$p"
     },
     "ChangeLanguageScreen": {
         "title": "语言",
@@ -156,8 +162,7 @@
         "block": "拦截",
         "dns": "DNS",
         "copyAsCSV": "已复制为CSV格式",
-        "select": "选择组",
-        "selectType": "选择类型",
+        "selectType": "选择分流类型",
         "typeDomain": "域名",
         "typeIP": "IP地址",
         "typePackage": "包名",
@@ -213,7 +218,9 @@
         "confirmDel": "确认删除?"
     },
     "DiversionGroupCustomEditScreen": {
-        "title": "编辑分流组"
+        "title": "编辑分流组",
+        "invalidDomain": "无效的 Domain:$p",
+        "invalidIpCidr": "无效的 IP Cidr:$p"
     },
     "ServerSelectScreen": {
         "title": "选择服务器",
