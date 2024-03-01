@@ -74,7 +74,13 @@
     },
     "ChangeDnsScreen": {
         "title": "DNS",
-        "testLatencyConnected": "Please disconnect first"
+        "testLatencyConnected": "Please disconnect first",
+        "add": "Add DNS Server",
+        "isp": "ISP",
+        "url": "URL",
+        "ispCanNotEmpty": "ISP can not be empty",
+        "urlCanNotEmpty": "URL can not be empty",
+        "error": "Unsupported type:$p"
     },
     "ChangeLanguageScreen": {
         "title": "Language",
@@ -156,8 +162,7 @@
         "block": "Block",
         "dns": "DNS",
         "copyAsCSV": "Copied to CSV format",
-        "select": "Select Group",
-        "selectType": "Select Type",
+        "selectType": "Select Diversion Type",
         "typeDomain": "Domain",
         "typeIP": "IP Address",
         "typePackage": "Package",
@@ -213,7 +218,9 @@
         "confirmDel": "Are you sure to delete?"
     },
     "DiversionGroupCustomEditScreen": {
-        "title": "Edit Diversion Group"
+        "title": "Edit Diversion Group",
+        "invalidDomain": "Invalid Domain:$p",
+        "invalidIpCidr": "Invalid IP Cidr:$p"
     },
     "ServerSelectScreen": {
         "title": "Select Server",
