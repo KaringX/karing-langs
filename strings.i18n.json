@@ -146,7 +146,8 @@
         "updateFailed": "Update failed:$p",
         "trafficTotal": "Traffic Total",
         "trafficProxy": "Traffic Proxy",
-        "upDownSpeed": "Speed"
+        "upDownSpeed": "Speed",
+        "myLinkEmpty":"Please set up [Shortcut Link] before using it."
     },
     "LaunchFailedScreen": {
         "invalidProcess": "The app failed to start [Invalid process name], please reinstall the app to a separate directory",
@@ -235,7 +236,8 @@
         "selectLocal": "The selected server is a local address and may not work properly:$p",
         "selectDisabled": "This server has been disabled",
         "disableServer": "Disable",
-        "enableServer": "Enable"
+        "enableServer": "Enable",
+        "error404":"Latency detection encountered an error, please check if there is a configuration with the same content"
     },
     "MyProfilesScreen": {
         "title": "Profiles",
@@ -311,6 +313,8 @@
         "autoSelectServerFilter": "Filter Invalid Servers",
         "autoSelectServerFilterTips": "Server latency checks that fail will be filtered out",
         "hideInvalidServer": "Hide Invalid Servers",
+        "myLink":"Shortcut Link",
+        "myLinkInvalid":"Invalid URL",
         "autoConnectAfterLaunch": "Auto Connection after Launch",
         "autoSetSystemProxy": "Auto Set System Proxy when Connected",
         "disconnectWhenQuit": "Disconnect when App Exits",
