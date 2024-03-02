@@ -146,7 +146,8 @@
         "updateFailed": "更新失败:$p",
         "trafficTotal": "总流量",
         "trafficProxy": "代理流量",
-        "upDownSpeed": "速度"
+        "upDownSpeed": "速度",
+        "myLinkEmpty":"请先设置[快捷链接]后再使用"
     },
     "LaunchFailedScreen": {
         "invalidProcess": "应用启动失败[无效的进程名称],请重新安装应用到独立目录",
@@ -235,7 +236,8 @@
         "selectLocal": "所选服务器为本地地址,可能无法正常使用:$p",
         "selectDisabled": "该服务器已被禁用",
         "disableServer": "禁用",
-        "enableServer": "启用"
+        "enableServer": "启用",
+        "error404":"延迟检测遇到错误,请检查是否存在内容相同的配置"
     },
     "MyProfilesScreen": {
         "title": "我的配置",
@@ -311,6 +313,8 @@
         "autoSelectServerFilter": "过滤无效服务器",
         "autoSelectServerFilterTips": "服务器延迟检测失败的将会被过滤掉",
         "hideInvalidServer": "隐藏无效服务器",
+        "myLink":"快捷链接",
+        "myLinkInvalid":"无效的URL",
         "autoConnectAfterLaunch": "启动后自动连接",
         "autoSetSystemProxy": "连接后自动设置系统代理",
         "disconnectWhenQuit": "退出应用时关闭连接",
