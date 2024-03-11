@@ -52,15 +52,15 @@
         "addSuccess": "Added successfully",
         "addFailed": "Add failed:$p"
     },
-    "AddProfileBySubscriptionLinkScreen": {
-        "title": "Add Subscription Link",
+    "AddProfileByLinkOrContentScreen": {
+        "title": "Add Profile Link",
         "enableDiversionRules": "Enable Diversion Rules",
         "updateTimerInterval": "Update interval",
-        "subscriptionLink": "Subscription Link",
-        "subscriptionLinkHit": "Subscription Link [Required] (Support Clash,V2ray(batch supported),Stash,Karing,Sing-box,Shadowsocks,Sub Profile links)",
+        "profileLinkContent": "Profile Link/Content",
+        "profileLinkContentHit": "Profile Link/Content [Required] (Support Clash,V2ray(batch supported),Stash,Karing,Sing-box,Shadowsocks,Sub Profile links)",
         "remark": "Remark",
         "remarkHit": "Remark [Link]",
-        "addSubscription": "Add",
+        "addProfile": "Add",
         "subscriptionCannotEmpty": "Profile Link can not be empty",
         "remarkCannotEmpty": "Remarks can not be empty",
         "remarkTooLong": "Remarks up to 32 characters",
@@ -97,6 +97,9 @@
         "title": "Speed Test URL",
         "add": "Add Speed Test URL",
         "error": "Must be Valid https URL"
+    },
+    "CommonWidget":{
+        "refresh":"Refresh"
     },
     "DialogUtils": {
         "showAlertDialog": {
@@ -147,7 +150,8 @@
         "trafficTotal": "Traffic Total",
         "trafficProxy": "Traffic Proxy",
         "upDownSpeed": "Speed",
-        "myLinkEmpty":"Please set up [Shortcut Link] before using it."
+        "myLinkEmpty":"Please set up [Shortcut Link] before using it",
+        "installISP":"Set ISP?"
     },
     "LaunchFailedScreen": {
         "invalidProcess": "The app failed to start [Invalid process name], please reinstall the app to a separate directory",
@@ -175,8 +179,10 @@
     },
     "PerAppAndroidScreen": {
         "title": "Per-App Proxy",
+        "enable": "Enable",
         "whiteListMode": "Whitelist Mode",
-        "whiteListModeTip": "When enabled: only the apps that have been checked are proxies; when not enabled: only the apps that are not checked are proxies."
+        "whiteListModeTip": "When enabled: only the apps that have been checked are proxies; when not enabled: only the apps that are not checked are proxies",
+        "enableAppQueryPermission": "Turn on [App list query] Permission"
     },
     "AddProfileByScanQrcodeScanScreen": {
         "title": "Scan QR Code",
@@ -260,7 +266,9 @@
     },
     "SettingScreen": {
         "title": "Settings",
-        "titleAddConifg": "Add Profile",
+        "user": "User",
+        "expire": "Expire Date",
+        "cleanISP": "Clear ISP",
         "getTranffic": "Get Traffic",
         "tutorial": "Tutorial",
         "faq": "FAQ",
@@ -271,6 +279,8 @@
         "profileFormatValidator": "Profile Format Validator",
         "profileFormatValidatorYaml": "Validator yaml/yml",
         "profileFormatValidatorJson": "Validator json",
+        "addProfile":"Add Profile",
+        "addProfileFromClipboard":"Import From Clipboard",
         "downloadProfilePreferProxy": "Prefer Proxy to Download Profile",
         "downloadProfilePreferProxyTips": "If currently connected, the profile will be downloaded through the connected proxy first",
         "reloadAfterProfileUpdate": "Reload after Profile update",
@@ -287,12 +297,14 @@
         "enableIPv6Tips": "Before enabling, please confirm that your network supports IPv6, otherwise some traffic cannot be accessed normally.",
         "dnsSetting": "DNS",
         "takeOverSystemDns": "Take over System DNS",
+        "dnsEnableRule": "Enable DNS Diversion rules",
         "dnsTypeOutbound": "Proxy Server",
         "dnsTypeDirect": "Direct Traffic",
         "dnsTypeProxy": "Proxy Traffic",
         "dnsTypeResolver": "DNS Server Domain Name",
         "dnsTypeFinal": "final",
         "takeOverSystemDnsTips": "Only available in TUN mode",
+        "dnsEnableRuleTips": "After enabling, the domain name will select the corresponding DNS server for resolution according to the diversion rules",
         "dnsTypeOutboundTips": "Domain name resolution for Proxy Server [https recommended]",
         "dnsTypeDirectTips": "Domain name resolution for Direct Traffic",
         "dnsTypeProxyTips": "Domain name resolution for Proxy Traffic",
