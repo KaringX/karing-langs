@@ -52,15 +52,15 @@
         "addSuccess": "添加成功",
         "addFailed": "添加失败:$p"
     },
-    "AddProfileBySubscriptionLinkScreen": {
+    "AddProfileByLinkOrContentScreen": {
         "title": "添加配置链接",
         "enableDiversionRules": "启用分流规则",
         "updateTimerInterval": "更新时间间隔",
-        "subscriptionLink": "配置链接",
-        "subscriptionLinkHit": "配置链接[必填] (支持Clash,V2ray(支持批量),Stash,Karing,Sing-box,Shadowsocks,Sub,Github配置链接)",
+        "profileLinkContent": "配置链接/内容",
+        "profileLinkContentHit": "配置链接/内容[必填] (支持Clash,V2ray(支持批量),Stash,Karing,Sing-box,Shadowsocks,Sub,Github配置链接)",
         "remark": "备注",
         "remarkHit": "备注[必填]",
-        "addSubscription": "添加",
+        "addProfile": "添加",
         "subscriptionCannotEmpty": "配置链接不能为空",
         "remarkCannotEmpty": "备注不能为空",
         "remarkTooLong": "备注名称最长32字符",
@@ -97,6 +97,9 @@
         "title": "测速网址",
         "add": "添加测速网址",
         "error": "必须为有效的 https URL"
+    },
+    "CommonWidget":{
+        "refresh":"刷新"
     },
     "DialogUtils": {
         "showAlertDialog": {
@@ -147,7 +150,8 @@
         "trafficTotal": "总流量",
         "trafficProxy": "代理流量",
         "upDownSpeed": "速度",
-        "myLinkEmpty":"请先设置[快捷链接]后再使用"
+        "myLinkEmpty":"请先设置[快捷链接]后再使用",
+        "installISP":"设置ISP?"
     },
     "LaunchFailedScreen": {
         "invalidProcess": "应用启动失败[无效的进程名称],请重新安装应用到独立目录",
@@ -175,8 +179,10 @@
     },
     "PerAppAndroidScreen": {
         "title": "分应用代理",
+        "enable": "启用",
         "whiteListMode": "白名单模式",
-        "whiteListModeTip": "启用后:仅代理已勾选的App;未启用:仅代理未勾选的App"
+        "whiteListModeTip": "启用后:仅代理已勾选的App;未启用:仅代理未勾选的App",
+        "enableAppQueryPermission": "开启 [获取应用列表] 权限"
     },
     "AddProfileByScanQrcodeScanScreen": {
         "title": "扫描二维码",
@@ -260,7 +266,9 @@
     },
     "SettingScreen": {
         "title": "设置",
-        "titleAddConifg": "添加配置",
+        "user": "用户",
+        "expire": "到期时间",
+        "cleanISP": "清除ISP",
         "getTranffic": "获取流量",
         "tutorial": "使用教程",
         "faq": "常见问题",
@@ -271,6 +279,8 @@
         "profileFormatValidator": "配置文件格式验证",
         "profileFormatValidatorYaml": "验证 yaml/yml",
         "profileFormatValidatorJson": "验证 json",
+        "addProfile":"添加配置",
+        "addProfileFromClipboard":"从剪切板导入",
         "downloadProfilePreferProxy": "优先使用代理下载配置",
         "downloadProfilePreferProxyTips": "如果当前已连接,则优先通过已连接的代理下载配置",
         "reloadAfterProfileUpdate": "配置更新后重新加载",
@@ -287,12 +297,14 @@
         "enableIPv6Tips": "启用前,请先确认你的网络已支持IPv6,否则某些流量无法正常访问",
         "dnsSetting": "DNS",
         "takeOverSystemDns": "接管系统DNS",
+        "dnsEnableRule": "启用DNS分流规则",
         "dnsTypeOutbound": "代理服务器",
         "dnsTypeDirect": "直连流量",
         "dnsTypeProxy": "代理流量",
         "dnsTypeResolver": "DNS服务器域名",
         "dnsTypeFinal": "final",
         "takeOverSystemDnsTips": "仅适用于TUN模式",
+        "dnsEnableRuleTips": "启用后,域名会根据分流规则选择对应的DNS服务器进行解析",
         "dnsTypeOutboundTips": "用于代理服务器的域名解析[推荐https]",
         "dnsTypeDirectTips": "用于直连流量的域名解析",
         "dnsTypeProxyTips": "用于代理流量的域名解析",
