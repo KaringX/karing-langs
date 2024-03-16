@@ -74,13 +74,14 @@
     },
     "ChangeDnsScreen": {
         "title": "DNS",
-        "testLatencyConnected": "Пожалуйста, сначала отключитесь",
+        "testLatencyDisconnected": "Пожалуйста, для начала подключитесь",
         "add": "Добавить DNS-сервер",
         "isp": "ISP",
         "url": "URL",
         "ispCanNotEmpty": "ISP не может быть пустой",
         "urlCanNotEmpty": "URL не может быть пустой",
-        "error": "Неподдерживаемый тип:$p"
+        "error": "Неподдерживаемый тип:$p",
+        "dnsDesc":"Первый столбец данных задержки — это задержка запроса прямого соединения; второй столбец данных задержки — это задержка запроса, перенаправленного через текущий прокси-сервер"
     },
     "ChangeLanguageScreen": {
         "title": "Язык",
@@ -99,7 +100,8 @@
         "error": "Должен быть действителен https URL"
     },
     "CommonWidget":{
-        "refresh":"обновить"
+        "refresh":"обновить",
+        "retry":"Хотите попробовать еще раз?"
     },
     "DialogUtils": {
         "showAlertDialog": {
@@ -126,7 +128,7 @@
         "clearFileContent": "Вы уверены, что очистите содержимое файла?",
         "clearFileContentTips": "Вы уверены, что очистите содержимое файла профиля? Очистка файла профиля может привести к потере данных или некорректной работе приложения, действуйте осторожно"
     },
-    "GeoSiteCodesScreen": {
+    "GeoSiteScreen": {
         "title": "GeoSite-группы",
         "search": "Поиск",
         "detail": "$p"
@@ -150,8 +152,7 @@
         "trafficTotal": "Трафик всего",
         "trafficProxy": "Трафик прокси",
         "upDownSpeed": "Скорость",
-        "myLinkEmpty":"Пожалуйста, настройте [Быструю ссылку] перед использованием",
-        "installISP":"Установить информацию об интернет-провайдере?"
+        "myLinkEmpty":"Пожалуйста, настройте [Быструю ссылку] перед использованием"
     },
     "LaunchFailedScreen": {
         "invalidProcess": "Не удалось запустить приложение [Неверное имя процесса], переустановите приложение в отдельную папку",
@@ -170,9 +171,18 @@
         "selectType": "Выберите переадресации тип",
         "typeDomain": "доменное имя",
         "typeIP": "IP адрес",
+        "typePort": "порт",
         "typePackage": "Имена пакетов",
         "typeProcessName": "Имя процесса",
         "typeProcessPath": "путь процесса"
+    },
+    "NetConnectionsFilterScreen": {
+        "title": "Соединения фильтр",
+        "hostIp":"Domain/IP",
+        "port":"порт",
+        "app":"приложение",
+        "rule":"правило",
+        "chain":"исходящий"
     },
     "NetInterfacesScreen": {
         "title": "Сетевой интерфейс"
@@ -227,7 +237,8 @@
     "DiversionGroupCustomEditScreen": {
         "title": "Изменить группу переадресации",
         "invalidDomain": "Неверный Domain:$p",
-        "invalidIpCidr": "Неверный IP Cidr:$p"
+        "invalidIpCidr": "Неверный IP Cidr:$p",
+        "invalidPort": "Неверный Port:$p"
     },
     "ServerSelectScreen": {
         "title": "Выбор сервера",
@@ -266,9 +277,8 @@
     },
     "SettingScreen": {
         "title": "Настройки",
-        "user": "пользователь",
-        "expire": "Годен до",
-        "cleanISP": "Очистить интернет-провайдера",
+        "ispFaq":"FAQ[$p]",
+        "cleanISP": "Очистить[$p]",
         "getTranffic": "Получить трафик",
         "tutorial": "Обучение",
         "faq": "Часто задаваемые вопросы",
@@ -286,6 +296,7 @@
         "reloadAfterProfileUpdate": "Перезагрузить после обновления конфигурации",
         "reloadAfterGeoUpdate": "Перезагрузить после обновления GeoSite/GeoIP",
         "diversionGroupCustom": "Пользовательская группа рассылки",
+        "hideUnusedDiversionGroup": "Скрыть неактивные дельта-группы",
         "portSetting": "порт",
         "portSettingRule": "основанный на правилах",
         "portSettingDirectAll": "Полное прямое соединение",
@@ -296,14 +307,12 @@
         "enableIPv6": "Включить IPv6",
         "enableIPv6Tips": "Перед включением убедитесь, что ваша сеть поддерживает IPv6, в противном случае нормальный доступ к некоторому трафику будет невозможен.",
         "dnsSetting": "DNS",
-        "takeOverSystemDns": "Взять на себя управление DNS системы",
         "dnsEnableRule": "Включить правила DNS",
         "dnsTypeOutbound": "Прокси сервер",
         "dnsTypeDirect": "прямого поток",
         "dnsTypeProxy": "действующий поток",
-        "dnsTypeResolver": "Доменное имя DNS-сервера",
+        "dnsTypeResolver": "DNS-сервера",
         "dnsTypeFinal": "final",
-        "takeOverSystemDnsTips": "Доступно только в режиме TUN",
         "dnsEnableRuleTips": "После включения доменное имя выберет соответствующий DNS-сервер для разрешения в соответствии с правилами переадресации.",
         "dnsTypeOutboundTips": "Для разрешения доменных имен прокси-сервера рекомендуется использовать безопасный DNS[Рекомендую https]",
         "dnsTypeDirectTips": "Разрешение доменных имен для прямого поток",
@@ -329,6 +338,8 @@
         "autoSelectServerFilterNumTips": "Когда количество серверов >= порогового значения, [фильтровать сервер] будет принудительно включена.",
         "numInvalid":"Неправильный номер",
         "hideInvalidServer": "Скрыть недействительные серверы",
+        "sortServer": "Сортировка серверов",
+        "sortServerTips": "Сортировать по задержке от низкой к высокой",
         "myLink":"Быструю ссылку",
         "myLinkInvalid":"Неверный URL",
         "autoConnectAfterLaunch": "Автоматическое подключение после запуска",
