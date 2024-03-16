@@ -74,13 +74,14 @@
     },
     "ChangeDnsScreen": {
         "title": "DNS",
-        "testLatencyConnected": "Please disconnect first",
+        "testLatencyDisconnected": "Please open the connection first",
         "add": "Add DNS Server",
         "isp": "ISP",
         "url": "URL",
         "ispCanNotEmpty": "ISP can not be empty",
         "urlCanNotEmpty": "URL can not be empty",
-        "error": "Unsupported type:$p"
+        "error": "Unsupported type:$p",
+        "dnsDesc":"The first column of delay data is the direct connection query delay; the second column of delay data is the query delay forwarded through the current proxy server"
     },
     "ChangeLanguageScreen": {
         "title": "Language",
@@ -99,7 +100,8 @@
         "error": "Must be Valid https URL"
     },
     "CommonWidget":{
-        "refresh":"Refresh"
+        "refresh":"Refresh",
+        "retry":"Retry?"
     },
     "DialogUtils": {
         "showAlertDialog": {
@@ -126,7 +128,7 @@
         "clearFileContent": "Are you sure to clear the content of the file?",
         "clearFileContentTips": "Are you sure to clear the content of the Profile file? Clearing the Profile file may cause data loss or abnormal application functions, please operate with caution"
     },
-    "GeoSiteCodesScreen": {
+    "GeoSiteScreen": {
         "title": "GeoSite Groups",
         "search": "Search",
         "detail": "$p"
@@ -150,8 +152,7 @@
         "trafficTotal": "Traffic Total",
         "trafficProxy": "Traffic Proxy",
         "upDownSpeed": "Speed",
-        "myLinkEmpty":"Please set up [Shortcut Link] before using it",
-        "installISP":"Set ISP?"
+        "myLinkEmpty":"Please set up [Shortcut Link] before using it"
     },
     "LaunchFailedScreen": {
         "invalidProcess": "The app failed to start [Invalid process name], please reinstall the app to a separate directory",
@@ -170,9 +171,18 @@
         "selectType": "Select Diversion Type",
         "typeDomain": "Domain",
         "typeIP": "IP Address",
+        "typePort": "Port",
         "typePackage": "Package",
         "typeProcessName": "Process Name",
         "typeProcessPath": "Process Path"
+    },
+    "NetConnectionsFilterScreen": {
+        "title": "Connections Filter",
+        "hostIp":"Domain/IP",
+        "port":"Port",
+        "app":"App",
+        "rule":"Rule",
+        "chain":"Outbound"
     },
     "NetInterfacesScreen": {
         "title": "Net Interfaces"
@@ -227,7 +237,8 @@
     "DiversionGroupCustomEditScreen": {
         "title": "Edit Diversion Group",
         "invalidDomain": "Invalid Domain:$p",
-        "invalidIpCidr": "Invalid IP Cidr:$p"
+        "invalidIpCidr": "Invalid IP Cidr:$p",
+        "invalidPort": "Invalid Port:$p"
     },
     "ServerSelectScreen": {
         "title": "Select Server",
@@ -266,9 +277,8 @@
     },
     "SettingScreen": {
         "title": "Settings",
-        "user": "User",
-        "expire": "Expire Date",
-        "cleanISP": "Clear ISP",
+        "ispFaq":"FAQ[$p]",
+        "cleanISP": "Clear[$p]",
         "getTranffic": "Get Traffic",
         "tutorial": "Tutorial",
         "faq": "FAQ",
@@ -285,7 +295,8 @@
         "downloadProfilePreferProxyTips": "If currently connected, the profile will be downloaded through the connected proxy first",
         "reloadAfterProfileUpdate": "Reload after Profile update",
         "reloadAfterGeoUpdate": "Reload after GeoSite/GeoIP update",
-        "diversionGroupCustom": "Custom Distribution Group",
+        "diversionGroupCustom": "Custom Diversion Group",
+        "hideUnusedDiversionGroup": "Hide Unused Diversion Groups",
         "portSetting": "Port",
         "portSettingRule": "Rule Based",
         "portSettingDirectAll": "Direct All",
@@ -296,14 +307,12 @@
         "enableIPv6": "Enable IPv6",
         "enableIPv6Tips": "Before enabling, please confirm that your network supports IPv6, otherwise some traffic cannot be accessed normally.",
         "dnsSetting": "DNS",
-        "takeOverSystemDns": "Take over System DNS",
         "dnsEnableRule": "Enable DNS Diversion rules",
         "dnsTypeOutbound": "Proxy Server",
         "dnsTypeDirect": "Direct Traffic",
         "dnsTypeProxy": "Proxy Traffic",
-        "dnsTypeResolver": "DNS Server Domain Name",
+        "dnsTypeResolver": "DNS Server",
         "dnsTypeFinal": "final",
-        "takeOverSystemDnsTips": "Only available in TUN mode",
         "dnsEnableRuleTips": "After enabling, the domain name will select the corresponding DNS server for resolution according to the diversion rules",
         "dnsTypeOutboundTips": "Domain name resolution for Proxy Server [https recommended]",
         "dnsTypeDirectTips": "Domain name resolution for Direct Traffic",
@@ -329,6 +338,8 @@
         "autoSelectServerFilterNumTips": "When the number of servers >= the threshold, [Filtering invalid servers] will be forcibly turned on",
         "numInvalid":"Invalid number",
         "hideInvalidServer": "Hide Invalid Servers",
+        "sortServer": "Servers Sorting",
+        "sortServerTips": "Sort by latency from low to high",
         "myLink":"Shortcut Link",
         "myLinkInvalid":"Invalid URL",
         "autoConnectAfterLaunch": "Auto Connection after Launch",
