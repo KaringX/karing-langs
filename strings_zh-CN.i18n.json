@@ -74,13 +74,14 @@
     },
     "ChangeDnsScreen": {
         "title": "DNS",
-        "testLatencyConnected": "请先断开连接",
+        "testLatencyDisconnected": "请先开启连接",
         "add": "添加DNS服务器",
         "isp": "ISP",
         "url": "URL",
         "ispCanNotEmpty": "ISP 不能为空",
         "urlCanNotEmpty": "URL 不能为空",
-        "error": "不支持的类型:$p"
+        "error": "不支持的类型:$p",
+        "dnsDesc":"第一列延迟数据为直连查询延迟;第二列延迟数据为通过当前代理服务器转发的查询延迟"
     },
     "ChangeLanguageScreen": {
         "title": "语言",
@@ -99,7 +100,8 @@
         "error": "必须为有效的 https URL"
     },
     "CommonWidget":{
-        "refresh":"刷新"
+        "refresh":"刷新",
+        "retry":"是否重试?"
     },
     "DialogUtils": {
         "showAlertDialog": {
@@ -126,7 +128,7 @@
         "clearFileContent": "确认清空文件内容?",
         "clearFileContentTips": "确认清空配置文件内容? 清空配置文件可能会导致数据丢失或应用功能异常, 请谨慎操作"
     },
-    "GeoSiteCodesScreen": {
+    "GeoSiteScreen": {
         "title": "GeoSite",
         "search": "搜索",
         "detail": "$p"
@@ -150,8 +152,7 @@
         "trafficTotal": "总流量",
         "trafficProxy": "代理流量",
         "upDownSpeed": "速度",
-        "myLinkEmpty":"请先设置[快捷链接]后再使用",
-        "installISP":"设置ISP?"
+        "myLinkEmpty":"请先设置[快捷链接]后再使用"
     },
     "LaunchFailedScreen": {
         "invalidProcess": "应用启动失败[无效的进程名称],请重新安装应用到独立目录",
@@ -170,9 +171,18 @@
         "selectType": "选择分流类型",
         "typeDomain": "域名",
         "typeIP": "IP地址",
+        "typePort": "端口",
         "typePackage": "包名",
         "typeProcessName": "进程名",
         "typeProcessPath": "进程路径"
+    },
+    "NetConnectionsFilterScreen": {
+        "title": "连接状态筛选",
+        "hostIp":"域名/IP",
+        "port":"端口",
+        "app":"应用",
+        "rule":"规则",
+        "chain":"出站"
     },
     "NetInterfacesScreen": {
         "title": "网络接口"
@@ -227,7 +237,8 @@
     "DiversionGroupCustomEditScreen": {
         "title": "编辑分流组",
         "invalidDomain": "无效的 Domain:$p",
-        "invalidIpCidr": "无效的 IP Cidr:$p"
+        "invalidIpCidr": "无效的 IP Cidr:$p",
+        "invalidPort": "无效的 Port:$p"
     },
     "ServerSelectScreen": {
         "title": "选择服务器",
@@ -266,9 +277,8 @@
     },
     "SettingScreen": {
         "title": "设置",
-        "user": "用户",
-        "expire": "到期时间",
-        "cleanISP": "清除ISP",
+        "ispFaq":"FAQ[$p]",
+        "cleanISP": "清除[$p]",
         "getTranffic": "获取流量",
         "tutorial": "使用教程",
         "faq": "常见问题",
@@ -286,6 +296,7 @@
         "reloadAfterProfileUpdate": "配置更新后重新加载",
         "reloadAfterGeoUpdate": "GeoSite/GeoIP更新后重新加载",
         "diversionGroupCustom": "自定义分流组",
+        "hideUnusedDiversionGroup": "隐藏未启用的分流组",
         "portSetting": "端口",
         "portSettingRule": "基于规则",
         "portSettingDirectAll": "全直连",
@@ -296,14 +307,12 @@
         "enableIPv6": "启用IPv6",
         "enableIPv6Tips": "启用前,请先确认你的网络已支持IPv6,否则某些流量无法正常访问",
         "dnsSetting": "DNS",
-        "takeOverSystemDns": "接管系统DNS",
         "dnsEnableRule": "启用DNS分流规则",
         "dnsTypeOutbound": "代理服务器",
         "dnsTypeDirect": "直连流量",
         "dnsTypeProxy": "代理流量",
-        "dnsTypeResolver": "DNS服务器域名",
+        "dnsTypeResolver": "DNS服务器",
         "dnsTypeFinal": "final",
-        "takeOverSystemDnsTips": "仅适用于TUN模式",
         "dnsEnableRuleTips": "启用后,域名会根据分流规则选择对应的DNS服务器进行解析",
         "dnsTypeOutboundTips": "用于代理服务器的域名解析[推荐https]",
         "dnsTypeDirectTips": "用于直连流量的域名解析",
@@ -329,6 +338,8 @@
         "autoSelectServerFilterNumTips": "当服务器数量>=阈值时,将强制开启[过滤无效服务器]",
         "numInvalid":"无效的数字",
         "hideInvalidServer": "隐藏无效服务器",
+        "sortServer": "服务器排序",
+        "sortServerTips": "按延迟由低到高排序",
         "myLink":"快捷链接",
         "myLinkInvalid":"无效的URL",
         "autoConnectAfterLaunch": "启动后自动连接",
