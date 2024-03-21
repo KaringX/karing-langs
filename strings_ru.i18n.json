@@ -56,6 +56,7 @@
         "title": "Добавление подписки",
         "enableDiversionRules": "Группа Правила переадресации",
         "updateTimerInterval": "Интервал обновления",
+        "updateTimerIntervalTips": "Чтобы отключить, установите:<5m",
         "profileLinkContent": "Ссылка подписка/содержание",
         "profileLinkContentHit": "Ссылка подписки/содержание [обязательно] (Поддержка Clash,V2ray(пакетная поддержка),Stash,Karing,Sing-box,Shadowsocks,Sub Ссылки на профиль)",
         "remark": "Примечание",
@@ -74,7 +75,7 @@
     },
     "ChangeDnsScreen": {
         "title": "DNS",
-        "testLatencyDisconnected": "Пожалуйста, для начала подключитесь",
+        "Connecting": "подключение",
         "add": "Добавить DNS-сервер",
         "isp": "ISP",
         "url": "URL",
@@ -131,7 +132,8 @@
     "GeoSiteScreen": {
         "title": "GeoSite-группы",
         "search": "Поиск",
-        "detail": "$p"
+        "detail": "$p",
+        "setGeositeRule": "  Совет: После включения опции перейдите в[Правила переадресации], чтобы установить соответствующие правила, иначе они не вступят в силу"
     },
     "HomeScreen": {
         "noAvailableServer": "Нет доступных серверов. Пожалуйста, добавьте подписку или профиль",
@@ -238,7 +240,14 @@
         "title": "Изменить группу переадресации",
         "invalidDomain": "Неверный Domain:$p",
         "invalidIpCidr": "Неверный IP Cidr:$p",
-        "invalidPort": "Неверный Port:$p"
+        "invalidPort": "Неверный Port:$p",
+        "invalidRuleSet": "Неверный RuleSet:$p, URL-адрес должен быть действительным URL-адресом https и двоичным файлом с расширением .srs."
+    },
+    "DiversionRuleDetectScreen":{
+        "title": "Правила переадресации обнаружение",
+        "detect": "обнаружение",
+        "rule":"правило:",
+        "outbound":"Прокси сервер:"
     },
     "ServerSelectScreen": {
         "title": "Выбор сервера",
@@ -248,9 +257,10 @@
         "recommend": "Рекомендуемые",
         "recentUse": "Недавно использованные",
         "myFav": "Мои избранные",
-        "testLatencyDisconnected": "Пожалуйста, для начала подключитесь",
+        "Connecting": "подключение",
         "updateFailed": "Обновление неуспешно:$p",
         "selectLocal": "Выбранный сервер является локальным и может работать неправильно:$p",
+        "selectRequireEnableIPv6": "Выбранный сервер имеет адрес IPv6 и требует [Включить IPv6]",
         "selectDisabled": "Сервер отключен",
         "disableServer": "Запрещать",
         "enableServer": "давать возможность",
@@ -258,7 +268,7 @@
     },
     "MyProfilesScreen": {
         "title": "Профили",
-        "testLatencyDisconnected": "Пожалуйста, для начала подключитесь",
+        "Connecting": "подключение",
         "updateFailed": "Не удалось обновить:$p",
         "confirmDel": "подтвердить удаление?",
         "atLeastOneEnable": "Невозможно отключить, оставьте включенным хотя бы один профиль",
@@ -275,6 +285,28 @@
     "MyProfilesReorderScreen": {
         "title": "переставить"
     },
+    "NetCheckScreen": {
+        "title": "Обнаружение сети",
+        "warn":"Примечание. Из-за влияния сетевой среды и правил перенаправления результаты теста не полностью эквивалентны фактическим результатам.Примечание. Из-за влияния сетевой среды и правил перенаправления результаты теста не полностью эквивалентны фактическим результатам.",
+        "check":"Обнаружение",
+        "invalidDomain":"Неверное доменное имя",
+        "connectivity":"подключение к сети",
+        "connectivityTestIpv4AllFailed":"Ipv4 Тест подключения[$p]Все не удалось",
+        "connectivityTestIpv4Ok":"Ipv4 соединение выполнено успешно",
+        "connectivityTestIpv6AllFailed":"Ipv6 Тест подключения[$p]Все не удалось, Ваша сеть может не поддерживать ipv6.",
+        "connectivityTestIpv6Ok":"Ipv6 соединение выполнено успешно",
+        "connectivityTestOk":"Сеть подключена к Интернету",
+        "connectivityTestFailed":"Сеть еще не подключена к Интернету",
+        "outbound": "Прокси сервер",
+        "outboundOk": "[$p]соединение выполнено успешносоединение выполнено успешно",
+        "outboundFailed": "[$p1]Соединение не удалось\nошибка:[$p2]",
+        "dnsServer": "DNS сервер",
+        "dns": "DNS",
+        "dnsOk": "[$p1]DNS Разобрано успешно\nDNS правило:[$p2]\nЗадерживать:[$p3 ms]",
+        "dnsFailed": "[$p1]DNS Не удалось выполнить синтаксический анализ\n правило:[$p2]\nошибка:[$p3]",
+        "host": "HTTP соединять",
+        "hostOk": "[$p1]соединение выполнено успешно\nПравила переадресации:[$p2]\nПрокси сервер:[$p3]"
+    },
     "SettingScreen": {
         "title": "Настройки",
         "ispFaq":"FAQ[$p]",
@@ -284,7 +316,7 @@
         "faq": "Часто задаваемые вопросы",
         "notice": "Уведомления",
         "htmlBoard": "Веб-панель",
-        "htmlBoardNeedConnect": "Пожалуйста, для начала подключитесь",
+        "Connecting": "подключение",
         "speedTest": "Тест скорости",
         "profileFormatValidator": "Валидатор профиля",
         "profileFormatValidatorYaml": "проверять yaml/yml",
@@ -308,12 +340,14 @@
         "enableIPv6Tips": "Перед включением убедитесь, что ваша сеть поддерживает IPv6, в противном случае нормальный доступ к некоторому трафику будет невозможен.",
         "dnsSetting": "DNS",
         "dnsEnableRule": "Включить правила DNS",
+        "dnsEnableFakeIp": "Включить FakeIp",
         "dnsTypeOutbound": "Прокси сервер",
         "dnsTypeDirect": "прямого поток",
         "dnsTypeProxy": "действующий поток",
         "dnsTypeResolver": "DNS-сервера",
         "dnsTypeFinal": "final",
         "dnsEnableRuleTips": "После включения доменное имя выберет соответствующий DNS-сервер для разрешения в соответствии с правилами переадресации.",
+        "dnsEnableFakeIpTips": "Если после включения FakeIp VPN-соединение разорвано, ваше приложение необходимо перезапустить.",
         "dnsTypeOutboundTips": "Для разрешения доменных имен прокси-сервера рекомендуется использовать безопасный DNS[Рекомендую https]",
         "dnsTypeDirectTips": "Разрешение доменных имен для прямого поток",
         "dnsTypeProxyTips": "Разрешение доменных имен для действующий поток",
@@ -329,7 +363,7 @@
         "enableGeoIp": "Включить GeoIP",
         "autoSelect": "Авто Выбор",
         "autoSelectServerInterval": "Интервал проверок задержки",
-        "autoSelectServerIntervalTips": "Чем короче временной интервал, тем своевременнее обновляются данные о задержке сервера, что будет занимать больше ресурсов и потреблять больше энергии",
+        "autoSelectServerIntervalTips": "Чем короче временной интервал, тем своевременнее обновляются данные о задержке сервера, что будет занимать больше ресурсов и потреблять больше энергии;Чтобы отключить, установите:<5m",
         "autoSelectServerFavFirst": "приоритет[Мои избранные]",
         "autoSelectServerFavFirstTips": "Если список [Мои избранные] не пуст, то будут использоваться серверы из [Мои избранные]",
         "autoSelectServerFilter": "фильтровать сервер",
@@ -340,6 +374,9 @@
         "hideInvalidServer": "Скрыть недействительные серверы",
         "sortServer": "Сортировка серверов",
         "sortServerTips": "Сортировать по задержке от низкой к высокой",
+        "selectServerHideRecommand":"Скрыть [Рекомендуемые]",
+        "selectServerHideRecent":"Скрыть [Недавно использованные]",
+        "selectServerHideFav":"Скрыть [Мои избранные]",
         "myLink":"Быструю ссылку",
         "myLinkInvalid":"Неверный URL",
         "autoConnectAfterLaunch": "Автоматическое подключение после запуска",
@@ -388,6 +425,10 @@
         "submitDone": "Спасибо за ваш отзыв."
     },
     "SplashScreen": {},
+    "TextToQrCodeScreen": {
+        "title": "Текст в QR-код",
+        "convert":"Конвертировать"
+    },
     "UpdateScreen": {
         "versinReady": "Новая версия [$p] доступна",
         "update": "Перезапустить",
