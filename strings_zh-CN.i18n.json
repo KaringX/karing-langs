@@ -56,6 +56,7 @@
         "title": "添加配置链接",
         "enableDiversionRules": "启用分流规则",
         "updateTimerInterval": "更新时间间隔",
+        "updateTimerIntervalTips": "禁用请设置为:<5m",
         "profileLinkContent": "配置链接/内容",
         "profileLinkContentHit": "配置链接/内容[必填] (支持Clash,V2ray(支持批量),Stash,Karing,Sing-box,Shadowsocks,Sub,Github配置链接)",
         "remark": "备注",
@@ -74,7 +75,7 @@
     },
     "ChangeDnsScreen": {
         "title": "DNS",
-        "testLatencyDisconnected": "请先开启连接",
+        "Connecting": "连接中",
         "add": "添加DNS服务器",
         "isp": "ISP",
         "url": "URL",
@@ -131,7 +132,8 @@
     "GeoSiteScreen": {
         "title": "GeoSite",
         "search": "搜索",
-        "detail": "$p"
+        "detail": "$p",
+        "setGeositeRule": "  提示:开启选项后,请到[分流规则]设置相关规则,否则不会生效"
     },
     "HomeScreen": {
         "noAvailableServer": "无可用服务器,去添加配置",
@@ -238,7 +240,14 @@
         "title": "编辑分流组",
         "invalidDomain": "无效的 Domain:$p",
         "invalidIpCidr": "无效的 IP Cidr:$p",
-        "invalidPort": "无效的 Port:$p"
+        "invalidPort": "无效的 Port:$p",
+        "invalidRuleSet": "无效的 RuleSet:$p, URL必须是有效的https URL,并且文件扩展名为.srs的binary文件"
+    },
+    "DiversionRuleDetectScreen":{
+        "title": "分流规则探测",
+        "detect": "探测",
+        "rule":"规则:",
+        "outbound":"代理服务器:"
     },
     "ServerSelectScreen": {
         "title": "选择服务器",
@@ -248,9 +257,10 @@
         "recommend": "推荐",
         "recentUse": "最近使用",
         "myFav": "我的收藏",
-        "testLatencyDisconnected": "请先开启连接",
+        "Connecting": "连接中",
         "updateFailed": "更新失败:$p",
         "selectLocal": "所选服务器为本地地址,可能无法正常使用:$p",
+        "selectRequireEnableIPv6": "所选服务器为IPv6地址,需要[启用IPv6]",
         "selectDisabled": "该服务器已被禁用",
         "disableServer": "禁用",
         "enableServer": "启用",
@@ -258,7 +268,7 @@
     },
     "MyProfilesScreen": {
         "title": "我的配置",
-        "testLatencyDisconnected": "请先开启连接",
+        "Connecting": "连接中",
         "updateFailed": "更新失败:$p",
         "confirmDel": "确认删除?",
         "atLeastOneEnable": "无法禁用,请至少保留一个配置可用",
@@ -275,6 +285,29 @@
     "MyProfilesReorderScreen": {
         "title": "排序"
     },
+    "NetCheckScreen": {
+        "title": "网络检测",
+        "warn":"注意:由于受网络环境及分流规则等影响,测试结果并不完全等价实际中使用的效果",
+        "check":"检测",
+        "invalidDomain":"无效域名",
+        "connectivity":"网络联通性",
+        "connectivityTest":"连接测试",
+        "connectivityTestIpv4AllFailed":"Ipv4 连接测试[$p]全部失败",
+        "connectivityTestIpv4Ok":"Ipv4 连接成功",
+        "connectivityTestIpv6AllFailed":"Ipv6 连接测试[$p]全部失败, 你的网络可能不支持ipv6",
+        "connectivityTestIpv6Ok":"Ipv6 连接成功",
+        "connectivityTestOk":"网络已接入互联网",
+        "connectivityTestFailed":"网络尚未接入互联网",
+        "outbound": "代理服务器",
+        "outboundOk": "[$p]连接成功",
+        "outboundFailed": "[$p1]连接失败\n错误:[$p2]",
+        "dnsServer": "DNS服务器",
+        "dns": "域名解析",
+        "dnsOk": "[$p1]域名解析成功\nDNS规则:[$p2]\n延迟:[$p3 ms]",
+        "dnsFailed": "[$p1]域名解析失败\n规则:[$p2]\n错误:[$p3]",
+        "host": "HTTP连接",
+        "hostOk": "[$p1]连接成功\n分流规则:[$p2]\n代理服务器:[$p3]"
+    },
     "SettingScreen": {
         "title": "设置",
         "ispFaq":"FAQ[$p]",
@@ -284,7 +317,7 @@
         "faq": "常见问题",
         "notice": "通知",
         "htmlBoard": "在线面板",
-        "htmlBoardNeedConnect": "请先开启连接",
+        "Connecting": "连接中",
         "speedTest": "测速",
         "profileFormatValidator": "配置文件格式验证",
         "profileFormatValidatorYaml": "验证 yaml/yml",
@@ -308,12 +341,14 @@
         "enableIPv6Tips": "启用前,请先确认你的网络已支持IPv6,否则某些流量无法正常访问",
         "dnsSetting": "DNS",
         "dnsEnableRule": "启用DNS分流规则",
+        "dnsEnableFakeIp": "启用FakeIp",
         "dnsTypeOutbound": "代理服务器",
         "dnsTypeDirect": "直连流量",
         "dnsTypeProxy": "代理流量",
         "dnsTypeResolver": "DNS服务器",
         "dnsTypeFinal": "final",
         "dnsEnableRuleTips": "启用后,域名会根据分流规则选择对应的DNS服务器进行解析",
+        "dnsEnableFakeIpTips": "启用FakeIp后,如果断开VPN连接,你的应用需要重启",
         "dnsTypeOutboundTips": "用于代理服务器的域名解析[推荐https]",
         "dnsTypeDirectTips": "用于直连流量的域名解析",
         "dnsTypeProxyTips": "用于代理流量的域名解析",
@@ -329,7 +364,7 @@
         "enableGeoIp": "启用GeoIP",
         "autoSelect": "自动选择",
         "autoSelectServerInterval": "延迟检测时间间隔",
-        "autoSelectServerIntervalTips": "延迟检测时间间隔越短,服务器延迟数据更新越及时,会占用更多资源,耗电更快",
+        "autoSelectServerIntervalTips": "延迟检测时间间隔越短,服务器延迟数据更新越及时,会占用更多资源,耗电更快;禁用请设置为:<5m",
         "autoSelectServerFavFirst": "优先使用[我的收藏]",
         "autoSelectServerFavFirstTips": "如果[我的收藏]列表不为空,则使用[我的收藏]里的服务器",
         "autoSelectServerFilter": "过滤无效服务器",
@@ -340,6 +375,9 @@
         "hideInvalidServer": "隐藏无效服务器",
         "sortServer": "服务器排序",
         "sortServerTips": "按延迟由低到高排序",
+        "selectServerHideRecommand":"隐藏[推荐]",
+        "selectServerHideRecent":"隐藏[最近使用]",
+        "selectServerHideFav":"隐藏[我的收藏]",
         "myLink":"快捷链接",
         "myLinkInvalid":"无效的URL",
         "autoConnectAfterLaunch": "启动后自动连接",
@@ -388,6 +426,10 @@
         "submitDone": "谢谢您的支持"
     },
     "SplashScreen": {},
+    "TextToQrCodeScreen": {
+        "title": "文本转二维码",
+        "convert":"转换"
+    },
     "UpdateScreen": {
         "versinReady": "新版本[$p]已就绪",
         "update": "重启更新",
