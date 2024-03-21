@@ -56,6 +56,7 @@
         "title": "Add Profile Link",
         "enableDiversionRules": "Enable Diversion Rules",
         "updateTimerInterval": "Update interval",
+        "updateTimerIntervalTips": "To disable please set to:<5m",
         "profileLinkContent": "Profile Link/Content",
         "profileLinkContentHit": "Profile Link/Content [Required] (Support Clash,V2ray(batch supported),Stash,Karing,Sing-box,Shadowsocks,Sub Profile links)",
         "remark": "Remark",
@@ -74,7 +75,7 @@
     },
     "ChangeDnsScreen": {
         "title": "DNS",
-        "testLatencyDisconnected": "Please open the connection first",
+        "Connecting": "Connecting",
         "add": "Add DNS Server",
         "isp": "ISP",
         "url": "URL",
@@ -131,7 +132,8 @@
     "GeoSiteScreen": {
         "title": "GeoSite Groups",
         "search": "Search",
-        "detail": "$p"
+        "detail": "$p",
+        "setGeositeRule": "  Tip: After turning on the options, please go to[Diversion Rules]to set the relevant rules, otherwise they will not take effect"
     },
     "HomeScreen": {
         "noAvailableServer": "No Servers Available, Please Add Profile",
@@ -238,7 +240,14 @@
         "title": "Edit Diversion Group",
         "invalidDomain": "Invalid Domain:$p",
         "invalidIpCidr": "Invalid IP Cidr:$p",
-        "invalidPort": "Invalid Port:$p"
+        "invalidPort": "Invalid Port:$p",
+        "invalidRuleSet": "Invalid RuleSet:$p, The URL must be a valid https URL and a binary file with the file extension .srs"
+    },
+    "DiversionRuleDetectScreen":{
+        "title": "Diversion Rule Detect",
+        "detect": "Detect",
+        "rule":"Rule:",
+        "outbound":"Proxy Server:"
     },
     "ServerSelectScreen": {
         "title": "Select Server",
@@ -248,9 +257,10 @@
         "recommend": "Recommend",
         "recentUse": "Recently Used",
         "myFav": "My Favs",
-        "testLatencyDisconnected": "Please open the connection first",
+        "Connecting": "Connecting",
         "updateFailed": "Update failed:$p",
         "selectLocal": "The selected server is a local address and may not work properly:$p",
+        "selectRequireEnableIPv6": "The selected server is an IPv6 address and requires [Enable IPv6]",
         "selectDisabled": "This server has been disabled",
         "disableServer": "Disable",
         "enableServer": "Enable",
@@ -258,7 +268,7 @@
     },
     "MyProfilesScreen": {
         "title": "Profiles",
-        "testLatencyDisconnected": "Please open the connection first",
+        "Connecting": "Connecting",
         "updateFailed": "Update failed:$p",
         "confirmDel": "Are you sure to delete?",
         "atLeastOneEnable": "Cannot be disabled, please keep at least one profile enable",
@@ -275,6 +285,28 @@
     "MyProfilesReorderScreen": {
         "title": "Reorder"
     },
+    "NetCheckScreen": {
+        "title": "Net Check",
+        "warn":"Note: Due to the influence of network environment and diversion rules, the test results are not completely equivalent to the actual results.",
+        "check":"Check",
+        "invalidDomain":"Invalid Domain Name",
+        "connectivity":"Network Connectivity",
+        "connectivityTestIpv4AllFailed":"Ipv4 Connection test [$p] all failed",
+        "connectivityTestIpv4Ok":"Ipv4 connection succeeded",
+        "connectivityTestIpv6AllFailed":"Ipv6 Connection test [$p] all failed, Your network may not support ipv6",
+        "connectivityTestIpv6Ok":"Ipv6 connection succeeded",
+        "connectivityTestOk":"The network is connected to the Internet",
+        "connectivityTestFailed":"The network is not yet connected to the Internet",
+        "outbound": "Proxy Server",
+        "outboundOk": "[$p] connection succeeded",
+        "outboundFailed": "[$p1] connection failed\nError:[$p2]",
+        "dnsServer": "DNS Server",
+        "dns": "DNS",
+        "dnsOk": "[$p1]DNS query succeeded\nDNS Rule:[$p2]\nLatency:[$p3 ms]",
+        "dnsFailed": "[$p1]DNS query succeeded\n nDNS Rule:[$p2]\nError:[$p3]",
+        "host": "HTTP Connection",
+        "hostOk": "[$p1]connection succeeded\nDiversionRule:[$p2]\nProxy Server:[$p3]"
+    },
     "SettingScreen": {
         "title": "Settings",
         "ispFaq":"FAQ[$p]",
@@ -284,7 +316,7 @@
         "faq": "FAQ",
         "notice": "Notice",
         "htmlBoard": "Online Panel",
-        "htmlBoardNeedConnect": "Please open the connection first",
+        "Connecting": "Connecting",
         "speedTest": "Speed Test",
         "profileFormatValidator": "Profile Format Validator",
         "profileFormatValidatorYaml": "Validator yaml/yml",
@@ -308,12 +340,14 @@
         "enableIPv6Tips": "Before enabling, please confirm that your network supports IPv6, otherwise some traffic cannot be accessed normally.",
         "dnsSetting": "DNS",
         "dnsEnableRule": "Enable DNS Diversion rules",
+        "dnsEnableFakeIp": "Enable FakeIp",
         "dnsTypeOutbound": "Proxy Server",
         "dnsTypeDirect": "Direct Traffic",
         "dnsTypeProxy": "Proxy Traffic",
         "dnsTypeResolver": "DNS Server",
         "dnsTypeFinal": "final",
         "dnsEnableRuleTips": "After enabling, the domain name will select the corresponding DNS server for resolution according to the diversion rules",
+        "dnsEnableFakeIpTips": "After enabling FakeIp, if the VPN connection is disconnected, your application needs to be restarted",
         "dnsTypeOutboundTips": "Domain name resolution for Proxy Server [https recommended]",
         "dnsTypeDirectTips": "Domain name resolution for Direct Traffic",
         "dnsTypeProxyTips": "Domain name resolution for Proxy Traffic",
@@ -329,7 +363,7 @@
         "enableGeoIp": "Enable GeoIP",
         "autoSelect": "Auto Select",
         "autoSelectServerInterval": "Latency Checks Interval",
-        "autoSelectServerIntervalTips": "The shorter the time interval, the more timely the server latency data updates, which will occupy more resources and consume more power",
+        "autoSelectServerIntervalTips": "The shorter the time interval, the more timely the server latency data updates, which will occupy more resources and consume more power;To disable please set to:<5m",
         "autoSelectServerFavFirst": "Pri-Use [My Favs]",
         "autoSelectServerFavFirstTips": "If the [My Favs] list is not empty, Then use the servers in [My Favs]",
         "autoSelectServerFilter": "Filter Invalid Servers",
@@ -340,6 +374,9 @@
         "hideInvalidServer": "Hide Invalid Servers",
         "sortServer": "Servers Sorting",
         "sortServerTips": "Sort by latency from low to high",
+        "selectServerHideRecommand":"Hide [Recommend]",
+        "selectServerHideRecent":"Hide [Recently Used]",
+        "selectServerHideFav":"Hide [My Favs]",
         "myLink":"Shortcut Link",
         "myLinkInvalid":"Invalid URL",
         "autoConnectAfterLaunch": "Auto Connection after Launch",
@@ -388,6 +425,10 @@
         "submitDone": "Thanks for your feedback"
     },
     "SplashScreen": {},
+    "TextToQrCodeScreen": {
+        "title": "Text To QR Code",
+        "convert":"Convert"
+    },
     "UpdateScreen": {
         "versinReady": "The new version[$p] is ready",
         "update": "Restart To Update",
