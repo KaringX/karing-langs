@@ -266,12 +266,8 @@
         "enableServer": "启用",
         "error404":"延迟检测遇到错误,请检查是否存在内容相同的配置"
     },
-    "MyProfilesScreen": {
-        "title": "我的配置",
-        "Connecting": "连接中",
-        "updateFailed": "更新失败:$p",
-        "confirmDel": "确认删除?",
-        "atLeastOneEnable": "无法禁用,请至少保留一个配置可用",
+    "MyProfilesEditScreen": {
+        "title": "编辑配置",
         "remark": "备注",
         "remarkCannotEmpty": "备注不能为空",
         "remarkTooLong": "备注最长32字符",
@@ -279,6 +275,19 @@
         "url": "URL",
         "urlInvalid": "无效URL",
         "urlExist": "URL已存在,请使用其他URL",
+        "updateTimerInterval": "更新时间间隔",
+        "updateTimerIntervalTips": "禁用请设置为:<5m",
+        "testLatencyAfterUpdate": "更新后自动启动延迟测试",
+        "testLatencyAfterUpdateTips": "VPN需要处于已连接状态",
+        "testLatencyAutoRemove": "自动移除延迟测试失败的服务器",
+        "testLatencyAutoRemoveTips": "最多尝试3次"
+    },
+    "MyProfilesScreen": {
+        "title": "我的配置",
+        "Connecting": "连接中",
+        "updateFailed": "更新失败:$p",
+        "confirmDel": "确认删除?",
+        "atLeastOneEnable": "无法禁用,请至少保留一个配置可用",
         "disableServer": "禁用",
         "enableServer": "启用"
     },
