@@ -266,12 +266,8 @@
         "enableServer": "давать возможность",
         "error404":"При обнаружении задержки произошла ошибка. Проверьте, существует ли конфигурация с таким же содержимым."
     },
-    "MyProfilesScreen": {
-        "title": "Профили",
-        "Connecting": "подключение",
-        "updateFailed": "Не удалось обновить:$p",
-        "confirmDel": "подтвердить удаление?",
-        "atLeastOneEnable": "Невозможно отключить, оставьте включенным хотя бы один профиль",
+    "MyProfilesEditScreen": {
+        "title": "Профили редактировать",
         "remark": "примечание",
         "remarkCannotEmpty": "Замечания не могут быть пустыми",
         "remarkTooLong": "Примечания до 32 символов",
@@ -279,6 +275,19 @@
         "url": "URL",
         "urlInvalid": "Неверная URL",
         "urlExist": "URL-адрес уже существует, используйте другой URL-адрес",
+        "updateTimerInterval": "Интервал обновления",
+        "updateTimerIntervalTips": "Чтобы отключить, установите:<5m",   
+        "testLatencyAfterUpdate": "Автоматически запускать отложенное тестирование после обновления",
+        "testLatencyAfterUpdateTips": "VPN необходимо подключить",
+        "testLatencyAutoRemove": "Автоматически удалять серверы, не прошедшие тесты на задержку",
+        "testLatencyAutoRemoveTips": "Попробуйте до 3 раз"
+    },
+    "MyProfilesScreen": {
+        "title": "Профили",
+        "Connecting": "подключение",
+        "updateFailed": "Не удалось обновить:$p",
+        "confirmDel": "подтвердить удаление?",
+        "atLeastOneEnable": "Невозможно отключить, оставьте включенным хотя бы один профиль",
         "disableServer": "Запрещать",
         "enableServer": "давать возможность"
     },
