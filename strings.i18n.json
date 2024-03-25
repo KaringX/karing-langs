@@ -266,12 +266,8 @@
         "enableServer": "Enable",
         "error404":"Latency detection encountered an error, please check if there is a configuration with the same content"
     },
-    "MyProfilesScreen": {
-        "title": "Profiles",
-        "Connecting": "Connecting",
-        "updateFailed": "Update failed:$p",
-        "confirmDel": "Are you sure to delete?",
-        "atLeastOneEnable": "Cannot be disabled, please keep at least one profile enable",
+    "MyProfilesEditScreen": {
+        "title": "Profile Edit",
         "remark": "Remark",
         "remarkCannotEmpty": "Remarks can not be empty",
         "remarkTooLong": "Remarks up to 32 characters",
@@ -279,6 +275,19 @@
         "url": "URL",
         "urlInvalid": "Invalid URL",
         "urlExist": "URL already exists, please use another URL",
+        "updateTimerInterval": "Update interval",
+        "updateTimerIntervalTips": "To disable please set to:<5m",
+        "testLatencyAfterUpdate": "Automatically start latency tests after updating",
+        "testLatencyAfterUpdateTips": "VPN needs to be connected",
+        "testLatencyAutoRemove": "Automatically remove servers that fail latency tests",
+        "testLatencyAutoRemoveTips": "Try up to 3 times"
+    },
+    "MyProfilesScreen": {
+        "title": "Profiles",
+        "Connecting": "Connecting",
+        "updateFailed": "Update failed:$p",
+        "confirmDel": "Are you sure to delete?",
+        "atLeastOneEnable": "Cannot be disabled, please keep at least one profile enable",
         "disableServer": "Disable",
         "enableServer": "Enable"
     },
