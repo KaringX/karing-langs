@@ -121,6 +121,12 @@
         "showQRContentDialog": {
             "scanResult": "Scan Result",
             "add": "To add"
+        },
+        "showTimeTextInputDialog":{
+            "days":"Days",
+            "hours":"Hours",
+            "minutes":"Minutes",
+            "disable":"Disable"
         }
     },
     "FileContentViewerScreen": {
@@ -138,8 +144,8 @@
     "HomeScreen": {
         "noAvailableServer": "No Servers Available, Please Add Profile",
         "toSelectServer": "Please Select a Server",
-        "invalidServer": "The server is invalid, please choose again",
-        "disabledServer": "The server is disabled, please choose again",
+        "invalidServer": "is invalid, please choose again",
+        "disabledServer": "is disabled, please choose again",
         "expiredServer": "No servers available, profiles may be expired",
         "selector": "Auto Select",
         "connectState": {
@@ -225,7 +231,8 @@
         "block": "Block",
         "geoSite": "GeoSite",
         "finalSelect": "final",
-        "finalSelectTips": "If no rule is hit, this rule will be used; turning on [Proxy All] will cause this setting to become invalid"
+        "finalSelectTips": "If no rule is hit, this rule will be used; turning on [Proxy All] will cause this setting to become invalid",
+        "diversionRulesMatchTips":"The rules try to match in order from top to bottom in the order of the diversion group on the left. If no rule is matched, final is used."
     },
     "DiversionGroupCustomScreen": {
         "title": "Custom Diversion Group",
@@ -275,10 +282,12 @@
         "url": "URL",
         "urlInvalid": "Invalid URL",
         "urlExist": "URL already exists, please use another URL",
+        "enableDiversionRules": "Enable Diversion Rules",
         "updateTimerInterval": "Update interval",
         "updateTimerIntervalTips": "To disable please set to:<5m",
-        "testLatencyAfterUpdate": "Automatically start latency tests after updating",
-        "testLatencyAfterUpdateTips": "VPN needs to be connected",
+        "reloadAfterProfileUpdate": "Reload after Profile update",
+        "testLatencyAfterProfileUpdate": "Start latency tests after Profile Automatically update",
+        "testLatencyAfterProfileUpdateTips": "VPN needs to be connected, and [Reload after Profile update] Enabled",
         "testLatencyAutoRemove": "Automatically remove servers that fail latency tests",
         "testLatencyAutoRemoveTips": "Try up to 3 times"
     },
@@ -311,7 +320,7 @@
         "outboundFailed": "[$p1] connection failed\nError:[$p2]",
         "dnsServer": "DNS Server",
         "dns": "DNS",
-        "dnsOk": "[$p1]DNS query succeeded\nDNS Rule:[$p2]\nLatency:[$p3 ms]",
+        "dnsOk": "[$p1]DNS query succeeded\nDNS Rule:[$p2]\nLatency:[$p3 ms]\nAddress:[$p4]",
         "dnsFailed": "[$p1]DNS query succeeded\n nDNS Rule:[$p2]\nError:[$p3]",
         "host": "HTTP Connection",
         "hostOk": "[$p1]connection succeeded\nDiversionRule:[$p2]\nProxy Server:[$p3]"
@@ -334,7 +343,6 @@
         "addProfileFromClipboard":"Import From Clipboard",
         "downloadProfilePreferProxy": "Prefer Proxy to Download Profile",
         "downloadProfilePreferProxyTips": "If currently connected, the profile will be downloaded through the connected proxy first",
-        "reloadAfterProfileUpdate": "Reload after Profile update",
         "reloadAfterGeoUpdate": "Reload after GeoSite/GeoIP update",
         "diversionGroupCustom": "Custom Diversion Group",
         "hideUnusedDiversionGroup": "Hide Unused Diversion Groups",
@@ -413,7 +421,9 @@
         "removeSystemVPNConfig": "Delete system VPN configuration",
         "removeSystemVPNConfigConfirm": "Confirm To Delete system VPN configuration?",
         "sleepWithSystem": "Automatic Sleep",
-        "sleepWithSystemTips": "After the system goes to sleep, the VPN suspends service; after the system resumes, the VPN automatically resumes service.",
+        "sleepWithSystemTips": "After the system goes to sleep, the VPN suspends service; after the system resumes, the VPN automatically resumes service;On some versions of the system, it may consume more power after being turned on.",
+        "disableFontScaler": "Disable Font scaling(Restart takes effect)",
+        "disableFontScalerTips": "Restart takes effect",
         "download": "Download",
         "appleTestFlight": "Apple TestFlight",
         "appleAppStore": "Apple AppStore",
