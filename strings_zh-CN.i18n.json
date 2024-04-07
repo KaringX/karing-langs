@@ -121,6 +121,12 @@
         "showQRContentDialog": {
             "scanResult": "扫描结果",
             "add": "去添加"
+        },
+        "showTimeTextInputDialog":{
+            "days":"天",
+            "hours":"时",
+            "minutes":"分",
+            "disable":"禁用"
         }
     },
     "FileContentViewerScreen": {
@@ -138,8 +144,8 @@
     "HomeScreen": {
         "noAvailableServer": "无可用服务器,去添加配置",
         "toSelectServer": "请选择服务器",
-        "invalidServer": "服务器已失效,请重新选择",
-        "disabledServer": "服务器已被禁用,请重新选择",
+        "invalidServer": "已失效,请重新选择",
+        "disabledServer": "已被禁用,请重新选择",
         "expiredServer": "无可用服务器,配置可能已过期",
         "selector": "自动选择",
         "connectState": {
@@ -225,7 +231,8 @@
         "block": "拦截",
         "geoSite": "GeoSite",
         "finalSelect": "final",
-        "finalSelectTips": "如果未命中任何规则,则使用该规则;开启[全局代理]会导致此设置失效"
+        "finalSelectTips": "如果未命中任何规则,则使用该规则;开启[全局代理]会导致此设置失效",
+        "diversionRulesMatchTips":"规则按照左侧分流组顺序,从上到下依次尝试匹配,如果没有匹配到任意一条规则,则使用final"
     },
     "DiversionGroupCustomScreen": {
         "title": "自定义分流组",
@@ -275,10 +282,12 @@
         "url": "URL",
         "urlInvalid": "无效URL",
         "urlExist": "URL已存在,请使用其他URL",
+        "enableDiversionRules": "启用分流规则",
         "updateTimerInterval": "更新时间间隔",
         "updateTimerIntervalTips": "禁用请设置为:<5m",
-        "testLatencyAfterUpdate": "更新后自动启动延迟测试",
-        "testLatencyAfterUpdateTips": "VPN需要处于已连接状态",
+        "reloadAfterProfileUpdate": "配置更新后重新加载",
+        "testLatencyAfterProfileUpdate": "配置自动更新后启动延迟测试",
+        "testLatencyAfterProfileUpdateTips": "VPN需要处于已连接状态,并且开启[配置更新后重新加载]",
         "testLatencyAutoRemove": "自动移除延迟测试失败的服务器",
         "testLatencyAutoRemoveTips": "最多尝试3次"
     },
@@ -312,7 +321,7 @@
         "outboundFailed": "[$p1]连接失败\n错误:[$p2]",
         "dnsServer": "DNS服务器",
         "dns": "域名解析",
-        "dnsOk": "[$p1]域名解析成功\nDNS规则:[$p2]\n延迟:[$p3 ms]",
+        "dnsOk": "[$p1]域名解析成功\nDNS规则:[$p2]\n延迟:[$p3 ms]\n地址:[$p4]",
         "dnsFailed": "[$p1]域名解析失败\n规则:[$p2]\n错误:[$p3]",
         "host": "HTTP连接",
         "hostOk": "[$p1]连接成功\n分流规则:[$p2]\n代理服务器:[$p3]"
@@ -335,7 +344,6 @@
         "addProfileFromClipboard":"从剪切板导入",
         "downloadProfilePreferProxy": "优先使用代理下载配置",
         "downloadProfilePreferProxyTips": "如果当前已连接,则优先通过已连接的代理下载配置",
-        "reloadAfterProfileUpdate": "配置更新后重新加载",
         "reloadAfterGeoUpdate": "GeoSite/GeoIP更新后重新加载",
         "diversionGroupCustom": "自定义分流组",
         "hideUnusedDiversionGroup": "隐藏未启用的分流组",
@@ -414,7 +422,9 @@
         "removeSystemVPNConfig": "删除系统VPN配置",
         "removeSystemVPNConfigConfirm": "确认删除系统VPN配置?",
         "sleepWithSystem": "自动休眠",
-        "sleepWithSystemTips": "系统休眠后,VPN暂停服务;系统恢复后,VPN自动恢复服务",
+        "sleepWithSystemTips": "系统休眠后,VPN暂停服务;系统恢复后,VPN自动恢复服务;某些版本的系统上,开启后可能会更加耗电",
+        "disableFontScaler": "禁用字体缩放",
+        "disableFontScalerTips": "重启生效",
         "download": "下载",
         "appleTestFlight": "苹果 TestFlight",
         "appleAppStore": "苹果 AppStore",
