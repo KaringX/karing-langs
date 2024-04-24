@@ -1,24 +1,4 @@
 {
-    "main": {
-        "tray": {
-            "menuOpen": "    Open    ",
-            "menuExit": "    Exit    "
-        }
-    },
-    "ServerManager": {
-        "noServerAvaliable": "No server avaliable, Make sure the Profile Link or Profile File is valid",
-        "timeout": "Connect Timeout",
-        "byCurrentSelected": "Current Selected",
-        "selector": "Auto Select",
-        "direct": "Direct",
-        "block": "Block",
-        "custom": "Custom",
-        "filePathCannotEmpty": "The file path can not be empty",
-        "fileNotExist": "File does not exist:$p",
-        "urlCannotEmpty": "Link can not be empty",
-        "invalidUrl": "Invalid Profile Link",
-        "parseFailed": "Parsing Profile failed"
-    },
     "AboutScreen": {
         "title": "About",
         "name": "Name",
@@ -73,7 +53,57 @@
         "addFailedFormatException": "The format is wrong, please correct it and add it again:",
         "addFailedThenDownloadAndImport": "Add failed:$p, Please try to open the Profile Link using the browser that came with the device and import the Profile File downloaded by the browser into this app"
     },
-    "ChangeDnsScreen": {
+    "AddProfileByScanQrcodeScanScreen": {
+        "title": "Scan QR Code",
+        "copy": "Copy Link",
+        "open": "Open Link",
+        "add": "Add",
+        "requestCameraPermission": "Please enable camera permission",
+        "requestScreenAccess": "Please go to System Settings - Privacy and Security - Screen Recording to add permissions for this application",
+        "screenshot": "Screenshot",
+        "scanFromImage": "Scan From Image",
+        "scanNoResult": "Failed to parse the image, please make sure the screenshot is a valid QR code",
+        "scanEmptyResult": "Scan Result is empty",
+        "scanException": "Failed to parse the image, please make sure the screenshot is a valid QR code:$p"
+    },
+    "BackupAndSyncLanSyncScreen": {
+        "title": "LAN Sync",
+        "lanSyncNotQuitTips":"Do not exit this interface before synchronization is completed"
+    },
+    "DiversionGroupCustomEditScreen": {
+        "title": "Edit Diversion Group",
+        "invalidDomain": "Invalid Domain:$p",
+        "invalidIpCidr": "Invalid IP Cidr:$p",
+        "invalidPort": "Invalid Port:$p",
+        "invalidRuleSet": "Invalid RuleSet:$p, The URL must be a valid https URL and a binary file with the file extension .srs"
+    },
+    "DiversionGroupCustomScreen": {
+        "title": "Custom Diversion Group",
+        "add": "Add Diversion Group",
+        "remark": "Remark",
+        "remarkCannotEmpty": "Remarks can not be empty",
+        "remarkTooLong": "Remarks up to 32 characters",
+        "remarkExist": "Remark already exists, please use another name",
+        "confirmDel": "Are you sure to delete?"
+    },
+    "DiversionRuleDetectScreen": {
+        "title": "Diversion Rule Detect",
+        "detect": "Detect",
+        "rule": "Rule:",
+        "outbound": "Proxy Server:"
+    },
+    "DiversionRulesScreen": {
+        "title": "Diversion Rules",
+        "byCurrentSelected": "Current Selected",
+        "selector": "Auto Select",
+        "direct": "Direct",
+        "block": "Block",
+        "geoSite": "GeoSite",
+        "finalSelect": "final",
+        "finalSelectTips": "If no rule is hit, this rule will be used; turning on [Proxy All] will cause this setting to become invalid",
+        "diversionRulesMatchTips": "The rules try to match in order from top to bottom in the order of the diversion group on the left. If no rule is matched, final is used."
+    },
+    "DnsSettingsScreen": {
         "title": "DNS",
         "Connecting": "Connecting",
         "add": "Add DNS Server",
@@ -82,52 +112,17 @@
         "ispCanNotEmpty": "ISP can not be empty",
         "urlCanNotEmpty": "URL can not be empty",
         "error": "Unsupported type:$p",
-        "dnsDesc":"The first column of delay data is the direct connection query delay;\nThe second column: Turn on [[Proxy Traffic]Resolve DNS through proxy server]: the delay data is the query delay forwarded through the current proxy server; if the [[Proxy Traffic]Resolve DNS through proxy server]: The delay data is the direct connection query delay"
+        "dnsDesc": "The first column of delay data is the direct connection query delay;\nThe second column: Turn on [[Proxy Traffic]Resolve DNS through proxy server]: the delay data is the query delay forwarded through the current proxy server; if the [[Proxy Traffic]Resolve DNS through proxy server]: The delay data is the direct connection query delay"
     },
-    "ChangeLanguageScreen": {
-        "title": "Language",
-        "search": "Search",
-        "next": "Next"
-    },
-    "ChangeRegionScreen": {
-        "title": "Country Or Region",
-        "done": "Done",
-        "search": "Search",
-        "Regions": "  Tip: Please set your current country or region correctly, otherwise it may cause network diversion problems"
-    },
-    "ChangeSpeedTestScreen": {
-        "title": "Speed Test URL",
-        "add": "Add Speed Test URL",
-        "error": "Must be Valid https URL"
-    },
-    "CommonWidget":{
-        "refresh":"Refresh",
-        "retry":"Retry?"
-    },
-    "DialogUtils": {
-        "showAlertDialog": {
-            "title": "Info",
-            "copy": "Copy",
-            "ok": "Ok"
-        },
-        "showConfirmDialog": {
-            "ok": "Ok",
-            "cancel": "Cancel",
-            "feedback": "Feedback"
-        },
-        "showLoadingDialog": {
-            "loading": "Loading..."
-        },
-        "showQRContentDialog": {
-            "scanResult": "Scan Result",
-            "add": "To add"
-        },
-        "showTimeTextInputDialog":{
-            "days":"Days",
-            "hours":"Hours",
-            "minutes":"Minutes",
-            "disable":"Disable"
-        }
+    "FeedbackScreen": {
+        "title": "Feedback",
+        "content": "Feedback Content",
+        "contentHit": "Required, up to 500 characters",
+        "email": "Email",
+        "telegram": "Telegram",
+        "submit": "Submit",
+        "contentCannotEmpty": "Feedback content can not be empty",
+        "submitDone": "Thanks for your feedback"
     },
     "FileContentViewerScreen": {
         "title": "File Content Viewer",
@@ -160,7 +155,12 @@
         "trafficTotal": "Traffic Total",
         "trafficProxy": "Traffic Proxy",
         "upDownSpeed": "Speed",
-        "myLinkEmpty":"Please set up [Shortcut Link] before using it"
+        "myLinkEmpty": "Please set up [Shortcut Link] before using it"
+    },
+    "LanguageSettingsScreen": {
+        "title": "Language",
+        "search": "Search",
+        "next": "Next"
     },
     "LaunchFailedScreen": {
         "invalidProcess": "The app failed to start [Invalid process name], please reinstall the app to a separate directory",
@@ -169,110 +169,6 @@
         "startFromUNC": "The installation path is invalid, please reinstall it to a valid path",
         "website": "Website",
         "quit": "Quit"
-    },
-    "NetConnectionsScreen": {
-        "title": "Connections",
-        "selector": "Auto Select",
-        "direct": "Direct",
-        "block": "Block",
-        "dns": "DNS",
-        "copyAsCSV": "Copied to CSV format",
-        "selectType": "Select Diversion Type",
-        "typeDomain": "Domain",
-        "typeIP": "IP Address",
-        "typePort": "Port",
-        "typePackage": "Package",
-        "typeProcessName": "Process Name",
-        "typeProcessPath": "Process Path"
-    },
-    "NetConnectionsFilterScreen": {
-        "title": "Connections Filter",
-        "hostIp":"Domain/IP",
-        "port":"Port",
-        "app":"App",
-        "rule":"Rule",
-        "chain":"Outbound"
-    },
-    "NetInterfacesScreen": {
-        "title": "Net Interfaces"
-    },
-    "PerAppAndroidScreen": {
-        "title": "Per-App Proxy",
-        "enable": "Enable",
-        "whiteListMode": "Whitelist Mode",
-        "whiteListModeTip": "When enabled: only the apps that have been checked are proxies; when not enabled: only the apps that are not checked are proxies",
-        "enableAppQueryPermission": "Turn on [App list query] Permission"
-    },
-    "AddProfileByScanQrcodeScanScreen": {
-        "title": "Scan QR Code",
-        "copy": "Copy Link",
-        "open": "Open Link",
-        "add": "Add",
-        "requestCameraPermission": "Please enable camera permission",
-        "requestScreenAccess": "Please go to System Settings - Privacy and Security - Screen Recording to add permissions for this application",
-        "screenshot": "Screenshot",
-        "scanFromImage": "Scan From Image",
-        "scanNoResult": "Failed to parse the image, please make sure the screenshot is a valid QR code",
-        "scanEmptyResult": "Scan Result is empty",
-        "scanException": "Failed to parse the image, please make sure the screenshot is a valid QR code:$p"
-    },
-    "QrcodeScreen": {
-        "title": "QR Code",
-        "tooLong": "The text is too long to display",
-        "copy": "Copy Link",
-        "open": "Open Link",
-        "share": "Share Link",
-        "shareImage": "Share QR Code"
-    },
-    "DiversionRulesScreen": {
-        "title": "Diversion Rules",
-        "byCurrentSelected": "Current Selected",
-        "selector": "Auto Select",
-        "direct": "Direct",
-        "block": "Block",
-        "geoSite": "GeoSite",
-        "finalSelect": "final",
-        "finalSelectTips": "If no rule is hit, this rule will be used; turning on [Proxy All] will cause this setting to become invalid",
-        "diversionRulesMatchTips":"The rules try to match in order from top to bottom in the order of the diversion group on the left. If no rule is matched, final is used."
-    },
-    "DiversionGroupCustomScreen": {
-        "title": "Custom Diversion Group",
-        "add": "Add Diversion Group",
-        "remark":"Remark",
-        "remarkCannotEmpty": "Remarks can not be empty",
-        "remarkTooLong": "Remarks up to 32 characters",
-        "remarkExist": "Remark already exists, please use another name",
-        "confirmDel": "Are you sure to delete?"
-    },
-    "DiversionGroupCustomEditScreen": {
-        "title": "Edit Diversion Group",
-        "invalidDomain": "Invalid Domain:$p",
-        "invalidIpCidr": "Invalid IP Cidr:$p",
-        "invalidPort": "Invalid Port:$p",
-        "invalidRuleSet": "Invalid RuleSet:$p, The URL must be a valid https URL and a binary file with the file extension .srs"
-    },
-    "DiversionRuleDetectScreen":{
-        "title": "Diversion Rule Detect",
-        "detect": "Detect",
-        "rule":"Rule:",
-        "outbound":"Proxy Server:"
-    },
-    "ServerSelectScreen": {
-        "title": "Select Server",
-        "selector": "Auto Select Server",
-        "empty": "Default",
-        "autoSelectServer": "Auto select the server with the lowest latency",
-        "recommend": "Recommend",
-        "recentUse": "Recently Used",
-        "myFav": "My Favs",
-        "Connecting": "Connecting",
-        "updateFailed": "Update failed:$p",
-        "selectLocal": "The selected server is a local address and may not work properly:$p",
-        "selectRequireEnableIPv6": "The selected server is an IPv6 address and requires [Enable IPv6]",
-        "selectDisabled": "This server has been disabled",
-        "disableServer": "Disable",
-        "enableServer": "Enable",
-        "error404":"Latency detection encountered an error, please check if there is a configuration with the same content"
     },
     "MyProfilesEditScreen": {
         "title": "Profile Edit",
@@ -292,6 +188,15 @@
         "testLatencyAutoRemove": "Automatically remove servers that fail latency tests",
         "testLatencyAutoRemoveTips": "Try up to 3 times"
     },
+    "MyProfilesMergeScreen": {
+        "profilesMerge": "Profiles Merge",
+        "profilesMergeTarget": "Target Profile",
+        "profilesMergeSource": "Source Profiles",
+        "profilesMergeTips": "Tip: Diversion of the source profiles will be discarded"
+    },
+    "MyProfilesReorderScreen": {
+        "title": "Reorder"
+    },
     "MyProfilesScreen": {
         "title": "Profiles",
         "Connecting": "Connecting",
@@ -301,21 +206,18 @@
         "disableServer": "Disable",
         "enableServer": "Enable"
     },
-    "MyProfilesReorderScreen": {
-        "title": "Reorder"
-    },
     "NetCheckScreen": {
         "title": "Net Check",
-        "warn":"Note: Due to the influence of network environment and diversion rules, the test results are not completely equivalent to the actual results.",
-        "check":"Check",
-        "invalidDomain":"Invalid Domain Name",
-        "connectivity":"Network Connectivity",
-        "connectivityTestIpv4AllFailed":"Ipv4 Connection test [$p] all failed",
-        "connectivityTestIpv4Ok":"Ipv4 connection succeeded",
-        "connectivityTestIpv6AllFailed":"Ipv6 Connection test [$p] all failed, Your network may not support ipv6",
-        "connectivityTestIpv6Ok":"Ipv6 connection succeeded",
-        "connectivityTestOk":"The network is connected to the Internet",
-        "connectivityTestFailed":"The network is not yet connected to the Internet",
+        "warn": "Note: Due to the influence of network environment and diversion rules, the test results are not completely equivalent to the actual results.",
+        "check": "Check",
+        "invalidDomain": "Invalid Domain Name",
+        "connectivity": "Network Connectivity",
+        "connectivityTestIpv4AllFailed": "Ipv4 Connection test [$p] all failed",
+        "connectivityTestIpv4Ok": "Ipv4 connection succeeded",
+        "connectivityTestIpv6AllFailed": "Ipv6 Connection test [$p] all failed, Your network may not support ipv6",
+        "connectivityTestIpv6Ok": "Ipv6 connection succeeded",
+        "connectivityTestOk": "The network is connected to the Internet",
+        "connectivityTestFailed": "The network is not yet connected to the Internet",
         "outbound": "Proxy Server",
         "outboundOk": "[$p] connection succeeded",
         "outboundFailed": "[$p1] connection failed\nError:[$p2]",
@@ -326,9 +228,79 @@
         "host": "HTTP Connection",
         "hostOk": "[$p1]connection succeeded\nDiversionRule:[$p2]\nProxy Server:[$p3]"
     },
-    "SettingScreen": {
+    "NetConnectionsFilterScreen": {
+        "title": "Connections Filter",
+        "hostIp": "Domain/IP",
+        "port": "Port",
+        "app": "App",
+        "rule": "Rule",
+        "chain": "Outbound"
+    },
+    "NetConnectionsScreen": {
+        "title": "Connections",
+        "selector": "Auto Select",
+        "direct": "Direct",
+        "block": "Block",
+        "dns": "DNS",
+        "copyAsCSV": "Copied to CSV format",
+        "selectType": "Select Diversion Type",
+        "typeDomain": "Domain",
+        "typeIP": "IP Address",
+        "typePort": "Port",
+        "typePackage": "Package",
+        "typeProcessName": "Process Name",
+        "typeProcessPath": "Process Path"
+    },
+    "NetInterfacesScreen": {
+        "title": "Net Interfaces"
+    },
+    "OnlineBackupAndSyncScreen": {
+        "title": ""
+    },
+    "PerAppAndroidScreen": {
+        "title": "Per-App Proxy",
+        "enable": "Enable",
+        "whiteListMode": "Whitelist Mode",
+        "whiteListModeTip": "When enabled: only the apps that have been checked are proxies; when not enabled: only the apps that are not checked are proxies",
+        "enableAppQueryPermission": "Turn on [App list query] Permission"
+    },
+    "QrcodeScreen": {
+        "title": "QR Code",
+        "tooLong": "The text is too long to display",
+        "copy": "Copy Link",
+        "open": "Open Link",
+        "share": "Share Link",
+        "shareImage": "Share QR Code"
+    },
+    "QrcodeScanScreen": {
+        "title": "Scan QR code"
+    },
+    "RegionSettingsScreen": {
+        "title": "Country Or Region",
+        "done": "Done",
+        "search": "Search",
+        "Regions": "  Tip: Please set your current country or region correctly, otherwise it may cause network diversion problems"
+    },
+    "ServerSelectScreen": {
+        "title": "Select Server",
+        "selector": "Auto Select Server",
+        "empty": "Default",
+        "autoSelectServer": "Auto select the server with the lowest latency",
+        "recommend": "Recommend",
+        "recentUse": "Recently Used",
+        "myFav": "My Favs",
+        "Connecting": "Connecting",
+        "updateFailed": "Update failed:$p",
+        "selectLocal": "The selected server is a local address and may not work properly:$p",
+        "selectRequireEnableIPv6": "The selected server is an IPv6 address and requires [Enable IPv6]",
+        "selectDisabled": "This server has been disabled",
+        "disableServer": "Disable",
+        "enableServer": "Enable",
+        "error404": "Latency detection encountered an error, please check if there is a configuration with the same content"
+    },
+    "SettingsScreen": {
         "title": "Settings",
-        "ispFaq":"FAQ[$p]",
+        "ispFaq": "FAQ[$p]",
         "cleanISP": "Clear ISP[$p]",
         "openISP": "Open ISP link",
         "cleanISPNoParam": "Clear ISP Info",
@@ -339,8 +311,8 @@
         "htmlBoard": "Online Panel",
         "Connecting": "Connecting",
         "speedTest": "Speed Test",
-        "addProfile":"Add Profile",
-        "addProfileFromClipboard":"Import From Clipboard",
+        "addProfile": "Add Profile",
+        "addProfileFromClipboard": "Import From Clipboard",
         "downloadProfilePreferProxy": "Prefer Proxy to Download Profile",
         "downloadProfilePreferProxyTips": "If currently connected, the profile will be downloaded through the connected proxy first",
         "reloadAfterGeoUpdate": "Reload after GeoSite/GeoIP update",
@@ -361,8 +333,8 @@
         "dnsEnableFakeIp": "Enable FakeIp",
         "dnsEnableProxyResolveByProxy": "[Proxy Traffic]Resolve DNS through proxy server",
         "dnsEnableFinalResolveByProxy": "[final]Resolve DNS through proxy server",
-        "dnsTestDomain":"Test Domain",
-        "dnsTestDomainInvalid":"Invalid Domain",
+        "dnsTestDomain": "Test Domain",
+        "dnsTestDomainInvalid": "Invalid Domain",
         "dnsTypeOutbound": "Proxy Server",
         "dnsTypeDirect": "Direct Traffic",
         "dnsTypeProxy": "Proxy Traffic",
@@ -392,19 +364,32 @@
         "autoSelectServerFilterTips": "Server latency checks that fail will be filtered out",
         "autoSelectServerFilterNum": "Force [Filter Invalid Servers] Threshold",
         "autoSelectServerFilterNumTips": "When the number of servers >= the threshold, [Filtering invalid servers] will be forcibly turned on",
-        "numInvalid":"Invalid number",
+        "numInvalid": "Invalid number",
         "hideInvalidServer": "Hide Invalid Servers",
         "sortServer": "Servers Sorting",
         "sortServerTips": "Sort by latency from low to high",
-        "selectServerHideRecommand":"Hide [Recommend]",
-        "selectServerHideRecent":"Hide [Recently Used]",
-        "selectServerHideFav":"Hide [My Favs]",
-        "homeScreen":"Home Screen",
-        "myLink":"Shortcut Link",
-        "myLinkInvalid":"Invalid URL",
+        "selectServerHideRecommand": "Hide [Recommend]",
+        "selectServerHideRecent": "Hide [Recently Used]",
+        "selectServerHideFav": "Hide [My Favs]",
+        "homeScreen": "Home Screen",
+        "theme": "Theme",
+        "myLink": "Shortcut Link",
+        "myLinkInvalid": "Invalid URL",
         "autoConnectAfterLaunch": "Auto Connection after Launch",
         "autoSetSystemProxy": "Auto Set System Proxy when Connected",
         "disconnectWhenQuit": "Disconnect when App Exits",
+        "backupAndSync": "Backup and Sync",
+        "icloud": "iCloud",
+        "webdav": "Webdav",
+        "importAndExport": "Import and Export",
+        "import": "Import",
+        "export": "Export",
+        "lanSyncTo": "Sync to others",
+        "lanSyncFrom": "Sync from others",
+        "lanSyncScanQRcode": "Scan QR code to Sync",
+        "invalidFileType": "Invalid file type:$p",
+        "importSuccess": "Import Success",
+        "rewriteConfirm": "This file will overwrite the existing local configuration. Do you want to continue?",
         "networkShare": "Network Sharing",
         "frontProxy": "Front Proxy",
         "frontProxyTips": "Data->Front proxy server->Proxy server->Target server",
@@ -427,11 +412,11 @@
         "handleStashScheme": "Handle stash:// Call",
         "removeSystemVPNConfig": "Delete system VPN configuration",
         "removeSystemVPNConfigConfirm": "Confirm To Delete system VPN configuration?",
-        "timeConnectOrDisconnect": "定时连接/断开",
-        "timeConnectOrDisconnectTips": "VPN必须处于连接状态才会生效;开启后,[自动休眠]将失效",
-        "timeConnect": "连接",
-        "timeDisconnect": "断开",
-        "timeConnectAndDisconnectInterval": "连接/断开时间间隔不能低于$p分钟",
+        "timeConnectOrDisconnect": "Scheduled connect/disconnect",
+        "timeConnectOrDisconnectTips": "VPN must be connected to take effect; after it is turned on, [Automatic Sleep] will be disabled",
+        "timeConnect": "Connect",
+        "timeDisconnect": "Cisconnect",
+        "timeConnectAndDisconnectInterval": "The connection/disconnection interval cannot be less than $p minutes",
         "sleepWithSystem": "Automatic Sleep",
         "sleepWithSystemTips": "After the system goes to sleep, the VPN suspends service; after the system resumes, the VPN automatically resumes service;On some versions of the system, it may consume more power after being turned on.",
         "disableFontScaler": "Disable Font scaling(Restart takes effect)",
@@ -445,25 +430,14 @@
         "rateInApp": "Rate Us",
         "rateInAppStore": "Rate Us in AppStore"
     },
-    "FeedbackScreen": {
-        "title": "Feedback",
-        "content": "Feedback Content",
-        "contentHit": "Required, up to 500 characters",
-        "email": "Email",
-        "telegram": "Telegram",
-        "submit": "Submit",
-        "contentCannotEmpty": "Feedback content can not be empty",
-        "submitDone": "Thanks for your feedback"
+    "SpeedTestSettingsScreen": {
+        "title": "Speed Test URL",
+        "add": "Add Speed Test URL",
+        "error": "Must be Valid https URL"
     },
-    "SplashScreen": {},
     "TextToQrCodeScreen": {
         "title": "Text To QR Code",
-        "convert":"Convert"
-    },
-    "UpdateScreen": {
-        "versinReady": "The new version[$p] is ready",
-        "update": "Restart To Update",
-        "cancel": "Not Now"
+        "convert": "Convert"
     },
     "UrlTestGroupCustomScreen": {
         "title": "Custom Proxy Group",
@@ -479,10 +453,60 @@
         "privacyPolicy": "Privacy & Policy",
         "agreeAndContinue": "Accept & Continue"
     },
-    "profilesMerge":"Profiles Merge",
-    "profilesMergeTarget":"Target Profile",
-    "profilesMergeSource":"Source Profiles",
-    "profilesMergeTips":"Tip: Diversion of the source profiles will be discarded",
+    "VersionUpdateScreen": {
+        "versionReady": "The new version[$p] is ready",
+        "update": "Restart To Update",
+        "cancel": "Not Now"
+    },
+    "CommonWidget": {
+        "refresh": "Refresh",
+        "retry": "Retry?"
+    },
+    "DialogUtils": {
+        "showAlertDialog": {
+            "title": "Info",
+            "copy": "Copy",
+            "ok": "Ok"
+        },
+        "showConfirmDialog": {
+            "ok": "Ok",
+            "cancel": "Cancel",
+            "feedback": "Feedback"
+        },
+        "showLoadingDialog": {
+            "loading": "Loading..."
+        },
+        "showQRContentDialog": {
+            "scanResult": "Scan Result",
+            "add": "To add"
+        },
+        "showTimeTextInputDialog": {
+            "days": "Days",
+            "hours": "Hours",
+            "minutes": "Minutes",
+            "disable": "Disable"
+        }
+    },
+    "ServerManager": {
+        "noServerAvaliable": "No server avaliable, Make sure the Profile Link or Profile File is valid",
+        "timeout": "Connect Timeout",
+        "byCurrentSelected": "Current Selected",
+        "selector": "Auto Select",
+        "direct": "Direct",
+        "block": "Block",
+        "custom": "Custom",
+        "filePathCannotEmpty": "The file path can not be empty",
+        "fileNotExist": "File does not exist:$p",
+        "urlCannotEmpty": "Link can not be empty",
+        "invalidUrl": "Invalid Profile Link",
+        "parseFailed": "Parsing Profile failed"
+    },
+    "main": {
+        "tray": {
+            "menuOpen": "    Open    ",
+            "menuExit": "    Exit    "
+        }
+    },
     "locales(map)": {
         "en": "English",
         "zh-CN": "简体中文",

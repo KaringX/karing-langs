@@ -1,24 +1,4 @@
 {
-    "main": {
-        "tray": {
-            "menuOpen": "    打开    ",
-            "menuExit": "    退出    "
-        }
-    },
-    "ServerManager": {
-        "noServerAvaliable": "无可用服务器,请确保配置链接或配置文件有效",
-        "timeout": "连接超时",
-        "byCurrentSelected": "当前选择",
-        "selector": "自动选择",
-        "direct": "直连",
-        "block": "拦截",
-        "custom": "自定义",
-        "filePathCannotEmpty": "文件路径不能为空",
-        "fileNotExist": "文件不存在:$p",
-        "urlCannotEmpty": "链接不能为空",
-        "invalidUrl": "错误的配置链接",
-        "parseFailed": "解析配置失败"
-    },
     "AboutScreen": {
         "title": "关于",
         "name": "名称",
@@ -73,7 +53,57 @@
         "addFailedFormatException": "格式错误,请订正后重新添加:",
         "addFailedThenDownloadAndImport": "添加失败:$p, 请尝试使用设备自带的浏览器打开配置链接,并将浏览器下载的配置文件导入到本应用"
     },
-    "ChangeDnsScreen": {
+    "AddProfileByScanQrcodeScanScreen": {
+        "title": "扫描二维码",
+        "copy": "拷贝链接",
+        "open": "打开链接",
+        "add": "添加",
+        "requestCameraPermission": "请开启摄像头权限",
+        "requestScreenAccess": "请到系统设置-隐私与安全-屏幕录制 为本应用添加权限",
+        "screenshot": "截图",
+        "scanFromImage": "打开二维码图片",
+        "scanNoResult": "解析图片失败,请确保截图为有效的二维码",
+        "scanEmptyResult": "扫描结果为空",
+        "scanException": "解析图片异常,请确保截图为有效的二维码:$p"
+    },
+    "BackupAndSyncLanSyncScreen": {
+        "title": "局域网同步",
+        "lanSyncNotQuitTips":"同步完成前请勿退出此界面"
+    },
+    "DiversionGroupCustomEditScreen": {
+        "title": "编辑分流组",
+        "invalidDomain": "无效的 Domain:$p",
+        "invalidIpCidr": "无效的 IP Cidr:$p",
+        "invalidPort": "无效的 Port:$p",
+        "invalidRuleSet": "无效的 RuleSet:$p, URL必须是有效的https URL,并且文件扩展名为.srs的binary文件"
+    },
+    "DiversionGroupCustomScreen": {
+        "title": "自定义分流组",
+        "add": "添加分流组",
+        "remark": "备注",
+        "remarkCannotEmpty": "备注不能为空",
+        "remarkTooLong": "备注最长32字符",
+        "remarkExist": "备注已存在,请使用其他名称",
+        "confirmDel": "确认删除?"
+    },
+    "DiversionRuleDetectScreen": {
+        "title": "分流规则探测",
+        "detect": "探测",
+        "rule": "规则:",
+        "outbound": "代理服务器:"
+    },
+    "DiversionRulesScreen": {
+        "title": "分流规则",
+        "byCurrentSelected": "当前选择",
+        "selector": "自动选择",
+        "direct": "直连",
+        "block": "拦截",
+        "geoSite": "GeoSite",
+        "finalSelect": "final",
+        "finalSelectTips": "如果未命中任何规则,则使用该规则;开启[全局代理]会导致此设置失效",
+        "diversionRulesMatchTips": "规则按照左侧分流组顺序,从上到下依次尝试匹配,如果没有匹配到任意一条规则,则使用final"
+    },
+    "DnsSettingsScreen": {
         "title": "DNS",
         "Connecting": "连接中",
         "add": "添加DNS服务器",
@@ -82,52 +112,17 @@
         "ispCanNotEmpty": "ISP 不能为空",
         "urlCanNotEmpty": "URL 不能为空",
         "error": "不支持的类型:$p",
-        "dnsDesc":"第一列延迟数据为直连查询延迟;\n第二列:开启[[代理流量]通过代理服务器解析DNS]:延迟数据为通过当前代理服务器转发的查询延迟;未开启[[代理流量]通过代理服务器解析DNS]:延迟数据为直连查询延迟"
+        "dnsDesc": "第一列延迟数据为直连查询延迟;\n第二列:开启[[代理流量]通过代理服务器解析DNS]:延迟数据为通过当前代理服务器转发的查询延迟;未开启[[代理流量]通过代理服务器解析DNS]:延迟数据为直连查询延迟"
     },
-    "ChangeLanguageScreen": {
-        "title": "语言",
-        "search": "搜索",
-        "next": "下一步"
-    },
-    "ChangeRegionScreen": {
-        "title": "国家与地区",
-        "done": "完成",
-        "search": "搜索",
-        "Regions": "  提示:请正确设置你当前所在国家或地区,否则可能会导致分流错误"
-    },
-    "ChangeSpeedTestScreen": {
-        "title": "测速网址",
-        "add": "添加测速网址",
-        "error": "必须为有效的 https URL"
-    },
-    "CommonWidget":{
-        "refresh":"刷新",
-        "retry":"是否重试?"
-    },
-    "DialogUtils": {
-        "showAlertDialog": {
-            "title": "提示",
-            "copy": "拷贝",
-            "ok": "确定"
-        },
-        "showConfirmDialog": {
-            "ok": "确定",
-            "cancel": "取消",
-            "feedback": "反馈"
-        },
-        "showLoadingDialog": {
-            "loading": "加载中..."
-        },
-        "showQRContentDialog": {
-            "scanResult": "扫描结果",
-            "add": "去添加"
-        },
-        "showTimeTextInputDialog":{
-            "days":"天",
-            "hours":"时",
-            "minutes":"分",
-            "disable":"禁用"
-        }
+    "FeedbackScreen": {
+        "title": "反馈",
+        "content": "反馈内容",
+        "contentHit": "必填, 最长500字符",
+        "email": "Email",
+        "telegram": "Telegram",
+        "submit": "提交",
+        "contentCannotEmpty": "反馈内容不能为空",
+        "submitDone": "谢谢您的支持"
     },
     "FileContentViewerScreen": {
         "title": "文件内容查看",
@@ -160,7 +155,12 @@
         "trafficTotal": "总流量",
         "trafficProxy": "代理流量",
         "upDownSpeed": "速度",
-        "myLinkEmpty":"请先设置[快捷链接]后再使用"
+        "myLinkEmpty": "请先设置[快捷链接]后再使用"
+    },
+    "LanguageSettingsScreen": {
+        "title": "语言",
+        "search": "搜索",
+        "next": "下一步"
     },
     "LaunchFailedScreen": {
         "invalidProcess": "应用启动失败[无效的进程名称],请重新安装应用到独立目录",
@@ -169,110 +169,6 @@
         "startFromUNC": "无效的安装路径,请重新安装到有效路径",
         "website": "官网",
         "quit": "退出"
-    },
-    "NetConnectionsScreen": {
-        "title": "连接状态",
-        "selector": "自动选择",
-        "direct": "直连",
-        "block": "拦截",
-        "dns": "DNS",
-        "copyAsCSV": "已复制为CSV格式",
-        "selectType": "选择分流类型",
-        "typeDomain": "域名",
-        "typeIP": "IP地址",
-        "typePort": "端口",
-        "typePackage": "包名",
-        "typeProcessName": "进程名",
-        "typeProcessPath": "进程路径"
-    },
-    "NetConnectionsFilterScreen": {
-        "title": "连接状态筛选",
-        "hostIp":"域名/IP",
-        "port":"端口",
-        "app":"应用",
-        "rule":"规则",
-        "chain":"出站"
-    },
-    "NetInterfacesScreen": {
-        "title": "网络接口"
-    },
-    "PerAppAndroidScreen": {
-        "title": "分应用代理",
-        "enable": "启用",
-        "whiteListMode": "白名单模式",
-        "whiteListModeTip": "启用后:仅代理已勾选的App;未启用:仅代理未勾选的App",
-        "enableAppQueryPermission": "开启 [获取应用列表] 权限"
-    },
-    "AddProfileByScanQrcodeScanScreen": {
-        "title": "扫描二维码",
-        "copy": "拷贝链接",
-        "open": "打开链接",
-        "add": "添加",
-        "requestCameraPermission": "请开启摄像头权限",
-        "requestScreenAccess": "请到系统设置-隐私与安全-屏幕录制 为本应用添加权限",
-        "screenshot": "截图",
-        "scanFromImage": "打开二维码图片",
-        "scanNoResult": "解析图片失败,请确保截图为有效的二维码",
-        "scanEmptyResult": "扫描结果为空",
-        "scanException": "解析图片异常,请确保截图为有效的二维码:$p"
-    },
-    "QrcodeScreen": {
-        "title": "二维码",
-        "tooLong": "文本过长,无法展示",
-        "copy": "拷贝链接",
-        "open": "打开链接",
-        "share": "分享链接",
-        "shareImage": "分享二维码"
-    },
-    "DiversionRulesScreen": {
-        "title": "分流规则",
-        "byCurrentSelected": "当前选择",
-        "selector": "自动选择",
-        "direct": "直连",
-        "block": "拦截",
-        "geoSite": "GeoSite",
-        "finalSelect": "final",
-        "finalSelectTips": "如果未命中任何规则,则使用该规则;开启[全局代理]会导致此设置失效",
-        "diversionRulesMatchTips":"规则按照左侧分流组顺序,从上到下依次尝试匹配,如果没有匹配到任意一条规则,则使用final"
-    },
-    "DiversionGroupCustomScreen": {
-        "title": "自定义分流组",
-        "add": "添加分流组",
-        "remark":"备注",
-        "remarkCannotEmpty": "备注不能为空",
-        "remarkTooLong": "备注最长32字符",
-        "remarkExist": "备注已存在,请使用其他名称",
-        "confirmDel": "确认删除?"
-    },
-    "DiversionGroupCustomEditScreen": {
-        "title": "编辑分流组",
-        "invalidDomain": "无效的 Domain:$p",
-        "invalidIpCidr": "无效的 IP Cidr:$p",
-        "invalidPort": "无效的 Port:$p",
-        "invalidRuleSet": "无效的 RuleSet:$p, URL必须是有效的https URL,并且文件扩展名为.srs的binary文件"
-    },
-    "DiversionRuleDetectScreen":{
-        "title": "分流规则探测",
-        "detect": "探测",
-        "rule":"规则:",
-        "outbound":"代理服务器:"
-    },
-    "ServerSelectScreen": {
-        "title": "选择服务器",
-        "selector": "自动选择",
-        "empty": "默认",
-        "autoSelectServer": "自动选择连接延迟最低的服务器",
-        "recommend": "推荐",
-        "recentUse": "最近使用",
-        "myFav": "我的收藏",
-        "Connecting": "连接中",
-        "updateFailed": "更新失败:$p",
-        "selectLocal": "所选服务器为本地地址,可能无法正常使用:$p",
-        "selectRequireEnableIPv6": "所选服务器为IPv6地址,需要[启用IPv6]",
-        "selectDisabled": "该服务器已被禁用",
-        "disableServer": "禁用",
-        "enableServer": "启用",
-        "error404":"延迟检测遇到错误,请检查是否存在内容相同的配置"
     },
     "MyProfilesEditScreen": {
         "title": "编辑配置",
@@ -292,6 +188,15 @@
         "testLatencyAutoRemove": "自动移除延迟测试失败的服务器",
         "testLatencyAutoRemoveTips": "最多尝试3次"
     },
+    "MyProfilesMergeScreen": {
+        "profilesMerge": "配置合并",
+        "profilesMergeTarget": "目标配置",
+        "profilesMergeSource": "源配置",
+        "profilesMergeTips": "提示:源配置的分流信息将会被丢弃"
+    },
+    "MyProfilesReorderScreen": {
+        "title": "排序"
+    },
     "MyProfilesScreen": {
         "title": "我的配置",
         "Connecting": "连接中",
@@ -301,22 +206,18 @@
         "disableServer": "禁用",
         "enableServer": "启用"
     },
-    "MyProfilesReorderScreen": {
-        "title": "排序"
-    },
     "NetCheckScreen": {
         "title": "网络检测",
-        "warn":"注意:由于受网络环境及分流规则等影响,测试结果并不完全等价实际中使用的效果",
-        "check":"检测",
-        "invalidDomain":"无效域名",
-        "connectivity":"网络联通性",
-        "connectivityTest":"连接测试",
-        "connectivityTestIpv4AllFailed":"Ipv4 连接测试[$p]全部失败",
-        "connectivityTestIpv4Ok":"Ipv4 连接成功",
-        "connectivityTestIpv6AllFailed":"Ipv6 连接测试[$p]全部失败, 你的网络可能不支持ipv6",
-        "connectivityTestIpv6Ok":"Ipv6 连接成功",
-        "connectivityTestOk":"网络已接入互联网",
-        "connectivityTestFailed":"网络尚未接入互联网",
+        "warn": "注意:由于受网络环境及分流规则等影响,测试结果并不完全等价实际中使用的效果",
+        "check": "检测",
+        "invalidDomain": "无效域名",
+        "connectivity": "网络联通性",
+        "connectivityTestIpv4AllFailed": "Ipv4 连接测试[$p]全部失败",
+        "connectivityTestIpv4Ok": "Ipv4 连接成功",
+        "connectivityTestIpv6AllFailed": "Ipv6 连接测试[$p]全部失败, 你的网络可能不支持ipv6",
+        "connectivityTestIpv6Ok": "Ipv6 连接成功",
+        "connectivityTestOk": "网络已接入互联网",
+        "connectivityTestFailed": "网络尚未接入互联网",
         "outbound": "代理服务器",
         "outboundOk": "[$p]连接成功",
         "outboundFailed": "[$p1]连接失败\n错误:[$p2]",
@@ -327,9 +228,79 @@
         "host": "HTTP连接",
         "hostOk": "[$p1]连接成功\n分流规则:[$p2]\n代理服务器:[$p3]"
     },
-    "SettingScreen": {
+    "NetConnectionsFilterScreen": {
+        "title": "连接状态筛选",
+        "hostIp": "域名/IP",
+        "port": "端口",
+        "app": "应用",
+        "rule": "规则",
+        "chain": "出站"
+    },
+    "NetConnectionsScreen": {
+        "title": "连接状态",
+        "selector": "自动选择",
+        "direct": "直连",
+        "block": "拦截",
+        "dns": "DNS",
+        "copyAsCSV": "已复制为CSV格式",
+        "selectType": "选择分流类型",
+        "typeDomain": "域名",
+        "typeIP": "IP地址",
+        "typePort": "端口",
+        "typePackage": "包名",
+        "typeProcessName": "进程名",
+        "typeProcessPath": "进程路径"
+    },
+    "NetInterfacesScreen": {
+        "title": "网络接口"
+    },
+    "OnlineBackupAndSyncScreen": {
+        "title": ""
+    },
+    "PerAppAndroidScreen": {
+        "title": "分应用代理",
+        "enable": "启用",
+        "whiteListMode": "白名单模式",
+        "whiteListModeTip": "启用后:仅代理已勾选的App;未启用:仅代理未勾选的App",
+        "enableAppQueryPermission": "开启 [获取应用列表] 权限"
+    },
+    "QrcodeScreen": {
+        "title": "二维码",
+        "tooLong": "文本过长,无法展示",
+        "copy": "拷贝链接",
+        "open": "打开链接",
+        "share": "分享链接",
+        "shareImage": "分享二维码"
+    },
+    "QrcodeScanScreen": {
+        "title": "扫码二维码"
+    },
+    "RegionSettingsScreen": {
+        "title": "国家与地区",
+        "done": "完成",
+        "search": "搜索",
+        "Regions": "  提示:请正确设置你当前所在国家或地区,否则可能会导致分流错误"
+    },
+    "ServerSelectScreen": {
+        "title": "选择服务器",
+        "selector": "自动选择",
+        "empty": "默认",
+        "autoSelectServer": "自动选择连接延迟最低的服务器",
+        "recommend": "推荐",
+        "recentUse": "最近使用",
+        "myFav": "我的收藏",
+        "Connecting": "连接中",
+        "updateFailed": "更新失败:$p",
+        "selectLocal": "所选服务器为本地地址,可能无法正常使用:$p",
+        "selectRequireEnableIPv6": "所选服务器为IPv6地址,需要[启用IPv6]",
+        "selectDisabled": "该服务器已被禁用",
+        "disableServer": "禁用",
+        "enableServer": "启用",
+        "error404": "延迟检测遇到错误,请检查是否存在内容相同的配置"
+    },
+    "SettingsScreen": {
         "title": "设置",
-        "ispFaq":"FAQ[$p]",
+        "ispFaq": "FAQ[$p]",
         "cleanISP": "清除ISP[$p]",
         "openISP": "打开ISP链接",
         "cleanISPNoParam": "清除ISP信息",
@@ -340,8 +311,8 @@
         "htmlBoard": "在线面板",
         "Connecting": "连接中",
         "speedTest": "测速",
-        "addProfile":"添加配置",
-        "addProfileFromClipboard":"从剪切板导入",
+        "addProfile": "添加配置",
+        "addProfileFromClipboard": "从剪切板导入",
         "downloadProfilePreferProxy": "优先使用代理下载配置",
         "downloadProfilePreferProxyTips": "如果当前已连接,则优先通过已连接的代理下载配置",
         "reloadAfterGeoUpdate": "GeoSite/GeoIP更新后重新加载",
@@ -362,8 +333,8 @@
         "dnsEnableFakeIp": "启用FakeIp",
         "dnsEnableProxyResolveByProxy": "[代理流量]通过代理服务器解析DNS",
         "dnsEnableFinalResolveByProxy": "[final]通过代理服务器解析DNS",
-        "dnsTestDomain":"测试域名",
-        "dnsTestDomainInvalid":"无效的域名",
+        "dnsTestDomain": "测试域名",
+        "dnsTestDomainInvalid": "无效的域名",
         "dnsTypeOutbound": "代理服务器",
         "dnsTypeDirect": "直连流量",
         "dnsTypeProxy": "代理流量",
@@ -393,19 +364,32 @@
         "autoSelectServerFilterTips": "服务器延迟检测失败的将会被过滤掉",
         "autoSelectServerFilterNum": "强制[过滤无效服务器]阈值",
         "autoSelectServerFilterNumTips": "当服务器数量>=阈值时,将强制开启[过滤无效服务器]",
-        "numInvalid":"无效的数字",
+        "numInvalid": "无效的数字",
         "hideInvalidServer": "隐藏无效服务器",
         "sortServer": "服务器排序",
         "sortServerTips": "按延迟由低到高排序",
-        "selectServerHideRecommand":"隐藏[推荐]",
-        "selectServerHideRecent":"隐藏[最近使用]",
-        "selectServerHideFav":"隐藏[我的收藏]",
-        "homeScreen":"主屏",
-        "myLink":"快捷链接",
-        "myLinkInvalid":"无效的URL",
+        "selectServerHideRecommand": "隐藏[推荐]",
+        "selectServerHideRecent": "隐藏[最近使用]",
+        "selectServerHideFav": "隐藏[我的收藏]",
+        "homeScreen": "主屏",
+        "theme": "主题",
+        "myLink": "快捷链接",
+        "myLinkInvalid": "无效的URL",
         "autoConnectAfterLaunch": "启动后自动连接",
         "autoSetSystemProxy": "连接后自动设置系统代理",
         "disconnectWhenQuit": "退出应用时关闭连接",
+        "backupAndSync": "备份与同步",
+        "icloud": "iCloud",
+        "webdav": "Webdav",
+        "importAndExport": "导入/导出",
+        "import": "导入",
+        "export": "导出",
+        "lanSyncTo": "同步给他人",
+        "lanSyncFrom": "从他人同步",
+        "lanSyncScanQRcode": "扫码同步",
+        "invalidFileType": "无效的文件类型:$p",
+        "importSuccess": "导入成功",
+        "rewriteConfirm": "该文件将覆盖本地已有配置,是否继续?",
         "networkShare": "网络共享",
         "frontProxy": "前置代理",
         "frontProxyTips": "数据->前置代理服务器->代理服务器->目标服务器",
@@ -446,25 +430,14 @@
         "rateInApp": "评分",
         "rateInAppStore": "在App Store上评分"
     },
-    "FeedbackScreen": {
-        "title": "反馈",
-        "content": "反馈内容",
-        "contentHit": "必填, 最长500字符",
-        "email": "Email",
-        "telegram": "Telegram",
-        "submit": "提交",
-        "contentCannotEmpty": "反馈内容不能为空",
-        "submitDone": "谢谢您的支持"
+    "SpeedTestSettingsScreen": {
+        "title": "测速网址",
+        "add": "添加测速网址",
+        "error": "必须为有效的 https URL"
     },
-    "SplashScreen": {},
     "TextToQrCodeScreen": {
         "title": "文本转二维码",
-        "convert":"转换"
-    },
-    "UpdateScreen": {
-        "versinReady": "新版本[$p]已就绪",
-        "update": "重启更新",
-        "cancel": "暂不更新"
+        "convert": "转换"
     },
     "UrlTestGroupCustomScreen": {
         "title": "自定义代理组",
@@ -480,10 +453,60 @@
         "privacyPolicy": "隐私政策",
         "agreeAndContinue": "接受并继续"
     },
-    "profilesMerge":"配置合并",
-    "profilesMergeTarget":"目标配置",
-    "profilesMergeSource":"源配置",
-    "profilesMergeTips":"提示:源配置的分流信息将会被丢弃",
+    "VersionUpdateScreen": {
+        "versionReady": "新版本[$p]已就绪",
+        "update": "重启更新",
+        "cancel": "暂不更新"
+    },
+    "CommonWidget": {
+        "refresh": "刷新",
+        "retry": "是否重试?"
+    },
+    "DialogUtils": {
+        "showAlertDialog": {
+            "title": "提示",
+            "copy": "拷贝",
+            "ok": "确定"
+        },
+        "showConfirmDialog": {
+            "ok": "确定",
+            "cancel": "取消",
+            "feedback": "反馈"
+        },
+        "showLoadingDialog": {
+            "loading": "加载中..."
+        },
+        "showQRContentDialog": {
+            "scanResult": "扫描结果",
+            "add": "去添加"
+        },
+        "showTimeTextInputDialog": {
+            "days": "天",
+            "hours": "时",
+            "minutes": "分",
+            "disable": "禁用"
+        }
+    },
+    "ServerManager": {
+        "noServerAvaliable": "无可用服务器,请确保配置链接或配置文件有效",
+        "timeout": "连接超时",
+        "byCurrentSelected": "当前选择",
+        "selector": "自动选择",
+        "direct": "直连",
+        "block": "拦截",
+        "custom": "自定义",
+        "filePathCannotEmpty": "文件路径不能为空",
+        "fileNotExist": "文件不存在:$p",
+        "urlCannotEmpty": "链接不能为空",
+        "invalidUrl": "错误的配置链接",
+        "parseFailed": "解析配置失败"
+    },
+    "main": {
+        "tray": {
+            "menuOpen": "    打开    ",
+            "menuExit": "    退出    "
+        }
+    },
     "locales(map)": {
         "en": "English",
         "zh-CN": "简体中文",
