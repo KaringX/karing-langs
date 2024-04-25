@@ -66,9 +66,22 @@
         "scanEmptyResult": "扫描结果为空",
         "scanException": "解析图片异常,请确保截图为有效的二维码:$p"
     },
+    "BackupAndSyncIcloudScreen": {
+        "title": "iCloud"
+    },
     "BackupAndSyncLanSyncScreen": {
         "title": "局域网同步",
-        "lanSyncNotQuitTips":"同步完成前请勿退出此界面"
+        "lanSyncNotQuitTips": "同步完成前请勿退出此界面"
+    },
+    "BackupAndSyncWebdavScreen": {
+        "title": "Webdav",
+        "webdavServerUrl": "服务器地址",
+        "webdavUser": "账号",
+        "webdavPassword": "密码",
+        "required": "必填",
+        "webdavRequired": "不能为空",
+        "webdavLoginFailed": "登录失败:",
+        "webdavListFailed": "获取文件列表失败:"
     },
     "DiversionGroupCustomEditScreen": {
         "title": "编辑分流组",
@@ -379,8 +392,6 @@
         "autoSetSystemProxy": "连接后自动设置系统代理",
         "disconnectWhenQuit": "退出应用时关闭连接",
         "backupAndSync": "备份与同步",
-        "icloud": "iCloud",
-        "webdav": "Webdav",
         "importAndExport": "导入/导出",
         "import": "导入",
         "export": "导出",

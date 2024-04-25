@@ -66,9 +66,22 @@
         "scanEmptyResult": "Scan Result is empty",
         "scanException": "Failed to parse the image, please make sure the screenshot is a valid QR code:$p"
     },
+    "BackupAndSyncIcloudScreen": {
+        "title": "iCloud"
+    },
     "BackupAndSyncLanSyncScreen": {
         "title": "LAN Sync",
-        "lanSyncNotQuitTips":"Do not exit this interface before synchronization is completed"
+        "lanSyncNotQuitTips": "Do not exit this interface before synchronization is completed"
+    },
+    "BackupAndSyncWebdavScreen": {
+        "title": "Webdav",
+        "webdavServerUrl": "Server Url",
+        "webdavUser": "Account",
+        "webdavPassword": "Password",
+        "required": "Required",
+        "webdavRequired": "Can not be empty",
+        "webdavLoginFailed": "Login failed:",
+        "webdavListFailed": "Failed to get file list:"
     },
     "DiversionGroupCustomEditScreen": {
         "title": "Edit Diversion Group",
@@ -379,8 +392,6 @@
         "autoSetSystemProxy": "Auto Set System Proxy when Connected",
         "disconnectWhenQuit": "Disconnect when App Exits",
         "backupAndSync": "Backup and Sync",
-        "icloud": "iCloud",
-        "webdav": "Webdav",
         "importAndExport": "Import and Export",
         "import": "Import",
         "export": "Export",

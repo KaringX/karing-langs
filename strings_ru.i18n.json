@@ -66,9 +66,22 @@
         "scanEmptyResult": "Пустой результат сканирования.",
         "scanException": "Не удалось проанализировать изображение. Убедитесь, что снимок экрана представляет собой действительный QR-код:$p"
     },
+    "BackupAndSyncIcloudScreen": {
+        "title": "iCloud"
+    },
     "BackupAndSyncLanSyncScreen": {
         "title": "синхронизация по локальной сети",
-        "lanSyncNotQuitTips":"Не выходите из этого интерфейса до завершения синхронизации."
+        "lanSyncNotQuitTips": "Не выходите из этого интерфейса до завершения синхронизации."
+    },
+    "BackupAndSyncWebdavScreen": {
+        "title": "Webdav",
+        "webdavServerUrl": "адрес сервера",
+        "webdavUser": "счет",
+        "webdavPassword": "пароль",
+        "required": "Необходимый",
+        "webdavRequired": "Не может быть пустым",
+        "webdavLoginFailed": "Ошибка входа:",
+        "webdavListFailed": "Не удалось получить список файлов:"
     },
     "DiversionGroupCustomEditScreen": {
         "title": "Изменить группу переадресации",
@@ -379,8 +392,6 @@
         "autoSetSystemProxy": "Установить прокси после подключения",
         "disconnectWhenQuit": "Отключаться при выходе из приложения",
         "backupAndSync": "Резервное копирование и синхронизация",
-        "icloud": "iCloud",
-        "webdav": "Webdav",
         "importAndExport": "Импорт и экспорт",
         "import": "Импорт",
         "export": "экспорт",
