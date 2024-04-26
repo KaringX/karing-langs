@@ -114,7 +114,7 @@
         "geoSite": "GeoSite",
         "finalSelect": "final",
         "finalSelectTips": "If no rule is hit, this rule will be used; turning on [Proxy All] will cause this setting to become invalid",
-        "diversionRulesMatchTips": "The rules try to match in order from top to bottom in the order of the diversion group on the left. If no rule is matched, final is used."
+        "diversionRulesMatchTips": "Try to match the rules from top to bottom. If no rule is matched, use final"
     },
     "DnsSettingsScreen": {
         "title": "DNS",
@@ -297,7 +297,7 @@
     "ServerSelectScreen": {
         "title": "Select Server",
         "selector": "Auto Select Server",
-        "empty": "Default",
+        "none": "None",
         "autoSelectServer": "Auto select the server with the lowest latency",
         "recommend": "Recommend",
         "recentUse": "Recently Used",

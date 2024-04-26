@@ -114,7 +114,7 @@
         "geoSite": "GeoSite",
         "finalSelect": "final",
         "finalSelectTips": "如果未命中任何规则,则使用该规则;开启[全局代理]会导致此设置失效",
-        "diversionRulesMatchTips": "规则按照左侧分流组顺序,从上到下依次尝试匹配,如果没有匹配到任意一条规则,则使用final"
+        "diversionRulesMatchTips": "从上到下依次尝试匹配规则,如果没有匹配到规则,则使用final"
     },
     "DnsSettingsScreen": {
         "title": "DNS",
@@ -297,7 +297,7 @@
     "ServerSelectScreen": {
         "title": "选择服务器",
         "selector": "自动选择",
-        "empty": "默认",
+        "none": "无",
         "autoSelectServer": "自动选择连接延迟最低的服务器",
         "recommend": "推荐",
         "recentUse": "最近使用",
