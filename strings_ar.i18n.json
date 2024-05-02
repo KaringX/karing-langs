@@ -4,6 +4,7 @@
     "name": "اسم",
     "version": "إصدار",
     "installRefer": "تثبيت الرجوع",
+    "versionChannel": "تحديث القنوات تلقائيا",
     "termOfUse": "شرط الخدمة",
     "privacyPolicy": "سياسة الخصوصية",
     "disableUAReport": "قم بإيقاف تشغيل تقرير بيانات الإجراء",
@@ -13,7 +14,8 @@
     "FilesAndLogsViewFile": "عرض الملفات",
     "enablePprof": "يُمكَِن pprof",
     "pprofPanel": "pprof لوحة",
-    "FilesAndLogsOpenDir": "فتح دليل الملف"
+    "FilesAndLogsOpenDir": "فتح دليل الملف",
+    "useOriginalSBProfile": "استخدم تكوين صندوق الغناء الأصلي"
   },
   "AddProfileByCustomScreen": {
     "title": "أضف ملف تعريف مخصص"
@@ -51,7 +53,7 @@
     "addSuccess": "اضيف بنجاح",
     "addFailed": "إضافة فشل:$p",
     "addFailedFormatException": "التنسيق خاطئ ، يرجى تصحيحه وإضافته مرة أخرى:",
-    "addFailedThenDownloadAndImport": "إضافة الفشل: $ p ، يرجى محاولة فتح رابط الملف الشخصي باستخدام المتصفح الذي جاء مع الجهاز واستيراد ملف الملف الشخصي الذي تم تنزيله بواسطة المتصفح في هذا التطبيق"
+    "addFailedThenDownloadAndImport": "إضافة الفشل: $p ، يرجى محاولة فتح رابط الملف الشخصي باستخدام المتصفح الذي جاء مع الجهاز واستيراد ملف الملف الشخصي الذي تم تنزيله بواسطة المتصفح في هذا التطبيق"
   },
   "AddProfileByScanQrcodeScanScreen": {
     "title": "Scan QR Code",
@@ -85,10 +87,19 @@
   },
   "DiversionGroupCustomEditScreen": {
     "title": "تحرير مجموعة التحويل",
+    "domainSuffix": "لاحقة اسم المجال",
+    "domain": "اسم النطاق",
+    "domainKeyword": "الكلمات الرئيسية لاسم المجال",
+    "domainRegex": "انتظام اسم المجال",
+    "port": "ميناء",
+    "appPackage": "اسم حزمة التطبيق",
+    "processName": "اسم العملية",
+    "processPath": "مسار العملية",
     "invalidDomain": "مجال غير صالح:$p",
     "invalidIpCidr": "IP غير صالح CIDR:$p",
     "invalidPort": "منفذ غير صالح:$p",
-    "invalidRuleSet": "مجموعة قواعد غير صالحة:$p, يجب أن يكون عنوان URL عنوان URL HTTPS صالحًا وملفًا ثنائيًا مع ملحق الملف .SRS"
+    "invalidRuleSet": "مجموعة قواعد غير صالحة:$p, يجب أن يكون عنوان URL عنوان URL HTTPS صالحًا وملفًا ثنائيًا مع ملحق الملف .SRS",
+    "setDiversionRule": "نصيحة: بعد الحفظ، يرجى الانتقال إلى [قواعد التحويل] لتعيين القواعد ذات الصلة، وإلا فلن تصبح سارية المفعول."
   },
   "DiversionGroupCustomScreen": {
     "title": "مجموعة تحويل مخصصة",
@@ -147,7 +158,7 @@
     "title": "المجموعات الجيوسيت",
     "search": "يبحث",
     "detail": "$p",
-    "setGeositeRule": "  نصيحة: بعد تشغيل الخيارات ، يرجى الانتقال إلى [قواعد التحويل] لتعيين القواعد ذات الصلة ، وإلا فلن تدخل ساري المفعول "
+    "setGeositeRule": "نصيحة: بعد تشغيل الخيارات ، يرجى الانتقال إلى [قواعد التحويل] لتعيين القواعد ذات الصلة ، وإلا فلن تدخل ساري المفعول "
   },
   "HomeScreen": {
     "noAvailableServer": "لا توجد خوادم متوفرة ، يرجى إضافة ملف تعريف",
@@ -168,7 +179,8 @@
     "trafficTotal": "إجمالي حركة المرور",
     "trafficProxy": "وكيل حركة المرور",
     "upDownSpeed": "سرعة",
-    "myLinkEmpty": "الرجاء الإعداد [الاختصار وصلة] قبل استخدامه"
+    "myLinkEmpty": "الرجاء الإعداد [الاختصار وصلة] قبل استخدامه",
+    "deviceNoSpace": "مساحة غير كافيه في القرص"
   },
   "LanguageSettingsScreen": {
     "title": "لغة",
@@ -329,6 +341,7 @@
     "downloadProfilePreferProxy": "تفضل الوكيل لتنزيل الملف الشخصي",
     "downloadProfilePreferProxyTips": "إذا كان متصلاً حاليًا ، فسيتم تنزيل الملف الشخصي من خلال الوكيل المتصالح أولاً",
     "reloadAfterGeoUpdate": "إعادة التحميل بعد تحديث الجيوسيت/الجغرافي",
+    "rulesetDirectDownlad": "مجموعة القواعد تحميل مباشر",
     "hideUnusedDiversionGroup": "إخفاء مجموعات التحويل غير المستخدمة",
     "portSetting": "ميناء",
     "portSettingRule": "القاعدة القائمة",
@@ -432,6 +445,7 @@
     "sleepWithSystemTips": "بعد أن يذهب النظام إلى النوم ، يقوم VPN بتعليق الخدمة ؛بعد استئناف النظام ، يستأنف VPN الخدمة تلقائيًا ؛ في بعض إصدارات النظام ، قد يستهلك المزيد من الطاقة بعد تشغيله.",
     "disableFontScaler": "تعطيل تحجيم الخط(إعادة التشغيل يسري)",
     "disableFontScalerTips": "إعادة التشغيل يسري",
+    "resetSettings": "اعادة الضبط",
     "download": "تحميل",
     "appleTestFlight": "Apple Testflight",
     "appleAppStore": "متجر تطبيقات Apple",
@@ -519,8 +533,9 @@
     }
   },
   "locales(map)": {
-    "en": "إنجليزي",
-    "zh-CN": "الصينية المبسطة",
-    "ru": "الروسية"
+    "en": "English",
+    "zh-CN": "简体中文",
+    "ar": "عربي",
+    "ru": "Русский"
   }
 }

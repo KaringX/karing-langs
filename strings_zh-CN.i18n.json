@@ -4,6 +4,7 @@
         "name": "名称",
         "version": "版本",
         "installRefer": "安装参考",
+        "versionChannel": "自动更新通道",
         "termOfUse": "使用条款",
         "privacyPolicy": "隐私政策",
         "disableUAReport": "关闭行为数据上报",
@@ -13,7 +14,8 @@
         "FilesAndLogsViewFile": "查看文件",
         "enablePprof": "启用pprof",
         "pprofPanel": "pprof面板",
-        "FilesAndLogsOpenDir": "打开文件目录"
+        "FilesAndLogsOpenDir": "打开文件目录",
+        "useOriginalSBProfile": "使用原始sing-box配置"
     },
     "AddProfileByCustomScreen": {
         "title": "添加自定义配置"
@@ -85,10 +87,19 @@
     },
     "DiversionGroupCustomEditScreen": {
         "title": "编辑分流组",
+        "domainSuffix": "域名后缀",
+        "domain": "域名",
+        "domainKeyword": "域名关键词",
+        "domainRegex": "域名正则",
+        "port": "端口",
+        "appPackage": "应用包名",
+        "processName": "进程名称",
+        "processPath": "进程路径",
         "invalidDomain": "无效的 Domain:$p",
         "invalidIpCidr": "无效的 IP Cidr:$p",
         "invalidPort": "无效的 Port:$p",
-        "invalidRuleSet": "无效的 RuleSet:$p, URL必须是有效的https URL,并且文件扩展名为.srs的binary文件"
+        "invalidRuleSet": "无效的 RuleSet:$p, URL必须是有效的https URL,并且文件扩展名为.srs/.json的binary文件",
+        "setDiversionRule": "提示:保存后,请到[分流规则]设置相关规则,否则不会生效"
     },
     "DiversionGroupCustomScreen": {
         "title": "自定义分流组",
@@ -147,7 +158,7 @@
         "title": "GeoSite",
         "search": "搜索",
         "detail": "$p",
-        "setGeositeRule": "  提示:开启选项后,请到[分流规则]设置相关规则,否则不会生效"
+        "setGeositeRule": "提示:开启选项后,请到[分流规则]设置相关规则,否则不会生效"
     },
     "HomeScreen": {
         "noAvailableServer": "无可用服务器,去添加配置",
@@ -168,7 +179,8 @@
         "trafficTotal": "总流量",
         "trafficProxy": "代理流量",
         "upDownSpeed": "速度",
-        "myLinkEmpty": "请先设置[快捷链接]后再使用"
+        "myLinkEmpty": "请先设置[快捷链接]后再使用",
+        "deviceNoSpace": "磁盘空间不足"
     },
     "LanguageSettingsScreen": {
         "title": "语言",
@@ -292,7 +304,7 @@
         "title": "国家与地区",
         "done": "完成",
         "search": "搜索",
-        "Regions": "  提示:请正确设置你当前所在国家或地区,否则可能会导致分流错误"
+        "Regions": "提示:请正确设置你当前所在国家或地区,否则可能会导致分流错误"
     },
     "ServerSelectScreen": {
         "title": "选择服务器",
@@ -329,6 +341,7 @@
         "downloadProfilePreferProxy": "优先使用代理下载配置",
         "downloadProfilePreferProxyTips": "如果当前已连接,则优先通过已连接的代理下载配置",
         "reloadAfterGeoUpdate": "GeoSite/GeoIP更新后重新加载",
+        "rulesetDirectDownlad": "Rule Set直连下载",
         "hideUnusedDiversionGroup": "隐藏未启用的分流组",
         "portSetting": "端口",
         "portSettingRule": "基于规则",
@@ -360,7 +373,7 @@
         "dnsTypeProxyTips": "用于代理流量的域名解析",
         "dnsTypeResolverTips": "用于DNS服务器的域名解析",
         "dnsTypeFinalTips": "用于其他流量的域名解析",
-        "reset": "恢复默认",
+        "reset": "重置",
         "diversion": "分流",
         "geoSite": "GeoSite",
         "enableGeoSite": "启用GeoSite",
@@ -432,6 +445,7 @@
         "sleepWithSystemTips": "系统休眠后,VPN暂停服务;系统恢复后,VPN自动恢复服务;某些版本的系统上,开启后可能会更加耗电",
         "disableFontScaler": "禁用字体缩放",
         "disableFontScalerTips": "重启生效",
+        "resetSettings": "重置设置",
         "download": "下载",
         "appleTestFlight": "苹果 TestFlight",
         "appleAppStore": "苹果 AppStore",
@@ -521,6 +535,7 @@
     "locales(map)": {
         "en": "English",
         "zh-CN": "简体中文",
+        "ar": "عربي",
         "ru": "Русский"
     }
 }

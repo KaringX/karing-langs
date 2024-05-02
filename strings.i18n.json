@@ -4,6 +4,7 @@
         "name": "Name",
         "version": "Version",
         "installRefer": "Install Refer",
+        "versionChannel": "Auto Update Channel",
         "termOfUse": "Term of Service",
         "privacyPolicy": "Privacy Policy",
         "disableUAReport": "Turn Off Action Data Report",
@@ -13,7 +14,8 @@
         "FilesAndLogsViewFile": "View Files",
         "enablePprof": "Enable pprof",
         "pprofPanel": "pprof Panel",
-        "FilesAndLogsOpenDir": "Open File Directory"
+        "FilesAndLogsOpenDir": "Open File Directory",
+        "useOriginalSBProfile": "Use original sing-box Profile"
     },
     "AddProfileByCustomScreen": {
         "title": "Add Custom Profile"
@@ -85,10 +87,19 @@
     },
     "DiversionGroupCustomEditScreen": {
         "title": "Edit Diversion Group",
+        "domainSuffix": "Domain Suffix",
+        "domain": "Domain",
+        "domainKeyword": "Domain Keyword",
+        "domainRegex": "Domain Regex",
+        "port": "Port",
+        "appPackage": "App Package Name",
+        "processName": "Process Name",
+        "processPath": "Process Path",
         "invalidDomain": "Invalid Domain:$p",
         "invalidIpCidr": "Invalid IP Cidr:$p",
         "invalidPort": "Invalid Port:$p",
-        "invalidRuleSet": "Invalid RuleSet:$p, The URL must be a valid https URL and a binary file with the file extension .srs"
+        "invalidRuleSet": "Invalid RuleSet:$p, The URL must be a valid https URL and a binary file with the file extension .srs/.json",
+        "setDiversionRule": "Tip: After saving, please go to [Diversion Rules] to set relevant rules, otherwise they will not take effect"
     },
     "DiversionGroupCustomScreen": {
         "title": "Custom Diversion Group",
@@ -147,7 +158,7 @@
         "title": "GeoSite Groups",
         "search": "Search",
         "detail": "$p",
-        "setGeositeRule": "  Tip: After turning on the options, please go to[Diversion Rules]to set the relevant rules, otherwise they will not take effect"
+        "setGeositeRule": "Tip: After turning on the options, please go to[Diversion Rules]to set the relevant rules, otherwise they will not take effect"
     },
     "HomeScreen": {
         "noAvailableServer": "No Servers Available, Please Add Profile",
@@ -168,7 +179,8 @@
         "trafficTotal": "Traffic Total",
         "trafficProxy": "Traffic Proxy",
         "upDownSpeed": "Speed",
-        "myLinkEmpty": "Please set up [Shortcut Link] before using it"
+        "myLinkEmpty": "Please set up [Shortcut Link] before using it",
+        "deviceNoSpace": "Not enough disk space"
     },
     "LanguageSettingsScreen": {
         "title": "Language",
@@ -292,7 +304,7 @@
         "title": "Country Or Region",
         "done": "Done",
         "search": "Search",
-        "Regions": "  Tip: Please set your current country or region correctly, otherwise it may cause network diversion problems"
+        "Regions": "Tip: Please set your current country or region correctly, otherwise it may cause network diversion problems"
     },
     "ServerSelectScreen": {
         "title": "Select Server",
@@ -329,6 +341,7 @@
         "downloadProfilePreferProxy": "Prefer Proxy to Download Profile",
         "downloadProfilePreferProxyTips": "If currently connected, the profile will be downloaded through the connected proxy first",
         "reloadAfterGeoUpdate": "Reload after GeoSite/GeoIP update",
+        "rulesetDirectDownlad": "Rule Set Direct Download",
         "hideUnusedDiversionGroup": "Hide Unused Diversion Groups",
         "portSetting": "Port",
         "portSettingRule": "Rule Based",
@@ -432,6 +445,7 @@
         "sleepWithSystemTips": "After the system goes to sleep, the VPN suspends service; after the system resumes, the VPN automatically resumes service;On some versions of the system, it may consume more power after being turned on.",
         "disableFontScaler": "Disable Font scaling(Restart takes effect)",
         "disableFontScalerTips": "Restart takes effect",
+        "resetSettings": "Reset Settings",
         "download": "Download",
         "appleTestFlight": "Apple TestFlight",
         "appleAppStore": "Apple AppStore",
@@ -521,6 +535,7 @@
     "locales(map)": {
         "en": "English",
         "zh-CN": "简体中文",
+        "ar": "عربي",
         "ru": "Русский"
     }
 }
