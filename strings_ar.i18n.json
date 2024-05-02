@@ -1,0 +1,526 @@
+{
+  "AboutScreen": {
+    "title": "عن",
+    "name": "اسم",
+    "version": "إصدار",
+    "installRefer": "تثبيت الرجوع",
+    "termOfUse": "شرط الخدمة",
+    "privacyPolicy": "سياسة الخصوصية",
+    "disableUAReport": "قم بإيقاف تشغيل تقرير بيانات الإجراء",
+    "disableUAReportTip": "يساعدنا الإبلاغ عن بيانات الإجراء على تحسين تجربة المنتج ، ولكن الإغلاق لا يفضي إلى التحسين السريع وتحسين المنتج",
+    "devOptions": "خيارات للمطور",
+    "enableDebugLog": "تمكين سجل التصحيح",
+    "FilesAndLogsViewFile": "عرض الملفات",
+    "enablePprof": "يُمكَِن pprof",
+    "pprofPanel": "pprof لوحة",
+    "FilesAndLogsOpenDir": "فتح دليل الملف"
+  },
+  "AddProfileByCustomScreen": {
+    "title": "أضف ملف تعريف مخصص"
+  },
+  "AddProfileByImportFromFileScreen": {
+    "title": "استيراد ملف الملف الشخصي",
+    "enableDiversionRules": "تمكين قواعد التحويل",
+    "chooseFile": "حدد الملف",
+    "remark": "ملاحظة",
+    "remarkHit": "ملاحظة [مطلوب]",
+    "invalidFileType": "نوع الملف غير صالح:$p",
+    "remarkCannotEmpty": "لا يمكن أن تكون الملاحظات فارغة",
+    "remarkTooLong": "ملاحظات تصل إلى 32 حرفًا",
+    "remarkExist": "ملاحظة موجودة بالفعل ، يرجى استخدام اسم آخر",
+    "configExist": "الملف الشخصي موجود بالفعل ، من فضلك لا تضيفه مرارًا وتكرارًا",
+    "addSuccess": "اضيف بنجاح",
+    "addFailed": "إضافة فشل:$p"
+  },
+  "AddProfileByLinkOrContentScreen": {
+    "title": "إضافة رابط ملف التعريف",
+    "enableDiversionRules": "تمكين قواعد التحويل",
+    "updateTimerInterval": "الفاصل الزمني للتحديث",
+    "updateTimerIntervalTips": "لتعطيل من فضلك ضبط على:<5m",
+    "profileLinkContent": "رابط/محتوى الملف الشخصي",
+    "profileLinkContentHit": "ارتباط ملف التعريف/المحتوى [مطلوب] (دعم الدعم ، V2Ray (مدعوم الدفعة) ، خبأ ، karing ، sing-box ، shadowsocks ، روابط الملف الشخصي الفرعي)",
+    "remark": "Remark",
+    "remarkHit": "Remark [Link]",
+    "addProfile": "Add",
+    "subscriptionCannotEmpty": "لا يمكن أن يكون رابط الملف الشخصي فارغًا",
+    "remarkCannotEmpty": "لا يمكن أن تكون الملاحظات فارغة",
+    "remarkTooLong": "ملاحظات تصل إلى 32 حرفًا",
+    "remarkExist": "ملاحظة موجودة بالفعل ، يرجى استخدام اسم آخر",
+    "configExist": "الملف الشخصي موجود بالفعل ، من فضلك لا تضيفه مرارًا وتكرارًا",
+    "invalidUrl": "رابط الملف الطويل جدًا",
+    "addSuccess": "اضيف بنجاح",
+    "addFailed": "إضافة فشل:$p",
+    "addFailedFormatException": "التنسيق خاطئ ، يرجى تصحيحه وإضافته مرة أخرى:",
+    "addFailedThenDownloadAndImport": "إضافة الفشل: $ p ، يرجى محاولة فتح رابط الملف الشخصي باستخدام المتصفح الذي جاء مع الجهاز واستيراد ملف الملف الشخصي الذي تم تنزيله بواسطة المتصفح في هذا التطبيق"
+  },
+  "AddProfileByScanQrcodeScanScreen": {
+    "title": "Scan QR Code",
+    "copy": "Copy Link",
+    "open": "Open Link",
+    "add": "Add",
+    "requestCameraPermission": "يرجى تمكين إذن الكاميرا",
+    "requestScreenAccess": "يرجى الانتقال إلى إعدادات النظام - الخصوصية والأمان - تسجيل الشاشة لإضافة أذونات لهذا التطبيق",
+    "screenshot": "لقطة شاشة",
+    "scanFromImage": "مسح من الصورة",
+    "scanNoResult": "فشل في تحليل الصورة ، يرجى التأكد من أن لقطة الشاشة هي رمز QR صالح",
+    "scanEmptyResult": "نتيجة الفحص فارغة",
+    "scanException": "فشل في تحليل الصورة ، يرجى التأكد من أن لقطة الشاشة هي رمز QR صالح: $p"
+  },
+  "BackupAndSyncIcloudScreen": {
+    "title": "iCloud"
+  },
+  "BackupAndSyncLanSyncScreen": {
+    "title": "LAN SYNC",
+    "lanSyncNotQuitTips": "لا تخرج من هذه الواجهة قبل اكتمال التزامن"
+  },
+  "BackupAndSyncWebdavScreen": {
+    "title": "Webdav",
+    "webdavServerUrl": "عنوان URL الخادم",
+    "webdavUser": "حساب",
+    "webdavPassword": "كلمة المرور",
+    "required": "مطلوب",
+    "webdavRequired": "لايمكن ان يكون فارغا",
+    "webdavLoginFailed": "فشل تسجيل الدخول:",
+    "webdavListFailed": "فشل في الحصول على قائمة الملفات:"
+  },
+  "DiversionGroupCustomEditScreen": {
+    "title": "تحرير مجموعة التحويل",
+    "invalidDomain": "مجال غير صالح:$p",
+    "invalidIpCidr": "IP غير صالح CIDR:$p",
+    "invalidPort": "منفذ غير صالح:$p",
+    "invalidRuleSet": "مجموعة قواعد غير صالحة:$p, يجب أن يكون عنوان URL عنوان URL HTTPS صالحًا وملفًا ثنائيًا مع ملحق الملف .SRS"
+  },
+  "DiversionGroupCustomScreen": {
+    "title": "مجموعة تحويل مخصصة",
+    "add": "إضافة مجموعة التحويل",
+    "remark": "ملاحظة",
+    "remarkCannotEmpty": "لا يمكن أن تكون الملاحظات فارغة",
+    "remarkTooLong": "ملاحظات تصل إلى 32 حرفًا ",
+    "remarkExist": "ملاحظة موجودة بالفعل ، يرجى استخدام اسم آخر",
+    "confirmDel": "هل انت متأكد من الحذف؟"
+  },
+  "DiversionRuleDetectScreen": {
+    "title": "قاعدة التحويل اكتشف",
+    "detect": "يكشف",
+    "rule": "قاعدة:",
+    "outbound": "مخدم بروكسي:"
+  },
+  "DiversionRulesScreen": {
+    "title": "قواعد التحويل",
+    "byCurrentSelected": "المحدد الحالي",
+    "selector": "اختيار آلي",
+    "direct": "مباشر",
+    "block": "حاجز",
+    "geoSite": "جولتور",
+    "finalSelect": "أخير",
+    "finalSelectTips": "إذا لم يتم ضرب قاعدة ، فسيتم استخدام هذه القاعدة ؛إن تشغيل [وكيل الكل] سيؤدي إلى أن يصبح هذا الإعداد غير صالح",
+    "diversionRulesMatchTips": "حاول مطابقة القواعد من أعلى إلى أسفل.إذا لم يتم مطابقة قاعدة ، استخدم النهائي"
+  },
+  "DnsSettingsScreen": {
+    "title": "dns",
+    "Connecting": "توصيل",
+    "add": "أضف خادم DNS",
+    "isp": "ISP",
+    "url": "URL",
+    "ispCanNotEmpty": "لا يمكن أن يكون ISP فارغًا",
+    "urlCanNotEmpty": "لا يمكن أن يكون عنوان URL فارغًا",
+    "error": "نوع غير مدعوم:$p",
+    "dnsDesc": "العمود الأول من بيانات التأخير هو تأخير استعلام الاتصال المباشر;\nالعمود الثاني: شغله [[حركة الوكيل]حل DNS من خلال خادم الوكيل]: بيانات التأخير هي تأخير الاستعلام الذي تم إعادة توجيهه من خلال خادم الوكيل الحالي; إذا [[حركة الوكيل]حل DNS من خلال خادم الوكيل]: بيانات التأخير هي تأخير استعلام الاتصال المباشر"
+  },
+  "FeedbackScreen": {
+    "title": "تعليق",
+    "content": "محتوى ردود الفعل",
+    "contentHit": "مطلوب ، ما يصل إلى 500 حرف",
+    "email": "بريد إلكتروني",
+    "telegram": "برقية",
+    "submit": "يُقدِّم",
+    "contentCannotEmpty": "لا يمكن أن يكون محتوى التعليقات فارغًا",
+    "submitDone": "شكرا لملاحظاتك"
+  },
+  "FileContentViewerScreen": {
+    "title": "ملف محتوى الملف",
+    "chooseFile": "حدد الملف",
+    "clearFileContent": "هل أنت متأكد من مسح محتوى الملف؟",
+    "clearFileContentTips": "هل أنت متأكد من مسح محتوى ملف الملف الشخصي؟قد يتسبب تطهير ملف الملف الشخصي في فقدان البيانات أو وظائف التطبيق غير الطبيعية ، يرجى العمل بحذر"
+  },
+  "GeoSiteScreen": {
+    "title": "المجموعات الجيوسيت",
+    "search": "يبحث",
+    "detail": "$p",
+    "setGeositeRule": "  نصيحة: بعد تشغيل الخيارات ، يرجى الانتقال إلى [قواعد التحويل] لتعيين القواعد ذات الصلة ، وإلا فلن تدخل ساري المفعول "
+  },
+  "HomeScreen": {
+    "noAvailableServer": "لا توجد خوادم متوفرة ، يرجى إضافة ملف تعريف",
+    "toSelectServer": "الرجاء تحديد خادم",
+    "invalidServer": "غير صالح ، الرجاء اختيار مرة أخرى",
+    "disabledServer": "معطل ، الرجاء اختيار مرة أخرى",
+    "expiredServer": "لا توجد خوادم متوفرة ، قد تنتهي صلاحيتها",
+    "selector": "اختيار آلي",
+    "connectState": {
+      "connected": "متصل",
+      "disconnected": "انقطع الاتصال"
+    },
+    "systemProxy": "وكيل النظام",
+    "systemProxyTips": "جوارب:$sp,http(s):$hp",
+    "rule": "قاعدة",
+    "all": "عالمي",
+    "updateFailed": "فشل التحديث:$p",
+    "trafficTotal": "إجمالي حركة المرور",
+    "trafficProxy": "وكيل حركة المرور",
+    "upDownSpeed": "سرعة",
+    "myLinkEmpty": "الرجاء الإعداد [الاختصار وصلة] قبل استخدامه"
+  },
+  "LanguageSettingsScreen": {
+    "title": "لغة",
+    "search": "يبحث",
+    "next": "التالي"
+  },
+  "LaunchFailedScreen": {
+    "invalidProcess": "فشل التطبيق في البدء [اسم عملية غير صالح] ، يرجى إعادة تثبيت التطبيق إلى دليل منفصل",
+    "invalidProfile": "فشل التطبيق في البدء [فشل في الوصول إلى الملف الشخصي] ، يرجى إعادة تثبيت التطبيق",
+    "invalidVersion": "فشل التطبيق في بدء [إصدار غير صالح] ، يرجى إعادة تثبيت التطبيق",
+    "startFromUNC": "مسار التثبيت غير صالح ، يرجى إعادة تثبيته إلى مسار صالح",
+    "website": "موقع إلكتروني",
+    "quit": "يترك"
+  },
+  "MyProfilesEditScreen": {
+    "title": "تحرير الملف الشخصي",
+    "remark": "مجدافk",
+    "remarkCannotEmpty": "لا يمكن أن تكون الملاحظات فارغة",
+    "remarkTooLong": "ملاحظات تصل إلى 32 حرفًا",
+    "remarkExist": "ملاحظة موجودة بالفعل ، يرجى استخدام اسم آخر",
+    "url": "URL",
+    "urlInvalid": "URL غير صالح",
+    "urlExist": "عنوان URL موجود بالفعل ، يرجى استخدام عنوان URL آخر",
+    "enableDiversionRules": "تمكين قواعد التحويل",
+    "updateTimerInterval": "الفاصل الزمني للتحديث",
+    "updateTimerIntervalTips": "لتعطيل يرجى تعيين:<5m",
+    "reloadAfterProfileUpdate": "إعادة التحميل بعد تحديث الملف الشخصي",
+    "testLatencyAfterProfileUpdate": "ابدأ اختبارات الكمون بعد التحديث تلقائيًا",
+    "testLatencyAfterProfileUpdateTips": "يجب توصيل VPN ، وتمكين [إعادة التحميل بعد تحديث الملف الشخصي]",
+    "testLatencyAutoRemove": "إزالة الخوادم التي تفشل تلقائيا اختبارات الكمون",
+    "testLatencyAutoRemoveTips": "جرب ما يصل إلى 3 مرات"
+  },
+  "MyProfilesMergeScreen": {
+    "profilesMerge": "دمج الملامح",
+    "profilesMergeTarget": "ملف تعريف الهدف",
+    "profilesMergeSource": "ملفات تعريف المصدر",
+    "profilesMergeTips": "نصيحة: سيتم تجاهل تحويل ملفات تعريف المصدر"
+  },
+  "MyProfilesReorderScreen": {
+    "title": "إعادة ترتيب"
+  },
+  "MyProfilesScreen": {
+    "title": "مظهر",
+    "Connecting": "توصيل",
+    "updateFailed": "فشل التحديث:$p",
+    "confirmDel": "هل انت متأكد من الحذف؟",
+    "atLeastOneEnable": "لا يمكن تعطيله ، يرجى الاحتفاظ بملف تعريف واحد على الأقل",
+    "disableServer": "إبطال",
+    "enableServer": "يُمكَِن"
+  },
+  "NetCheckScreen": {
+    "title": "فحص صافي",
+    "warn": "ملاحظة: نظرًا لتأثير بيئة الشبكة وقواعد التحويل ، فإن نتائج الاختبار ليست مكافئة تمامًا للنتائج الفعلية.",
+    "check": "يفحص",
+    "invalidDomain": "اسم النطاق غير صالح",
+    "connectivity": "اتصال الشبكة",
+    "connectivityTestIpv4AllFailed": "اختبار اتصال IPv4[$p] كل شيء فشل",
+    "connectivityTestIpv4Ok": "Ipv4 نجح الاتصال",
+    "connectivityTestIpv6AllFailed": "Ipv6 اختبار الاتصال [$p] كل شيء فشل ، قد لا تدعم شبكتك IPv6",
+    "connectivityTestIpv6Ok": "نجح اتصال IPv6",
+    "connectivityTestOk": "الشبكة متصلة بالإنترنت",
+    "connectivityTestFailed": "الشبكة ليست متصلة بعد بالإنترنت",
+    "outbound": "مخدم بروكسي",
+    "outboundOk": "[$p] نجح الاتصال ",
+    "outboundFailed": "[$p1] فشل الاتصال\nError:[$p2]",
+    "dnsServer": "DNS الخادم",
+    "dns": "DNS",
+    "dnsOk": "[$p1]نجح استعلام DNS\nDNS قاعدة:[$p2]\n وقت الإستجابة:[$p3 ms]\nAعنوان[$p4]",
+    "dnsFailed": "[$p1]نجح استعلام DNS\n nDNS قاعدة:[$p2]\nخطأ:[$p3]",
+    "host": "اتصال HTTP",
+    "hostOk": "[$p1]نجح الاتصال\nقاعدة التحويل:[$p2]\nمخدم بروكسي:[$p3]"
+  },
+  "NetConnectionsFilterScreen": {
+    "title": "تصفية الاتصالات",
+    "hostIp": "المجال/IP",
+    "port": "ميناء",
+    "app": "برنامج",
+    "rule": "قاعدة",
+    "chain": "خارج"
+  },
+  "NetConnectionsScreen": {
+    "title": "روابط",
+    "selector": "اختيار آلي",
+    "direct": "مباشر",
+    "block": "حاجز",
+    "dns": "DNS",
+    "copyAsCSV": "نسخ إلى تنسيق CSV",
+    "selectType": "حدد نوع التحويل",
+    "typeDomain": "اِختِصاص",
+    "typeIP": "عنوان IP",
+    "typePort": "ميناء",
+    "typePackage": "طَرد",
+    "typeProcessName": "اسم العملية",
+    "typeProcessPath": "مسار العملية"
+  },
+  "NetInterfacesScreen": {
+    "title": "واجهات صافية"
+  },
+  "OnlineBackupAndSyncScreen": {
+    "title": ""
+  },
+  "PerAppAndroidScreen": {
+    "title": "لكل وكيل تطبيق",
+    "enable": "يُمكَِن",
+    "whiteListMode": "وضع القائمة البيضاء",
+    "whiteListModeTip": "عند التمكين: فقط التطبيقات التي تم فحصها هي وكلاء ؛عندما لا يتم تمكينها: فقط التطبيقات التي لم يتم فحصها هي وكلاء",
+    "enableAppQueryPermission": "قم بتشغيل الإذن [استعلام قائمة التطبيقات]"
+  },
+  "QrcodeScreen": {
+    "title": "رمز الاستجابة السريعة",
+    "tooLong": "النص طويل جدًا لعرضه",
+    "copy": "نسخ الوصلة",
+    "open": "افتح الرابط",
+    "share": "شارك الرابط",
+    "shareImage": "شارك رمز الاستجابة السريعة"
+  },
+  "QrcodeScanScreen": {
+    "title": "مسح رمز الاستجابة السريعة"
+  },
+  "RegionSettingsScreen": {
+    "title": "الدولة او المنطقة",
+    "done": "منتهي",
+    "search": "يبحث",
+    "Regions": "  نصيحة: يرجى تعيين بلدك أو منطقتك الحالية بشكل صحيح ، وإلا فقد يتسبب في مشاكل في تحويل الشبكة"
+  },
+  "ServerSelectScreen": {
+    "title": "حدد الخادم",
+    "selector": "autoSelectServer",
+    "none": "لا أحد",
+    "autoSelectServer": "تلقائي حدد الخادم بأقل زمن انتقال",
+    "recommend": "يوصي",
+    "recentUse": "مستخدم حديثا",
+    "myFav": "المفضل لدي",
+    "Connecting": "توصيل",
+    "updateFailed": "فشل التحديث:$p",
+    "selectLocal": "الخادم المحدد هو عنوان محلي وقد لا يعمل بشكل صحيح:$p",
+    "selectRequireEnableIPv6": "الخادم المحدد هو عنوان IPv6 ويتطلب [تمكين IPv6]",
+    "selectDisabled": "تم تعطيل هذا الخادم",
+    "disableServer": "إبطال",
+    "enableServer": "يُمكَِن",
+    "error404": "واجه اكتشاف الكمون خطأ ، يرجى التحقق مما إذا كان هناك تكوين مع نفس المحتوى"
+  },
+  "SettingsScreen": {
+    "title": "إعدادات",
+    "ispFaq": "أسئلة مكررة[$p]",
+    "cleanISP": "ISP واضح[$p]",
+    "openISP": "فتح ISP رابط",
+    "cleanISPNoParam": "مسح معلومات مزود خدمة الإنترنت ",
+    "getTranffic": "احصل على حركة المرور",
+    "tutorial": "درس تعليمي",
+    "faq": "أسئلة مكررة",
+    "notice": "يلاحظ",
+    "htmlBoard": "لوحة على الانترنت",
+    "Connecting": "توصيل",
+    "speedTest": "اختبار السرعة",
+    "addProfile": "إضافة ملف تعريف",
+    "addProfileFromClipboard": "استيراد من الحافظة",
+    "downloadProfilePreferProxy": "تفضل الوكيل لتنزيل الملف الشخصي",
+    "downloadProfilePreferProxyTips": "إذا كان متصلاً حاليًا ، فسيتم تنزيل الملف الشخصي من خلال الوكيل المتصالح أولاً",
+    "reloadAfterGeoUpdate": "إعادة التحميل بعد تحديث الجيوسيت/الجغرافي",
+    "hideUnusedDiversionGroup": "إخفاء مجموعات التحويل غير المستخدمة",
+    "portSetting": "ميناء",
+    "portSettingRule": "القاعدة القائمة",
+    "portSettingDirectAll": "توجيه كل شيء",
+    "portSettingProxyAll": "وكيل الكل",
+    "portSettingControl": "السيطرة والمزامنة",
+    "portSettingCluster": "خدمة الكتلة",
+    "modifyPort": "تعديل المنفذ",
+    "enableIPv6": "تمكين IPv6",
+    "enableIPv6Tips": "قبل التمكين ، يرجى تأكيد أن شبكتك تدعم IPv6 ، وإلا لا يمكن الوصول إلى بعض حركة المرور بشكل طبيعي.",
+    "appendHttpProxyToTun": "إلحاق وكيل HTTP إلى VPN",
+    "appendHttpProxyToTunTips": "ستجاوز بعض التطبيقات جهاز NIC الظاهري والاتصال مباشرة بوكيل HTTP",
+    "dnsSetting": "DNS",
+    "dnsEnableRule": "تمكين قواعد تحويل DNS",
+    "dnsEnableFakeIp": "تمكين وهمية",
+    "dnsEnableProxyResolveByProxy": "[حركة الوكيل] حل DNS من خلال خادم الوكيل",
+    "dnsEnableFinalResolveByProxy": "[نهائي] حل DNS من خلال خادم الوكيل",
+    "dnsTestDomain": "مجال الاختبار",
+    "dnsTestDomainInvalid": "مجال غير صالح",
+    "dnsTypeOutbound": "مخدم بروكسي",
+    "dnsTypeDirect": "سير مستقيم",
+    "dnsTypeProxy": "حركة الوكيل",
+    "dnsTypeResolver": "خادم DNS",
+    "dnsTypeFinal": "أخير",
+    "dnsEnableRuleTips": "بعد التمكين ، سيختار اسم المجال خادم DNS المقابل للدقة وفقًا لقواعد التحويل",
+    "dnsEnableFakeIpTips": "بعد تمكين Fakeip ، إذا تم فصل اتصال VPN ، يجب إعادة تشغيل التطبيق الخاص بك",
+    "dnsTypeOutboundTips": "دقة اسم المجال لخادم الوكيل",
+    "dnsTypeDirectTips": "حل اسم المجال لحركة المرور المباشرة",
+    "dnsTypeProxyTips": "حل اسم المجال لحركة المرور الوكيل",
+    "dnsTypeResolverTips": "دقة اسم المجال لخادم DNS الآخر",
+    "dnsTypeFinalTips": "حل اسم المجال لحركة المرور الأخرى",
+    "reset": "إعادة ضبط",
+    "diversion": "تحويل",
+    "geoSite": "جولتور",
+    "enableGeoSite": "يُمكَِنجولتورe",
+    "geoSiteAppleDirectOptimization": "تحسين اتصال Apple المباشر",
+    "geoSiteAppleDirectOptimizationTips": "عند تشغيله ، ستستخدم Apple Geosite [Apple و Apple-Ads و Apple-Dev و Apple-PKI و Apple-Update] وضع الاتصال المباشر للحصول على تجربة شبكة أفضل",
+    "geoIp": "جيو",
+    "enableGeoIp": "تمكين Geoip",
+    "autoSelect": "اختيار آلي",
+    "autoSelectServerInterval": "فاصل الشيكات الكمون",
+    "autoSelectServerIntervalTips": "كلما كانت الفاصل الزمني الأقصر ، زادت تحديثات بيانات زمن انتقال الخادم في الوقت المناسب ، والتي ستشغل المزيد من الموارد وتستهلك المزيد من الطاقة ؛ للتعطيل ، يرجى ضبطها على: <5M ",
+    "autoSelectServerFavFirst": "PRI-Use [My Favs]",
+    "autoSelectServerFavFirstTips": "إذا لم تكن قائمة [FAVS] فارغة ، فاستخدم الخوادم في [FAVs]",
+    "autoSelectServerFilter": "تصفية خوادم غير صالحة",
+    "autoSelectServerFilterTips": "يتم تصفيات زمن انتقال الخادم الذي يتم تصفيته",
+    "autoSelectServerFilterNum": "قوة [مرشح الخوادم غير الصالحة] عتبة",
+    "autoSelectServerFilterNumTips": "عندما يكون عدد الخوادم> = العتبة ، سيتم تشغيل [تصفية الخوادم غير الصالحة] بالقوة",
+    "numInvalid": "رقم غير صالح",
+    "hideInvalidServer": "إخفاء الخوادم غير الصالحة",
+    "sortServer": "خوادم الفرز",
+    "sortServerTips": "فرز حسب الكمون من منخفض إلى مرتفع",
+    "selectServerHideRecommand": "إخفاء [يوصي]",
+    "selectServerHideRecent": "إخفاء [المستخدمة مؤخرًا]",
+    "selectServerHideFav": "إخفاء [المفضلة لدي]",
+    "homeScreen": "الشاشة الرئيسية",
+    "theme": "Tالهيم",
+    "myLink": "ارتباط اختصار",
+    "myLinkInvalid": "URL غير صالح",
+    "autoConnectAfterLaunch": "اتصال السيارات بعد الإطلاق",
+    "autoSetSystemProxy": "وكيل نظام تعيين تلقائي عند الاتصال",
+    "disconnectWhenQuit": "افصل عندما يخرج التطبيق",
+    "backupAndSync": "النسخ الاحتياطي والمزامنة",
+    "importAndExport": "استيراد وتصدير",
+    "import": "يستورد",
+    "export": "يصدّر",
+    "lanSyncTo": "مزامنة للآخرين ",
+    "lanSyncFrom": "مزامنة من الآخرين",
+    "lanSyncScanQRcode": "مسح رمز الاستجابة السريعة للمزامنة ",
+    "invalidFileType": "نوع الملف غير صالح:$p",
+    "importSuccess": "استيراد نجاح ",
+    "rewriteConfirm": "سيقوم هذا الملف بكتابة التكوين المحلي الحالي.هل تريد الاستمرار؟",
+    "networkShare": "مشاركة الشبكة",
+    "frontProxy": "الوكيل الأمامي",
+    "frontProxyTips": "بيانات->خادم الوكيل الأمامي->مخدم بروكسي->الخادم الهدف",
+    "allowOtherHostsConnect": "اسمح للآخرين بالاتصال",
+    "allowOtherHostsConnectTips": "socks:$sp,http(s):$hp",
+    "enableCluster": "تمكين مجموعة الوكيل الجوارب/HTTP",
+    "clusterAllowOtherHostsConnect": "السماح للآخرين بالاتصال بـ CLUSTER",
+    "clusterAllowOtherHostsConnectTips": "http://127.0.0.1:$hp/get_proxies",
+    "clusterAuth": "مصادقة مجموعة الوكيل",
+    "clusterConfirm": "يرجى التأكيد على أنه تم فحص زمن انتقال الخوادم ، ولن يتم إنشاء خدمات الوكيل إذا لم يتم فحصها أو فحصها بشكل غير صحيح",
+    "tunMode": "نفق وضع",
+    "tunModeTips": "سيتولى وضع TUN كل حركة مرور النظام [في هذا الوضع ، يمكنك ترك وكيل النظام غير مدقلة]",
+    "tunModeRunAsAdmin": "يتطلب وضع TUN أذونات مسؤول النظام ، يرجى إعادة تشغيل التطبيق كمسؤول",
+    "launchAtStartupSwitch": "إطلاق عند بدء التشغيل",
+    "quitWhenSwitchSystemUser": "خروج تطبيق عند تبديل مستخدمي النظام",
+    "handleScheme": "مكالمة مخطط النظام",
+    "handleKaringScheme": "مقبض karing:// Call",
+    "handleClashScheme": "مقبض clash:// Call",
+    "handleSingboxScheme": "مقبض sing-box:// يتصل",
+    "handleStashScheme": "تعامل مع خبأ:// يتصل",
+    "removeSystemVPNConfig": "حذف تكوين VPN النظام",
+    "removeSystemVPNConfigConfirm": "تأكيد لحذف تكوين VPN النظام؟",
+    "timeConnectOrDisconnect": "المقرر يتصل/قطع الاتصال",
+    "timeConnectOrDisconnectTips": "يجب أن يكون VPN متصلاً ليصبح مفيدًا ؛بعد تشغيله ، سيتم تعطيل [النوم التلقائي]",
+    "timeConnect": "يتصل",
+    "timeDisconnect": "قطع الاتصال",
+    "timeConnectAndDisconnectInterval": "ال cاتصاللا يمكن أن يكون فاصل الانفصال أقل من $p دقائق",
+    "sleepWithSystem": "النوم التلقائي",
+    "sleepWithSystemTips": "بعد أن يذهب النظام إلى النوم ، يقوم VPN بتعليق الخدمة ؛بعد استئناف النظام ، يستأنف VPN الخدمة تلقائيًا ؛ في بعض إصدارات النظام ، قد يستهلك المزيد من الطاقة بعد تشغيله.",
+    "disableFontScaler": "تعطيل تحجيم الخط(إعادة التشغيل يسري)",
+    "disableFontScalerTips": "إعادة التشغيل يسري",
+    "download": "تحميل",
+    "appleTestFlight": "Apple Testflight",
+    "appleAppStore": "متجر تطبيقات Apple",
+    "hasNewVersion": "تحديث الإصدار $p",
+    "follow": "تابعنا",
+    "contactUs": "اتصل بنا",
+    "rateInApp": "قيمنا",
+    "rateInAppStore": "قيمنا في متجر التطبيقات"
+  },
+  "SpeedTestSettingsScreen": {
+    "title": "URL اختبار السرعة",
+    "add": "إضافة عنوان URL اختبار السرعة",
+    "error": "يجب أن يكون عنوان URL HTTPS صالح"
+  },
+  "TextToQrCodeScreen": {
+    "title": "رسالة نصية إلى رمز الاستجابة السريعة",
+    "convert": "يتحول"
+  },
+  "UrlTestGroupCustomScreen": {
+    "title": "مجموعة الوكيل المخصصة",
+    "remark": "ملاحظة",
+    "remarkHit": "ملاحظة [مطلوب]",
+    "remarkCannotEmpty": "لا يمكن أن تكون الملاحظات فارغة",
+    "remarkTooLong": "ملاحظات تصل إلى 32 حرفًا",
+    "remarkExist": "ملاحظة موجودة بالفعل ، يرجى استخدام اسم آخر"
+  },
+  "UserAgreementScreen": {
+    "privacyFirst": "خصوصيتك تأتي أولا",
+    "termOfUse": "شروط الخدمة",
+    "privacyPolicy": "سياسة الخصوصية",
+    "agreeAndContinue": "قبول ومتابعة"
+  },
+  "VersionUpdateScreen": {
+    "versionReady": "الإصدار الجديد [$p] جاهز",
+    "update": "أعد التشغيل للتحديث",
+    "cancel": "ليس الآن"
+  },
+  "CommonWidget": {
+    "refresh": "ينعش",
+    "retry": "إعادة المحاولة?"
+  },
+  "DialogUtils": {
+    "showAlertDialog": {
+      "title": "معلومات",
+      "copy": "ينسخ",
+      "ok": "نعم"
+    },
+    "showConfirmDialog": {
+      "ok": "نعم",
+      "cancel": "يلغي",
+      "feedback": "تعليق"
+    },
+    "showLoadingDialog": {
+      "loading": "تحميل..."
+    },
+    "showQRContentDialog": {
+      "scanResult": "نتيجة المسح",
+      "add": "لإضافة"
+    },
+    "showTimeTextInputDialog": {
+      "days": "أيام",
+      "hours": "ساعات",
+      "minutes": "دقائق",
+      "disable": "إبطال"
+    }
+  },
+  "ServerManager": {
+    "noServerAvaliable": "لا يوجد خادم قابل للتطبيق ، تأكد من أن ارتباط الملف الشخصي أو ملف الملف الشخصي صالح",
+    "timeout": "ربط مهلة",
+    "byCurrentSelected": "المحدد الحالي",
+    "selector": "اختيار آلي",
+    "direct": "مباشر",
+    "block": "حاجز",
+    "custom": "مخصص",
+    "filePathCannotEmpty": "لا يمكن أن يكون مسار الملف فارغًا",
+    "fileNotExist": "الملف غير موجود: $p",
+    "urlCannotEmpty": "لا يمكن أن يكون الرابط فارغًا",
+    "invalidUrl": "رابط ملف تعريف غير صالح",
+    "parseFailed": "فشل تحليل الملف الشخصي"
+  },
+  "main": {
+    "tray": {
+      "menuOpen": "    يفتح    ",
+      "menuExit": "    مخرج    "
+    }
+  },
+  "locales(map)": {
+    "en": "إنجليزي",
+    "zh-CN": "الصينية المبسطة",
+    "ru": "الروسية"
+  }
+}
