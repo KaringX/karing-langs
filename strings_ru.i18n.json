@@ -123,6 +123,7 @@
         "direct": "Напрямую",
         "block": "Блокировать",
         "geoSite": "GeoSite",
+        "geoIp": "GeoIP",
         "finalSelect": "final",
         "finalSelectTips": "Если ни одно правило не соблюдается, будет использоваться это правило; включение [прокси все] приведет к тому, что этот параметр станет недействительным",
         "diversionRulesMatchTips": "Попробуйте сопоставить правила сверху вниз. Если ни одно правило не соответствует, используйте final"
@@ -155,10 +156,13 @@
         "clearFileContentTips": "Вы уверены, что очистите содержимое файла профиля? Очистка файла профиля может привести к потере данных или некорректной работе приложения, действуйте осторожно"
     },
     "GeoSiteScreen": {
-        "title": "GeoSite-группы",
+        "title": "GeoSite",
         "search": "Поиск",
         "detail": "$p",
         "setGeositeRule": "Совет: После включения опции перейдите в[Правила переадресации], чтобы установить соответствующие правила, иначе они не вступят в силу"
+    },
+    "GeoIpScreen": {
+        "title": "GeoIP"
     },
     "HomeScreen": {
         "noAvailableServer": "Нет доступных серверов. Пожалуйста, добавьте подписку или профиль",
@@ -340,7 +344,6 @@
         "addProfileFromClipboard": "Импорт из буфера обмена",
         "downloadProfilePreferProxy": "Настройка приоритетной загрузки прокси",
         "downloadProfilePreferProxyTips": "Если подключение установлено, конфигурация сначала будет загружена через подключенный прокси-сервер",
-        "reloadAfterGeoUpdate": "Перезагрузить после обновления GeoSite/GeoIP",
         "rulesetDirectDownlad": "Rule Set Прямая загрузка",
         "hideUnusedDiversionGroup": "Скрыть неактивные дельта-группы",
         "portSetting": "порт",
@@ -377,9 +380,9 @@
         "diversion": "Правила",
         "geoSite": "GeoSite",
         "enableGeoSite": "Включить GeoSite",
+        "useRomoteGeoRes": "Используйте удаленные ресурсы",
         "geoSiteAppleDirectOptimization": "Apple Оптимизация прямого соединения",
         "geoSiteAppleDirectOptimizationTips": "При включении Apple GeoSite[apple,apple-ads,apple-dev,apple-pki,apple-update] будет использоваться режим прямого подключения для улучшения работы сети",
-        "geoIp": "GeoIP",
         "enableGeoIp": "Включить GeoIP",
         "autoSelect": "Авто Выбор",
         "autoSelectServerInterval": "Интервал проверок задержки",
@@ -427,7 +430,7 @@
         "tunMode": "Режим TUN",
         "tunModeTips": "Режим TUN возьмет на себя весь трафик системы [В этом режиме вы можете оставить системный прокси отключенным]",
         "tunModeRunAsAdmin": "Для режима TUN требуются права администратора. Перезапустите приложение от имени администратора",
-        "launchAtStartupSwitch": "Запуск при включении",
+        "launchAtStartup": "Запуск при включении",
         "quitWhenSwitchSystemUser": "Переключить пользователя, чтобы выйти",
         "handleScheme": "системы Scheme Позвонить",
         "handleKaringScheme": "Ручка karing:// Позвонить",
@@ -457,7 +460,7 @@
     },
     "SpeedTestSettingsScreen": {
         "title": "URL-адрес теста скорости",
-        "add": "добавлении URL-адрес теста скорости",
+        "url": "URL",
         "error": "Должен быть действителен https URL"
     },
     "TextToQrCodeScreen": {
@@ -471,6 +474,11 @@
         "remarkCannotEmpty": "Примечание не может быть пустом",
         "remarkTooLong": "Примечания до 32 символов",
         "remarkExist": "Примечание уже существует, используй другое имя"
+    },
+    "UrlTestSettingsScreen": {
+        "title": "URL-адрес обнаружения задержки",
+        "url": "URL",
+        "error": "Должен быть действителен https URL"
     },
     "UserAgreementScreen": {
         "privacyFirst": "Ваша конфиденциальность превыше всего",

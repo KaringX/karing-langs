@@ -123,6 +123,7 @@
         "direct": "直连",
         "block": "拦截",
         "geoSite": "GeoSite",
+        "geoIp": "GeoIP",
         "finalSelect": "final",
         "finalSelectTips": "如果未命中任何规则,则使用该规则;开启[全局代理]会导致此设置失效",
         "diversionRulesMatchTips": "从上到下依次尝试匹配规则,如果没有匹配到规则,则使用final"
@@ -159,6 +160,9 @@
         "search": "搜索",
         "detail": "$p",
         "setGeositeRule": "提示:开启选项后,请到[分流规则]设置相关规则,否则不会生效"
+    },
+    "GeoIpScreen": {
+        "title": "GeoIP"
     },
     "HomeScreen": {
         "noAvailableServer": "无可用服务器,去添加配置",
@@ -340,7 +344,6 @@
         "addProfileFromClipboard": "从剪切板导入",
         "downloadProfilePreferProxy": "优先使用代理下载配置",
         "downloadProfilePreferProxyTips": "如果当前已连接,则优先通过已连接的代理下载配置",
-        "reloadAfterGeoUpdate": "GeoSite/GeoIP更新后重新加载",
         "rulesetDirectDownlad": "Rule Set直连下载",
         "hideUnusedDiversionGroup": "隐藏未启用的分流组",
         "portSetting": "端口",
@@ -377,9 +380,9 @@
         "diversion": "分流",
         "geoSite": "GeoSite",
         "enableGeoSite": "启用GeoSite",
+        "useRomoteGeoRes": "使用远程资源",
         "geoSiteAppleDirectOptimization": "苹果直连优化",
         "geoSiteAppleDirectOptimizationTips": "开启后,苹果GeoSite[apple,apple-ads,apple-dev,apple-pki,apple-update]将使用直连模式,以便获取更快的网络体验",
-        "geoIp": "GeoIP",
         "enableGeoIp": "启用GeoIP",
         "autoSelect": "自动选择",
         "autoSelectServerInterval": "延迟检测时间间隔",
@@ -427,7 +430,7 @@
         "tunMode": "TUN模式",
         "tunModeTips": "TUN模式将接管系统所有流量[此模式下无需开启系统代理]",
         "tunModeRunAsAdmin": "TUN模式需要系统管理员权限,请以管理员身份重新启动应用",
-        "launchAtStartupSwitch": "开机启动",
+        "launchAtStartup": "开机启动",
         "quitWhenSwitchSystemUser": "切换系统用户时退出应用",
         "handleScheme": "系统Scheme调用",
         "handleKaringScheme": "处理karing://调用",
@@ -456,8 +459,8 @@
         "rateInAppStore": "在App Store上评分"
     },
     "SpeedTestSettingsScreen": {
-        "title": "测速网址",
-        "add": "添加测速网址",
+        "title": "测速URL",
+        "url": "URL",
         "error": "必须为有效的 https URL"
     },
     "TextToQrCodeScreen": {
@@ -471,6 +474,11 @@
         "remarkCannotEmpty": "备注不能为空",
         "remarkTooLong": "备注最长32字符",
         "remarkExist": "备注已存在,请使用其他名称"
+    },
+    "UrlTestSettingsScreen": {
+        "title": "延迟检测URL",
+        "url": "URL",
+        "error": "必须为有效的 https URL"
     },
     "UserAgreementScreen": {
         "privacyFirst": "您的隐私很重要",

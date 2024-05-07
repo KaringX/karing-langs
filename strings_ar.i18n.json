@@ -123,6 +123,7 @@
     "direct": "مباشر",
     "block": "حاجز",
     "geoSite": "جولتور",
+    "geoIp": "GeoIP",
     "finalSelect": "أخير",
     "finalSelectTips": "إذا لم يتم ضرب قاعدة ، فسيتم استخدام هذه القاعدة ؛إن تشغيل [وكيل الكل] سيؤدي إلى أن يصبح هذا الإعداد غير صالح",
     "diversionRulesMatchTips": "حاول مطابقة القواعد من أعلى إلى أسفل.إذا لم يتم مطابقة قاعدة ، استخدم النهائي"
@@ -155,10 +156,13 @@
     "clearFileContentTips": "هل أنت متأكد من مسح محتوى ملف الملف الشخصي؟قد يتسبب تطهير ملف الملف الشخصي في فقدان البيانات أو وظائف التطبيق غير الطبيعية ، يرجى العمل بحذر"
   },
   "GeoSiteScreen": {
-    "title": "المجموعات الجيوسيت",
+    "title": "GeoSite",
     "search": "يبحث",
     "detail": "$p",
     "setGeositeRule": "نصيحة: بعد تشغيل الخيارات ، يرجى الانتقال إلى [قواعد التحويل] لتعيين القواعد ذات الصلة ، وإلا فلن تدخل ساري المفعول "
+  },
+  "GeoIpScreen": {
+    "title": "GeoIP"
   },
   "HomeScreen": {
     "noAvailableServer": "لا توجد خوادم متوفرة ، يرجى إضافة ملف تعريف",
@@ -340,7 +344,6 @@
     "addProfileFromClipboard": "استيراد من الحافظة",
     "downloadProfilePreferProxy": "تفضل الوكيل لتنزيل الملف الشخصي",
     "downloadProfilePreferProxyTips": "إذا كان متصلاً حاليًا ، فسيتم تنزيل الملف الشخصي من خلال الوكيل المتصالح أولاً",
-    "reloadAfterGeoUpdate": "إعادة التحميل بعد تحديث الجيوسيت/الجغرافي",
     "rulesetDirectDownlad": "مجموعة القواعد تحميل مباشر",
     "hideUnusedDiversionGroup": "إخفاء مجموعات التحويل غير المستخدمة",
     "portSetting": "ميناء",
@@ -377,9 +380,9 @@
     "diversion": "تحويل",
     "geoSite": "جولتور",
     "enableGeoSite": "يُمكَِنجولتورe",
+    "useRomoteGeoRes": "استخدم الموارد البعيدة",
     "geoSiteAppleDirectOptimization": "تحسين اتصال Apple المباشر",
     "geoSiteAppleDirectOptimizationTips": "عند تشغيله ، ستستخدم Apple Geosite [Apple و Apple-Ads و Apple-Dev و Apple-PKI و Apple-Update] وضع الاتصال المباشر للحصول على تجربة شبكة أفضل",
-    "geoIp": "جيو",
     "enableGeoIp": "تمكين Geoip",
     "autoSelect": "اختيار آلي",
     "autoSelectServerInterval": "فاصل الشيكات الكمون",
@@ -427,7 +430,7 @@
     "tunMode": "نفق وضع",
     "tunModeTips": "سيتولى وضع TUN كل حركة مرور النظام [في هذا الوضع ، يمكنك ترك وكيل النظام غير مدقلة]",
     "tunModeRunAsAdmin": "يتطلب وضع TUN أذونات مسؤول النظام ، يرجى إعادة تشغيل التطبيق كمسؤول",
-    "launchAtStartupSwitch": "إطلاق عند بدء التشغيل",
+    "launchAtStartup": "إطلاق عند بدء التشغيل",
     "quitWhenSwitchSystemUser": "خروج تطبيق عند تبديل مستخدمي النظام",
     "handleScheme": "مكالمة مخطط النظام",
     "handleKaringScheme": "مقبض karing:// Call",
@@ -457,7 +460,7 @@
   },
   "SpeedTestSettingsScreen": {
     "title": "URL اختبار السرعة",
-    "add": "إضافة عنوان URL اختبار السرعة",
+    "url": "URL",
     "error": "يجب أن يكون عنوان URL HTTPS صالح"
   },
   "TextToQrCodeScreen": {
@@ -471,6 +474,11 @@
     "remarkCannotEmpty": "لا يمكن أن تكون الملاحظات فارغة",
     "remarkTooLong": "ملاحظات تصل إلى 32 حرفًا",
     "remarkExist": "ملاحظة موجودة بالفعل ، يرجى استخدام اسم آخر"
+  },
+  "UrlTestSettingsScreen": {
+    "title": "عنوان URL لاكتشاف التأخير",
+    "url": "URL",
+    "error": "يجب أن يكون عنوان URL HTTPS صالح"
   },
   "UserAgreementScreen": {
     "privacyFirst": "خصوصيتك تأتي أولا",

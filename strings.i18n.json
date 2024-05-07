@@ -123,6 +123,7 @@
         "direct": "Direct",
         "block": "Block",
         "geoSite": "GeoSite",
+        "geoIp": "GeoIP",
         "finalSelect": "final",
         "finalSelectTips": "If no rule is hit, this rule will be used; turning on [Proxy All] will cause this setting to become invalid",
         "diversionRulesMatchTips": "Try to match the rules from top to bottom. If no rule is matched, use final"
@@ -155,10 +156,13 @@
         "clearFileContentTips": "Are you sure to clear the content of the Profile file? Clearing the Profile file may cause data loss or abnormal application functions, please operate with caution"
     },
     "GeoSiteScreen": {
-        "title": "GeoSite Groups",
+        "title": "GeoSite",
         "search": "Search",
         "detail": "$p",
         "setGeositeRule": "Tip: After turning on the options, please go to[Diversion Rules]to set the relevant rules, otherwise they will not take effect"
+    },
+    "GeoIpScreen": {
+        "title": "GeoIP"
     },
     "HomeScreen": {
         "noAvailableServer": "No Servers Available, Please Add Profile",
@@ -340,7 +344,6 @@
         "addProfileFromClipboard": "Import From Clipboard",
         "downloadProfilePreferProxy": "Prefer Proxy to Download Profile",
         "downloadProfilePreferProxyTips": "If currently connected, the profile will be downloaded through the connected proxy first",
-        "reloadAfterGeoUpdate": "Reload after GeoSite/GeoIP update",
         "rulesetDirectDownlad": "Rule Set Direct Download",
         "hideUnusedDiversionGroup": "Hide Unused Diversion Groups",
         "portSetting": "Port",
@@ -377,9 +380,9 @@
         "diversion": "Diversion",
         "geoSite": "GeoSite",
         "enableGeoSite": "Enable GeoSite",
+        "useRomoteGeoRes": "Use remote resources",
         "geoSiteAppleDirectOptimization": "Apple Direct connection optimization",
         "geoSiteAppleDirectOptimizationTips": "When turned on, Apple GeoSite[apple,apple-ads,apple-dev,apple-pki,apple-update] will use the direct connection mode to obtain a better network experience",
-        "geoIp": "GeoIP",
         "enableGeoIp": "Enable GeoIP",
         "autoSelect": "Auto Select",
         "autoSelectServerInterval": "Latency Checks Interval",
@@ -427,7 +430,7 @@
         "tunMode": "TUN Mode",
         "tunModeTips": "The TUN mode will take over all the traffic of the system [In this mode, you can leave the system proxy unenabled]",
         "tunModeRunAsAdmin": "The TUN mode requires system administrator permissions, please restart the app as an administrator",
-        "launchAtStartupSwitch": "Launch at Startup",
+        "launchAtStartup": "Launch at Startup",
         "quitWhenSwitchSystemUser": "Exit App when Switch System Users",
         "handleScheme": "System Scheme Call",
         "handleKaringScheme": "Handle karing:// Call",
@@ -457,7 +460,7 @@
     },
     "SpeedTestSettingsScreen": {
         "title": "Speed Test URL",
-        "add": "Add Speed Test URL",
+        "url": "URL",
         "error": "Must be Valid https URL"
     },
     "TextToQrCodeScreen": {
@@ -471,6 +474,11 @@
         "remarkCannotEmpty": "Remarks can not be empty",
         "remarkTooLong": "Remarks up to 32 characters",
         "remarkExist": "Remark already exists, please use another name"
+    },
+    "UrlTestSettingsScreen": {
+        "title": "Latency Checks URL",
+        "url": "URL",
+        "error": "Must be Valid https URL"
     },
     "UserAgreementScreen": {
         "privacyFirst": "Your Privacy Comes First",
