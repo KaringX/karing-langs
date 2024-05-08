@@ -336,6 +336,7 @@
         "getTranffic": "Получить трафик",
         "tutorial": "Обучение",
         "faq": "Часто задаваемые вопросы",
+        "commonlyUsedRulesets": "Часто используемые наборы правил",
         "notice": "Уведомления",
         "htmlBoard": "Веб-панель",
         "Connecting": "подключение",
@@ -433,6 +434,8 @@
         "launchAtStartup": "Запуск при включении",
         "quitWhenSwitchSystemUser": "Переключить пользователя, чтобы выйти",
         "handleScheme": "системы Scheme Позвонить",
+        "portableMode": "Портативный режим",
+        "portableModeDisableTips": "Если вам нужно выйти из портативного режима, выйдите из [karing] и вручную удалите папку [profiles] в том же каталоге, что и [karing.exe]",
         "handleKaringScheme": "Ручка karing:// Позвонить",
         "handleClashScheme": "Ручка clash:// Позвонить",
         "handleSingboxScheme": "Ручка sing-box:// Позвонить",
@@ -447,7 +450,7 @@
         "sleepWithSystem": "Автоматический сон",
         "sleepWithSystemTips": "После того как система переходит в спящий режим, VPN приостанавливает обслуживание; после возобновления работы системы VPN автоматически возобновляет обслуживание;В некоторых версиях системы после включения она может потреблять больше энергии.",
         "disableFontScaler": "Отключить масштабирование шрифта",
-        "disableFontScalerTips": "Перезапуск вступает в силу",
+        "restartTakesEffect": "Перезапуск вступает в силу",
         "resetSettings": "сбросить настройки",
         "download": "скачать",
         "appleTestFlight": "Apple TestFlight",
@@ -493,7 +496,8 @@
     },
     "CommonWidget": {
         "refresh": "обновить",
-        "retry": "Хотите попробовать еще раз?"
+        "retry": "Хотите попробовать еще раз?",
+        "diableAlwayOnVPN":"Если параметр [Всегда включен VPN] включен, отключите [Всегда включен VPN] и попробуйте подключиться еще раз"
     },
     "DialogUtils": {
         "showAlertDialog": {

@@ -336,6 +336,7 @@
         "getTranffic": "Get Traffic",
         "tutorial": "Tutorial",
         "faq": "FAQ",
+        "commonlyUsedRulesets": "Commonly Used Rulesets",
         "notice": "Notice",
         "htmlBoard": "Online Panel",
         "Connecting": "Connecting",
@@ -433,6 +434,8 @@
         "launchAtStartup": "Launch at Startup",
         "quitWhenSwitchSystemUser": "Exit App when Switch System Users",
         "handleScheme": "System Scheme Call",
+        "portableMode": "Portable Mode",
+        "portableModeDisableTips": "If you need to exit portable mode, please exit [karing] and manually delete the [profiles] folder in the same directory as [karing.exe]",
         "handleKaringScheme": "Handle karing:// Call",
         "handleClashScheme": "Handle clash:// Call",
         "handleSingboxScheme": "Handle sing-box:// Call",
@@ -447,7 +450,7 @@
         "sleepWithSystem": "Automatic Sleep",
         "sleepWithSystemTips": "After the system goes to sleep, the VPN suspends service; after the system resumes, the VPN automatically resumes service;On some versions of the system, it may consume more power after being turned on.",
         "disableFontScaler": "Disable Font scaling(Restart takes effect)",
-        "disableFontScalerTips": "Restart takes effect",
+        "restartTakesEffect": "Restart takes effect",
         "resetSettings": "Reset Settings",
         "download": "Download",
         "appleTestFlight": "Apple TestFlight",
@@ -493,7 +496,8 @@
     },
     "CommonWidget": {
         "refresh": "Refresh",
-        "retry": "Retry?"
+        "retry": "Retry?",
+        "diableAlwayOnVPN":"If [Always on VPN] is turned on, please turn off [Always on VPN] and try connecting again"
     },
     "DialogUtils": {
         "showAlertDialog": {

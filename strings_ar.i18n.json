@@ -336,6 +336,7 @@
     "getTranffic": "احصل على حركة المرور",
     "tutorial": "درس تعليمي",
     "faq": "أسئلة مكررة",
+    "commonlyUsedRulesets": "مجموعات القواعد شائعة الاستخدام",
     "notice": "يلاحظ",
     "htmlBoard": "لوحة على الانترنت",
     "Connecting": "توصيل",
@@ -433,6 +434,8 @@
     "launchAtStartup": "إطلاق عند بدء التشغيل",
     "quitWhenSwitchSystemUser": "خروج تطبيق عند تبديل مستخدمي النظام",
     "handleScheme": "مكالمة مخطط النظام",
+    "portableMode": "الوضع المحمول",
+    "portableModeDisableTips": "إذا كنت بحاجة إلى الخروج من الوضع المحمول، فيرجى الخروج من [karing] وحذف المجلد [profiles] يدويًا في نفس الدليل مثل [karing.exe]",
     "handleKaringScheme": "مقبض karing:// Call",
     "handleClashScheme": "مقبض clash:// Call",
     "handleSingboxScheme": "مقبض sing-box:// يتصل",
@@ -447,7 +450,7 @@
     "sleepWithSystem": "النوم التلقائي",
     "sleepWithSystemTips": "بعد أن يذهب النظام إلى النوم ، يقوم VPN بتعليق الخدمة ؛بعد استئناف النظام ، يستأنف VPN الخدمة تلقائيًا ؛ في بعض إصدارات النظام ، قد يستهلك المزيد من الطاقة بعد تشغيله.",
     "disableFontScaler": "تعطيل تحجيم الخط(إعادة التشغيل يسري)",
-    "disableFontScalerTips": "إعادة التشغيل يسري",
+    "restartTakesEffect": "إعادة التشغيل يسري",
     "resetSettings": "اعادة الضبط",
     "download": "تحميل",
     "appleTestFlight": "Apple Testflight",
@@ -493,7 +496,8 @@
   },
   "CommonWidget": {
     "refresh": "ينعش",
-    "retry": "إعادة المحاولة?"
+    "retry": "إعادة المحاولة?",
+    "diableAlwayOnVPN":"إذا تم تشغيل [Always on VPN]، فيرجى إيقاف تشغيل [Always on VPN] ومحاولة الاتصال مرة أخرى."
   },
   "DialogUtils": {
     "showAlertDialog": {

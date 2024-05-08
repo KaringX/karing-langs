@@ -336,6 +336,7 @@
         "getTranffic": "获取流量",
         "tutorial": "使用教程",
         "faq": "常见问题",
+        "commonlyUsedRulesets": "常用规则集",
         "notice": "通知",
         "htmlBoard": "在线面板",
         "Connecting": "连接中",
@@ -433,6 +434,8 @@
         "launchAtStartup": "开机启动",
         "quitWhenSwitchSystemUser": "切换系统用户时退出应用",
         "handleScheme": "系统Scheme调用",
+        "portableMode": "便携模式",
+        "portableModeDisableTips": "如需退出便携模式,请退出[karing]后,手动删除[karing.exe]同目录下的[profiles]文件夹即可",
         "handleKaringScheme": "处理karing://调用",
         "handleClashScheme": "处理clash://调用",
         "handleSingboxScheme": "处理sing-box://调用",
@@ -447,7 +450,7 @@
         "sleepWithSystem": "自动休眠",
         "sleepWithSystemTips": "系统休眠后,VPN暂停服务;系统恢复后,VPN自动恢复服务;某些版本的系统上,开启后可能会更加耗电",
         "disableFontScaler": "禁用字体缩放",
-        "disableFontScalerTips": "重启生效",
+        "restartTakesEffect": "重启生效",
         "resetSettings": "重置设置",
         "download": "下载",
         "appleTestFlight": "苹果 TestFlight",
@@ -493,7 +496,8 @@
     },
     "CommonWidget": {
         "refresh": "刷新",
-        "retry": "是否重试?"
+        "retry": "是否重试?",
+        "diableAlwayOnVPN":"如果开启了[始终开启VPN], 请关闭[始终开启VPN]后重试连接"
     },
     "DialogUtils": {
         "showAlertDialog": {
