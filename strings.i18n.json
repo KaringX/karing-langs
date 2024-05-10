@@ -329,7 +329,7 @@
     },
     "ServerSelectSearchSelectScreen": {
         "title": "Candidate Words",
-        "keywordsOrRegx":"Keywords/regular"
+        "keywordsOrRegx": "Keywords/regular"
     },
     "SettingsScreen": {
         "title": "Settings",
@@ -361,7 +361,7 @@
         "enableIPv6": "Enable IPv6",
         "enableIPv6Tips": "Before enabling, please confirm that your network supports IPv6, otherwise some traffic cannot be accessed normally.",
         "tunAppendHttpProxy": "Append HTTP Proxy to VPN",
-        "appendHttpProxyToTunTips": "Some apps will bypass virtual NIC Device and directly connect to HTTP proxy",
+        "tunAppendHttpProxyTips": "Some apps will bypass virtual NIC Device and directly connect to HTTP proxy",
         "dnsSetting": "DNS",
         "dnsEnableRule": "Enable DNS Diversion rules",
         "dnsEnableFakeIp": "Enable FakeIp",
@@ -503,7 +503,7 @@
     "CommonWidget": {
         "refresh": "Refresh",
         "retry": "Retry?",
-        "diableAlwayOnVPN":"If [Always on VPN] is turned on, please turn off [Always on VPN] and try connecting again"
+        "diableAlwayOnVPN": "If [Always on VPN] is turned on, please turn off [Always on VPN] and try connecting again"
     },
     "DialogUtils": {
         "showAlertDialog": {
@@ -554,6 +554,7 @@
         "en": "English",
         "zh-CN": "简体中文",
         "ar": "عربي",
-        "ru": "Русский"
+        "ru": "Русский",
+        "fa": "فارسی"
     }
 }

@@ -327,6 +327,10 @@
         "enableServer": "فعال‌کردن",
         "error404": "تشخیص تاخیر با یک اخطار مواجه شده‌است، لطفا بررسی کنید که کانفیگی با محتویات یکسان وجود دارد یا خیر"
     },
+    "ServerSelectSearchSelectScreen": {
+        "title": "کلمات نامزد",
+        "keywordsOrRegx": "کلمات کلیدی / معمولی"
+    },
     "SettingsScreen": {
         "title": "تنظیمات",
         "ispFaq": "سوالات متداول[$p]",
@@ -356,8 +360,8 @@
         "modifyPort": "اصلاح پورت",
         "enableIPv6": "فعال‌سازی IPv6",
         "enableIPv6Tips": "قبل‌از فعال‌سازی لطفا مطمعن شوید شبکه شما از IPv6 پشتیبانی می‌کند، وگرنه برخی ترافیک‌ها نمی‌توانند به‌صورت نرمال دردسترس باشند",
-        "appendHttpProxyToTun": "پیوست دادن پروکسی HTTP به وی‌پی‌ان",
-        "appendHttpProxyToTunTips": "برخی نرم‌افزار‌ها از کارت شبکه مجازی رد میشوند و مستقیم به پروکسی HTTP متصل می‌شوند",
+        "tunAppendHttpProxy": "پیوست دادن پروکسی HTTP به وی‌پی‌ان",
+        "tunAppendHttpProxyTips": "برخی نرم‌افزار‌ها از کارت شبکه مجازی رد میشوند و مستقیم به پروکسی HTTP متصل می‌شوند",
         "dnsSetting": "دی‌ان‌اس",
         "dnsEnableRule": "فعال‌سازی قوانین انحراف دی‌ان‌اس",
         "dnsEnableFakeIp": "فعال‌سازی آی‌پی جعلی",
@@ -382,8 +386,8 @@
         "geoSite": "ژئوسایت",
         "enableGeoSite": "فعال‌سازی ژئوسایت",
         "useRomoteGeoRes": "از منابع راه‌دور استفاده کنید",
-        "geoSiteAppleDirectOptimization": "بهینه‌سازی اتصال مستقیم اپل",
-        "geoSiteAppleDirectOptimizationTips": "وقتی روشن‌است، ژئوسایت اپل [apple,apple-ads,apple-dev,apple-pki,apple-update] از حالت اتصال مستقیم برای تجربه بهتر شبکه استفاده می‌کند",
+        "geoSiteAppleDirect": "بهینه‌سازی اتصال مستقیم اپل",
+        "geoSiteAppleDirectTips": "وقتی روشن‌است، ژئوسایت اپل [apple,apple-ads,apple-dev,apple-pki,apple-update] از حالت اتصال مستقیم برای تجربه بهتر شبکه استفاده می‌کند",
         "enableGeoIp": "فعال‌سازی ژئو‌آی‌پی",
         "autoSelect": "انتخاب خودکار",
         "autoSelectServerInterval": "بازه زمانی بررسی تاخیر",
@@ -423,6 +427,8 @@
         "frontProxyTips": "داده‌ها->سرور پروکسی جلو->سرور پروکسی->سرور هدف",
         "allowOtherHostsConnect": "اجازه اتصال دیگران",
         "allowOtherHostsConnectTips": "socks:$sp,http(s):$hp",
+        "tunAutoRoute": "TUN Auto Route",
+        "tunAutoRouteTips": "اگر پس از روشن کردن اشتراک‌گذاری، دیگران نمی‌توانند به این دستگاه دسترسی داشته باشند، لطفاً این سوئیچ را خاموش کنید.",
         "enableCluster": "فعال‌سازی پروکسی Socks/Http خوشه‌ای",
         "clusterAllowOtherHostsConnect": "اجازه اتصال دیگران به خوشه",
         "clusterAllowOtherHostsConnectTips": "http://127.0.0.1:$hp/get_proxies",
@@ -497,7 +503,7 @@
     "CommonWidget": {
         "refresh": "بارگذاری مجدد",
         "retry": "دوباره امتحان کنید؟",
-        "diableAlwayOnVPN":"اگر [وی‌پی‌ان همیشه روشن] روشن است لطفا [وی‌پی‌ان همیشه روشن] را خاموش کنید و مجدد برای اتصال تلاش کنید"
+        "diableAlwayOnVPN": "اگر [وی‌پی‌ان همیشه روشن] روشن است لطفا [وی‌پی‌ان همیشه روشن] را خاموش کنید و مجدد برای اتصال تلاش کنید"
     },
     "DialogUtils": {
         "showAlertDialog": {
@@ -550,6 +556,5 @@
         "ar": "عربي",
         "ru": "Русский",
         "fa": "فارسی"
-
     }
-	
+}
