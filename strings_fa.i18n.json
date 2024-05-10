@@ -1,0 +1,555 @@
+{
+    "AboutScreen": {
+        "title": "درباره",
+        "name": "نام",
+        "version": "نسخه",
+        "installRefer": "مرجع نصب",
+        "versionChannel": "کانال به‌روزرسانی خودکار",
+        "termOfUse": "شرایط استفاده",
+        "privacyPolicy": "سیاست حریم خصوصی",
+        "disableUAReport": "خاموش کردن گزارش اطلاعات عملکرد",
+        "disableUAReportTip": "گزارش دهی اطلاعات عملکرد در بهبود تجربه محصول به ما کمک می‌کند؛ ولی خاموش کردن آن موجب بهینه‌سازی و بهبود سریع محصول نمی‌شود.",
+        "devOptions": "تنظیمات توسعه‌دهندگان",
+        "enableDebugLog": "فعال‌سازی گزارش اشکال‌زدایی",
+        "FilesAndLogsViewFile": "مشاهده فایل‌ها",
+        "enablePprof": "فعال‌سازی pprof",
+        "pprofPanel": "پنل pprof",
+        "FilesAndLogsOpenDir": "بازکردن دایرکتوری فایل",
+        "useOriginalSBProfile": "استفاده از پروفایل اصلی سینگ‌باکس"
+    },
+    "AddProfileByCustomScreen": {
+        "title": "افزودن پروفایل سفارشی"
+    },
+    "AddProfileByImportFromFileScreen": {
+        "title": "وارد‌کردن فایل پروفایل",
+        "enableDiversionRules": "فعال‌سازی قوانین انحراف",
+        "chooseFile": "انتخاب فایل",
+        "remark": "ملاحظات",
+        "remarkHit": "ملاحظات [الزامی]",
+        "invalidFileType": "نوع فایل نامعتبر:$p",
+        "remarkCannotEmpty": "ملاحظات نمی‌تواند خالی باشد",
+        "remarkTooLong": "ملاحظات تا ۳۲ حرف",
+        "remarkExist": "ملاحظات از‌قبل وجود دارد، لطفا از نام دیگری استفاده کنید",
+        "configExist": "پروفایل از‌قبل وجود دارد، لطفا آن را به‌طور مکرر اضافه نکنید",
+        "addSuccess": "با‌موفقیت اضافه شد",
+        "addFailed": "افزودن ناموفق بود:$p"
+    },
+    "AddProfileByLinkOrContentScreen": {
+        "title": "افزودن لینک پروفایل",
+        "enableDiversionRules": "فعال‌سازی قوانین انحراف",
+        "updateTimerInterval": "فاصله‌ی به‌روزرسانی",
+        "updateTimerIntervalTips": "برای غیرفعال‌ کردن لطفا تنظیم کنید روی:<5m",
+        "profileLinkContent": "لینک/محتوای پروفایل",
+        "profileLinkContentHit": "لینک/محتوای پروفایل [الزامی] (پشتیبانی از کلش، V2ray(پشتیبانی به‌صورت دسته‌ای)، لینک‌های پروفایل فرعی)، استش، کارینگ، سینگ‌باکس، شدوساکس، لینک‌های پروفایل فرعی)",
+        "remark": "ملاحظات",
+        "remarkHit": "ملاحظات [لینک]",
+        "addProfile": "افزودن",
+        "subscriptionCannotEmpty": "لینک پروفایل نمی‌تواند خالی باشد",
+        "remarkCannotEmpty": "ملاحظات نمی‌تواند خالی باشد",
+        "remarkTooLong": "ملاحظات تا ۳۲ حرف",
+        "remarkExist": "ملاحظات از‌قبل وجود دارد، لطفا از نام دیگری استفاده کنید",
+        "configExist": "پروفایل از‌قبل وجود دارد، لطفا آن را به‌طور مکرر اضافه نکنید",
+        "invalidUrl": "لینک پروفایل خیلی طولانی است",
+        "addSuccess": "با‌موفقیت اضافه شد",
+        "addFailed": "افزودن ناموفق بود:$p",
+        "addFailedFormatException": "فرمت اشتباه است، لطفا آن را اصلاح کرده و مجدد اضافه کنید:",
+        "addFailedThenDownloadAndImport": "افزودن ناموفق بود:$p، لطفا لینک پروفایل را با مرورگر فابریک دستگاه خود باز کنید و فایل پروفایل دانلود شده توسط مرورگر را داخل نرم‌افزار اضافه کنید"
+    },
+    "AddProfileByScanQrcodeScanScreen": {
+        "title": "اسکن QRکد",
+        "copy": "کپی‌کردن لینک",
+        "open": "بازکردن لینک",
+        "add": "افزودن",
+        "requestCameraPermission": "لطفا مجوز دسترسی دوربین را فعال کنید",
+        "requestScreenAccess": "لطفا به تنظیمات دستگاه - حریم‌خصوصی و امنیت - ظبط صفحه بروین تا مجوز‌های این نرم‌افزار را اضافه کنید",
+        "screenshot": "اسکرین‌شات",
+        "scanFromImage": "اسکن از عکس",
+        "scanNoResult": "تجزیه عکس ناموفق بود، لطفا مطمعن شوید اسکرین‌شات یک کدQR معتبر است",
+        "scanEmptyResult": "نتیجه اسکن خالی است",
+        "scanException": "تجزیه عکس ناموفق بود، لطفا مطمعن شوید اسکرین‌شات یک کدQR معتبر است: $p"
+    },
+    "BackupAndSyncIcloudScreen": {
+        "title": "iCloud"
+    },
+    "BackupAndSyncLanSyncScreen": {
+        "title": "LAN Sync",
+        "lanSyncNotQuitTips": "قبل از تکمیل همگام‌سازی از این قسمت خارج نشوید"
+    },
+    "BackupAndSyncWebdavScreen": {
+        "title": "Webdav",
+        "webdavServerUrl": "آدرس URL سرور",
+        "webdavUser": "نام‌کاربری",
+        "webdavPassword": "رمز‌عبور",
+        "required": "الزامی",
+        "webdavRequired": "نمی‌تواند خالی باشد",
+        "webdavLoginFailed": "ورود ناموفق بود:",
+        "webdavListFailed": "دریافت لیست فایل ناموفق بود:"
+    },
+    "DiversionGroupCustomEditScreen": {
+        "title": "ویرایش گروه انحراف",
+        "domainSuffix": "پسوند دامنه",
+        "domain": "دامنه",
+        "domainKeyword": "کلید‌واژه دامنه",
+        "domainRegex": "عبارات باقاعده ی دامنه (Regex)",
+        "port": "پورت",
+        "appPackage": "نام بسته‌ی برنامه",
+        "processName": "نام اجرایی پروسه",
+        "processPath": "مسیر پروسه",
+        "invalidDomain": "دامنه نامعتبر: $p",
+        "invalidIpCidr": "آی پی Cidr نامعتبر:$p",
+        "invalidPort": "پورت نامعتبر:$p",
+        "invalidRuleSet": "مجموعه قوانین نامعتبر :$p باید URL یک URL معتبر https باشد و یک فایل دودویی(binary) با پسوند فایل .srs/.json باشد",
+        "setDiversionRule": "راهنمایی: پس‌از ذخیره کردن لطفا به [قوانین انحراف] رفته و قوانین مربوط زا تنظیم کنید؛ درغیراین صورت اعمال نخواهند شد"
+    },
+    "DiversionGroupCustomScreen": {
+        "title": "گروه انحراف سفارشی",
+        "add": "افزودن گروه انحراف",
+        "remark": "ملاحظات",
+        "remarkCannotEmpty": "ملاحظات نمی‌تواند خالی باشد",
+        "remarkTooLong": "ملاحظات تا ۳۲ حرف",
+        "remarkExist": "ملاحظات از‌قبل وجود دارد، لطفا از نام دیگری استفاده کنید",
+        "confirmDel": "آیا از حذف اطمینان دارین؟"
+    },
+    "DiversionRuleDetectScreen": {
+        "title": "کشف قانون انحراف",
+        "detect": "کشف",
+        "rule": "قانون:",
+        "outbound": "سرور پروکسی:"
+    },
+    "DiversionRulesScreen": {
+        "title": "قوانین انحراف",
+        "byCurrentSelected": "فعلی انتخاب شده",
+        "selector": "انتخاب خودکار",
+        "direct": "مستقیم",
+        "block": "مسدود",
+        "geoSite": "ژئو سایت",
+        "geoIp": "ژئو آی‌پی",
+        "finalSelect": "نهایی",
+        "finalSelectTips": "اگر شامل هیچ قانونی نشد این قانون مورد استفاده قرار می‌گیرد. روشن کردن [پروکسی شدن همه] باعث نامعتبر شدن این تنظیمات می شود",
+        "diversionRulesMatchTips": "سعی کنین قوانین را از بالا تطبیق دهید. اگر هیچ قانونی تطبیق داده نشد از نهایی استفاده کنید"
+    },
+    "DnsSettingsScreen": {
+        "title": "دی‌ان‌اس",
+        "Connecting": "درحال اتصال",
+        "add": "افزودن سرور دی‌ان‌اس",
+        "isp": "ISP",
+        "url": "URL",
+        "ispCanNotEmpty": "ISP نمی‌تواند خالی باشد",
+        "urlCanNotEmpty": "URL نمی‌تواند خالی باشد",
+        "error": "نوع پشتیبانی نشده:$p",
+        "dnsDesc": "ستون اول داده‌های تأخیر، تأخیر ارتباط مستقیم است؛\nستون دوم: روشن کردن [[ترافیک پروکسی] برای حل و فصل DNS از طریق سرور پراکسی]: داده‌های تأخیر، تأخیر درخواست ارسال شده از طریق سرور پراکسی فعلی است [[ترافیک پروکسی] روشن نیست، از طریق سرور پروکسی DNS را حل می‌کند]: داده‌های تأخیر تأخیر درخواست اتصال مستقیم است"
+    },
+    "FeedbackScreen": {
+        "title": "بازخورد",
+        "content": "محتوای بازخورد",
+        "contentHit": "الزامی، تا 500 حرف",
+        "email": "ایمیل",
+        "telegram": "تلگرام",
+        "submit": "ارسال",
+        "contentCannotEmpty": "محتوای بازخورد نمی‌تواند خالی باشد",
+        "submitDone": "از بازخورد شما ممنونیم"
+    },
+    "FileContentViewerScreen": {
+        "title": "نمایش دهنده محتوای فایل",
+        "chooseFile": "انتخاب فایل",
+        "clearFileContent": "آیا از پاکسازی محتوای فایل اطمینان دارید؟",
+        "clearFileContentTips": "آیا از پاکسازی محتوای فایل پروفایل اطمینان دارید؟ پاکسازی محتوای فایل پروفایل ممکن است باعث از دست رفتن داده یا عملیات غیرعادی نرم‌افزار شود؛ لطفا با احتیاط عمل کنید."
+    },
+    "GeoSiteScreen": {
+        "title": "ژئو‌ سایت",
+        "search": "جستجو",
+        "detail": "$p",
+        "setGeositeRule": "راهنمایی: پس‌از ذخیره کردن لطفا به [قوانین انحراف] رفته و قوانین مربوط زا تنظیم کنید؛ درغیراین صورت اعمال نخواهند شد"
+    },
+    "GeoIpScreen": {
+        "title": "ژئو آی‌پی"
+    },
+    "HomeScreen": {
+        "noAvailableServer": "هیچ سروری در دسترس نیست لطفا پروفایل اضافه کنین",
+        "toSelectServer": "لطفا یک سرور انتخاب کنید",
+        "invalidServer": "نامعتبر است، لطفا مجدد انتخاب کنید",
+        "disabledServer": "غیرفعال است، لطفا مجدد انتخاب کنید",
+        "expiredServer": "هیچ سروری در دسترس نیست؛ پروفایل شاید باطل شده باشد",
+        "selector": "انتخاب خودکار",
+        "connectState": {
+            "connected": "وصل شد",
+            "disconnected": "قطع شد"
+        },
+        "systemProxy": "پروکسی سیستم",
+        "systemProxyTips": "socks:$sp,http(s):$hp",
+        "rule": "قانون",
+        "all": "عمومی",
+        "updateFailed": "افزودن ناموفق بود:$p",
+        "trafficTotal": "کل ترافیک",
+        "trafficProxy": "ترافیک پروکسی",
+        "upDownSpeed": "سرعت",
+        "myLinkEmpty": "لطفا قبل‌از استفاده [لینک میان‌بر] را راه‌اندازی کنید",
+        "deviceNoSpace": "فضای خالی کافی ندارید"
+    },
+    "LanguageSettingsScreen": {
+        "title": "زبان",
+        "search": "جسنجو",
+        "next": "بعدی"
+    },
+    "LaunchFailedScreen": {
+        "invalidProcess": "اجرای نرم‌افزار ناموفق بود [نام‌ اجرایی پروسه نامعتبر]، لطفا مجدد نرم‌افزار را در دایرکتوری دیگری نصب کنید",
+        "invalidProfile": "اجرای نرم‌افزار ناموفق بود [دسترسی به پروفایل ناموفق بود]، لطفا مجدد نرم افزار را نصب کنید",
+        "invalidVersion": "اجرای نرم‌افزار ناموفق بود [ورژن نامعتبر]، لطفا مجدد نرم‌افزار را نصب کنید",
+        "startFromUNC": "مسیر نصب نامعتبر است، لطفا مجدد در مسیر معتبر نصب کنید",
+        "website": "وبسایت",
+        "quit": "خروج"
+    },
+    "MyProfilesEditScreen": {
+        "title": "ویرایش پروفایل",
+        "remark": "ملاحظات",
+        "remarkCannotEmpty": "ملاحظات نمی‌تواند خالی باشد",
+        "remarkTooLong": "ملاحظات تا ۳۲ حرف",
+        "remarkExist": "ملاحظات از‌قبل وجود دارد، لطفا از نام دیگری استفاده کنید",
+        "url": "URL",
+        "urlInvalid": "URL نامعتبر",
+        "urlExist": "آدرس URL از‌قبل وجود دارد، لطفا از URL دیگری استفاده کنید",
+        "enableDiversionRules": "فعال‌سازی قوانین انحراف",
+        "updateTimerInterval": "فاصله‌ی به‌روزرسانی",
+        "updateTimerIntervalTips": "برای غیرفعال‌ کردن لطفا تنظیم کنید روی:<5m",
+        "reloadAfterProfileUpdate": "بارگذاری مجدد پس‌از به‌روزرسانی پروفایل",
+        "testLatencyAfterProfileUpdate": "شروع تست تاخیر پس‌از به‌روزرسانی خودکار پروفایل",
+        "testLatencyAfterProfileUpdateTips": "وی‌پی‌ان باید روشن و [بارگذاری مجدد پس‌از به‌روزرسانی پروفایل] فعال باشد",
+        "testLatencyAutoRemove": "خودکار سرورهای ناموفق در تست تاخیر را حذف کن",
+        "testLatencyAutoRemoveTips": "تا سه بار امتحان کنید"
+    },
+    "MyProfilesMergeScreen": {
+        "profilesMerge": "ادغام پروفایل‌ها",
+        "profilesMergeTarget": "پروفایل هدف",
+        "profilesMergeSource": "پروفایل مرجع",
+        "profilesMergeTips": "راهنمایی: انحراف پروفایل مرجع حذف می‌شود"
+    },
+    "MyProfilesReorderScreen": {
+        "title": "مرتب‌سازی"
+    },
+    "MyProfilesScreen": {
+        "title": "پروفایل‌ها",
+        "Connecting": "درحال اتصال",
+        "updateFailed": "به‌روزرسانی ناموفق بود:$p",
+        "confirmDel": "آیا از حذف مطمعن هستید؟",
+        "atLeastOneEnable": "نمی‌تواند غیرغعال شود، لطفا حداقل یک پروفایل را فعال نگه دارید",
+        "disableServer": "غیرفعال کردن",
+        "enableServer": "فعال کردن"
+    },
+    "NetCheckScreen": {
+        "title": "بررسی شبکه",
+        "warn": "توجه: به دلیل تأثیر محیط شبکه و قوانین انحراف، نتایج آزمون کاملاً معادل نتایج واقعی نیست.",
+        "check": "بررسی",
+        "invalidDomain": "نام دامنه نامعتبر",
+        "connectivity": "اتصال شبکه",
+        "connectivityTestIpv4AllFailed": "تست اتصال Ipv4 همه‌ی [$p] ناموفق بودند",
+        "connectivityTestIpv4Ok": "اتصال Ipv4 موفق بود",
+        "connectivityTestIpv6AllFailed": "تست اتصال Ipv6 همه‌ی [$p] ناموفق بودند، شاید شبکه شما از Ipv6 پشتیبانی نکند",
+        "connectivityTestIpv6Ok": "اتصال Ipv6 موفق بود",
+        "connectivityTestOk": "شبکه به اینترنت متصل است",
+        "connectivityTestFailed": "شبکه هنوز به اینترنت متصل نشده",
+        "outbound": "سرور پروکسی",
+        "outboundOk": "[$p] اتصال موفق بود",
+        "outboundFailed": "[$p1] اتصال ناموفق \nارور:[$p2]",
+        "dnsServer": "سرور دی‌ان‌اس",
+        "dns": "دی‌ان‌اس",
+        "dnsOk": "[$p1]DNS query succeeded\nDNS Rule: درخواست دی‌ان‌اس موفق بود\nقانون دی‌ان‌اس: [$p2]\nتاخیر: [$p3 ms]\nآدرس [$p4]",
+        "dnsFailed": "[$p1]جستجوی DNS موفق بود\nقانون DNS: [$p2]\nخطا:[$p3]",
+        "host": "اتصال HTTP",
+        "hostOk": "اتصال[$p1] موفق بود\nقانون انحراف: [$p2]\nسرور پروکسی: [$p3]"
+    },
+    "NetConnectionsFilterScreen": {
+        "title": "فیلتر اتصال‌ها",
+        "hostIp": "دامنه/آی‌پی",
+        "port": "پورت",
+        "app": "نرم‌افزار",
+        "rule": "قانون",
+        "chain": "Outbound"
+    },
+    "NetConnectionsScreen": {
+        "title": "اتصال‌ها",
+        "selector": "انتخاب خودکار",
+        "direct": "مستقیم",
+        "block": "مسدود",
+        "dns": "دی‌ان‌اس",
+        "copyAsCSV": "در فرمت CAV کپی شد",
+        "selectType": "انتخاب نوع انحراف",
+        "typeDomain": "دامنه",
+        "typeIP": "آدرس آی‌پی",
+        "typePort": "پورت",
+        "typePackage": "بسته",
+        "typeProcessName": "نام اجرایی پروسه",
+        "typeProcessPath": "مسیر پروسه"
+    },
+    "NetInterfacesScreen": {
+        "title": "رابط شبکه"
+    },
+    "OnlineBackupAndSyncScreen": {
+        "title": ""
+    },
+    "PerAppAndroidScreen": {
+        "title": "پروکسی به‌تفکیک برنامه",
+        "enable": "فعال‌سازی",
+        "whiteListMode": "حالت لیست سفید",
+        "whiteListModeTip": "وقتی فعال باشد: فقط برنامه‌هایی که انتخاب شده‌اند پروکسی می‌شوند؛ وقتی فعال نباشد: فقط برنامه‌هایی که انتخاب نشده‌اند پروکسی می‌شوند",
+        "enableAppQueryPermission": "مجوز [درخواست لیست نرم‌افزار] را روشن کنید"
+    },
+    "QrcodeScreen": {
+        "title": "کد QR",
+        "tooLong": "متن برای نمایش خیلی طولانی است",
+        "copy": "کپی‌کردن لینک",
+        "open": "بازکردن لینک",
+        "share": "اشتراک لینک",
+        "shareImage": "اشتراک کدQR"
+    },
+    "QrcodeScanScreen": {
+        "title": "اسکن کد QR"
+    },
+    "RegionSettingsScreen": {
+        "title": "کشور یا منطقه",
+        "done": "انجام‌شد",
+        "search": "جستجو",
+        "Regions": "راهنمایی: لطفا کشور یا منطقه فعلی خود را انتخاب کنید درغیراین‌صورت ممکن‌است باعث مشکلات انحراف شبکه شود"
+    },
+    "ServerSelectScreen": {
+        "title": "انتخاب سرور",
+        "selector": "انتخاب خودکار سرور",
+        "none": "هیچ‌کدام",
+        "autoSelectServer": "خودکار سرور با کمترین تاخیر را انتخاب کن",
+        "recommend": "پیشنهادی",
+        "recentUse": "اخیرا استفاده‌شده",
+        "myFav": "علاقه‌مندی‌های من",
+        "Connecting": "درحال اتصال",
+        "updateFailed": "به‌روزرسانی ناموفق بود:$p",
+        "selectLocal": "سرور انتخاب شده یک آدرس محلی است و شاید به درستی عمل نکند :$p",
+        "selectRequireEnableIPv6": "سرور انتخاب شده یک آدرس IPv6 است و نیاز به [فعال‌سازی IPv6] دارد",
+        "selectDisabled": "این سرور غیرفعال شده است",
+        "disableServer": "غیرفعال‌کردن",
+        "enableServer": "فعال‌کردن",
+        "error404": "تشخیص تاخیر با یک اخطار مواجه شده‌است، لطفا بررسی کنید که کانفیگی با محتویات یکسان وجود دارد یا خیر"
+    },
+    "SettingsScreen": {
+        "title": "تنظیمات",
+        "ispFaq": "سوالات متداول[$p]",
+        "cleanISP": "پاک‌سازی ISP [$p]",
+        "openISP": "بازکردن لینک ISP",
+        "cleanISPNoParam": "پاک‌سازی اطلاعات ISP",
+        "getTranffic": "دریافت ترافیک",
+        "tutorial": "آموزش",
+        "faq": "سوالات متداول",
+        "commonlyUsedRulesets": "قوانین رایج",
+        "notice": "اطلاعیه",
+        "htmlBoard": "پنل آنلاین",
+        "Connecting": "درحال اتصال",
+        "speedTest": "تست سرعت",
+        "addProfile": "افزودن پروفایل",
+        "addProfileFromClipboard": "افزودن از کلیپ‌برد",
+        "downloadProfilePreferProxy": "برای دانلود پروفایل پروکسی را ترجیح بده",
+        "downloadProfilePreferProxyTips": "اگر اکنون متصل هستین، پروفایل ابتدا از پروکسی متصل دانلود می‌شود",
+        "rulesetDirectDownlad": "دانلود مستقیم مجموعه قوانین",
+        "hideUnusedDiversionGroup": "مخفی‌کردن گروه‌های انحراف به‌کار نرفته",
+        "portSetting": "پورت",
+        "portSettingRule": "قانون محور",
+        "portSettingDirectAll": "مستقیم‌شدن همه",
+        "portSettingProxyAll": "پروکسی‌شدن همه",
+        "portSettingControl": "کنترل و همگام‌سازی",
+        "portSettingCluster": "سرویس کلاستر",
+        "modifyPort": "اصلاح پورت",
+        "enableIPv6": "فعال‌سازی IPv6",
+        "enableIPv6Tips": "قبل‌از فعال‌سازی لطفا مطمعن شوید شبکه شما از IPv6 پشتیبانی می‌کند، وگرنه برخی ترافیک‌ها نمی‌توانند به‌صورت نرمال دردسترس باشند",
+        "appendHttpProxyToTun": "پیوست دادن پروکسی HTTP به وی‌پی‌ان",
+        "appendHttpProxyToTunTips": "برخی نرم‌افزار‌ها از کارت شبکه مجازی رد میشوند و مستقیم به پروکسی HTTP متصل می‌شوند",
+        "dnsSetting": "دی‌ان‌اس",
+        "dnsEnableRule": "فعال‌سازی قوانین انحراف دی‌ان‌اس",
+        "dnsEnableFakeIp": "فعال‌سازی آی‌پی جعلی",
+        "dnsEnableProxyResolveByProxy": "دی‌ان‌اس را از [ترافیک پروکسی] سرور پروکسی عبور می‌دهد",
+        "dnsEnableFinalResolveByProxy": "دی‌ان‌اس را از سرور پروکسی [نهایی] عبور می‌دهد",
+        "dnsTestDomain": "تست دامنه",
+        "dnsTestDomainInvalid": "دامنه نامعتبر",
+        "dnsTypeOutbound": "سرور پروکسی",
+        "dnsTypeDirect": "ترافیک مستقیم",
+        "dnsTypeProxy": "ترافیک پروکسی",
+        "dnsTypeResolver": "سرور دی‌ان‌اس",
+        "dnsTypeFinal": "نهایی",
+        "dnsEnableRuleTips": "بعد از فعال‌سازی نام دامنه، سرور دی‌ان‌اس مربوط را بر اساس قوانین انحراف برای عبور انتخاب می‌کند",
+        "dnsEnableFakeIpTips": "پس‌از فعال‌سازی آی‌پی جعلی اگر اتصال وی‌پی‌ان قطع شود نرم‌افزار‌های شما نیاز‌به راه‌اندازی مجدد دارند",
+        "dnsTypeOutboundTips": "سامانه نام دامنه (DNS) برای سرور پروکسی",
+        "dnsTypeDirectTips": "سامانه نام دامنه (DNS) برای ترافیک مستقیم",
+        "dnsTypeProxyTips": "سامانه نام دامنه (DNS) برای ترافیک پروکسی",
+        "dnsTypeResolverTips": "سامانه نام دامنه (DNS) برای بقیه سرور دی‌ان‌اس",
+        "dnsTypeFinalTips": "سامانه نام دامنه (DNS) برای بقیه ترافیک",
+        "reset": "ریست",
+        "diversion": "انحراف",
+        "geoSite": "ژئوسایت",
+        "enableGeoSite": "فعال‌سازی ژئوسایت",
+        "useRomoteGeoRes": "از منابع راه‌دور استفاده کنید",
+        "geoSiteAppleDirectOptimization": "بهینه‌سازی اتصال مستقیم اپل",
+        "geoSiteAppleDirectOptimizationTips": "وقتی روشن‌است، ژئوسایت اپل [apple,apple-ads,apple-dev,apple-pki,apple-update] از حالت اتصال مستقیم برای تجربه بهتر شبکه استفاده می‌کند",
+        "enableGeoIp": "فعال‌سازی ژئو‌آی‌پی",
+        "autoSelect": "انتخاب خودکار",
+        "autoSelectServerInterval": "بازه زمانی بررسی تاخیر",
+        "autoSelectServerIntervalTips": "هرچقدر بازه‌ زمانی کوتاه‌تر باشد به‌روزرسانی داده‌ تاخیر سرور‌ها به‌موقع‌تر انجام می‌شود که منابع بیشتری را درگیر و انرژی بیشتری مصرف می کند. برای غیر‌فعال کردن لطفا روی: <5m تنظیم کنید",
+        "autoSelectServerFavFirst": "اولویت استفاده از [علاقه‌مندی‌های من]",
+        "autoSelectServerFavFirstTips": "اگر لیست [علاقه‌مندی‌های من] خالی نبود از سرور‌های داخل [علاقه‌مندی‌های من] استفاده کن",
+        "autoSelectServerFilter": "فیلترکردن سرور‌های نامعتبر",
+        "autoSelectServerFilterTips": "بررسی‌های تاخیر سرور که سرور‌های شکست خورده را فیلتر می‌کند",
+        "autoSelectServerFilterNum": "آستانه الزام [فیلتر سرور‌های نامعتبر]",
+        "autoSelectServerFilterNumTips": "وقتی تعداد سرورها >= آستانه باشد [فیلتر سرور‌های نامعتبر] به‌صورت الزامی روشن می‌شود",
+        "numInvalid": "عدد نامعتبر",
+        "hideInvalidServer": "مخفی‌کردن سرور‌های نامعتبر",
+        "sortServer": "مرتب‌سازی سرور",
+        "sortServerTips": "مرتب‌سازی براساس تاخیر از کم به زیاد",
+        "selectServerHideRecommand": "مخفی‌کردن [پیشنهادی]",
+        "selectServerHideRecent": "‌ مخفی‌کردن [اخیرا استفاده‌شده]",
+        "selectServerHideFav": "مخفی‌کردن [علاقه‌مندی‌های من]",
+        "homeScreen": "صفحه‌ خانه",
+        "theme": "تِم",
+        "myLink": "لینک میان‌بر",
+        "myLinkInvalid": "URL نامعتبر",
+        "autoConnectAfterLaunch": "اتصال خودکار پس‌از راه‌اندازی",
+        "autoSetSystemProxy": "تنظیم خودکار حالت پروکسی سیستم پس‌از اتصال",
+        "disconnectWhenQuit": "قطع اتصال هنگام خروج از نرم‌افزار",
+        "backupAndSync": "پشتیبان‌گیری و همگام‌سازی",
+        "importAndExport": "وارد‌کردن و خروجی‌گرفتن",
+        "import": "وارد‌کردن",
+        "export": "خروجی‌گرفتن",
+        "lanSyncTo": "همگام‌سازی با دیگران",
+        "lanSyncFrom": "همگام‌سازی از دیگران",
+        "lanSyncScanQRcode": "اسکن کدQR و همگام‌سازی",
+        "invalidFileType": "نوع فایل نامعتبر:$p",
+        "importSuccess": "افزودن موفق بود",
+        "rewriteConfirm": "این فایل کانفیگ‌های محلی موجود را بازنویسی می‌کند. آیا می‌خواهید ادامه بدین؟",
+        "networkShare": "اشتراک‌گذاری شبکه",
+        "frontProxy": "پروکسی جلو",
+        "frontProxyTips": "داده‌ها->سرور پروکسی جلو->سرور پروکسی->سرور هدف",
+        "allowOtherHostsConnect": "اجازه اتصال دیگران",
+        "allowOtherHostsConnectTips": "socks:$sp,http(s):$hp",
+        "enableCluster": "فعال‌سازی پروکسی Socks/Http خوشه‌ای",
+        "clusterAllowOtherHostsConnect": "اجازه اتصال دیگران به خوشه",
+        "clusterAllowOtherHostsConnectTips": "http://127.0.0.1:$hp/get_proxies",
+        "clusterAuth": "احراز هویت خوشه پروکسی",
+        "clusterConfirm": "لطفا مطمعن شوید تاخیر سرورها بررسی شده و درصورتی‌که بررسی نشده‌باشند یا اشتباه بررسی شده‌باشند سرویس پروکسی ساخته نمی‌شود",
+        "tunMode": "حالت TUN",
+        "tunModeTips": "حالت TUN تمام ترافیک سیستم را تحت کنترل خواهد گرفت [دراین حالت می‌توانید پروکسی سیستم را غیرفعال نگه‌ دارید)",
+        "tunModeRunAsAdmin": "حالت TUN نیازمند مجوز مدیر سیستم می‌باشد لطفا نرم‌افزار را مجدد با حالت مدیر (administrator) راه‌اندازی کنید",
+        "launchAtStartup": "اجرا در راه‌اندازی",
+        "quitWhenSwitchSystemUser": "خروج از نرم‌افزار هنگام تعویض کاربران سیستم",
+        "handleScheme": "فراخوانی Scheme سیستم",
+        "portableMode": "حالت قابل‌حمل",
+        "portableModeDisableTips": "اگر نیاز دارین از حالت قابل‌حمل خارج شوید لطفا از [Karing] خارج شده و به‌صورت دستی پوشه [Profiles] هم مسیر با فایل [karing.exe] را حذف کنید",
+        "handleKaringScheme": "رسیدگی به ندای karing://",
+        "handleClashScheme": "رسیدگی به‌ ندای clash://",
+        "handleSingboxScheme": "رسیدگی به ندای sing-box://",
+        "handleStashScheme": "رسیدگی به ندای stash://",
+        "removeSystemVPNConfig": "حذف پیکربندی وی‌پی‌ان سیستم",
+        "removeSystemVPNConfigConfirm": "حذف پیکربندی وی‌پی‌ان سیستم را تایید می‌کنید؟",
+        "timeConnectOrDisconnect": "اتصال/قطع اتصال برنامه‌ریزی شده",
+        "timeConnectOrDisconnectTips": "برای اعمال شدن وی‌پی‌ان باید متصل باشد. پس‌از روشن‌شدن [خواب خودکار] غیرفعال می‌شود",
+        "timeConnect": "اتصال",
+        "timeDisconnect": "قطع‌ اتصال",
+        "timeConnectAndDisconnectInterval": "The connection/disconnection interval cannot be less than $p minutes",
+        "sleepWithSystem": "خواب خودکار",
+        "sleepWithSystemTips": "بعد‌ از به‌ خواب رفتن سیستم، وی‌پی‌ان سرویس را قطع می‌کند و پس‌از ادامه کار سیستم، وی‌پی‌ان به‌صورت خودکار سرویس را ادامه می‌دهد. دربرخی ورژن‌های سیستم بعد از روشن شدن ممکن است انرژی بیشتری مصرف کند.",
+        "disableFontScaler": "غیرفعال‌سازی مقیاس‌بندی فونت(با راه‌اندازی مجدد اعمال می‌شود)",
+        "restartTakesEffect": "با راه‌اندازی مجدد اعمال می‌شود",
+        "resetSettings": "بازنشانی تنظیمات",
+        "download": "دانلود",
+        "appleTestFlight": "تست‌فلایت اپل",
+        "appleAppStore": "اپ‌استور اپل",
+        "hasNewVersion": "به‌روزرسانی نسخه $p ",
+        "follow": "مارو دنبال کنید",
+        "contactUs": "ارتباط باما",
+        "rateInApp": "امتیاز به ما",
+        "rateInAppStore": "به ما در اپ‌استور امتیاز بدین"
+    },
+    "SpeedTestSettingsScreen": {
+        "title": "URL تست سرعت",
+        "url": "URL",
+        "error": "باید یک URL معتبر https باشد"
+    },
+    "TextToQrCodeScreen": {
+        "title": "متن به کد QR",
+        "convert": "تبدیل"
+    },
+    "UrlTestGroupCustomScreen": {
+        "title": "گروه پروکسی سفارشی",
+        "remark": "ملاحضات",
+        "remarkHit": "ملاحظات [الزامی]",
+        "remarkCannotEmpty": "ملاحظات نمی‌تواند خالی باشد",
+        "remarkTooLong": "ملاحظات تا ۳۲ حرف",
+        "remarkExist": "ملاحظات از‌قبل وجود دارد، لطفا از نام دیگری استفاده کنید"
+    },
+    "UrlTestSettingsScreen": {
+        "title": "URL بررسی تاخیر",
+        "url": "URL",
+        "error": "باید یک URL معتبر https باشد"
+    },
+    "UserAgreementScreen": {
+        "privacyFirst": "حریم‌خصوصی شما اولویت دارد",
+        "termOfUse": "شرایط استفاده",
+        "privacyPolicy": "سیاست حریم خصوصی",
+        "agreeAndContinue": "پذیرفتن و ادامه"
+    },
+    "VersionUpdateScreen": {
+        "versionReady": "نسخه جدید [$p] آماده است",
+        "update": "راه‌اندازی مجدد برای به‌روزرسانی",
+        "cancel": "الان‌ نه"
+    },
+    "CommonWidget": {
+        "refresh": "بارگذاری مجدد",
+        "retry": "دوباره امتحان کنید؟",
+        "diableAlwayOnVPN":"اگر [وی‌پی‌ان همیشه روشن] روشن است لطفا [وی‌پی‌ان همیشه روشن] را خاموش کنید و مجدد برای اتصال تلاش کنید"
+    },
+    "DialogUtils": {
+        "showAlertDialog": {
+            "title": "اطلاعات",
+            "copy": "کپی",
+            "ok": "خُب"
+        },
+        "showConfirmDialog": {
+            "ok": "خُب",
+            "cancel": "لغو",
+            "feedback": "بازخورد"
+        },
+        "showLoadingDialog": {
+            "loading": "درحال بارگذاری…"
+        },
+        "showQRContentDialog": {
+            "scanResult": "نتایج اسکن",
+            "add": "افزودن"
+        },
+        "showTimeTextInputDialog": {
+            "days": "روز",
+            "hours": "ساعت",
+            "minutes": "دقیقه",
+            "disable": "غیرفعال"
+        }
+    },
+    "ServerManager": {
+        "noServerAvaliable": "هیچ‌ سروری دردسترس نیست؛ از معتبر بودن لینک پروفایل یا فایل پروفایل مطمعن شوید",
+        "timeout": "اتمام مهلت اتصال",
+        "byCurrentSelected": "انتخاب کنونی",
+        "selector": "انتخاب خودکار",
+        "direct": "مستقیم",
+        "block": "مسدود",
+        "custom": "سفارشی",
+        "filePathCannotEmpty": "مسیر فایل نمی‌تواند خالی باشد",
+        "fileNotExist": "فایل وجود ندارد:$p",
+        "urlCannotEmpty": "لینک نمی‌تواند خالی باشد",
+        "invalidUrl": "لینک پروفایل نامعتبر است",
+        "parseFailed": "تجزیه پروفایل انجام نشد"
+    },
+    "main": {
+        "tray": {
+            "menuOpen": "    بازکردن    ",
+            "menuExit": "    بستن    "
+        }
+    },
+    "locales(map)": {
+        "en": "English",
+        "zh-CN": "简体中文",
+        "ar": "عربي",
+        "ru": "Русский",
+        "fa": "فارسی"
+
+    }
+	
