@@ -327,6 +327,10 @@
         "enableServer": "давать возможность",
         "error404": "При обнаружении задержки произошла ошибка. Проверьте, существует ли конфигурация с таким же содержимым."
     },
+    "ServerSelectSearchSelectScreen": {
+        "title": "Слова кандидата",
+        "keywordsOrRegx":"Ключевые слова/обычные"
+    },
     "SettingsScreen": {
         "title": "Настройки",
         "ispFaq": "FAQ[$p]",
@@ -382,8 +386,8 @@
         "geoSite": "GeoSite",
         "enableGeoSite": "Включить GeoSite",
         "useRomoteGeoRes": "Используйте удаленные ресурсы",
-        "geoSiteAppleDirectOptimization": "Apple Оптимизация прямого соединения",
-        "geoSiteAppleDirectOptimizationTips": "При включении Apple GeoSite[apple,apple-ads,apple-dev,apple-pki,apple-update] будет использоваться режим прямого подключения для улучшения работы сети",
+        "geoSiteAppleDirect": "Прямое соединение Apple",
+        "geoSiteAppleDirectTips": "При включении Apple GeoSite[apple,apple-ads,apple-dev,apple-pki,apple-update] будет использоваться режим прямого подключения для улучшения работы сети",
         "enableGeoIp": "Включить GeoIP",
         "autoSelect": "Авто Выбор",
         "autoSelectServerInterval": "Интервал проверок задержки",

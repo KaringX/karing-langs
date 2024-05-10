@@ -327,6 +327,10 @@
         "enableServer": "启用",
         "error404": "延迟检测遇到错误,请检查是否存在内容相同的配置"
     },
+    "ServerSelectSearchSelectScreen": {
+        "title": "候选词",
+        "keywordsOrRegx":"关键词/正则"
+    },
     "SettingsScreen": {
         "title": "设置",
         "ispFaq": "FAQ[$p]",
@@ -382,8 +386,8 @@
         "geoSite": "GeoSite",
         "enableGeoSite": "启用GeoSite",
         "useRomoteGeoRes": "使用远程资源",
-        "geoSiteAppleDirectOptimization": "苹果直连优化",
-        "geoSiteAppleDirectOptimizationTips": "开启后,苹果GeoSite[apple,apple-ads,apple-dev,apple-pki,apple-update]将使用直连模式,以便获取更快的网络体验",
+        "geoSiteAppleDirect": "苹果直连",
+        "geoSiteAppleDirectTips": "开启后,苹果GeoSite[apple,apple-ads,apple-dev,apple-pki,apple-update]将使用直连模式,以便获取更快的网络体验",
         "enableGeoIp": "启用GeoIP",
         "autoSelect": "自动选择",
         "autoSelectServerInterval": "延迟检测时间间隔",

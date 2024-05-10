@@ -327,6 +327,10 @@
         "enableServer": "Enable",
         "error404": "Latency detection encountered an error, please check if there is a configuration with the same content"
     },
+    "ServerSelectSearchSelectScreen": {
+        "title": "Candidate Words",
+        "keywordsOrRegx":"Keywords/regular"
+    },
     "SettingsScreen": {
         "title": "Settings",
         "ispFaq": "FAQ[$p]",
@@ -382,8 +386,8 @@
         "geoSite": "GeoSite",
         "enableGeoSite": "Enable GeoSite",
         "useRomoteGeoRes": "Use remote resources",
-        "geoSiteAppleDirectOptimization": "Apple Direct connection optimization",
-        "geoSiteAppleDirectOptimizationTips": "When turned on, Apple GeoSite[apple,apple-ads,apple-dev,apple-pki,apple-update] will use the direct connection mode to obtain a better network experience",
+        "geoSiteAppleDirect": "Apple Direct connection",
+        "geoSiteAppleDirectTips": "When turned on, Apple GeoSite[apple,apple-ads,apple-dev,apple-pki,apple-update] will use the direct connection mode to obtain a better network experience",
         "enableGeoIp": "Enable GeoIP",
         "autoSelect": "Auto Select",
         "autoSelectServerInterval": "Latency Checks Interval",

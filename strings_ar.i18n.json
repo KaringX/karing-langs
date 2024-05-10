@@ -327,6 +327,10 @@
     "enableServer": "يُمكَِن",
     "error404": "واجه اكتشاف الكمون خطأ ، يرجى التحقق مما إذا كان هناك تكوين مع نفس المحتوى"
   },
+  "ServerSelectSearchSelectScreen": {
+    "title": "كلمات المرشح",
+    "keywordsOrRegx":"الكلمات الرئيسية/العادية"
+},
   "SettingsScreen": {
     "title": "إعدادات",
     "ispFaq": "أسئلة مكررة[$p]",
@@ -382,8 +386,8 @@
     "geoSite": "جولتور",
     "enableGeoSite": "يُمكَِنجولتورe",
     "useRomoteGeoRes": "استخدم الموارد البعيدة",
-    "geoSiteAppleDirectOptimization": "تحسين اتصال Apple المباشر",
-    "geoSiteAppleDirectOptimizationTips": "عند تشغيله ، ستستخدم Apple Geosite [Apple و Apple-Ads و Apple-Dev و Apple-PKI و Apple-Update] وضع الاتصال المباشر للحصول على تجربة شبكة أفضل",
+    "geoSiteAppleDirect": "اتصال أبل المباشر",
+    "geoSiteAppleDirectTips": "عند تشغيله ، ستستخدم Apple Geosite [Apple و Apple-Ads و Apple-Dev و Apple-PKI و Apple-Update] وضع الاتصال المباشر للحصول على تجربة شبكة أفضل",
     "enableGeoIp": "تمكين Geoip",
     "autoSelect": "اختيار آلي",
     "autoSelectServerInterval": "فاصل الشيكات الكمون",
