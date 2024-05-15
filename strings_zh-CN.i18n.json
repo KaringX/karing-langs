@@ -184,7 +184,8 @@
         "trafficProxy": "代理流量",
         "upDownSpeed": "速度",
         "myLinkEmpty": "请先设置[快捷链接]后再使用",
-        "deviceNoSpace": "磁盘空间不足"
+        "deviceNoSpace": "磁盘空间不足",
+        "tooMuchServers":"代理服务器[$p>$p1]过多,可能因系统内存限制而无法连接"
     },
     "LanguageSettingsScreen": {
         "title": "语言",
@@ -364,7 +365,7 @@
         "tunAppendHttpProxyTips": "一些App会绕过虚拟网卡设备直连HTTP代理",
         "dnsSetting": "DNS",
         "dnsEnableRule": "启用DNS分流规则",
-        "dnsEnableFakeIp": "启用FakeIp",
+        "dnsEnableFakeIp": "启用FakeIP",
         "dnsEnableProxyResolveByProxy": "[代理流量]通过代理服务器解析DNS",
         "dnsEnableFinalResolveByProxy": "[final]通过代理服务器解析DNS",
         "dnsTestDomain": "测试域名",
@@ -375,7 +376,7 @@
         "dnsTypeResolver": "DNS服务器",
         "dnsTypeFinal": "final",
         "dnsEnableRuleTips": "启用后,域名会根据分流规则选择对应的DNS服务器进行解析",
-        "dnsEnableFakeIpTips": "启用FakeIp后,如果断开VPN连接,你的应用需要重启",
+        "dnsEnableFakeIpTips": "启用FakeIP后,如果断开VPN连接,你的应用需要重启",
         "dnsTypeOutboundTips": "用于代理服务器的域名解析",
         "dnsTypeDirectTips": "用于直连流量的域名解析",
         "dnsTypeProxyTips": "用于代理流量的域名解析",
@@ -383,6 +384,8 @@
         "dnsTypeFinalTips": "用于其他流量的域名解析",
         "reset": "重置",
         "diversion": "分流",
+        "inboundDomainResolve": "解析入站域名",
+        "inboundDomainResolveTips": "关闭后可能会影响到基于IP的分流规则;开启[FakeIP]后,此功能等同于关闭",
         "geoSite": "GeoSite",
         "enableGeoSite": "启用GeoSite",
         "useRomoteGeoRes": "使用远程资源",

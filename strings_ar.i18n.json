@@ -184,7 +184,8 @@
     "trafficProxy": "وكيل حركة المرور",
     "upDownSpeed": "سرعة",
     "myLinkEmpty": "الرجاء الإعداد [الاختصار وصلة] قبل استخدامه",
-    "deviceNoSpace": "مساحة غير كافيه في القرص"
+    "deviceNoSpace": "مساحة غير كافيه في القرص",
+    "tooMuchServers":"يوجد عدد كبير جدًا من الخوادم الوكيلة [$p>$p1]، وقد لا يكون الاتصال ممكنًا بسبب قيود ذاكرة النظام."
   },
   "LanguageSettingsScreen": {
     "title": "لغة",
@@ -383,6 +384,8 @@
     "dnsTypeFinalTips": "حل اسم المجال لحركة المرور الأخرى",
     "reset": "إعادة ضبط",
     "diversion": "تحويل",
+    "inboundDomainResolve": "حل أسماء النطاقات الواردة",
+    "inboundDomainResolveTips": "قد يؤثر إيقاف تشغيلها على قواعد التحويل المستندة إلى IP؛ تشغيل [FakeIP]، هذه الوظيفة تعادل إيقاف التشغيل",
     "geoSite": "جولتور",
     "enableGeoSite": "يُمكَِنجولتورe",
     "useRomoteGeoRes": "استخدم الموارد البعيدة",

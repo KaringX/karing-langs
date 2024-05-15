@@ -184,7 +184,8 @@
         "trafficProxy": "ترافیک پروکسی",
         "upDownSpeed": "سرعت",
         "myLinkEmpty": "لطفا قبل‌از استفاده [لینک میان‌بر] را راه‌اندازی کنید",
-        "deviceNoSpace": "فضای خالی کافی ندارید"
+        "deviceNoSpace": "فضای خالی کافی ندارید",
+        "tooMuchServers":"تعداد زیادی سرور پروکسی [$p>$p1] وجود دارد و ممکن است به دلیل محدودیت حافظه سیستم، اتصال امکان پذیر نباشد."
     },
     "LanguageSettingsScreen": {
         "title": "زبان",
@@ -383,6 +384,8 @@
         "dnsTypeFinalTips": "سامانه نام دامنه (DNS) برای بقیه ترافیک",
         "reset": "ریست",
         "diversion": "انحراف",
+        "inboundDomainResolve": "حل نام دامنه های ورودی",
+        "inboundDomainResolveTips": "خاموش کردن آن ممکن است بر روی قوانین انحراف مبتنی بر IP تأثیر بگذارد، این عملکرد معادل خاموش کردن است",
         "geoSite": "ژئوسایت",
         "enableGeoSite": "فعال‌سازی ژئوسایت",
         "useRomoteGeoRes": "از منابع راه‌دور استفاده کنید",

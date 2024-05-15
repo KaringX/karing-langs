@@ -184,7 +184,8 @@
         "trafficProxy": "Traffic Proxy",
         "upDownSpeed": "Speed",
         "myLinkEmpty": "Please set up [Shortcut Link] before using it",
-        "deviceNoSpace": "Not enough disk space"
+        "deviceNoSpace": "Not enough disk space",
+        "tooMuchServers":"Too many proxy servers [$p>$p1], and the connection may fail due to system memory limitations"
     },
     "LanguageSettingsScreen": {
         "title": "Language",
@@ -364,7 +365,7 @@
         "tunAppendHttpProxyTips": "Some apps will bypass virtual NIC Device and directly connect to HTTP proxy",
         "dnsSetting": "DNS",
         "dnsEnableRule": "Enable DNS Diversion rules",
-        "dnsEnableFakeIp": "Enable FakeIp",
+        "dnsEnableFakeIp": "Enable FakeIP",
         "dnsEnableProxyResolveByProxy": "[Proxy Traffic]Resolve DNS through proxy server",
         "dnsEnableFinalResolveByProxy": "[final]Resolve DNS through proxy server",
         "dnsTestDomain": "Test Domain",
@@ -375,7 +376,7 @@
         "dnsTypeResolver": "DNS Server",
         "dnsTypeFinal": "final",
         "dnsEnableRuleTips": "After enabling, the domain name will select the corresponding DNS server for resolution according to the diversion rules",
-        "dnsEnableFakeIpTips": "After enabling FakeIp, if the VPN connection is disconnected, your application needs to be restarted",
+        "dnsEnableFakeIpTips": "After enabling FakeIP, if the VPN connection is disconnected, your application needs to be restarted",
         "dnsTypeOutboundTips": "Domain name resolution for Proxy Server",
         "dnsTypeDirectTips": "Domain name resolution for Direct Traffic",
         "dnsTypeProxyTips": "Domain name resolution for Proxy Traffic",
@@ -383,6 +384,8 @@
         "dnsTypeFinalTips": "Domain name resolution for Other Traffic",
         "reset": "Reset",
         "diversion": "Diversion",
+        "inboundDomainResolve": "Resolve Inbound Domain names",
+        "inboundDomainResolveTips": "Turning it off may affect IP-based diversion rules; turning [FakeIP] on, this function is equivalent to turning off",
         "geoSite": "GeoSite",
         "enableGeoSite": "Enable GeoSite",
         "useRomoteGeoRes": "Use remote resources",
