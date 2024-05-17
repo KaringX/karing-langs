@@ -185,7 +185,7 @@
         "upDownSpeed": "سرعت",
         "myLinkEmpty": "لطفا قبل‌از استفاده [لینک میان‌بر] را راه‌اندازی کنید",
         "deviceNoSpace": "فضای خالی کافی ندارید",
-        "tooMuchServers":"تعداد زیادی سرور پروکسی [$p>$p1] وجود دارد و ممکن است به دلیل محدودیت حافظه سیستم، اتصال امکان پذیر نباشد."
+        "tooMuchServers": "تعداد زیادی سرور پروکسی [$p>$p1] وجود دارد و ممکن است به دلیل محدودیت حافظه سیستم، اتصال امکان پذیر نباشد."
     },
     "LanguageSettingsScreen": {
         "title": "زبان",
@@ -363,7 +363,13 @@
         "enableIPv6Tips": "قبل‌از فعال‌سازی لطفا مطمعن شوید شبکه شما از IPv6 پشتیبانی می‌کند، وگرنه برخی ترافیک‌ها نمی‌توانند به‌صورت نرمال دردسترس باشند",
         "tunAppendHttpProxy": "پیوست دادن پروکسی HTTP به وی‌پی‌ان",
         "tunAppendHttpProxyTips": "برخی نرم‌افزار‌ها از کارت شبکه مجازی رد میشوند و مستقیم به پروکسی HTTP متصل می‌شوند",
-        "dnsSetting": "دی‌ان‌اس",
+        "tlsSetting": "TLS",
+        "tlsFragmentEnable": "بخش بندی TLS را فعال کنید",
+        "tlsFragmentSize": "اندازه بخش TLS",
+        "tlsFragmentSleep": "خواب بخش‌بندی شده TLS",
+        "tlsMixedCaseSNIEnable": "TLS ترکیبی SNI را فعال کنید",
+        "tlsPaddingEnable": "فعال کردن TLS Padding",
+        "tlsPaddingSize": "اندازه پد TLS",
         "dnsEnableRule": "فعال‌سازی قوانین انحراف دی‌ان‌اس",
         "dnsEnableFakeIp": "فعال‌سازی آی‌پی جعلی",
         "dnsEnableProxyResolveByProxy": "دی‌ان‌اس را از [ترافیک پروکسی] سرور پروکسی عبور می‌دهد",
@@ -415,6 +421,7 @@
         "autoConnectAfterLaunch": "اتصال خودکار پس‌از راه‌اندازی",
         "autoSetSystemProxy": "تنظیم خودکار حالت پروکسی سیستم پس‌از اتصال",
         "disconnectWhenQuit": "قطع اتصال هنگام خروج از نرم‌افزار",
+        "allowBypass": "به برنامه‌ها اجازه دهید VPN را دور بزنند",
         "backupAndSync": "پشتیبان‌گیری و همگام‌سازی",
         "importAndExport": "وارد‌کردن و خروجی‌گرفتن",
         "import": "وارد‌کردن",

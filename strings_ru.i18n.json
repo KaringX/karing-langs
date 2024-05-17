@@ -185,7 +185,7 @@
         "upDownSpeed": "Скорость",
         "myLinkEmpty": "Пожалуйста, настройте [Быструю ссылку] перед использованием",
         "deviceNoSpace": "Не достаточно места на диске",
-        "tooMuchServers":"Слишком много прокси-серверов [$p>$p1], и соединение может оказаться невозможным из-за ограничений системной памяти"
+        "tooMuchServers": "Слишком много прокси-серверов [$p>$p1], и соединение может оказаться невозможным из-за ограничений системной памяти"
     },
     "LanguageSettingsScreen": {
         "title": "Язык",
@@ -363,7 +363,13 @@
         "enableIPv6Tips": "Перед включением убедитесь, что ваша сеть поддерживает IPv6, в противном случае нормальный доступ к некоторому трафику будет невозможен",
         "tunAppendHttpProxy": "Подключите HTTP-прокси к VPN",
         "tunAppendHttpProxyTips": "Некоторые приложения будут обходить устройство виртуальной сетевой карты и напрямую подключаться к HTTP-прокси.",
-        "dnsSetting": "DNS",
+        "tlsSetting": "TLS",
+        "tlsFragmentEnable": "Включить сегментацию TLS",
+        "tlsFragmentSize": "Размер сегмента TLS",
+        "tlsFragmentSleep": "Сегментированный сон TLS",
+        "tlsMixedCaseSNIEnable": "Включить гибридный SNI TLS",
+        "tlsPaddingEnable": "Включить заполнение TLS",
+        "tlsPaddingSize": "Размер заполнения TLS",
         "dnsEnableRule": "Включить правила DNS",
         "dnsEnableFakeIp": "Включить FakeIP",
         "dnsEnableProxyResolveByProxy": "[действующий поток]Разрешить DNS через прокси-сервер",
@@ -415,6 +421,7 @@
         "autoConnectAfterLaunch": "Автоматическое подключение после запуска",
         "autoSetSystemProxy": "Установить прокси после подключения",
         "disconnectWhenQuit": "Отключаться при выходе из приложения",
+        "allowBypass": "Разрешить приложениям обходить VPN",
         "backupAndSync": "Резервное копирование и синхронизация",
         "importAndExport": "Импорт и экспорт",
         "import": "Импорт",

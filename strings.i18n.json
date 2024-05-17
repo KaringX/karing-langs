@@ -185,7 +185,7 @@
         "upDownSpeed": "Speed",
         "myLinkEmpty": "Please set up [Shortcut Link] before using it",
         "deviceNoSpace": "Not enough disk space",
-        "tooMuchServers":"Too many proxy servers [$p>$p1], and the connection may fail due to system memory limitations"
+        "tooMuchServers": "Too many proxy servers [$p>$p1], and the connection may fail due to system memory limitations"
     },
     "LanguageSettingsScreen": {
         "title": "Language",
@@ -363,7 +363,13 @@
         "enableIPv6Tips": "Before enabling, please confirm that your network supports IPv6, otherwise some traffic cannot be accessed normally.",
         "tunAppendHttpProxy": "Append HTTP Proxy to VPN",
         "tunAppendHttpProxyTips": "Some apps will bypass virtual NIC Device and directly connect to HTTP proxy",
-        "dnsSetting": "DNS",
+        "tlsSetting": "TLS",
+        "tlsFragmentEnable": "Enable TLS Fragment",
+        "tlsFragmentSize": "TLS Fragment Size",
+        "tlsFragmentSleep": "TLS Fragment Sleep",
+        "tlsMixedCaseSNIEnable": "Enable TLS Mixed SNI",
+        "tlsPaddingEnable": "Enable TLS Padding",
+        "tlsPaddingSize": "TLS Padding Size",
         "dnsEnableRule": "Enable DNS Diversion rules",
         "dnsEnableFakeIp": "Enable FakeIP",
         "dnsEnableProxyResolveByProxy": "[Proxy Traffic]Resolve DNS through proxy server",
@@ -415,6 +421,7 @@
         "autoConnectAfterLaunch": "Auto Connection after Launch",
         "autoSetSystemProxy": "Auto Set System Proxy when Connected",
         "disconnectWhenQuit": "Disconnect when App Exits",
+        "allowBypass": "Allow Apps to Bypass VPN",
         "backupAndSync": "Backup and Sync",
         "importAndExport": "Import and Export",
         "import": "Import",

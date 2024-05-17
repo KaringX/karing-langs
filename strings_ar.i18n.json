@@ -185,7 +185,7 @@
     "upDownSpeed": "سرعة",
     "myLinkEmpty": "الرجاء الإعداد [الاختصار وصلة] قبل استخدامه",
     "deviceNoSpace": "مساحة غير كافيه في القرص",
-    "tooMuchServers":"يوجد عدد كبير جدًا من الخوادم الوكيلة [$p>$p1]، وقد لا يكون الاتصال ممكنًا بسبب قيود ذاكرة النظام."
+    "tooMuchServers": "يوجد عدد كبير جدًا من الخوادم الوكيلة [$p>$p1]، وقد لا يكون الاتصال ممكنًا بسبب قيود ذاكرة النظام."
   },
   "LanguageSettingsScreen": {
     "title": "لغة",
@@ -363,7 +363,13 @@
     "enableIPv6Tips": "قبل التمكين ، يرجى تأكيد أن شبكتك تدعم IPv6 ، وإلا لا يمكن الوصول إلى بعض حركة المرور بشكل طبيعي.",
     "tunAppendHttpProxy": "إلحاق وكيل HTTP إلى VPN",
     "tunAppendHttpProxyTips": "ستجاوز بعض التطبيقات جهاز NIC الظاهري والاتصال مباشرة بوكيل HTTP",
-    "dnsSetting": "DNS",
+    "tlsSetting": "TLS",
+    "tlsFragmentEnable": "تمكين تجزئة TLS",
+    "tlsFragmentSize": "حجم شريحة TLS",
+    "tlsFragmentSleep": "TLS النوم المجزأ",
+    "tlsMixedCaseSNIEnable": "تمكين TLS الهجين SNI",
+    "tlsPaddingEnable": "تمكين الحشو TLS",
+    "tlsPaddingSize": "حجم الحشو TLS",
     "dnsEnableRule": "تمكين قواعد تحويل DNS",
     "dnsEnableFakeIp": "تمكين وهمية",
     "dnsEnableProxyResolveByProxy": "[حركة الوكيل] حل DNS من خلال خادم الوكيل",
@@ -415,6 +421,7 @@
     "autoConnectAfterLaunch": "اتصال السيارات بعد الإطلاق",
     "autoSetSystemProxy": "وكيل نظام تعيين تلقائي عند الاتصال",
     "disconnectWhenQuit": "افصل عندما يخرج التطبيق",
+    "allowBypass": "السماح للتطبيقات بتجاوز VPN",
     "backupAndSync": "النسخ الاحتياطي والمزامنة",
     "importAndExport": "استيراد وتصدير",
     "import": "يستورد",

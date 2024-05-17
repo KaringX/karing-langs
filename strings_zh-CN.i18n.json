@@ -185,7 +185,7 @@
         "upDownSpeed": "速度",
         "myLinkEmpty": "请先设置[快捷链接]后再使用",
         "deviceNoSpace": "磁盘空间不足",
-        "tooMuchServers":"代理服务器[$p>$p1]过多,可能因系统内存限制而无法连接"
+        "tooMuchServers": "代理服务器[$p>$p1]过多,可能因系统内存限制而无法连接"
     },
     "LanguageSettingsScreen": {
         "title": "语言",
@@ -363,7 +363,13 @@
         "enableIPv6Tips": "启用前,请先确认你的网络已支持IPv6,否则某些流量无法正常访问",
         "tunAppendHttpProxy": "附加HTTP代理到VPN",
         "tunAppendHttpProxyTips": "一些App会绕过虚拟网卡设备直连HTTP代理",
-        "dnsSetting": "DNS",
+        "tlsSetting": "TLS",
+        "tlsFragmentEnable": "启用TLS分段",
+        "tlsFragmentSize": "TLS分段大小",
+        "tlsFragmentSleep": "TLS分段休眠",
+        "tlsMixedCaseSNIEnable": "启用TLS混合SNI",
+        "tlsPaddingEnable": "启用TLS填充",
+        "tlsPaddingSize": "TLS填充大小",
         "dnsEnableRule": "启用DNS分流规则",
         "dnsEnableFakeIp": "启用FakeIP",
         "dnsEnableProxyResolveByProxy": "[代理流量]通过代理服务器解析DNS",
@@ -415,6 +421,7 @@
         "autoConnectAfterLaunch": "启动后自动连接",
         "autoSetSystemProxy": "连接后自动设置系统代理",
         "disconnectWhenQuit": "退出应用时关闭连接",
+        "allowBypass": "允许应用绕过VPN",
         "backupAndSync": "备份与同步",
         "importAndExport": "导入/导出",
         "import": "导入",
