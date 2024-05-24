@@ -256,7 +256,9 @@
     "dnsOk": "[$p1]نجح استعلام DNS\nDNS قاعدة:[$p2]\n وقت الإستجابة:[$p3 ms]\nAعنوان[$p4]",
     "dnsFailed": "[$p1]نجح استعلام DNS\n nDNS قاعدة:[$p2]\nخطأ:[$p3]",
     "host": "اتصال HTTP",
-    "hostOk": "[$p1]نجح الاتصال\nقاعدة التحويل:[$p2]\nمخدم بروكسي:[$p3]"
+    "hostConnection": "[$p1]\nقاعدة التحويل:[$p2]\nمخدم بروكسي:[$p3]",
+    "hostConnectionOk": "نجح الاتصال",
+    "hostConnectionFailed": "فشل الاتصال:[$p]"
   },
   "NetConnectionsFilterScreen": {
     "title": "تصفية الاتصالات",
@@ -437,8 +439,9 @@
     "frontProxyTips": "بيانات->خادم الوكيل الأمامي->مخدم بروكسي->الخادم الهدف",
     "allowOtherHostsConnect": "اسمح للآخرين بالاتصال",
     "allowOtherHostsConnectTips": "socks:$sp,http(s):$hp",
-    "tunAutoRoute": "TUN Auto Route",
+    "tunAutoRoute": "Auto Route",
     "tunAutoRouteTips": "إذا لم يتمكن الآخرون من الوصول إلى هذا الجهاز بعد تشغيل المشاركة، فيرجى محاولة إيقاف تشغيل هذا المفتاح.",
+    "tunStrictRoute": "Strict Route",
     "enableCluster": "تمكين مجموعة الوكيل الجوارب/HTTP",
     "clusterAllowOtherHostsConnect": "السماح للآخرين بالاتصال بـ CLUSTER",
     "clusterAllowOtherHostsConnectTips": "http://127.0.0.1:$hp/get_proxies",
@@ -447,6 +450,7 @@
     "tunMode": "نفق وضع",
     "tunModeTips": "سيتولى وضع TUN كل حركة مرور النظام [في هذا الوضع ، يمكنك ترك وكيل النظام غير مدقلة]",
     "tunModeRunAsAdmin": "يتطلب وضع TUN أذونات مسؤول النظام ، يرجى إعادة تشغيل التطبيق كمسؤول",
+    "tunStack": "Stack",
     "launchAtStartup": "إطلاق عند بدء التشغيل",
     "quitWhenSwitchSystemUser": "خروج تطبيق عند تبديل مستخدمي النظام",
     "handleScheme": "مكالمة مخطط النظام",
@@ -455,7 +459,6 @@
     "handleKaringScheme": "مقبض karing:// Call",
     "handleClashScheme": "مقبض clash:// Call",
     "handleSingboxScheme": "مقبض sing-box:// يتصل",
-    "handleStashScheme": "تعامل مع خبأ:// يتصل",
     "removeSystemVPNConfig": "حذف تكوين VPN النظام",
     "removeSystemVPNConfigConfirm": "تأكيد لحذف تكوين VPN النظام؟",
     "timeConnectOrDisconnect": "المقرر يتصل/قطع الاتصال",
@@ -533,7 +536,7 @@
       "scanResult": "نتيجة المسح",
       "add": "لإضافة"
     },
-    "showTimeTextInputDialog": {
+    "showTimeIntervalPickerDialog": {
       "days": "أيام",
       "hours": "ساعات",
       "minutes": "دقائق",

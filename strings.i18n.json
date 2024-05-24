@@ -256,7 +256,9 @@
         "dnsOk": "[$p1]DNS query succeeded\nDNS Rule:[$p2]\nLatency:[$p3 ms]\nAddress:[$p4]",
         "dnsFailed": "[$p1]DNS query succeeded\n nDNS Rule:[$p2]\nError:[$p3]",
         "host": "HTTP Connection",
-        "hostOk": "[$p1]connection succeeded\nDiversionRule:[$p2]\nProxy Server:[$p3]"
+        "hostConnection": "[$p1]\nDiversionRule:[$p2]\nProxy Server:[$p3]",
+        "hostConnectionOk": "connection succeeded",
+        "hostConnectionFailed": "connection failed:[$p]"
     },
     "NetConnectionsFilterScreen": {
         "title": "Connections Filter",
@@ -437,8 +439,9 @@
         "frontProxyTips": "Data->Front proxy server->Proxy server->Target server",
         "allowOtherHostsConnect": "Allow Others to Connect",
         "allowOtherHostsConnectTips": "socks:$sp,http(s):$hp",
-        "tunAutoRoute": "TUN Auto Route",
+        "tunAutoRoute": "Auto Route",
         "tunAutoRouteTips": "If after turning on sharing, others cannot access this device, please try turning off this switch",
+        "tunStrictRoute": "Strict Route",
         "enableCluster": "Enable Socks/Http Proxy Cluster",
         "clusterAllowOtherHostsConnect": "Allow Others to Connect to Cluster",
         "clusterAllowOtherHostsConnectTips": "http://127.0.0.1:$hp/get_proxies",
@@ -447,6 +450,7 @@
         "tunMode": "TUN Mode",
         "tunModeTips": "The TUN mode will take over all the traffic of the system [In this mode, you can leave the system proxy unenabled]",
         "tunModeRunAsAdmin": "The TUN mode requires system administrator permissions, please restart the app as an administrator",
+        "tunStack": "Stack",
         "launchAtStartup": "Launch at Startup",
         "quitWhenSwitchSystemUser": "Exit App when Switch System Users",
         "handleScheme": "System Scheme Call",
@@ -455,7 +459,6 @@
         "handleKaringScheme": "Handle karing:// Call",
         "handleClashScheme": "Handle clash:// Call",
         "handleSingboxScheme": "Handle sing-box:// Call",
-        "handleStashScheme": "Handle stash:// Call",
         "removeSystemVPNConfig": "Delete system VPN configuration",
         "removeSystemVPNConfigConfirm": "Confirm To Delete system VPN configuration?",
         "timeConnectOrDisconnect": "Scheduled connect/disconnect",
@@ -533,7 +536,7 @@
             "scanResult": "Scan Result",
             "add": "To add"
         },
-        "showTimeTextInputDialog": {
+        "showTimeIntervalPickerDialog": {
             "days": "Days",
             "hours": "Hours",
             "minutes": "Minutes",

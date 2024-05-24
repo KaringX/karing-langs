@@ -256,7 +256,9 @@
         "dnsOk": "[$p1]域名解析成功\nDNS规则:[$p2]\n延迟:[$p3 ms]\n地址:[$p4]",
         "dnsFailed": "[$p1]域名解析失败\n规则:[$p2]\n错误:[$p3]",
         "host": "HTTP连接",
-        "hostOk": "[$p1]连接成功\n分流规则:[$p2]\n代理服务器:[$p3]"
+        "hostConnection": "[$p1]\n分流规则:[$p2]\n代理服务器:[$p3]",
+        "hostConnectionOk": "连接成功",
+        "hostConnectionFailed": "连接失败:[$p]"
     },
     "NetConnectionsFilterScreen": {
         "title": "连接状态筛选",
@@ -437,8 +439,9 @@
         "frontProxyTips": "数据->前置代理服务器->代理服务器->目标服务器",
         "allowOtherHostsConnect": "允许其他主机接入",
         "allowOtherHostsConnectTips": "socks:$sp,http(s):$hp",
-        "tunAutoRoute": "TUN Auto Route",
+        "tunAutoRoute": "Auto Route",
         "tunAutoRouteTips": "如果开启共享后,其他无法接入此设备,请尝试关闭此开关",
+        "tunStrictRoute": "严格路由",
         "enableCluster": "开启Socks/Http代理集群",
         "clusterAllowOtherHostsConnect": "允许其他主机接入代理集群",
         "clusterAllowOtherHostsConnectTips": "http://127.0.0.1:$hp/get_proxies",
@@ -447,6 +450,7 @@
         "tunMode": "TUN模式",
         "tunModeTips": "TUN模式将接管系统所有流量[此模式下无需开启系统代理]",
         "tunModeRunAsAdmin": "TUN模式需要系统管理员权限,请以管理员身份重新启动应用",
+        "tunStack": "网络栈",
         "launchAtStartup": "开机启动",
         "quitWhenSwitchSystemUser": "切换系统用户时退出应用",
         "handleScheme": "系统Scheme调用",
@@ -455,7 +459,6 @@
         "handleKaringScheme": "处理karing://调用",
         "handleClashScheme": "处理clash://调用",
         "handleSingboxScheme": "处理sing-box://调用",
-        "handleStashScheme": "处理stash://调用",
         "removeSystemVPNConfig": "删除系统VPN配置",
         "removeSystemVPNConfigConfirm": "确认删除系统VPN配置?",
         "timeConnectOrDisconnect": "定时连接/断开",
@@ -533,7 +536,7 @@
             "scanResult": "扫描结果",
             "add": "去添加"
         },
-        "showTimeTextInputDialog": {
+        "showTimeIntervalPickerDialog": {
             "days": "天",
             "hours": "时",
             "minutes": "分",

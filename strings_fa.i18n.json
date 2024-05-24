@@ -256,7 +256,9 @@
         "dnsOk": "[$p1]DNS query succeeded\nDNS Rule: درخواست دی‌ان‌اس موفق بود\nقانون دی‌ان‌اس: [$p2]\nتاخیر: [$p3 ms]\nآدرس [$p4]",
         "dnsFailed": "[$p1]جستجوی DNS موفق بود\nقانون DNS: [$p2]\nخطا:[$p3]",
         "host": "اتصال HTTP",
-        "hostOk": "اتصال[$p1] موفق بود\nقانون انحراف: [$p2]\nسرور پروکسی: [$p3]"
+        "hostConnection": "[$p1]\nقانون انحراف: [$p2]\nسرور پروکسی: [$p3]",
+        "hostConnectionOk": "اتصال موفق شد",
+        "hostConnectionFailed": "ارتباط ناموفق بود:[$p]"
     },
     "NetConnectionsFilterScreen": {
         "title": "فیلتر اتصال‌ها",
@@ -437,8 +439,9 @@
         "frontProxyTips": "داده‌ها->سرور پروکسی جلو->سرور پروکسی->سرور هدف",
         "allowOtherHostsConnect": "اجازه اتصال دیگران",
         "allowOtherHostsConnectTips": "socks:$sp,http(s):$hp",
-        "tunAutoRoute": "TUN Auto Route",
+        "tunAutoRoute": "Auto Route",
         "tunAutoRouteTips": "اگر پس از روشن کردن اشتراک‌گذاری، دیگران نمی‌توانند به این دستگاه دسترسی داشته باشند، لطفاً این سوئیچ را خاموش کنید.",
+        "tunStrictRoute": "Strict Route",
         "enableCluster": "فعال‌سازی پروکسی Socks/Http خوشه‌ای",
         "clusterAllowOtherHostsConnect": "اجازه اتصال دیگران به خوشه",
         "clusterAllowOtherHostsConnectTips": "http://127.0.0.1:$hp/get_proxies",
@@ -447,6 +450,7 @@
         "tunMode": "حالت TUN",
         "tunModeTips": "حالت TUN تمام ترافیک سیستم را تحت کنترل خواهد گرفت [دراین حالت می‌توانید پروکسی سیستم را غیرفعال نگه‌ دارید)",
         "tunModeRunAsAdmin": "حالت TUN نیازمند مجوز مدیر سیستم می‌باشد لطفا نرم‌افزار را مجدد با حالت مدیر (administrator) راه‌اندازی کنید",
+        "tunStack": "Stack",
         "launchAtStartup": "اجرا در راه‌اندازی",
         "quitWhenSwitchSystemUser": "خروج از نرم‌افزار هنگام تعویض کاربران سیستم",
         "handleScheme": "فراخوانی Scheme سیستم",
@@ -455,7 +459,6 @@
         "handleKaringScheme": "رسیدگی به ندای karing://",
         "handleClashScheme": "رسیدگی به‌ ندای clash://",
         "handleSingboxScheme": "رسیدگی به ندای sing-box://",
-        "handleStashScheme": "رسیدگی به ندای stash://",
         "removeSystemVPNConfig": "حذف پیکربندی وی‌پی‌ان سیستم",
         "removeSystemVPNConfigConfirm": "حذف پیکربندی وی‌پی‌ان سیستم را تایید می‌کنید؟",
         "timeConnectOrDisconnect": "اتصال/قطع اتصال برنامه‌ریزی شده",
@@ -533,7 +536,7 @@
             "scanResult": "نتایج اسکن",
             "add": "افزودن"
         },
-        "showTimeTextInputDialog": {
+        "showTimeIntervalPickerDialog": {
             "days": "روز",
             "hours": "ساعت",
             "minutes": "دقیقه",

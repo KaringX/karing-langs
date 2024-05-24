@@ -256,7 +256,9 @@
         "dnsOk": "[$p1]DNS Разобрано успешно\nDNS правило:[$p2]\nЗадерживать:[$p3 ms]\nадрес:[$p4]",
         "dnsFailed": "[$p1]DNS Не удалось выполнить синтаксический анализ\n правило:[$p2]\nошибка:[$p3]",
         "host": "HTTP соединять",
-        "hostOk": "[$p1]соединение выполнено успешно\nПравила переадресации:[$p2]\nПрокси сервер:[$p3]"
+        "hostConnection": "[$p1]\nПравила переадресации:[$p2]\nПрокси сервер:[$p3]",
+        "hostConnectionOk": "соединение выполнено успешно",
+        "hostConnectionFailed": "Соединение не удалось:[$p]"
     },
     "NetConnectionsFilterScreen": {
         "title": "Соединения фильтр",
@@ -437,8 +439,9 @@
         "frontProxyTips": "Данные->Передний прокси-сервер->Прокси-сервер->Целевой сервер",
         "allowOtherHostsConnect": "Разрешить другим подключаться",
         "allowOtherHostsConnectTips": "socks:$sp,http(s):$hp",
-        "tunAutoRoute": "TUN Auto Route",
+        "tunAutoRoute": "Auto Route",
         "tunAutoRouteTips": "Если после включения общего доступа другие люди не смогут получить доступ к этому устройству, попробуйте отключить этот переключатель.",
+        "tunStrictRoute": "Strict Route",
         "enableCluster": "Включить кластер прокси Socks/Http",
         "clusterAllowOtherHostsConnect": "Разрешить другим подключаться",
         "clusterAllowOtherHostsConnectTips": "http://127.0.0.1:$hp/get_proxies",
@@ -447,6 +450,7 @@
         "tunMode": "Режим TUN",
         "tunModeTips": "Режим TUN возьмет на себя весь трафик системы [В этом режиме вы можете оставить системный прокси отключенным]",
         "tunModeRunAsAdmin": "Для режима TUN требуются права администратора. Перезапустите приложение от имени администратора",
+        "tunStack": "Stack",
         "launchAtStartup": "Запуск при включении",
         "quitWhenSwitchSystemUser": "Переключить пользователя, чтобы выйти",
         "handleScheme": "системы Scheme Позвонить",
@@ -455,7 +459,6 @@
         "handleKaringScheme": "Ручка karing:// Позвонить",
         "handleClashScheme": "Ручка clash:// Позвонить",
         "handleSingboxScheme": "Ручка sing-box:// Позвонить",
-        "handleStashScheme": "Ручка stash:// Позвонить",
         "removeSystemVPNConfig": "Удалить профиль VPN",
         "removeSystemVPNConfigConfirm": "Вы уверены, что хотите удалить профиль VPN с устройства?",
         "timeConnectOrDisconnect": "Запланированное подключение/отключение",
@@ -533,7 +536,7 @@
             "scanResult": "Результат сканирования",
             "add": "Добавить"
         },
-        "showTimeTextInputDialog": {
+        "showTimeIntervalPickerDialog": {
             "days": "небо",
             "hours": "час",
             "minutes": "точка",
