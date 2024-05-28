@@ -143,8 +143,6 @@
     "title": "تعليق",
     "content": "محتوى ردود الفعل",
     "contentHit": "مطلوب ، ما يصل إلى 500 حرف",
-    "email": "بريد إلكتروني",
-    "telegram": "برقية",
     "submit": "يُقدِّم",
     "contentCannotEmpty": "لا يمكن أن يكون محتوى التعليقات فارغًا",
     "submitDone": "شكرا لملاحظاتك"
@@ -354,6 +352,7 @@
     "downloadProfilePreferProxyTips": "إذا كان متصلاً حاليًا ، فسيتم تنزيل الملف الشخصي من خلال الوكيل المتصالح أولاً",
     "rulesetDirectDownlad": "مجموعة القواعد تحميل مباشر",
     "hideUnusedDiversionGroup": "إخفاء مجموعات التحويل غير المستخدمة",
+    "disableISPDiversionGroup": "تعطيل قواعد تحويل ISP",
     "portSetting": "ميناء",
     "portSettingRule": "القاعدة القائمة",
     "portSettingDirectAll": "توجيه كل شيء",

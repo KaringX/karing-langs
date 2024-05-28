@@ -143,8 +143,6 @@
         "title": "بازخورد",
         "content": "محتوای بازخورد",
         "contentHit": "الزامی، تا 500 حرف",
-        "email": "ایمیل",
-        "telegram": "تلگرام",
         "submit": "ارسال",
         "contentCannotEmpty": "محتوای بازخورد نمی‌تواند خالی باشد",
         "submitDone": "از بازخورد شما ممنونیم"
@@ -354,6 +352,7 @@
         "downloadProfilePreferProxyTips": "اگر اکنون متصل هستین، پروفایل ابتدا از پروکسی متصل دانلود می‌شود",
         "rulesetDirectDownlad": "دانلود مستقیم مجموعه قوانین",
         "hideUnusedDiversionGroup": "مخفی‌کردن گروه‌های انحراف به‌کار نرفته",
+        "disableISPDiversionGroup": "قوانین انحراف ISP را غیرفعال کنید",
         "portSetting": "پورت",
         "portSettingRule": "قانون محور",
         "portSettingDirectAll": "مستقیم‌شدن همه",

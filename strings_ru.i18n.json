@@ -143,8 +143,6 @@
         "title": "Обратная связь",
         "content": "Содержание",
         "contentHit": "Обязательно, до 500 символов",
-        "email": "Email",
-        "telegram": "Telegram",
         "submit": "Отправить",
         "contentCannotEmpty": "Содержание не может быть пустым",
         "submitDone": "Спасибо за ваш отзыв."
@@ -354,6 +352,7 @@
         "downloadProfilePreferProxyTips": "Если подключение установлено, конфигурация сначала будет загружена через подключенный прокси-сервер",
         "rulesetDirectDownlad": "Rule Set Прямая загрузка",
         "hideUnusedDiversionGroup": "Скрыть неактивные дельта-группы",
+        "disableISPDiversionGroup": "Отключить правила переадресации интернет-провайдера",
         "portSetting": "порт",
         "portSettingRule": "основанный на правилах",
         "portSettingDirectAll": "Полное прямое соединение",

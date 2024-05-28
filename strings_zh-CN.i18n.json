@@ -143,8 +143,6 @@
         "title": "反馈",
         "content": "反馈内容",
         "contentHit": "必填, 最长500字符",
-        "email": "Email",
-        "telegram": "Telegram",
         "submit": "提交",
         "contentCannotEmpty": "反馈内容不能为空",
         "submitDone": "谢谢您的支持"
@@ -354,6 +352,7 @@
         "downloadProfilePreferProxyTips": "如果当前已连接,则优先通过已连接的代理下载配置",
         "rulesetDirectDownlad": "Rule Set直连下载",
         "hideUnusedDiversionGroup": "隐藏未启用的分流组",
+        "disableISPDiversionGroup": "禁用ISP分流规则",
         "portSetting": "端口",
         "portSettingRule": "基于规则",
         "portSettingDirectAll": "全直连",

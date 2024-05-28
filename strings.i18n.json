@@ -143,8 +143,6 @@
         "title": "Feedback",
         "content": "Feedback Content",
         "contentHit": "Required, up to 500 characters",
-        "email": "Email",
-        "telegram": "Telegram",
         "submit": "Submit",
         "contentCannotEmpty": "Feedback content can not be empty",
         "submitDone": "Thanks for your feedback"
@@ -354,6 +352,7 @@
         "downloadProfilePreferProxyTips": "If currently connected, the profile will be downloaded through the connected proxy first",
         "rulesetDirectDownlad": "Rule Set Direct Download",
         "hideUnusedDiversionGroup": "Hide Unused Diversion Groups",
+        "disableISPDiversionGroup": "Disable ISP Diversion Rules",
         "portSetting": "Port",
         "portSettingRule": "Rule Based",
         "portSettingDirectAll": "Direct All",
