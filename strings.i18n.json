@@ -401,6 +401,7 @@
         "enableGeoIp": "Enable GeoIP",
         "autoSelect": "Auto Select",
         "autoSelectServerInterval": "Latency Checks Interval",
+        "autoSelectServerReTestIfNetworkUpdate":"Re-check when network changes",
         "autoSelectServerIntervalTips": "The shorter the time interval, the more timely the server latency data updates, which will occupy more resources and consume more power;To disable please set to:<5m",
         "autoSelectServerFavFirst": "Pri-Use [My Favs]",
         "autoSelectServerFavFirstTips": "If the [My Favs] list is not empty, Then use the servers in [My Favs]",

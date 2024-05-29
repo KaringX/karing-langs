@@ -401,6 +401,7 @@
     "enableGeoIp": "تمكين Geoip",
     "autoSelect": "اختيار آلي",
     "autoSelectServerInterval": "فاصل الشيكات الكمون",
+    "autoSelectServerReTestIfNetworkUpdate":"إعادة اكتشاف متى تتغير الشبكة",
     "autoSelectServerIntervalTips": "كلما كانت الفاصل الزمني الأقصر ، زادت تحديثات بيانات زمن انتقال الخادم في الوقت المناسب ، والتي ستشغل المزيد من الموارد وتستهلك المزيد من الطاقة ؛ للتعطيل ، يرجى ضبطها على: <5M ",
     "autoSelectServerFavFirst": "PRI-Use [My Favs]",
     "autoSelectServerFavFirstTips": "إذا لم تكن قائمة [FAVS] فارغة ، فاستخدم الخوادم في [FAVs]",
