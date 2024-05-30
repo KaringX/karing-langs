@@ -17,6 +17,12 @@
         "FilesAndLogsOpenDir": "Открыть каталог файлов",
         "useOriginalSBProfile": "Использовать исходную конфигурацию Single-Box"
     },
+    "AclRulesetScreen": {
+        "title": "ACL",
+        "search": "Поиск",
+        "detail": "$p",
+        "setGeositeRule": "Совет: После включения опции перейдите в[Правила переадресации], чтобы установить соответствующие правила, иначе они не вступят в силу"
+    },
     "AddProfileByCustomScreen": {
         "title": "Добавить кастомный профиль"
     },
@@ -124,6 +130,7 @@
         "block": "Блокировать",
         "geoSite": "GeoSite",
         "geoIp": "GeoIP",
+        "acl": "ACL",
         "finalSelect": "final",
         "finalSelectTips": "Если ни одно правило не соблюдается, будет использоваться это правило; включение [прокси все] приведет к тому, что этот параметр станет недействительным",
         "diversionRulesMatchTips": "Попробуйте сопоставить правила сверху вниз. Если ни одно правило не соответствует, используйте final"
@@ -153,13 +160,13 @@
         "clearFileContent": "Вы уверены, что очистите содержимое файла?",
         "clearFileContentTips": "Вы уверены, что очистите содержимое файла профиля? Очистка файла профиля может привести к потере данных или некорректной работе приложения, действуйте осторожно"
     },
-    "GeoSiteScreen": {
+    "GeoSiteRulesetScreen": {
         "title": "GeoSite",
         "search": "Поиск",
         "detail": "$p",
         "setGeositeRule": "Совет: После включения опции перейдите в[Правила переадресации], чтобы установить соответствующие правила, иначе они не вступят в силу"
     },
-    "GeoIpScreen": {
+    "GeoIpRulesetScreen": {
         "title": "GeoIP"
     },
     "HomeScreen": {
@@ -394,14 +401,13 @@
         "inboundDomainResolve": "Разрешение входящих доменных имен",
         "inboundDomainResolveTips": "Отключение этой функции может повлиять на правила переадресации на основе IP. Включение [FakeIP] эквивалентно отключению;",
         "geoSite": "GeoSite",
-        "enableGeoSite": "Включить GeoSite",
-        "useRomoteGeoRes": "Используйте удаленные ресурсы",
+        "enable": "Включить",
+        "useRomoteRes": "Используйте удаленные ресурсы",
         "geoSiteAppleDirect": "Прямое соединение Apple",
         "geoSiteAppleDirectTips": "При включении Apple GeoSite[apple,apple-ads,apple-dev,apple-pki,apple-update] будет использоваться режим прямого подключения для улучшения работы сети",
-        "enableGeoIp": "Включить GeoIP",
         "autoSelect": "Авто Выбор",
         "autoSelectServerInterval": "Интервал проверок задержки",
-        "autoSelectServerReTestIfNetworkUpdate":"Повторное обнаружение изменений в сети",
+        "autoSelectServerReTestIfNetworkUpdate": "Повторное обнаружение изменений в сети",
         "autoSelectServerIntervalTips": "Чем короче временной интервал, тем своевременнее обновляются данные о задержке сервера, что будет занимать больше ресурсов и потреблять больше энергии;Чтобы отключить, установите:<5m",
         "autoSelectServerFavFirst": "приоритет[Мои избранные]",
         "autoSelectServerFavFirstTips": "Если список [Мои избранные] не пуст, то будут использоваться серверы из [Мои избранные]",

@@ -17,6 +17,12 @@
     "FilesAndLogsOpenDir": "فتح دليل الملف",
     "useOriginalSBProfile": "استخدم تكوين صندوق الغناء الأصلي"
   },
+  "AclRulesetScreen": {
+    "title": "ACL",
+    "search": "يبحث",
+    "detail": "$p",
+    "setGeositeRule": "نصيحة: بعد تشغيل الخيارات ، يرجى الانتقال إلى [قواعد التحويل] لتعيين القواعد ذات الصلة ، وإلا فلن تدخل ساري المفعول "
+  },
   "AddProfileByCustomScreen": {
     "title": "أضف ملف تعريف مخصص"
   },
@@ -124,6 +130,7 @@
     "block": "حاجز",
     "geoSite": "جولتور",
     "geoIp": "GeoIP",
+    "acl": "ACL",
     "finalSelect": "أخير",
     "finalSelectTips": "إذا لم يتم ضرب قاعدة ، فسيتم استخدام هذه القاعدة ؛إن تشغيل [وكيل الكل] سيؤدي إلى أن يصبح هذا الإعداد غير صالح",
     "diversionRulesMatchTips": "حاول مطابقة القواعد من أعلى إلى أسفل.إذا لم يتم مطابقة قاعدة ، استخدم النهائي"
@@ -153,13 +160,13 @@
     "clearFileContent": "هل أنت متأكد من مسح محتوى الملف؟",
     "clearFileContentTips": "هل أنت متأكد من مسح محتوى ملف الملف الشخصي؟قد يتسبب تطهير ملف الملف الشخصي في فقدان البيانات أو وظائف التطبيق غير الطبيعية ، يرجى العمل بحذر"
   },
-  "GeoSiteScreen": {
+  "GeoSiteRulesetScreen": {
     "title": "GeoSite",
     "search": "يبحث",
     "detail": "$p",
     "setGeositeRule": "نصيحة: بعد تشغيل الخيارات ، يرجى الانتقال إلى [قواعد التحويل] لتعيين القواعد ذات الصلة ، وإلا فلن تدخل ساري المفعول "
   },
-  "GeoIpScreen": {
+  "GeoIpRulesetScreen": {
     "title": "GeoIP"
   },
   "HomeScreen": {
@@ -394,14 +401,13 @@
     "inboundDomainResolve": "حل أسماء النطاقات الواردة",
     "inboundDomainResolveTips": "قد يؤثر إيقاف تشغيلها على قواعد التحويل المستندة إلى IP؛ تشغيل [FakeIP]، هذه الوظيفة تعادل إيقاف التشغيل",
     "geoSite": "جولتور",
-    "enableGeoSite": "يُمكَِنجولتورe",
-    "useRomoteGeoRes": "استخدم الموارد البعيدة",
+    "enable": "تمكين",
+    "useRomoteRes": "استخدم الموارد البعيدة",
     "geoSiteAppleDirect": "اتصال أبل المباشر",
     "geoSiteAppleDirectTips": "عند تشغيله ، ستستخدم Apple Geosite [Apple و Apple-Ads و Apple-Dev و Apple-PKI و Apple-Update] وضع الاتصال المباشر للحصول على تجربة شبكة أفضل",
-    "enableGeoIp": "تمكين Geoip",
     "autoSelect": "اختيار آلي",
     "autoSelectServerInterval": "فاصل الشيكات الكمون",
-    "autoSelectServerReTestIfNetworkUpdate":"إعادة اكتشاف متى تتغير الشبكة",
+    "autoSelectServerReTestIfNetworkUpdate": "إعادة اكتشاف متى تتغير الشبكة",
     "autoSelectServerIntervalTips": "كلما كانت الفاصل الزمني الأقصر ، زادت تحديثات بيانات زمن انتقال الخادم في الوقت المناسب ، والتي ستشغل المزيد من الموارد وتستهلك المزيد من الطاقة ؛ للتعطيل ، يرجى ضبطها على: <5M ",
     "autoSelectServerFavFirst": "PRI-Use [My Favs]",
     "autoSelectServerFavFirstTips": "إذا لم تكن قائمة [FAVS] فارغة ، فاستخدم الخوادم في [FAVs]",

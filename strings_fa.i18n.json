@@ -17,6 +17,12 @@
         "FilesAndLogsOpenDir": "بازکردن دایرکتوری فایل",
         "useOriginalSBProfile": "استفاده از پروفایل اصلی سینگ‌باکس"
     },
+    "AclRulesetScreen": {
+        "title": "ACL",
+        "search": "جستجو",
+        "detail": "$p",
+        "setGeositeRule": "راهنمایی: پس‌از ذخیره کردن لطفا به [قوانین انحراف] رفته و قوانین مربوط زا تنظیم کنید؛ درغیراین صورت اعمال نخواهند شد"
+    },
     "AddProfileByCustomScreen": {
         "title": "افزودن پروفایل سفارشی"
     },
@@ -124,6 +130,7 @@
         "block": "مسدود",
         "geoSite": "ژئو سایت",
         "geoIp": "ژئو آی‌پی",
+        "acl": "ACL",
         "finalSelect": "نهایی",
         "finalSelectTips": "اگر شامل هیچ قانونی نشد این قانون مورد استفاده قرار می‌گیرد. روشن کردن [پروکسی شدن همه] باعث نامعتبر شدن این تنظیمات می شود",
         "diversionRulesMatchTips": "سعی کنین قوانین را از بالا تطبیق دهید. اگر هیچ قانونی تطبیق داده نشد از نهایی استفاده کنید"
@@ -153,13 +160,13 @@
         "clearFileContent": "آیا از پاکسازی محتوای فایل اطمینان دارید؟",
         "clearFileContentTips": "آیا از پاکسازی محتوای فایل پروفایل اطمینان دارید؟ پاکسازی محتوای فایل پروفایل ممکن است باعث از دست رفتن داده یا عملیات غیرعادی نرم‌افزار شود؛ لطفا با احتیاط عمل کنید."
     },
-    "GeoSiteScreen": {
+    "GeoSiteRulesetScreen": {
         "title": "ژئو‌ سایت",
         "search": "جستجو",
         "detail": "$p",
         "setGeositeRule": "راهنمایی: پس‌از ذخیره کردن لطفا به [قوانین انحراف] رفته و قوانین مربوط زا تنظیم کنید؛ درغیراین صورت اعمال نخواهند شد"
     },
-    "GeoIpScreen": {
+    "GeoIpRulesetScreen": {
         "title": "ژئو آی‌پی"
     },
     "HomeScreen": {
@@ -394,14 +401,13 @@
         "inboundDomainResolve": "حل نام دامنه های ورودی",
         "inboundDomainResolveTips": "خاموش کردن آن ممکن است بر روی قوانین انحراف مبتنی بر IP تأثیر بگذارد، این عملکرد معادل خاموش کردن است",
         "geoSite": "ژئوسایت",
-        "enableGeoSite": "فعال‌سازی ژئوسایت",
-        "useRomoteGeoRes": "از منابع راه‌دور استفاده کنید",
+        "enable": "فعال‌سازی",
+        "useRomoteRes": "از منابع راه‌دور استفاده کنید",
         "geoSiteAppleDirect": "بهینه‌سازی اتصال مستقیم اپل",
         "geoSiteAppleDirectTips": "وقتی روشن‌است، ژئوسایت اپل [apple,apple-ads,apple-dev,apple-pki,apple-update] از حالت اتصال مستقیم برای تجربه بهتر شبکه استفاده می‌کند",
-        "enableGeoIp": "فعال‌سازی ژئو‌آی‌پی",
         "autoSelect": "انتخاب خودکار",
         "autoSelectServerInterval": "بازه زمانی بررسی تاخیر",
-        "autoSelectServerReTestIfNetworkUpdate":"شناسایی مجدد زمانی که شبکه تغییر می کند",
+        "autoSelectServerReTestIfNetworkUpdate": "شناسایی مجدد زمانی که شبکه تغییر می کند",
         "autoSelectServerIntervalTips": "هرچقدر بازه‌ زمانی کوتاه‌تر باشد به‌روزرسانی داده‌ تاخیر سرور‌ها به‌موقع‌تر انجام می‌شود که منابع بیشتری را درگیر و انرژی بیشتری مصرف می کند. برای غیر‌فعال کردن لطفا روی: <5m تنظیم کنید",
         "autoSelectServerFavFirst": "اولویت استفاده از [علاقه‌مندی‌های من]",
         "autoSelectServerFavFirstTips": "اگر لیست [علاقه‌مندی‌های من] خالی نبود از سرور‌های داخل [علاقه‌مندی‌های من] استفاده کن",

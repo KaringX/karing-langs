@@ -17,6 +17,12 @@
         "FilesAndLogsOpenDir": "Open File Directory",
         "useOriginalSBProfile": "Use original sing-box Profile"
     },
+    "AclRulesetScreen": {
+        "title": "ACL",
+        "search": "Search",
+        "detail": "$p",
+        "setGeositeRule": "Tip: After turning on the options, please go to[Diversion Rules]to set the relevant rules, otherwise they will not take effect"
+    },
     "AddProfileByCustomScreen": {
         "title": "Add Custom Profile"
     },
@@ -124,6 +130,7 @@
         "block": "Block",
         "geoSite": "GeoSite",
         "geoIp": "GeoIP",
+        "acl": "ACL",
         "finalSelect": "final",
         "finalSelectTips": "If no rule is hit, this rule will be used; turning on [Proxy All] will cause this setting to become invalid",
         "diversionRulesMatchTips": "Try to match the rules from top to bottom. If no rule is matched, use final"
@@ -153,13 +160,13 @@
         "clearFileContent": "Are you sure to clear the content of the file?",
         "clearFileContentTips": "Are you sure to clear the content of the Profile file? Clearing the Profile file may cause data loss or abnormal application functions, please operate with caution"
     },
-    "GeoSiteScreen": {
+    "GeoSiteRulesetScreen": {
         "title": "GeoSite",
         "search": "Search",
         "detail": "$p",
         "setGeositeRule": "Tip: After turning on the options, please go to[Diversion Rules]to set the relevant rules, otherwise they will not take effect"
     },
-    "GeoIpScreen": {
+    "GeoIpRulesetScreen": {
         "title": "GeoIP"
     },
     "HomeScreen": {
@@ -394,14 +401,13 @@
         "inboundDomainResolve": "Resolve Inbound Domain names",
         "inboundDomainResolveTips": "Turning it off may affect IP-based diversion rules; turning [FakeIP] on, this function is equivalent to turning off",
         "geoSite": "GeoSite",
-        "enableGeoSite": "Enable GeoSite",
-        "useRomoteGeoRes": "Use remote resources",
+        "enable": "Enable",
+        "useRomoteRes": "Use Remote Resources",
         "geoSiteAppleDirect": "Apple Direct connection",
         "geoSiteAppleDirectTips": "When turned on, Apple GeoSite[apple,apple-ads,apple-dev,apple-pki,apple-update] will use the direct connection mode to obtain a better network experience",
-        "enableGeoIp": "Enable GeoIP",
         "autoSelect": "Auto Select",
         "autoSelectServerInterval": "Latency Checks Interval",
-        "autoSelectServerReTestIfNetworkUpdate":"Re-check when network changes",
+        "autoSelectServerReTestIfNetworkUpdate": "Re-check when network changes",
         "autoSelectServerIntervalTips": "The shorter the time interval, the more timely the server latency data updates, which will occupy more resources and consume more power;To disable please set to:<5m",
         "autoSelectServerFavFirst": "Pri-Use [My Favs]",
         "autoSelectServerFavFirstTips": "If the [My Favs] list is not empty, Then use the servers in [My Favs]",
