@@ -6,5 +6,3 @@ Note: Language file naming format: strings_xxxx.i18n.json [xxxx is a languageCod
 languageCodes: 
 https://api.flutter.dev/flutter/flutter_localizations/kMaterialSupportedLanguages.html 
 
-# Join us
-[Telegram](https://t.me/+xf8S3J8jKMFlNTVl)
