@@ -132,7 +132,7 @@
         "geoIp": "GeoIP",
         "acl": "ACL",
         "finalSelect": "final",
-        "finalSelectTips": "如果未命中任何规则,则使用该规则;开启[全局代理]会导致此设置失效",
+        "finalSelectTips": "如果未命中任何规则,则使用该规则",
         "diversionRulesMatchTips": "从上到下依次尝试匹配规则,如果没有匹配到规则,则使用final"
     },
     "DnsSettingsScreen": {

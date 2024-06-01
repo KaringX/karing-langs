@@ -132,7 +132,7 @@
         "geoIp": "GeoIP",
         "acl": "ACL",
         "finalSelect": "final",
-        "finalSelectTips": "If no rule is hit, this rule will be used; turning on [Proxy All] will cause this setting to become invalid",
+        "finalSelectTips": "If no rule is hit, this rule will be used",
         "diversionRulesMatchTips": "Try to match the rules from top to bottom. If no rule is matched, use final"
     },
     "DnsSettingsScreen": {
