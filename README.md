@@ -7,4 +7,4 @@ languageCodes:
 https://api.flutter.dev/flutter/flutter_localizations/kMaterialSupportedLanguages.html 
 
 # Join us
-[Telegram](https://t.me/+xf8S3J8jKMFlNTVl))
+[Telegram](https://t.me/+xf8S3J8jKMFlNTVl)
