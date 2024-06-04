@@ -1,12 +1,7 @@
 {
     "AboutScreen": {
-        "title": "关于",
-        "name": "名称",
-        "version": "版本",
         "installRefer": "安装参考",
         "versionChannel": "自动更新通道",
-        "termOfUse": "使用条款",
-        "privacyPolicy": "隐私政策",
         "disableUAReport": "关闭行为数据上报",
         "disableUAReportTip": "行为数据上报有助于我们改进产品体验,关闭后将不利于产品的快速优化改进",
         "devOptions": "开发者选项",
@@ -18,9 +13,6 @@
         "useOriginalSBProfile": "使用原始sing-box配置"
     },
     "AclRulesetScreen": {
-        "title": "ACL",
-        "search": "搜索",
-        "detail": "$p",
         "setGeositeRule": "提示:开启选项后,请到[分流规则]设置相关规则,否则不会生效"
     },
     "AddProfileByCustomScreen": {
@@ -30,12 +22,7 @@
         "title": "导入配置文件",
         "enableDiversionRules": "启用分流规则",
         "chooseFile": "选择文件",
-        "remark": "备注",
-        "remarkHit": "备注[必填]",
         "invalidFileType": "无效的文件类型:$p",
-        "remarkCannotEmpty": "备注不能为空",
-        "remarkTooLong": "备注最长32字符",
-        "remarkExist": "备注已存在,请使用其他名称",
         "configExist": "配置已存在,请勿重复添加",
         "addSuccess": "添加成功",
         "addFailed": "添加失败:$p"
@@ -47,13 +34,7 @@
         "updateTimerIntervalTips": "禁用请设置为:<5m",
         "profileLinkContent": "配置链接/内容",
         "profileLinkContentHit": "配置链接/内容[必填] (支持Clash,V2ray(支持批量),Stash,Karing,Sing-box,Shadowsocks,Sub,Github配置链接)",
-        "remark": "备注",
-        "remarkHit": "备注[必填]",
-        "addProfile": "添加",
         "subscriptionCannotEmpty": "配置链接不能为空",
-        "remarkCannotEmpty": "备注不能为空",
-        "remarkTooLong": "备注名称最长32字符",
-        "remarkExist": "备注已存在,请使用其他名称",
         "configExist": "配置已存在,请勿重复添加",
         "invalidUrl": "配置链接长度过长",
         "addSuccess": "添加成功",
@@ -65,7 +46,6 @@
         "title": "扫描二维码",
         "copy": "拷贝链接",
         "open": "打开链接",
-        "add": "添加",
         "requestCameraPermission": "请开启摄像头权限",
         "requestScreenAccess": "请到系统设置-隐私与安全-屏幕录制 为本应用添加权限",
         "screenshot": "截图",
@@ -74,33 +54,18 @@
         "scanEmptyResult": "扫描结果为空",
         "scanException": "解析图片异常,请确保截图为有效的二维码:$p"
     },
-    "BackupAndSyncIcloudScreen": {
-        "title": "iCloud"
-    },
     "BackupAndSyncLanSyncScreen": {
         "title": "局域网同步",
         "lanSyncNotQuitTips": "同步完成前请勿退出此界面"
     },
     "BackupAndSyncWebdavScreen": {
-        "title": "Webdav",
         "webdavServerUrl": "服务器地址",
-        "webdavUser": "账号",
-        "webdavPassword": "密码",
-        "required": "必填",
         "webdavRequired": "不能为空",
         "webdavLoginFailed": "登录失败:",
         "webdavListFailed": "获取文件列表失败:"
     },
     "DiversionGroupCustomEditScreen": {
         "title": "编辑分流组",
-        "domainSuffix": "域名后缀",
-        "domain": "域名",
-        "domainKeyword": "域名关键词",
-        "domainRegex": "域名正则",
-        "port": "端口",
-        "appPackage": "应用包名",
-        "processName": "进程名称",
-        "processPath": "进程路径",
         "invalidDomain": "无效的 Domain:$p",
         "invalidIpCidr": "无效的 IP Cidr:$p",
         "invalidPort": "无效的 Port:$p",
@@ -110,10 +75,6 @@
     "DiversionGroupCustomScreen": {
         "title": "自定义分流组",
         "add": "添加分流组",
-        "remark": "备注",
-        "remarkCannotEmpty": "备注不能为空",
-        "remarkTooLong": "备注最长32字符",
-        "remarkExist": "备注已存在,请使用其他名称",
         "confirmDel": "确认删除?"
     },
     "DiversionRuleDetectScreen": {
@@ -123,34 +84,18 @@
         "outbound": "代理服务器:"
     },
     "DiversionRulesScreen": {
-        "title": "分流规则",
-        "byCurrentSelected": "当前选择",
-        "selector": "自动选择",
-        "direct": "直连",
-        "block": "拦截",
-        "geoSite": "GeoSite",
-        "geoIp": "GeoIP",
-        "acl": "ACL",
-        "finalSelect": "final",
         "finalSelectTips": "如果未命中任何规则,则使用该规则",
         "diversionRulesMatchTips": "从上到下依次尝试匹配规则,如果没有匹配到规则,则使用final"
     },
     "DnsSettingsScreen": {
-        "title": "DNS",
-        "Connecting": "连接中",
-        "add": "添加DNS服务器",
-        "isp": "ISP",
-        "url": "URL",
         "ispCanNotEmpty": "ISP 不能为空",
         "urlCanNotEmpty": "URL 不能为空",
         "error": "不支持的类型:$p",
         "dnsDesc": "第一列延迟数据为直连查询延迟;\n第二列:开启[[代理流量]通过代理服务器解析DNS]:延迟数据为通过当前代理服务器转发的查询延迟;未开启[[代理流量]通过代理服务器解析DNS]:延迟数据为直连查询延迟"
     },
     "FeedbackScreen": {
-        "title": "反馈",
         "content": "反馈内容",
         "contentHit": "必填, 最长500字符",
-        "submit": "提交",
         "contentCannotEmpty": "反馈内容不能为空",
         "submitDone": "谢谢您的支持"
     },
@@ -161,13 +106,7 @@
         "clearFileContentTips": "确认清空配置文件内容? 清空配置文件可能会导致数据丢失或应用功能异常, 请谨慎操作"
     },
     "GeoSiteRulesetScreen": {
-        "title": "GeoSite",
-        "search": "搜索",
-        "detail": "$p",
         "setGeositeRule": "提示:开启选项后,请到[分流规则]设置相关规则,否则不会生效"
-    },
-    "GeoIpRulesetScreen": {
-        "title": "GeoIP"
     },
     "HomeScreen": {
         "noAvailableServer": "无可用服务器,去添加配置",
@@ -175,44 +114,22 @@
         "invalidServer": "已失效,请重新选择",
         "disabledServer": "已被禁用,请重新选择",
         "expiredServer": "无可用服务器,配置可能已过期",
-        "selector": "自动选择",
-        "connectState": {
-            "connected": "已连接",
-            "disconnected": "未连接"
-        },
-        "systemProxy": "系统代理",
         "systemProxyTips": "socks:$sp,http(s):$hp",
-        "rule": "规则",
-        "all": "全局",
         "updateFailed": "更新失败:$p",
         "trafficTotal": "总流量",
         "trafficProxy": "代理流量",
-        "upDownSpeed": "速度",
         "myLinkEmpty": "请先设置[快捷链接]后再使用",
         "deviceNoSpace": "磁盘空间不足",
         "tooMuchServers": "代理服务器[$p>$p1]过多,可能因系统内存限制而无法连接"
-    },
-    "LanguageSettingsScreen": {
-        "title": "语言",
-        "search": "搜索",
-        "next": "下一步"
     },
     "LaunchFailedScreen": {
         "invalidProcess": "应用启动失败[无效的进程名称],请重新安装应用到独立目录",
         "invalidProfile": "应用启动失败[访问配置文件失败],请重新安装应用",
         "invalidVersion": "应用启动失败[无效版本],请重新安装应用",
-        "startFromUNC": "无效的安装路径,请重新安装到有效路径",
-        "website": "官网",
-        "quit": "退出"
+        "startFromUNC": "无效的安装路径,请重新安装到有效路径"
     },
     "MyProfilesEditScreen": {
         "title": "编辑配置",
-        "remark": "备注",
-        "remarkCannotEmpty": "备注不能为空",
-        "remarkTooLong": "备注最长32字符",
-        "remarkExist": "备注已存在,请使用其他名称",
-        "url": "URL",
-        "urlInvalid": "无效URL",
         "urlExist": "URL已存在,请使用其他URL",
         "enableDiversionRules": "启用分流规则",
         "updateTimerInterval": "更新时间间隔",
@@ -229,17 +146,11 @@
         "profilesMergeSource": "源配置",
         "profilesMergeTips": "提示:源配置的分流信息将会被丢弃"
     },
-    "MyProfilesReorderScreen": {
-        "title": "排序"
-    },
     "MyProfilesScreen": {
         "title": "我的配置",
-        "Connecting": "连接中",
         "updateFailed": "更新失败:$p",
         "confirmDel": "确认删除?",
-        "atLeastOneEnable": "无法禁用,请至少保留一个配置可用",
-        "disableServer": "禁用",
-        "enableServer": "启用"
+        "atLeastOneEnable": "无法禁用,请至少保留一个配置可用"
     },
     "NetCheckScreen": {
         "title": "网络检测",
@@ -257,7 +168,6 @@
         "outboundOk": "[$p]连接成功",
         "outboundFailed": "[$p1]连接失败\n错误:[$p2]",
         "dnsServer": "DNS服务器",
-        "dns": "域名解析",
         "dnsOk": "[$p1]域名解析成功\nDNS规则:[$p2]\n延迟:[$p3 ms]\n地址:[$p4]",
         "dnsFailed": "[$p1]域名解析失败\n规则:[$p2]\n错误:[$p3]",
         "host": "HTTP连接",
@@ -268,41 +178,22 @@
     "NetConnectionsFilterScreen": {
         "title": "连接状态筛选",
         "hostIp": "域名/IP",
-        "port": "端口",
         "app": "应用",
         "rule": "规则",
         "chain": "出站"
     },
     "NetConnectionsScreen": {
         "title": "连接状态",
-        "selector": "自动选择",
-        "direct": "直连",
-        "block": "拦截",
-        "dns": "DNS",
         "copyAsCSV": "已复制为CSV格式",
-        "selectType": "选择分流类型",
-        "typeDomain": "域名",
-        "typeIP": "IP地址",
-        "typePort": "端口",
-        "typePackage": "包名",
-        "typeProcessName": "进程名",
-        "typeProcessPath": "进程路径"
-    },
-    "NetInterfacesScreen": {
-        "title": "网络接口"
-    },
-    "OnlineBackupAndSyncScreen": {
-        "title": ""
+        "selectType": "选择分流类型"
     },
     "PerAppAndroidScreen": {
         "title": "分应用代理",
-        "enable": "启用",
         "whiteListMode": "白名单模式",
         "whiteListModeTip": "启用后:仅代理已勾选的App;未启用:仅代理未勾选的App",
         "enableAppQueryPermission": "开启 [获取应用列表] 权限"
     },
     "QrcodeScreen": {
-        "title": "二维码",
         "tooLong": "文本过长,无法展示",
         "copy": "拷贝链接",
         "open": "打开链接",
@@ -314,25 +205,18 @@
     },
     "RegionSettingsScreen": {
         "title": "国家与地区",
-        "done": "完成",
-        "search": "搜索",
         "Regions": "提示:请正确设置你当前所在国家或地区,否则可能会导致分流错误"
     },
     "ServerSelectScreen": {
         "title": "选择服务器",
-        "selector": "自动选择",
-        "none": "无",
         "autoSelectServer": "自动选择连接延迟最低的服务器",
         "recommend": "推荐",
         "recentUse": "最近使用",
         "myFav": "我的收藏",
-        "Connecting": "连接中",
         "updateFailed": "更新失败:$p",
         "selectLocal": "所选服务器为本地地址,可能无法正常使用:$p",
         "selectRequireEnableIPv6": "所选服务器为IPv6地址,需要[启用IPv6]",
         "selectDisabled": "该服务器已被禁用",
-        "disableServer": "禁用",
-        "enableServer": "启用",
         "error404": "延迟检测遇到错误,请检查是否存在内容相同的配置"
     },
     "ServerSelectSearchSelectScreen": {
@@ -340,18 +224,14 @@
         "keywordsOrRegx": "关键词/正则"
     },
     "SettingsScreen": {
-        "title": "设置",
         "ispFaq": "FAQ[$p]",
         "cleanISP": "清除ISP[$p]",
         "openISP": "打开ISP链接",
         "cleanISPNoParam": "清除ISP信息",
         "getTranffic": "获取流量",
         "tutorial": "使用教程",
-        "faq": "常见问题",
         "commonlyUsedRulesets": "常用规则集",
-        "notice": "通知",
         "htmlBoard": "在线面板",
-        "Connecting": "连接中",
         "speedTest": "测速",
         "addProfile": "添加配置",
         "addProfileFromClipboard": "从剪切板导入",
@@ -371,7 +251,6 @@
         "enableIPv6Tips": "启用前,请先确认你的网络已支持IPv6,否则某些流量无法正常访问",
         "tunAppendHttpProxy": "附加HTTP代理到VPN",
         "tunAppendHttpProxyTips": "一些App会绕过虚拟网卡设备直连HTTP代理",
-        "tlsSetting": "TLS",
         "tlsFragmentEnable": "启用TLS分段",
         "tlsFragmentSize": "TLS分段大小",
         "tlsFragmentSleep": "TLS分段休眠",
@@ -388,7 +267,6 @@
         "dnsTypeDirect": "直连流量",
         "dnsTypeProxy": "代理流量",
         "dnsTypeResolver": "DNS服务器",
-        "dnsTypeFinal": "final",
         "dnsEnableRuleTips": "启用后,域名会根据分流规则选择对应的DNS服务器进行解析",
         "dnsEnableFakeIpTips": "启用FakeIP后,如果断开VPN连接,你的应用需要重启",
         "dnsTypeOutboundTips": "用于代理服务器的域名解析",
@@ -396,12 +274,8 @@
         "dnsTypeProxyTips": "用于代理流量的域名解析",
         "dnsTypeResolverTips": "用于DNS服务器的域名解析",
         "dnsTypeFinalTips": "用于其他流量的域名解析",
-        "reset": "重置",
-        "diversion": "分流",
         "inboundDomainResolve": "解析入站域名",
         "inboundDomainResolveTips": "关闭后可能会影响到基于IP的分流规则;开启[FakeIP]后,此功能等同于关闭",
-        "geoSite": "GeoSite",
-        "enable": "启用",
         "useRomoteRes": "使用远程资源",
         "geoSiteAppleDirect": "苹果直连",
         "geoSiteAppleDirectTips": "开启后,苹果GeoSite[apple,apple-ads,apple-dev,apple-pki,apple-update]将使用直连模式,以便获取更快的网络体验",
@@ -430,10 +304,6 @@
         "autoSetSystemProxy": "连接后自动设置系统代理",
         "disconnectWhenQuit": "退出应用时关闭连接",
         "allowBypass": "允许应用绕过VPN",
-        "backupAndSync": "备份与同步",
-        "importAndExport": "导入/导出",
-        "import": "导入",
-        "export": "导出",
         "lanSyncTo": "同步给他人",
         "lanSyncFrom": "从他人同步",
         "lanSyncScanQRcode": "扫码同步",
@@ -469,8 +339,6 @@
         "removeSystemVPNConfigConfirm": "确认删除系统VPN配置?",
         "timeConnectOrDisconnect": "定时连接/断开",
         "timeConnectOrDisconnectTips": "VPN必须处于连接状态才会生效;开启后,[自动休眠]将失效",
-        "timeConnect": "连接",
-        "timeDisconnect": "断开",
         "timeConnectAndDisconnectInterval": "连接/断开时间间隔不能低于$p分钟",
         "sleepWithSystem": "自动休眠",
         "sleepWithSystemTips": "系统休眠后,VPN暂停服务;系统恢复后,VPN自动恢复服务;某些版本的系统上,开启后可能会更加耗电",
@@ -478,8 +346,7 @@
         "restartTakesEffect": "重启生效",
         "resetSettings": "重置设置",
         "cleanCache": "清理缓存",
-        "cleanCachedone": "清理完成",
-        "download": "下载",
+        "cleanCacheDone": "清理完成",
         "appleTestFlight": "苹果 TestFlight",
         "appleAppStore": "苹果 AppStore",
         "hasNewVersion": "更新版本 $p",
@@ -490,7 +357,6 @@
     },
     "SpeedTestSettingsScreen": {
         "title": "测速URL",
-        "url": "URL",
         "error": "必须为有效的 https URL"
     },
     "TextToQrCodeScreen": {
@@ -498,22 +364,14 @@
         "convert": "转换"
     },
     "UrlTestGroupCustomScreen": {
-        "title": "自定义代理组",
-        "remark": "备注",
-        "remarkHit": "备注[必填]",
-        "remarkCannotEmpty": "备注不能为空",
-        "remarkTooLong": "备注最长32字符",
-        "remarkExist": "备注已存在,请使用其他名称"
+        "title": "自定义代理组"
     },
     "UrlTestSettingsScreen": {
         "title": "延迟检测URL",
-        "url": "URL",
         "error": "必须为有效的 https URL"
     },
     "UserAgreementScreen": {
         "privacyFirst": "您的隐私很重要",
-        "termOfUse": "使用条款",
-        "privacyPolicy": "隐私政策",
         "agreeAndContinue": "接受并继续"
     },
     "VersionUpdateScreen": {
@@ -522,43 +380,15 @@
         "cancel": "暂不更新"
     },
     "CommonWidget": {
-        "refresh": "刷新",
-        "retry": "是否重试?",
         "diableAlwayOnVPN": "如果开启了[始终开启VPN], 请关闭[始终开启VPN]后重试连接"
     },
     "DialogUtils": {
-        "showAlertDialog": {
-            "title": "提示",
-            "copy": "拷贝",
-            "ok": "确定"
-        },
-        "showConfirmDialog": {
-            "ok": "确定",
-            "cancel": "取消",
-            "feedback": "反馈"
-        },
-        "showLoadingDialog": {
-            "loading": "加载中..."
-        },
         "showQRContentDialog": {
-            "scanResult": "扫描结果",
-            "add": "去添加"
-        },
-        "showTimeIntervalPickerDialog": {
-            "days": "天",
-            "hours": "时",
-            "minutes": "分",
-            "disable": "禁用"
+            "scanResult": "扫描结果"
         }
     },
     "ServerManager": {
         "noServerAvaliable": "无可用服务器,请确保配置链接或配置文件有效",
-        "timeout": "连接超时",
-        "byCurrentSelected": "当前选择",
-        "selector": "自动选择",
-        "direct": "直连",
-        "block": "拦截",
-        "custom": "自定义",
         "filePathCannotEmpty": "文件路径不能为空",
         "fileNotExist": "文件不存在:$p",
         "urlCannotEmpty": "链接不能为空",
@@ -571,6 +401,93 @@
             "menuExit": "    退出    "
         }
     },
+    "enable": "启用",
+    "disable": "禁用",
+    "open": "打开",
+    "close": "关闭",
+    "quit": "退出",
+    "add": "添加",
+    "addProfile": "添加配置",
+    "tips": "提示",
+    "copy": "拷贝",
+    "ok": "确定",
+    "cancel": "取消",
+    "feedback": "反馈",
+    "faq": "常见问题",
+    "download": "下载",
+    "loading": "加载中...",
+    "days": "天",
+    "hours": "时",
+    "minutes": "分",
+    "protocol": "协议",
+    "search": "搜索",
+    "custom": "自定义",
+    "connect": "连接",
+    "disconnect": "断开",
+    "connected": "已连接",
+    "disconnected": "未连接",
+    "connecting": "连接中",
+    "connectTimeout": "连接超时",
+    "language": "语言",
+    "next": "下一步",
+    "done": "完成",
+    "refresh": "刷新",
+    "retry": "是否重试?",
+    "none": "无",
+    "reset": "重置",
+    "submit": "提交",
+    "account": "账号",
+    "password": "密码",
+    "required": "必填",
+    "diversion": "分流",
+    "diversionRules": "分流规则",
+    "dns": "DNS",
+    "url": "URL",
+    "isp": "ISP",
+    "tls": "TLS",
+    "urlInvalid": "无效URL",
+    "outboundActionCurrentSelected": "当前选择",
+    "outboundActionSelector": "自动选择",
+    "outboundActionDirect": "直连",
+    "outboundActionBlock": "拦截",
+    "routeFinal": "final",
+    "rulesetGeoSite": "GeoSite",
+    "rulesetGeoIp": "GeoIP",
+    "rulesetAcl": "ACL",
+    "iCloud": "iCloud",
+    "webdav": "Webdav",
+    "setting": "设置",
+    "remark": "备注",
+    "remarkCannotEmpty": "备注不能为空",
+    "remarkTooLong": "备注最长32字符",
+    "remarkExist": "备注已存在,请使用其他名称",
+    "domainSuffix": "域名后缀",
+    "domain": "域名",
+    "domainKeyword": "域名关键词",
+    "domainRegex": "域名正则",
+    "ip": "IP",
+    "port": "端口",
+    "appPackage": "应用包名",
+    "processName": "进程名称",
+    "processPath": "进程路径",
+    "systemProxy": "系统代理",
+    "netInterfaces": "网络接口",
+    "netSpeed": "速度",
+    "website": "官网",
+    "rule": "规则",
+    "global": "全局",
+    "qrcode": "二维码",
+    "backupAndSync": "备份与同步",
+    "importAndExport": "导入/导出",
+    "import": "导入",
+    "export": "导出",
+    "termOfUse": "使用条款",
+    "privacyPolicy": "隐私政策",
+    "about": "关于",
+    "name": "名称",
+    "version": "版本",
+    "notice": "通知",
+    "sort": "排序",
     "locales(map)": {
         "en": "English",
         "zh-CN": "简体中文",

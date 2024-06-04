@@ -1,12 +1,7 @@
 {
     "AboutScreen": {
-        "title": "О Karing",
-        "name": "имя",
-        "version": "Версия",
         "installRefer": "установить ссылку",
         "versionChannel": "Автоматически обновлять каналы",
-        "termOfUse": "Условия использования",
-        "privacyPolicy": "политика конфиденциальности",
         "disableUAReport": "Отключить аналитику",
         "disableUAReportTip": "Аналитика помогают нам улучшить качество продукта, но отключение не способствует быстрой оптимизации и улучшению продукта",
         "devOptions": "Параметры разработчика",
@@ -18,9 +13,6 @@
         "useOriginalSBProfile": "Использовать исходную конфигурацию Single-Box"
     },
     "AclRulesetScreen": {
-        "title": "ACL",
-        "search": "Поиск",
-        "detail": "$p",
         "setGeositeRule": "Совет: После включения опции перейдите в[Правила переадресации], чтобы установить соответствующие правила, иначе они не вступят в силу"
     },
     "AddProfileByCustomScreen": {
@@ -30,12 +22,7 @@
         "title": "Импорт файла конфигурации",
         "enableDiversionRules": "группа Правила переадресации",
         "chooseFile": "Выбрать файл",
-        "remark": "Примечание",
-        "remarkHit": "Примечание [обязательно]",
         "invalidFileType": "Неверный тип файла:$p",
-        "remarkCannotEmpty": "Примечание не может быть пустом",
-        "remarkTooLong": "Примечания до 32 символов",
-        "remarkExist": "Примечание уже существует, используй другое имя",
         "configExist": "Профиль уже существует, пожалуйста, не добавляйте его повторно",
         "addSuccess": "Успешно добавили",
         "addFailed": "Ошибка при добавлении:$p"
@@ -47,13 +34,7 @@
         "updateTimerIntervalTips": "Чтобы отключить, установите:<5m",
         "profileLinkContent": "Ссылка подписка/содержание",
         "profileLinkContentHit": "Ссылка подписки/содержание [обязательно] (Поддержка Clash,V2ray(пакетная поддержка),Stash,Karing,Sing-box,Shadowsocks,Sub Ссылки на профиль)",
-        "remark": "Примечание",
-        "remarkHit": "Примечание [ссылка]",
-        "addProfile": "Добавить",
         "subscriptionCannotEmpty": "Ссылка на подписку не может быть пустой",
-        "remarkCannotEmpty": "Примечание не может быть пустым",
-        "remarkTooLong": "Примечания до 32 символов",
-        "remarkExist": "Примечание уже существует, используй другое имя",
         "configExist": "Профиль уже существует, пожалуйста, не добавляйте его повторно",
         "invalidUrl": "Ссылка подписки слишком длинная",
         "addSuccess": "Успешно добавили",
@@ -65,7 +46,6 @@
         "title": "Сканировать QR-код",
         "copy": "Скопировать ссылку",
         "open": "Открыть ссылку",
-        "add": "Добавить",
         "requestCameraPermission": "Пожалуйста, разрешите приложению доступ к камере",
         "requestScreenAccess": "Пожалуйста, перейдите в «Настройки системы» — «Конфиденциальность и безопасность» — «Запись экрана», чтобы добавить разрешения для этого приложения",
         "screenshot": "Скриншот",
@@ -74,33 +54,18 @@
         "scanEmptyResult": "Пустой результат сканирования.",
         "scanException": "Не удалось проанализировать изображение. Убедитесь, что снимок экрана представляет собой действительный QR-код:$p"
     },
-    "BackupAndSyncIcloudScreen": {
-        "title": "iCloud"
-    },
     "BackupAndSyncLanSyncScreen": {
         "title": "синхронизация по локальной сети",
         "lanSyncNotQuitTips": "Не выходите из этого интерфейса до завершения синхронизации."
     },
     "BackupAndSyncWebdavScreen": {
-        "title": "Webdav",
         "webdavServerUrl": "адрес сервера",
-        "webdavUser": "счет",
-        "webdavPassword": "пароль",
-        "required": "Необходимый",
         "webdavRequired": "Не может быть пустым",
         "webdavLoginFailed": "Ошибка входа:",
         "webdavListFailed": "Не удалось получить список файлов:"
     },
     "DiversionGroupCustomEditScreen": {
         "title": "Изменить группу переадресации",
-        "domainSuffix": "доменное имя Суффикс",
-        "domain": "доменное имя",
-        "domainKeyword": "доменное имя Ключевые слова",
-        "domainRegex": "доменное имя обычный",
-        "port": "порт",
-        "appPackage": "Имя пакета приложения",
-        "processName": "Имя процесса",
-        "processPath": "путь процесса",
         "invalidDomain": "Неверный доменное имя:$p",
         "invalidIpCidr": "Неверный IP Cidr:$p",
         "invalidPort": "Неверный порт:$p",
@@ -110,10 +75,6 @@
     "DiversionGroupCustomScreen": {
         "title": "Пользовательские правила",
         "add": "Добавить группу шунтов",
-        "remark": "примечание",
-        "remarkCannotEmpty": "Примечание не может быть пустым.",
-        "remarkTooLong": "Примечания до 32 символов",
-        "remarkExist": "Примечание уже существует, используй другое имя",
         "confirmDel": "подтвердить удаление?"
     },
     "DiversionRuleDetectScreen": {
@@ -123,34 +84,18 @@
         "outbound": "Прокси сервер:"
     },
     "DiversionRulesScreen": {
-        "title": "Правила переадресации",
-        "byCurrentSelected": "Текущий сервер",
-        "selector": "Авто-выбор сервера",
-        "direct": "Напрямую",
-        "block": "Блокировать",
-        "geoSite": "GeoSite",
-        "geoIp": "GeoIP",
-        "acl": "ACL",
-        "finalSelect": "final",
         "finalSelectTips": "Если ни одно правило не соблюдается, используется это правило",
         "diversionRulesMatchTips": "Попробуйте сопоставить правила сверху вниз. Если ни одно правило не соответствует, используйте final"
     },
     "DnsSettingsScreen": {
-        "title": "DNS",
-        "Connecting": "подключение",
-        "add": "Добавить DNS-сервер",
-        "isp": "ISP",
-        "url": "URL",
         "ispCanNotEmpty": "ISP не может быть пустой",
         "urlCanNotEmpty": "URL не может быть пустой",
         "error": "Неподдерживаемый тип:$p",
         "dnsDesc": "Первый столбец данных о задержке — это задержка запроса на прямое соединение;\nВторой столбец: включите [[действующий поток]Разрешить DNS через прокси-сервер]: данные о задержке — это задержка запроса, пересылаемого через текущий прокси-сервер; [[действующий поток]Разрешить DNS через прокси-сервер]: данные задержки представляют собой задержку запроса прямого соединения."
     },
     "FeedbackScreen": {
-        "title": "Обратная связь",
         "content": "Содержание",
         "contentHit": "Обязательно, до 500 символов",
-        "submit": "Отправить",
         "contentCannotEmpty": "Содержание не может быть пустым",
         "submitDone": "Спасибо за ваш отзыв."
     },
@@ -161,13 +106,7 @@
         "clearFileContentTips": "Вы уверены, что очистите содержимое файла профиля? Очистка файла профиля может привести к потере данных или некорректной работе приложения, действуйте осторожно"
     },
     "GeoSiteRulesetScreen": {
-        "title": "GeoSite",
-        "search": "Поиск",
-        "detail": "$p",
         "setGeositeRule": "Совет: После включения опции перейдите в[Правила переадресации], чтобы установить соответствующие правила, иначе они не вступят в силу"
-    },
-    "GeoIpRulesetScreen": {
-        "title": "GeoIP"
     },
     "HomeScreen": {
         "noAvailableServer": "Нет доступных серверов. Пожалуйста, добавьте подписку или профиль",
@@ -175,44 +114,22 @@
         "invalidServer": "истекший, пожалуйста выберите еще раз",
         "disabledServer": "был отключен, пожалуйста выберите еще раз",
         "expiredServer": "Нет доступного сервера, возможно, конфигурация устарела",
-        "selector": "Авто-выбор сервера",
-        "connectState": {
-            "connected": "Подключено",
-            "disconnected": "Отключено"
-        },
-        "systemProxy": "Системные прокси",
         "systemProxyTips": "socks:$sp,http(s):$hp",
-        "rule": "правило",
-        "all": "общая ситуация",
         "updateFailed": "Не удалось обновить:$p",
         "trafficTotal": "Трафик всего",
         "trafficProxy": "Трафик прокси",
-        "upDownSpeed": "Скорость",
         "myLinkEmpty": "Пожалуйста, настройте [Быструю ссылку] перед использованием",
         "deviceNoSpace": "Не достаточно места на диске",
         "tooMuchServers": "Слишком много прокси-серверов [$p>$p1], и соединение может оказаться невозможным из-за ограничений системной памяти"
-    },
-    "LanguageSettingsScreen": {
-        "title": "Язык",
-        "search": "Поиск",
-        "next": "Дальше"
     },
     "LaunchFailedScreen": {
         "invalidProcess": "Не удалось запустить приложение [Неверное имя процесса], переустановите приложение в отдельную папку",
         "invalidProfile": "Не удалось запустить приложение [Не удалось получить доступ к профилю], переустановите приложение",
         "invalidVersion": "Не удалось запустить приложение [Неверная версия], переустановите приложение",
-        "startFromUNC": "Путь установки недействителен, переустановите его по допустимому пути",
-        "website": "Веб-сайт",
-        "quit": "Выйти"
+        "startFromUNC": "Путь установки недействителен, переустановите его по допустимому пути"
     },
     "MyProfilesEditScreen": {
         "title": "Профили редактировать",
-        "remark": "примечание",
-        "remarkCannotEmpty": "Замечания не могут быть пустыми",
-        "remarkTooLong": "Примечания до 32 символов",
-        "remarkExist": "Примечание уже существует, используйте другое имя",
-        "url": "URL",
-        "urlInvalid": "Неверная URL",
         "urlExist": "URL-адрес уже существует, используйте другой URL-адрес",
         "enableDiversionRules": "группа Правила переадресации",
         "updateTimerInterval": "Интервал обновления",
@@ -229,17 +146,11 @@
         "profilesMergeSource": "Исходная конфигурация",
         "profilesMergeTips": "Совет: Информация о разгрузке, настроенная источником, будет удалена."
     },
-    "MyProfilesReorderScreen": {
-        "title": "переставить"
-    },
     "MyProfilesScreen": {
         "title": "Профили",
-        "Connecting": "подключение",
         "updateFailed": "Не удалось обновить:$p",
         "confirmDel": "подтвердить удаление?",
-        "atLeastOneEnable": "Невозможно отключить, оставьте включенным хотя бы один профиль",
-        "disableServer": "Запрещать",
-        "enableServer": "давать возможность"
+        "atLeastOneEnable": "Невозможно отключить, оставьте включенным хотя бы один профиль"
     },
     "NetCheckScreen": {
         "title": "Обнаружение сети",
@@ -257,7 +168,6 @@
         "outboundOk": "[$p]соединение выполнено успешносоединение выполнено успешно",
         "outboundFailed": "[$p1]Соединение не удалось\nошибка:[$p2]",
         "dnsServer": "DNS сервер",
-        "dns": "DNS",
         "dnsOk": "[$p1]DNS Разобрано успешно\nDNS правило:[$p2]\nЗадерживать:[$p3 ms]\nадрес:[$p4]",
         "dnsFailed": "[$p1]DNS Не удалось выполнить синтаксический анализ\n правило:[$p2]\nошибка:[$p3]",
         "host": "HTTP соединять",
@@ -268,41 +178,22 @@
     "NetConnectionsFilterScreen": {
         "title": "Соединения фильтр",
         "hostIp": "Domain/IP",
-        "port": "порт",
         "app": "приложение",
         "rule": "правило",
         "chain": "исходящий"
     },
     "NetConnectionsScreen": {
         "title": "Соединения",
-        "selector": "Авто-выбор сервера",
-        "direct": "DIRECT",
-        "block": "Блокировать",
-        "dns": "DNS",
         "copyAsCSV": "Скопировали в CSV формате",
-        "selectType": "Выберите переадресации тип",
-        "typeDomain": "доменное имя",
-        "typeIP": "IP адрес",
-        "typePort": "порт",
-        "typePackage": "Имена пакетов",
-        "typeProcessName": "Имя процесса",
-        "typeProcessPath": "путь процесса"
-    },
-    "NetInterfacesScreen": {
-        "title": "Сетевой интерфейс"
-    },
-    "OnlineBackupAndSyncScreen": {
-        "title": ""
+        "selectType": "Выберите переадресации тип"
     },
     "PerAppAndroidScreen": {
         "title": "Прокси приложения",
-        "enable": "давать возможность",
         "whiteListMode": "режим белого списка",
         "whiteListModeTip": "Если включено: прокси-серверами являются только те приложения, которые были проверены; если не включено: прокси-серверами являются только те приложения, которые не проверены.",
         "enableAppQueryPermission": "включать [на запросы списка приложений] Разрешения"
     },
     "QrcodeScreen": {
-        "title": "QR-код",
         "tooLong": "Слишком большой текст для отображения",
         "copy": "Скопировать ссылку",
         "open": "Открыть ссылку",
@@ -314,25 +205,18 @@
     },
     "RegionSettingsScreen": {
         "title": "Страна или регион",
-        "done": "Готово",
-        "search": "Поиск",
         "Regions": "Совет: Пожалуйста, правильно укажите текущую страну или регион, в противном случае это может вызвать проблемы с перенаправлением сети"
     },
     "ServerSelectScreen": {
         "title": "Выбор сервера",
-        "selector": "Авто-выбор сервера",
-        "none": "никто",
         "autoSelectServer": "Авто-выбор сервера с наименьшей задержкой",
         "recommend": "Рекомендуемые",
         "recentUse": "Недавно использованные",
         "myFav": "Мои избранные",
-        "Connecting": "подключение",
         "updateFailed": "Обновление неуспешно:$p",
         "selectLocal": "Выбранный сервер является локальным и может работать неправильно:$p",
         "selectRequireEnableIPv6": "Выбранный сервер имеет адрес IPv6 и требует [Включить IPv6]",
         "selectDisabled": "Сервер отключен",
-        "disableServer": "Запрещать",
-        "enableServer": "давать возможность",
         "error404": "При обнаружении задержки произошла ошибка. Проверьте, существует ли конфигурация с таким же содержимым."
     },
     "ServerSelectSearchSelectScreen": {
@@ -340,18 +224,14 @@
         "keywordsOrRegx": "Ключевые слова/обычные"
     },
     "SettingsScreen": {
-        "title": "Настройки",
         "ispFaq": "FAQ[$p]",
         "cleanISP": "Очистить ISP[$p]",
         "openISP": "Открыть ссылку на провайдера",
         "cleanISPNoParam": "Очистить информацию об интернет-провайдере",
         "getTranffic": "Получить трафик",
         "tutorial": "Обучение",
-        "faq": "Часто задаваемые вопросы",
         "commonlyUsedRulesets": "Часто используемые наборы правил",
-        "notice": "Уведомления",
         "htmlBoard": "Веб-панель",
-        "Connecting": "подключение",
         "speedTest": "Тест скорости",
         "addProfile": "Добавить профиль",
         "addProfileFromClipboard": "Импорт из буфера обмена",
@@ -371,7 +251,6 @@
         "enableIPv6Tips": "Перед включением убедитесь, что ваша сеть поддерживает IPv6, в противном случае нормальный доступ к некоторому трафику будет невозможен",
         "tunAppendHttpProxy": "Подключите HTTP-прокси к VPN",
         "tunAppendHttpProxyTips": "Некоторые приложения будут обходить устройство виртуальной сетевой карты и напрямую подключаться к HTTP-прокси.",
-        "tlsSetting": "TLS",
         "tlsFragmentEnable": "Включить сегментацию TLS",
         "tlsFragmentSize": "Размер сегмента TLS",
         "tlsFragmentSleep": "Сегментированный сон TLS",
@@ -388,7 +267,6 @@
         "dnsTypeDirect": "прямого поток",
         "dnsTypeProxy": "действующий поток",
         "dnsTypeResolver": "DNS-сервера",
-        "dnsTypeFinal": "final",
         "dnsEnableRuleTips": "После включения доменное имя выберет соответствующий DNS-сервер для разрешения в соответствии с правилами переадресации.",
         "dnsEnableFakeIpTips": "Если после включения FakeIP VPN-соединение разорвано, ваше приложение необходимо перезапустить.",
         "dnsTypeOutboundTips": "Для разрешения доменных имен прокси-сервера рекомендуется использовать безопасный DNS",
@@ -396,12 +274,8 @@
         "dnsTypeProxyTips": "Разрешение доменных имен для действующий поток",
         "dnsTypeResolverTips": "Разрешение доменных имен для DNS-серверов",
         "dnsTypeFinalTips": "Разрешение доменных имен для другой поток",
-        "reset": "перезагрузить",
-        "diversion": "Правила",
         "inboundDomainResolve": "Разрешение входящих доменных имен",
         "inboundDomainResolveTips": "Отключение этой функции может повлиять на правила переадресации на основе IP. Включение [FakeIP] эквивалентно отключению;",
-        "geoSite": "GeoSite",
-        "enable": "Включить",
         "useRomoteRes": "Используйте удаленные ресурсы",
         "geoSiteAppleDirect": "Прямое соединение Apple",
         "geoSiteAppleDirectTips": "При включении Apple GeoSite[apple,apple-ads,apple-dev,apple-pki,apple-update] будет использоваться режим прямого подключения для улучшения работы сети",
@@ -430,10 +304,6 @@
         "autoSetSystemProxy": "Установить прокси после подключения",
         "disconnectWhenQuit": "Отключаться при выходе из приложения",
         "allowBypass": "Разрешить приложениям обходить VPN",
-        "backupAndSync": "Резервное копирование и синхронизация",
-        "importAndExport": "Импорт и экспорт",
-        "import": "Импорт",
-        "export": "экспорт",
         "lanSyncTo": "Синхронизировать с другими",
         "lanSyncFrom": "Синхронизация с другими",
         "lanSyncScanQRcode": "Сканируйте QR-код для синхронизации",
@@ -469,8 +339,6 @@
         "removeSystemVPNConfigConfirm": "Вы уверены, что хотите удалить профиль VPN с устройства?",
         "timeConnectOrDisconnect": "Запланированное подключение/отключение",
         "timeConnectOrDisconnectTips": "Чтобы эффект вступил в силу, необходимо подключить VPN; после его включения [Автоматический сон] будет отключен",
-        "timeConnect": "соединять",
-        "timeDisconnect": "Отключить",
         "timeConnectAndDisconnectInterval": "Интервал подключения/отключения не может быть меньше $p минут.",
         "sleepWithSystem": "Автоматический сон",
         "sleepWithSystemTips": "После того как система переходит в спящий режим, VPN приостанавливает обслуживание; после возобновления работы системы VPN автоматически возобновляет обслуживание;В некоторых версиях системы после включения она может потреблять больше энергии.",
@@ -478,8 +346,7 @@
         "restartTakesEffect": "Перезапуск вступает в силу",
         "resetSettings": "сбросить настройки",
         "cleanCache": "очистить кэш",
-        "cleanCachedone": "Очистка завершена",
-        "download": "скачать",
+        "cleanCacheDone": "Очистка завершена",
         "appleTestFlight": "Apple TestFlight",
         "appleAppStore": "Apple AppStore",
         "hasNewVersion": "Обновить версию $p",
@@ -490,7 +357,6 @@
     },
     "SpeedTestSettingsScreen": {
         "title": "URL-адрес теста скорости",
-        "url": "URL",
         "error": "Должен быть действителен https URL"
     },
     "TextToQrCodeScreen": {
@@ -498,22 +364,14 @@
         "convert": "Конвертировать"
     },
     "UrlTestGroupCustomScreen": {
-        "title": "Пользовательская группа агентов",
-        "remark": "Примечание",
-        "remarkHit": "Примечание [обязательно]",
-        "remarkCannotEmpty": "Примечание не может быть пустом",
-        "remarkTooLong": "Примечания до 32 символов",
-        "remarkExist": "Примечание уже существует, используй другое имя"
+        "title": "Пользовательская группа агентов"
     },
     "UrlTestSettingsScreen": {
         "title": "URL-адрес обнаружения задержки",
-        "url": "URL",
         "error": "Должен быть действителен https URL"
     },
     "UserAgreementScreen": {
         "privacyFirst": "Ваша конфиденциальность превыше всего",
-        "termOfUse": "Условия использования",
-        "privacyPolicy": "Политика конфиденциальности",
         "agreeAndContinue": "Принять и продолжить"
     },
     "VersionUpdateScreen": {
@@ -522,43 +380,15 @@
         "cancel": "Не сейчас"
     },
     "CommonWidget": {
-        "refresh": "обновить",
-        "retry": "Хотите попробовать еще раз?",
         "diableAlwayOnVPN": "Если параметр [Всегда включен VPN] включен, отключите [Всегда включен VPN] и попробуйте подключиться еще раз"
     },
     "DialogUtils": {
-        "showAlertDialog": {
-            "title": "Инфо",
-            "copy": "Скопировать",
-            "ok": "Ок"
-        },
-        "showConfirmDialog": {
-            "ok": "Ок",
-            "cancel": "Закрыть",
-            "feedback": "обратная связь"
-        },
-        "showLoadingDialog": {
-            "loading": "Загрузка..."
-        },
         "showQRContentDialog": {
-            "scanResult": "Результат сканирования",
-            "add": "Добавить"
-        },
-        "showTimeIntervalPickerDialog": {
-            "days": "небо",
-            "hours": "час",
-            "minutes": "точка",
-            "disable": "Запрещать"
+            "scanResult": "Результат сканирования"
         }
     },
     "ServerManager": {
         "noServerAvaliable": "Нет доступных серверов, убедитесь что подписка или файл конфигурации корректен",
-        "timeout": "Таймаут при соединении",
-        "byCurrentSelected": "Текущий сервер",
-        "selector": "Авто-выбор сервера",
-        "direct": "Напрямую",
-        "block": "Блокировать",
-        "custom": "настроить",
         "filePathCannotEmpty": "Путь к файлу не может быть пустым",
         "fileNotExist": "Файла не существует:$p",
         "urlCannotEmpty": "Ссылка не может быть пустой",
@@ -571,6 +401,93 @@
             "menuExit": "    Выйти    "
         }
     },
+    "enable": "Включить",
+    "disable": "Запрещать",
+    "open": "Открыть",
+    "close": "закрытие",
+    "quit": "Выйти",
+    "add": "Добавить",
+    "addProfile": "Добавить профиль",
+    "tips": "Инфо",
+    "copy": "Скопировать",
+    "ok": "Ок",
+    "cancel": "Закрыть",
+    "feedback": "обратная связь",
+    "faq": "Часто задаваемые вопросы",
+    "download": "скачать",
+    "loading": "Загрузка...",
+    "days": "небо",
+    "hours": "час",
+    "minutes": "точка",
+    "protocol": "протокол",
+    "search": "Поиск",
+    "custom": "настроить",
+    "connect": "соединять",
+    "disconnect": "Отключить",
+    "connected": "Подключено",
+    "disconnected": "Отключено",
+    "connecting": "подключение",
+    "connectTimeout": "Таймаут при соединении",
+    "language": "Язык",
+    "next": "Дальше",
+    "done": "Готово",
+    "refresh": "обновить",
+    "retry": "Хотите попробовать еще раз?",
+    "none": "никто",
+    "reset": "перезагрузить",
+    "submit": "Отправить",
+    "account": "счет",
+    "password": "пароль",
+    "required": "Необходимый",
+    "diversion": "Правила",
+    "diversionRules": "Правила переадресации",
+    "dns": "DNS",
+    "url": "URL",
+    "isp": "ISP",
+    "tls": "TLS",
+    "urlInvalid": "Неверная URL",
+    "outboundActionCurrentSelected": "Текущий сервер",
+    "outboundActionSelector": "Авто-выбор сервера",
+    "outboundActionDirect": "Напрямую",
+    "outboundActionBlock": "Блокировать",
+    "routeFinal": "نهایی",
+    "rulesetGeoSite": "GeoSite",
+    "rulesetGeoIp": "GeoIP",
+    "rulesetAcl": "ACL",
+    "iCloud": "iCloud",
+    "webdav": "Webdav",
+    "setting": "Настройки",
+    "remark": "Примечание",
+    "remarkCannotEmpty": "Примечание не может быть пустом",
+    "remarkTooLong": "Примечания до 32 символов",
+    "remarkExist": "Примечание уже существует, используй другое имя",
+    "domainSuffix": "доменное имя Суффикс",
+    "domain": "доменное имя",
+    "domainKeyword": "доменное имя Ключевые слова",
+    "domainRegex": "доменное имя обычный",
+    "ip": "IP",
+    "port": "порт",
+    "appPackage": "Имя пакета приложения",
+    "processName": "Имя процесса",
+    "processPath": "путь процесса",
+    "systemProxy": "Системные прокси",
+    "netInterfaces": "Сетевой интерфейс",
+    "netSpeed": "Скорость",
+    "website": "Веб-сайт",
+    "rule": "правило",
+    "global": "общая ситуация",
+    "qrcode": "QR-код",
+    "backupAndSync": "Резервное копирование и синхронизация",
+    "importAndExport": "Импорт и экспорт",
+    "import": "Импорт",
+    "export": "экспорт",
+    "termOfUse": "Условия использования",
+    "privacyPolicy": "политика конфиденциальности",
+    "about": "О Karing",
+    "name": "имя",
+    "version": "Версия",
+    "notice": "Уведомления",
+    "sort": "переставить",
     "locales(map)": {
         "en": "English",
         "zh-CN": "简体中文",

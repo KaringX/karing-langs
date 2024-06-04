@@ -1,12 +1,7 @@
 {
     "AboutScreen": {
-        "title": "About",
-        "name": "Name",
-        "version": "Version",
         "installRefer": "Install Refer",
         "versionChannel": "Auto Update Channel",
-        "termOfUse": "Term of Service",
-        "privacyPolicy": "Privacy Policy",
         "disableUAReport": "Turn Off Action Data Report",
         "disableUAReportTip": "Action data reporting helps us improve the product experience, but closing it is not conducive to rapid optimization and improvement of the product",
         "devOptions": "Developer Options",
@@ -18,9 +13,6 @@
         "useOriginalSBProfile": "Use original sing-box Profile"
     },
     "AclRulesetScreen": {
-        "title": "ACL",
-        "search": "Search",
-        "detail": "$p",
         "setGeositeRule": "Tip: After turning on the options, please go to[Diversion Rules]to set the relevant rules, otherwise they will not take effect"
     },
     "AddProfileByCustomScreen": {
@@ -30,12 +22,7 @@
         "title": "Import Profile File",
         "enableDiversionRules": "Enable Diversion Rules",
         "chooseFile": "Select File",
-        "remark": "Remark",
-        "remarkHit": "Remark [Required]",
         "invalidFileType": "Invalid file type:$p",
-        "remarkCannotEmpty": "Remarks can not be empty",
-        "remarkTooLong": "Remarks up to 32 characters",
-        "remarkExist": "Remark already exists, please use another name",
         "configExist": "The Profile already exists, please do not add it repeatedly",
         "addSuccess": "Added successfully",
         "addFailed": "Add failed:$p"
@@ -47,13 +34,7 @@
         "updateTimerIntervalTips": "To disable please set to:<5m",
         "profileLinkContent": "Profile Link/Content",
         "profileLinkContentHit": "Profile Link/Content [Required] (Support Clash,V2ray(batch supported),Stash,Karing,Sing-box,Shadowsocks,Sub Profile links)",
-        "remark": "Remark",
-        "remarkHit": "Remark [Link]",
-        "addProfile": "Add",
         "subscriptionCannotEmpty": "Profile Link can not be empty",
-        "remarkCannotEmpty": "Remarks can not be empty",
-        "remarkTooLong": "Remarks up to 32 characters",
-        "remarkExist": "Remark already exists, please use another name",
         "configExist": "The Profile already exists, please do not add it repeatedly",
         "invalidUrl": "The Profile Link is too long",
         "addSuccess": "Added successfully",
@@ -65,7 +46,6 @@
         "title": "Scan QR Code",
         "copy": "Copy Link",
         "open": "Open Link",
-        "add": "Add",
         "requestCameraPermission": "Please enable camera permission",
         "requestScreenAccess": "Please go to System Settings - Privacy and Security - Screen Recording to add permissions for this application",
         "screenshot": "Screenshot",
@@ -74,33 +54,18 @@
         "scanEmptyResult": "Scan Result is empty",
         "scanException": "Failed to parse the image, please make sure the screenshot is a valid QR code:$p"
     },
-    "BackupAndSyncIcloudScreen": {
-        "title": "iCloud"
-    },
     "BackupAndSyncLanSyncScreen": {
         "title": "LAN Sync",
         "lanSyncNotQuitTips": "Do not exit this interface before synchronization is completed"
     },
     "BackupAndSyncWebdavScreen": {
-        "title": "Webdav",
         "webdavServerUrl": "Server Url",
-        "webdavUser": "Account",
-        "webdavPassword": "Password",
-        "required": "Required",
         "webdavRequired": "Can not be empty",
         "webdavLoginFailed": "Login failed:",
         "webdavListFailed": "Failed to get file list:"
     },
     "DiversionGroupCustomEditScreen": {
         "title": "Edit Diversion Group",
-        "domainSuffix": "Domain Suffix",
-        "domain": "Domain",
-        "domainKeyword": "Domain Keyword",
-        "domainRegex": "Domain Regex",
-        "port": "Port",
-        "appPackage": "App Package Name",
-        "processName": "Process Name",
-        "processPath": "Process Path",
         "invalidDomain": "Invalid Domain:$p",
         "invalidIpCidr": "Invalid IP Cidr:$p",
         "invalidPort": "Invalid Port:$p",
@@ -110,10 +75,6 @@
     "DiversionGroupCustomScreen": {
         "title": "Custom Diversion Group",
         "add": "Add Diversion Group",
-        "remark": "Remark",
-        "remarkCannotEmpty": "Remarks can not be empty",
-        "remarkTooLong": "Remarks up to 32 characters",
-        "remarkExist": "Remark already exists, please use another name",
         "confirmDel": "Are you sure to delete?"
     },
     "DiversionRuleDetectScreen": {
@@ -123,34 +84,18 @@
         "outbound": "Proxy Server:"
     },
     "DiversionRulesScreen": {
-        "title": "Diversion Rules",
-        "byCurrentSelected": "Current Selected",
-        "selector": "Auto Select",
-        "direct": "Direct",
-        "block": "Block",
-        "geoSite": "GeoSite",
-        "geoIp": "GeoIP",
-        "acl": "ACL",
-        "finalSelect": "final",
         "finalSelectTips": "If no rule is hit, this rule will be used",
         "diversionRulesMatchTips": "Try to match the rules from top to bottom. If no rule is matched, use final"
     },
     "DnsSettingsScreen": {
-        "title": "DNS",
-        "Connecting": "Connecting",
-        "add": "Add DNS Server",
-        "isp": "ISP",
-        "url": "URL",
         "ispCanNotEmpty": "ISP can not be empty",
         "urlCanNotEmpty": "URL can not be empty",
         "error": "Unsupported type:$p",
         "dnsDesc": "The first column of delay data is the direct connection query delay;\nThe second column: Turn on [[Proxy Traffic]Resolve DNS through proxy server]: the delay data is the query delay forwarded through the current proxy server; if the [[Proxy Traffic]Resolve DNS through proxy server]: The delay data is the direct connection query delay"
     },
     "FeedbackScreen": {
-        "title": "Feedback",
         "content": "Feedback Content",
         "contentHit": "Required, up to 500 characters",
-        "submit": "Submit",
         "contentCannotEmpty": "Feedback content can not be empty",
         "submitDone": "Thanks for your feedback"
     },
@@ -161,13 +106,7 @@
         "clearFileContentTips": "Are you sure to clear the content of the Profile file? Clearing the Profile file may cause data loss or abnormal application functions, please operate with caution"
     },
     "GeoSiteRulesetScreen": {
-        "title": "GeoSite",
-        "search": "Search",
-        "detail": "$p",
         "setGeositeRule": "Tip: After turning on the options, please go to[Diversion Rules]to set the relevant rules, otherwise they will not take effect"
-    },
-    "GeoIpRulesetScreen": {
-        "title": "GeoIP"
     },
     "HomeScreen": {
         "noAvailableServer": "No Servers Available, Please Add Profile",
@@ -175,44 +114,22 @@
         "invalidServer": "is invalid, please choose again",
         "disabledServer": "is disabled, please choose again",
         "expiredServer": "No servers available, profiles may be expired",
-        "selector": "Auto Select",
-        "connectState": {
-            "connected": "Connected",
-            "disconnected": "Disconnected"
-        },
-        "systemProxy": "System Proxy",
         "systemProxyTips": "socks:$sp,http(s):$hp",
-        "rule": "Rule",
-        "all": "Global",
         "updateFailed": "Update failed:$p",
         "trafficTotal": "Traffic Total",
         "trafficProxy": "Traffic Proxy",
-        "upDownSpeed": "Speed",
         "myLinkEmpty": "Please set up [Shortcut Link] before using it",
         "deviceNoSpace": "Not enough disk space",
         "tooMuchServers": "Too many proxy servers [$p>$p1], and the connection may fail due to system memory limitations"
-    },
-    "LanguageSettingsScreen": {
-        "title": "Language",
-        "search": "Search",
-        "next": "Next"
     },
     "LaunchFailedScreen": {
         "invalidProcess": "The app failed to start [Invalid process name], please reinstall the app to a separate directory",
         "invalidProfile": "The app failed to start [Failed to access the profile], please reinstall the app",
         "invalidVersion": "The app failed to start [Invalid version], please reinstall the app",
-        "startFromUNC": "The installation path is invalid, please reinstall it to a valid path",
-        "website": "Website",
-        "quit": "Quit"
+        "startFromUNC": "The installation path is invalid, please reinstall it to a valid path"
     },
     "MyProfilesEditScreen": {
         "title": "Profile Edit",
-        "remark": "Remark",
-        "remarkCannotEmpty": "Remarks can not be empty",
-        "remarkTooLong": "Remarks up to 32 characters",
-        "remarkExist": "Remark already exists, please use another name",
-        "url": "URL",
-        "urlInvalid": "Invalid URL",
         "urlExist": "URL already exists, please use another URL",
         "enableDiversionRules": "Enable Diversion Rules",
         "updateTimerInterval": "Update interval",
@@ -229,17 +146,11 @@
         "profilesMergeSource": "Source Profiles",
         "profilesMergeTips": "Tip: Diversion of the source profiles will be discarded"
     },
-    "MyProfilesReorderScreen": {
-        "title": "Reorder"
-    },
     "MyProfilesScreen": {
         "title": "Profiles",
-        "Connecting": "Connecting",
         "updateFailed": "Update failed:$p",
         "confirmDel": "Are you sure to delete?",
-        "atLeastOneEnable": "Cannot be disabled, please keep at least one profile enable",
-        "disableServer": "Disable",
-        "enableServer": "Enable"
+        "atLeastOneEnable": "Cannot be disabled, please keep at least one profile enable"
     },
     "NetCheckScreen": {
         "title": "Net Check",
@@ -257,7 +168,6 @@
         "outboundOk": "[$p] connection succeeded",
         "outboundFailed": "[$p1] connection failed\nError:[$p2]",
         "dnsServer": "DNS Server",
-        "dns": "DNS",
         "dnsOk": "[$p1]DNS query succeeded\nDNS Rule:[$p2]\nLatency:[$p3 ms]\nAddress:[$p4]",
         "dnsFailed": "[$p1]DNS query succeeded\n nDNS Rule:[$p2]\nError:[$p3]",
         "host": "HTTP Connection",
@@ -268,41 +178,22 @@
     "NetConnectionsFilterScreen": {
         "title": "Connections Filter",
         "hostIp": "Domain/IP",
-        "port": "Port",
         "app": "App",
         "rule": "Rule",
         "chain": "Outbound"
     },
     "NetConnectionsScreen": {
         "title": "Connections",
-        "selector": "Auto Select",
-        "direct": "Direct",
-        "block": "Block",
-        "dns": "DNS",
         "copyAsCSV": "Copied to CSV format",
-        "selectType": "Select Diversion Type",
-        "typeDomain": "Domain",
-        "typeIP": "IP Address",
-        "typePort": "Port",
-        "typePackage": "Package",
-        "typeProcessName": "Process Name",
-        "typeProcessPath": "Process Path"
-    },
-    "NetInterfacesScreen": {
-        "title": "Net Interfaces"
-    },
-    "OnlineBackupAndSyncScreen": {
-        "title": ""
+        "selectType": "Select Diversion Type"
     },
     "PerAppAndroidScreen": {
         "title": "Per-App Proxy",
-        "enable": "Enable",
         "whiteListMode": "Whitelist Mode",
         "whiteListModeTip": "When enabled: only the apps that have been checked are proxies; when not enabled: only the apps that are not checked are proxies",
         "enableAppQueryPermission": "Turn on [App list query] Permission"
     },
     "QrcodeScreen": {
-        "title": "QR Code",
         "tooLong": "The text is too long to display",
         "copy": "Copy Link",
         "open": "Open Link",
@@ -314,25 +205,18 @@
     },
     "RegionSettingsScreen": {
         "title": "Country Or Region",
-        "done": "Done",
-        "search": "Search",
         "Regions": "Tip: Please set your current country or region correctly, otherwise it may cause network diversion problems"
     },
     "ServerSelectScreen": {
         "title": "Select Server",
-        "selector": "Auto Select Server",
-        "none": "None",
         "autoSelectServer": "Auto select the server with the lowest latency",
         "recommend": "Recommend",
         "recentUse": "Recently Used",
         "myFav": "My Favs",
-        "Connecting": "Connecting",
         "updateFailed": "Update failed:$p",
         "selectLocal": "The selected server is a local address and may not work properly:$p",
         "selectRequireEnableIPv6": "The selected server is an IPv6 address and requires [Enable IPv6]",
         "selectDisabled": "This server has been disabled",
-        "disableServer": "Disable",
-        "enableServer": "Enable",
         "error404": "Latency detection encountered an error, please check if there is a configuration with the same content"
     },
     "ServerSelectSearchSelectScreen": {
@@ -340,18 +224,14 @@
         "keywordsOrRegx": "Keywords/regular"
     },
     "SettingsScreen": {
-        "title": "Settings",
         "ispFaq": "FAQ[$p]",
         "cleanISP": "Clear ISP[$p]",
         "openISP": "Open ISP link",
         "cleanISPNoParam": "Clear ISP Info",
         "getTranffic": "Get Traffic",
         "tutorial": "Tutorial",
-        "faq": "FAQ",
         "commonlyUsedRulesets": "Commonly Used Rulesets",
-        "notice": "Notice",
         "htmlBoard": "Online Panel",
-        "Connecting": "Connecting",
         "speedTest": "Speed Test",
         "addProfile": "Add Profile",
         "addProfileFromClipboard": "Import From Clipboard",
@@ -371,7 +251,6 @@
         "enableIPv6Tips": "Before enabling, please confirm that your network supports IPv6, otherwise some traffic cannot be accessed normally.",
         "tunAppendHttpProxy": "Append HTTP Proxy to VPN",
         "tunAppendHttpProxyTips": "Some apps will bypass virtual NIC Device and directly connect to HTTP proxy",
-        "tlsSetting": "TLS",
         "tlsFragmentEnable": "Enable TLS Fragment",
         "tlsFragmentSize": "TLS Fragment Size",
         "tlsFragmentSleep": "TLS Fragment Sleep",
@@ -388,7 +267,6 @@
         "dnsTypeDirect": "Direct Traffic",
         "dnsTypeProxy": "Proxy Traffic",
         "dnsTypeResolver": "DNS Server",
-        "dnsTypeFinal": "final",
         "dnsEnableRuleTips": "After enabling, the domain name will select the corresponding DNS server for resolution according to the diversion rules",
         "dnsEnableFakeIpTips": "After enabling FakeIP, if the VPN connection is disconnected, your application needs to be restarted",
         "dnsTypeOutboundTips": "Domain name resolution for Proxy Server",
@@ -396,12 +274,8 @@
         "dnsTypeProxyTips": "Domain name resolution for Proxy Traffic",
         "dnsTypeResolverTips": "Domain name resolution for Other DNS Server",
         "dnsTypeFinalTips": "Domain name resolution for Other Traffic",
-        "reset": "Reset",
-        "diversion": "Diversion",
         "inboundDomainResolve": "Resolve Inbound Domain names",
         "inboundDomainResolveTips": "Turning it off may affect IP-based diversion rules; turning [FakeIP] on, this function is equivalent to turning off",
-        "geoSite": "GeoSite",
-        "enable": "Enable",
         "useRomoteRes": "Use Remote Resources",
         "geoSiteAppleDirect": "Apple Direct connection",
         "geoSiteAppleDirectTips": "When turned on, Apple GeoSite[apple,apple-ads,apple-dev,apple-pki,apple-update] will use the direct connection mode to obtain a better network experience",
@@ -430,10 +304,6 @@
         "autoSetSystemProxy": "Auto Set System Proxy when Connected",
         "disconnectWhenQuit": "Disconnect when App Exits",
         "allowBypass": "Allow Apps to Bypass VPN",
-        "backupAndSync": "Backup and Sync",
-        "importAndExport": "Import and Export",
-        "import": "Import",
-        "export": "Export",
         "lanSyncTo": "Sync to others",
         "lanSyncFrom": "Sync from others",
         "lanSyncScanQRcode": "Scan QR code to Sync",
@@ -469,8 +339,6 @@
         "removeSystemVPNConfigConfirm": "Confirm To Delete system VPN configuration?",
         "timeConnectOrDisconnect": "Scheduled connect/disconnect",
         "timeConnectOrDisconnectTips": "VPN must be connected to take effect; after it is turned on, [Automatic Sleep] will be disabled",
-        "timeConnect": "Connect",
-        "timeDisconnect": "Cisconnect",
         "timeConnectAndDisconnectInterval": "The connection/disconnection interval cannot be less than $p minutes",
         "sleepWithSystem": "Automatic Sleep",
         "sleepWithSystemTips": "After the system goes to sleep, the VPN suspends service; after the system resumes, the VPN automatically resumes service;On some versions of the system, it may consume more power after being turned on.",
@@ -478,8 +346,7 @@
         "restartTakesEffect": "Restart takes effect",
         "resetSettings": "Reset Settings",
         "cleanCache": "Cleanup Cache",
-        "cleanCachedone": "Cleanup completed",
-        "download": "Download",
+        "cleanCacheDone": "Cleanup completed",
         "appleTestFlight": "Apple TestFlight",
         "appleAppStore": "Apple AppStore",
         "hasNewVersion": "Update Version $p",
@@ -490,7 +357,6 @@
     },
     "SpeedTestSettingsScreen": {
         "title": "Speed Test URL",
-        "url": "URL",
         "error": "Must be Valid https URL"
     },
     "TextToQrCodeScreen": {
@@ -498,22 +364,14 @@
         "convert": "Convert"
     },
     "UrlTestGroupCustomScreen": {
-        "title": "Custom Proxy Group",
-        "remark": "Remark",
-        "remarkHit": "Remark [Required]",
-        "remarkCannotEmpty": "Remarks can not be empty",
-        "remarkTooLong": "Remarks up to 32 characters",
-        "remarkExist": "Remark already exists, please use another name"
+        "title": "Custom Proxy Group"
     },
     "UrlTestSettingsScreen": {
         "title": "Latency Checks URL",
-        "url": "URL",
         "error": "Must be Valid https URL"
     },
     "UserAgreementScreen": {
         "privacyFirst": "Your Privacy Comes First",
-        "termOfUse": "Terms of Service",
-        "privacyPolicy": "Privacy & Policy",
         "agreeAndContinue": "Accept & Continue"
     },
     "VersionUpdateScreen": {
@@ -522,43 +380,15 @@
         "cancel": "Not Now"
     },
     "CommonWidget": {
-        "refresh": "Refresh",
-        "retry": "Retry?",
         "diableAlwayOnVPN": "If [Always on VPN] is turned on, please turn off [Always on VPN] and try connecting again"
     },
     "DialogUtils": {
-        "showAlertDialog": {
-            "title": "Info",
-            "copy": "Copy",
-            "ok": "Ok"
-        },
-        "showConfirmDialog": {
-            "ok": "Ok",
-            "cancel": "Cancel",
-            "feedback": "Feedback"
-        },
-        "showLoadingDialog": {
-            "loading": "Loading..."
-        },
         "showQRContentDialog": {
-            "scanResult": "Scan Result",
-            "add": "To add"
-        },
-        "showTimeIntervalPickerDialog": {
-            "days": "Days",
-            "hours": "Hours",
-            "minutes": "Minutes",
-            "disable": "Disable"
+            "scanResult": "Scan Result"
         }
     },
     "ServerManager": {
         "noServerAvaliable": "No server avaliable, Make sure the Profile Link or Profile File is valid",
-        "timeout": "Connect Timeout",
-        "byCurrentSelected": "Current Selected",
-        "selector": "Auto Select",
-        "direct": "Direct",
-        "block": "Block",
-        "custom": "Custom",
         "filePathCannotEmpty": "The file path can not be empty",
         "fileNotExist": "File does not exist:$p",
         "urlCannotEmpty": "Link can not be empty",
@@ -571,6 +401,93 @@
             "menuExit": "    Exit    "
         }
     },
+    "enable": "Enable",
+    "disable": "Disable",
+    "open": "Open",
+    "close": "Close",
+    "quit": "Quit",
+    "add": "Add",
+    "addProfile": "Add Profile",
+    "tips": "Info",
+    "copy": "Copy",
+    "ok": "Ok",
+    "cancel": "Cancel",
+    "feedback": "Feedback",
+    "faq": "FAQ",
+    "download": "Download",
+    "loading": "Loading...",
+    "days": "Days",
+    "hours": "Hours",
+    "minutes": "Minutes",
+    "protocol": "Protocol",
+    "search": "Search",
+    "custom": "Custom",
+    "connect": "Connect",
+    "disconnect": "Disconnect",
+    "connected": "Connected",
+    "disconnected": "Disconnected",
+    "connecting": "Connecting",
+    "connectTimeout": "Connect Timeout",
+    "language": "Language",
+    "next": "Next",
+    "done": "Done",
+    "refresh": "Refresh",
+    "retry": "Retry?",
+    "none": "None",
+    "reset": "Reset",
+    "submit": "Submit",
+    "account": "Account",
+    "password": "Password",
+    "required": "Required",
+    "diversion": "Diversion",
+    "diversionRules": "Diversion Rules",
+    "dns": "DNS",
+    "url": "URL",
+    "isp": "ISP",
+    "tls": "TLS",
+    "urlInvalid": "Invalid URL",
+    "outboundActionCurrentSelected": "Current Selected",
+    "outboundActionSelector": "Auto Select",
+    "outboundActionDirect": "Direct",
+    "outboundActionBlock": "Block",
+    "routeFinal": "final",
+    "rulesetGeoSite": "GeoSite",
+    "rulesetGeoIp": "GeoIP",
+    "rulesetAcl": "ACL",
+    "iCloud": "iCloud",
+    "webdav": "Webdav",
+    "setting": "Settings",
+    "remark": "Remark",
+    "remarkCannotEmpty": "Remarks can not be empty",
+    "remarkTooLong": "Remarks up to 32 characters",
+    "remarkExist": "Remark already exists, please use another name",
+    "domainSuffix": "Domain Suffix",
+    "domain": "Domain",
+    "domainKeyword": "Domain Keyword",
+    "domainRegex": "Domain Regex",
+    "ip": "IP",
+    "port": "Port",
+    "appPackage": "App Package Name",
+    "processName": "Process Name",
+    "processPath": "Process Path",
+    "systemProxy": "System Proxy",
+    "netInterfaces": "Net Interfaces",
+    "netSpeed": "Speed",
+    "website": "Website",
+    "rule": "Rule",
+    "global": "Global",
+    "qrcode": "QR Code",
+    "backupAndSync": "Backup and Sync",
+    "importAndExport": "Import and Export",
+    "import": "Import",
+    "export": "Export",
+    "termOfUse": "Terms of Service",
+    "privacyPolicy": "Privacy & Policy",
+    "about": "About",
+    "name": "Name",
+    "version": "Version",
+    "notice": "Notice",
+    "sort": "Reorder",
     "locales(map)": {
         "en": "English",
         "zh-CN": "简体中文",
