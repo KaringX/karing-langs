@@ -11,10 +11,10 @@
         "disableUAReportTip": "گزارش دهی اطلاعات عملکرد در بهبود تجربه محصول به ما کمک می‌کند؛ ولی خاموش کردن آن موجب بهینه‌سازی و بهبود سریع محصول نمی‌شود.",
         "devOptions": "تنظیمات توسعه‌دهندگان",
         "enableDebugLog": "فعال‌سازی گزارش اشکال‌زدایی",
-        "FilesAndLogsViewFile": "مشاهده فایل‌ها",
+        "viewFilsContent": "مشاهده فایل‌ها",
         "enablePprof": "فعال‌سازی pprof",
         "pprofPanel": "پنل pprof",
-        "FilesAndLogsOpenDir": "بازکردن دایرکتوری فایل",
+        "openDir": "بازکردن دایرکتوری فایل",
         "useOriginalSBProfile": "استفاده از پروفایل اصلی سینگ‌باکس"
     },
     "AclRulesetScreen": {
@@ -477,6 +477,8 @@
         "disableFontScaler": "غیرفعال‌سازی مقیاس‌بندی فونت(با راه‌اندازی مجدد اعمال می‌شود)",
         "restartTakesEffect": "با راه‌اندازی مجدد اعمال می‌شود",
         "resetSettings": "بازنشانی تنظیمات",
+        "cleanCache": "پاک کردن حافظه پنهان",
+        "cleanCachedone": "پاکسازی کامل شد",
         "download": "دانلود",
         "appleTestFlight": "تست‌فلایت اپل",
         "appleAppStore": "اپ‌استور اپل",

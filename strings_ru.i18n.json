@@ -11,10 +11,10 @@
         "disableUAReportTip": "Аналитика помогают нам улучшить качество продукта, но отключение не способствует быстрой оптимизации и улучшению продукта",
         "devOptions": "Параметры разработчика",
         "enableDebugLog": "Включить debug-лог",
-        "FilesAndLogsViewFile": "Посмотреть файлы",
+        "viewFilsContent": "Посмотреть файлы",
         "enablePprof": "Включить pprof",
         "pprofPanel": "pprof панель",
-        "FilesAndLogsOpenDir": "Открыть каталог файлов",
+        "openDir": "Открыть каталог файлов",
         "useOriginalSBProfile": "Использовать исходную конфигурацию Single-Box"
     },
     "AclRulesetScreen": {
@@ -477,6 +477,8 @@
         "disableFontScaler": "Отключить масштабирование шрифта",
         "restartTakesEffect": "Перезапуск вступает в силу",
         "resetSettings": "сбросить настройки",
+        "cleanCache": "очистить кэш",
+        "cleanCachedone": "Очистка завершена",
         "download": "скачать",
         "appleTestFlight": "Apple TestFlight",
         "appleAppStore": "Apple AppStore",

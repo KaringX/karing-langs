@@ -11,10 +11,10 @@
     "disableUAReportTip": "يساعدنا الإبلاغ عن بيانات الإجراء على تحسين تجربة المنتج ، ولكن الإغلاق لا يفضي إلى التحسين السريع وتحسين المنتج",
     "devOptions": "خيارات للمطور",
     "enableDebugLog": "تمكين سجل التصحيح",
-    "FilesAndLogsViewFile": "عرض الملفات",
+    "viewFilsContent": "عرض الملفات",
     "enablePprof": "يُمكَِن pprof",
     "pprofPanel": "pprof لوحة",
-    "FilesAndLogsOpenDir": "فتح دليل الملف",
+    "openDir": "فتح دليل الملف",
     "useOriginalSBProfile": "استخدم تكوين صندوق الغناء الأصلي"
   },
   "AclRulesetScreen": {
@@ -477,6 +477,8 @@
     "disableFontScaler": "تعطيل تحجيم الخط(إعادة التشغيل يسري)",
     "restartTakesEffect": "إعادة التشغيل يسري",
     "resetSettings": "اعادة الضبط",
+    "cleanCache": "مسح ذاكرة التخزين المؤقت",
+    "cleanCachedone": "اكتملت عملية التنظيف",
     "download": "تحميل",
     "appleTestFlight": "Apple Testflight",
     "appleAppStore": "متجر تطبيقات Apple",

@@ -11,10 +11,10 @@
         "disableUAReportTip": "Action data reporting helps us improve the product experience, but closing it is not conducive to rapid optimization and improvement of the product",
         "devOptions": "Developer Options",
         "enableDebugLog": "Enable Debug Log",
-        "FilesAndLogsViewFile": "View Files",
+        "viewFilsContent": "View Files",
         "enablePprof": "Enable pprof",
         "pprofPanel": "pprof Panel",
-        "FilesAndLogsOpenDir": "Open File Directory",
+        "openDir": "Open File Directory",
         "useOriginalSBProfile": "Use original sing-box Profile"
     },
     "AclRulesetScreen": {
@@ -477,6 +477,8 @@
         "disableFontScaler": "Disable Font scaling(Restart takes effect)",
         "restartTakesEffect": "Restart takes effect",
         "resetSettings": "Reset Settings",
+        "cleanCache": "Cleanup Cache",
+        "cleanCachedone": "Cleanup completed",
         "download": "Download",
         "appleTestFlight": "Apple TestFlight",
         "appleAppStore": "Apple AppStore",

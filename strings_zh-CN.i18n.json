@@ -11,10 +11,10 @@
         "disableUAReportTip": "行为数据上报有助于我们改进产品体验,关闭后将不利于产品的快速优化改进",
         "devOptions": "开发者选项",
         "enableDebugLog": "开启调试日志",
-        "FilesAndLogsViewFile": "查看文件",
+        "viewFilsContent": "查看文件",
         "enablePprof": "启用pprof",
         "pprofPanel": "pprof面板",
-        "FilesAndLogsOpenDir": "打开文件目录",
+        "openDir": "打开文件目录",
         "useOriginalSBProfile": "使用原始sing-box配置"
     },
     "AclRulesetScreen": {
@@ -477,6 +477,8 @@
         "disableFontScaler": "禁用字体缩放",
         "restartTakesEffect": "重启生效",
         "resetSettings": "重置设置",
+        "cleanCache": "清理缓存",
+        "cleanCachedone": "清理完成",
         "download": "下载",
         "appleTestFlight": "苹果 TestFlight",
         "appleAppStore": "苹果 AppStore",
