@@ -442,6 +442,7 @@
     "required": "Required",
     "diversion": "Diversion",
     "diversionRules": "Diversion Rules",
+    "other": "Other",
     "dns": "DNS",
     "url": "URL",
     "isp": "ISP",

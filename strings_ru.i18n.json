@@ -442,6 +442,7 @@
     "required": "Необходимый",
     "diversion": "Правила",
     "diversionRules": "Правила переадресации",
+    "other": "другой",
     "dns": "DNS",
     "url": "URL",
     "isp": "ISP",

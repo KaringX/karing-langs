@@ -442,6 +442,7 @@
     "required": "必填",
     "diversion": "分流",
     "diversionRules": "分流规则",
+    "other": "其他",
     "dns": "DNS",
     "url": "URL",
     "isp": "ISP",
