@@ -66,10 +66,11 @@
     },
     "DiversionGroupCustomEditScreen": {
         "title": "Изменить группу переадресации",
-        "invalidDomain": "Неверный доменное имя:$p",
-        "invalidIpCidr": "Неверный IP Cidr:$p",
-        "invalidPort": "Неверный порт:$p",
-        "invalidRuleSet": "Неверный RuleSet:$p, URL-адрес должен быть действительным URL-адресом https и двоичным файлом с расширением .srs/.json",
+        "invalidDomain": "Неверный [Domain]:$p",
+        "invalidIpCidr": "Неверный [IP Cidr]:$p",
+        "invalidPort": "Неверный [Port]:$p",
+        "invalidRuleSet": "Неверный [Rule Set]:$p, URL-адрес должен быть действительным URL-адресом https и двоичным файлом с расширением .srs/.json",
+        "invalidRuleSetBuildIn": "Неверный [RuleSet(build-in)]:$p, формат: geosite:xxx или geoip:xxx или acl:xxx, а xxx должно быть допустимым именем правила.",
         "setDiversionRule": "Совет: после сохранения перейдите в раздел «Правила переадресации», чтобы установить соответствующие правила, иначе они не вступят в силу"
     },
     "DiversionGroupCustomScreen": {

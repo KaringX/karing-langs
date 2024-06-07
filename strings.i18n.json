@@ -66,10 +66,11 @@
     },
     "DiversionGroupCustomEditScreen": {
         "title": "Edit Diversion Group",
-        "invalidDomain": "Invalid Domain:$p",
-        "invalidIpCidr": "Invalid IP Cidr:$p",
-        "invalidPort": "Invalid Port:$p",
-        "invalidRuleSet": "Invalid RuleSet:$p, The URL must be a valid https URL and a binary file with the file extension .srs/.json",
+        "invalidDomain": "Invalid [Domain]:$p",
+        "invalidIpCidr": "Invalid [IP Cidr]:$p",
+        "invalidPort": "Invalid [Port]:$p",
+        "invalidRuleSet": "Invalid [Rule Set]:$p, The URL must be a valid https URL and a binary file with the file extension .srs/.json",
+        "invalidRuleSetBuildIn": "Invalid [Rule Set(build-in)]:$p, The format is geosite:xxx or geoip:xxx or acl:xxx, and xxx should be a valid rule name",
         "setDiversionRule": "Tip: After saving, please go to [Diversion Rules] to set relevant rules, otherwise they will not take effect"
     },
     "DiversionGroupCustomScreen": {

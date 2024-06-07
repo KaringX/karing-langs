@@ -66,10 +66,11 @@
   },
   "DiversionGroupCustomEditScreen": {
     "title": "تحرير مجموعة التحويل",
-    "invalidDomain": "مجال غير صالح:$p",
-    "invalidIpCidr": "IP غير صالح CIDR:$p",
-    "invalidPort": "منفذ غير صالح:$p",
-    "invalidRuleSet": "مجموعة قواعد غير صالحة:$p, يجب أن يكون عنوان URL عنوان URL HTTPS صالحًا وملفًا ثنائيًا مع ملحق الملف .SRS",
+    "invalidDomain": "غير صالح [Domain]:$p",
+    "invalidIpCidr": "غير صالح [IP Cidr]:$p",
+    "invalidPort": "غير صالح [Port]:$p",
+    "invalidRuleSet": "غير صالح [Rule Set]:$p, يجب أن يكون عنوان URL عنوان URL HTTPS صالحًا وملفًا ثنائيًا مع ملحق الملف .SRS",
+    "invalidRuleSetBuildIn": "غير صالح [Rule Set(build-in)]:$p غير صالحة، التنسيق هو geosite:xxx أو geoip:xxx أو acl:xxx، ويجب أن يكون xxx اسم قاعدة صالحًا",
     "setDiversionRule": "نصيحة: بعد الحفظ، يرجى الانتقال إلى [قواعد التحويل] لتعيين القواعد ذات الصلة، وإلا فلن تصبح سارية المفعول."
   },
   "DiversionGroupCustomScreen": {

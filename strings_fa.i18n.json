@@ -66,10 +66,11 @@
     },
     "DiversionGroupCustomEditScreen": {
         "title": "ویرایش گروه انحراف",
-        "invalidDomain": "دامنه نامعتبر: $p",
-        "invalidIpCidr": "آی پی Cidr نامعتبر:$p",
-        "invalidPort": "پورت نامعتبر:$p",
-        "invalidRuleSet": "مجموعه قوانین نامعتبر :$p باید URL یک URL معتبر https باشد و یک فایل دودویی(binary) با پسوند فایل .srs/.json باشد",
+        "invalidDomain": "نامعتبر [Domain]:$p",
+        "invalidIpCidr": "نامعتبر [IP Cidr]:$p",
+        "invalidPort": "نامعتبر [Port]:$p",
+        "invalidRuleSet": "نامعتبر [Rule Set]:$p باید URL یک URL معتبر https باشد و یک فایل دودویی(binary) با پسوند فایل .srs/.json باشد",
+        "invalidRuleSetBuildIn": "نامعتبر [Rule Set(build-in)]:$p نامعتبر است، قالب geosite:xxx یا geoip:xxx یا acl:xxx است و xxx باید یک نام قانون معتبر باشد",
         "setDiversionRule": "راهنمایی: پس‌از ذخیره کردن لطفا به [قوانین انحراف] رفته و قوانین مربوط زا تنظیم کنید؛ درغیراین صورت اعمال نخواهند شد"
     },
     "DiversionGroupCustomScreen": {
