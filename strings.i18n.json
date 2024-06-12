@@ -110,7 +110,6 @@
         "setGeositeRule": "Tip: After turning on the options, please go to[Diversion Rules]to set the relevant rules, otherwise they will not take effect"
     },
     "HomeScreen": {
-        "noAvailableServer": "No Servers Available, Please Add Profile",
         "toSelectServer": "Please Select a Server",
         "invalidServer": "is invalid, please choose again",
         "disabledServer": "is disabled, please choose again",
@@ -211,7 +210,6 @@
     "ServerSelectScreen": {
         "title": "Select Server",
         "autoSelectServer": "Auto select the server with the lowest latency",
-        "recommend": "Recommend",
         "recentUse": "Recently Used",
         "myFav": "My Favs",
         "updateFailed": "Update failed:$p",
@@ -220,7 +218,7 @@
         "selectDisabled": "This server has been disabled",
         "error404": "Latency detection encountered an error, please check if there is a configuration with the same content"
     },
-    "ServerSelectSearchSelectScreen": {
+    "ServerSelectKeywordsScreen": {
         "title": "Candidate Words",
         "keywordsOrRegx": "Keywords/regular"
     },
@@ -409,6 +407,7 @@
     "close": "Close",
     "quit": "Quit",
     "add": "Add",
+    "remove": "Remove",
     "addProfile": "Add Profile",
     "tips": "Info",
     "copy": "Copy",
@@ -492,6 +491,7 @@
     "notice": "Notice",
     "sort": "Reorder",
     "novice": "Novice Mode",
+    "recommended": "Recommend",
     "locales(map)": {
         "en": "English",
         "zh-CN": "简体中文",

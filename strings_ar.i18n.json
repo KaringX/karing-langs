@@ -110,7 +110,6 @@
     "setGeositeRule": "نصيحة: بعد تشغيل الخيارات ، يرجى الانتقال إلى [قواعد التحويل] لتعيين القواعد ذات الصلة ، وإلا فلن تدخل ساري المفعول "
   },
   "HomeScreen": {
-    "noAvailableServer": "لا توجد خوادم متوفرة ، يرجى إضافة ملف تعريف",
     "toSelectServer": "الرجاء تحديد خادم",
     "invalidServer": "غير صالح ، الرجاء اختيار مرة أخرى",
     "disabledServer": "معطل ، الرجاء اختيار مرة أخرى",
@@ -211,7 +210,6 @@
   "ServerSelectScreen": {
     "title": "حدد الخادم",
     "autoSelectServer": "تلقائي حدد الخادم بأقل زمن انتقال",
-    "recommend": "يوصي",
     "recentUse": "مستخدم حديثا",
     "myFav": "المفضل لدي",
     "updateFailed": "فشل التحديث:$p",
@@ -220,7 +218,7 @@
     "selectDisabled": "تم تعطيل هذا الخادم",
     "error404": "واجه اكتشاف الكمون خطأ ، يرجى التحقق مما إذا كان هناك تكوين مع نفس المحتوى"
   },
-  "ServerSelectSearchSelectScreen": {
+  "ServerSelectKeywordsScreen": {
     "title": "كلمات المرشح",
     "keywordsOrRegx": "الكلمات الرئيسية/العادية"
   },
@@ -409,6 +407,7 @@
   "close": "إنهاء",
   "quit": "يترك",
   "add": "اضف إليه",
+  "remove": "يمسح",
   "addProfile": "إضافة ملف تعريف",
   "tips": "معلومات",
   "copy": "ينسخ",
@@ -492,6 +491,7 @@
   "notice": "يلاحظ",
   "sort": "إعادة ترتيب",
   "novice": "وضع المبتدئ",
+  "recommended": "يوصي",
   "locales(map)": {
     "en": "English",
     "zh-CN": "简体中文",

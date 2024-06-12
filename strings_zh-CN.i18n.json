@@ -110,7 +110,6 @@
         "setGeositeRule": "提示:开启选项后,请到[分流规则]设置相关规则,否则不会生效"
     },
     "HomeScreen": {
-        "noAvailableServer": "无可用服务器,去添加配置",
         "toSelectServer": "请选择服务器",
         "invalidServer": "已失效,请重新选择",
         "disabledServer": "已被禁用,请重新选择",
@@ -211,7 +210,6 @@
     "ServerSelectScreen": {
         "title": "选择服务器",
         "autoSelectServer": "自动选择连接延迟最低的服务器",
-        "recommend": "推荐",
         "recentUse": "最近使用",
         "myFav": "我的收藏",
         "updateFailed": "更新失败:$p",
@@ -220,7 +218,7 @@
         "selectDisabled": "该服务器已被禁用",
         "error404": "延迟检测遇到错误,请检查是否存在内容相同的配置"
     },
-    "ServerSelectSearchSelectScreen": {
+    "ServerSelectKeywordsScreen": {
         "title": "候选词",
         "keywordsOrRegx": "关键词/正则"
     },
@@ -409,6 +407,7 @@
     "close": "关闭",
     "quit": "退出",
     "add": "添加",
+    "remove": "删除",
     "addProfile": "添加配置",
     "tips": "提示",
     "copy": "拷贝",
@@ -492,6 +491,7 @@
     "notice": "通知",
     "sort": "排序",
     "novice": "新手模式",
+    "recommended": "推荐",
     "locales(map)": {
         "en": "English",
         "zh-CN": "简体中文",
