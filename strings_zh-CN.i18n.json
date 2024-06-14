@@ -40,7 +40,7 @@
         "addSuccess": "添加成功",
         "addFailed": "添加失败:$p",
         "addFailedFormatException": "格式错误,请订正后重新添加:",
-        "addFailedThenDownloadAndImport": "添加失败:$p, 请尝试使用设备自带的浏览器打开配置链接,并将浏览器下载的配置文件导入到本应用"
+        "addFailedThenDownloadAndImport": "添加失败:$p, 请尝试修改[UserAgent]后重试,或者用设备自带的浏览器打开配置链接,并将浏览器下载的配置文件导入到本应用"
     },
     "AddProfileByScanQrcodeScanScreen": {
         "title": "扫描二维码",
@@ -408,6 +408,8 @@
     "quit": "退出",
     "add": "添加",
     "remove": "删除",
+    "edit":"编辑",
+    "view":"查看",
     "addProfile": "添加配置",
     "tips": "提示",
     "copy": "拷贝",

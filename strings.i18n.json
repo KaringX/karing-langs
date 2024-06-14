@@ -40,7 +40,7 @@
         "addSuccess": "Added successfully",
         "addFailed": "Add failed:$p",
         "addFailedFormatException": "The format is wrong, please correct it and add it again:",
-        "addFailedThenDownloadAndImport": "Add failed:$p, Please try to open the Profile Link using the browser that came with the device and import the Profile File downloaded by the browser into this app"
+        "addFailedThenDownloadAndImport": "Add failed: $p, please try to modify the [UserAgent] and try again, or use the device's built-in browser to open the configuration link and import the configuration file downloaded by the browser into this application"
     },
     "AddProfileByScanQrcodeScanScreen": {
         "title": "Scan QR Code",
@@ -408,6 +408,8 @@
     "quit": "Quit",
     "add": "Add",
     "remove": "Remove",
+    "edit":"Edit",
+    "view":"View",
     "addProfile": "Add Profile",
     "tips": "Info",
     "copy": "Copy",
