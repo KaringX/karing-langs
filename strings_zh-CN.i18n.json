@@ -126,6 +126,7 @@
         "invalidProcess": "应用启动失败[无效的进程名称],请重新安装应用到独立目录",
         "invalidProfile": "应用启动失败[访问配置文件失败],请重新安装应用",
         "invalidVersion": "应用启动失败[无效版本],请重新安装应用",
+        "systemVersionLow": "应用启动失败[系统版本过低]",
         "startFromUNC": "无效的安装路径,请重新安装到有效路径"
     },
     "MyProfilesEditScreen": {
@@ -494,6 +495,8 @@
     "sort": "排序",
     "novice": "新手模式",
     "recommended": "推荐",
+    "innerError":"内部错误:$p",
+    "logicOperation":"逻辑运算",
     "locales(map)": {
         "en": "English",
         "zh-CN": "简体中文",

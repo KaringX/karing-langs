@@ -126,6 +126,7 @@
         "invalidProcess": "The app failed to start [Invalid process name], please reinstall the app to a separate directory",
         "invalidProfile": "The app failed to start [Failed to access the profile], please reinstall the app",
         "invalidVersion": "The app failed to start [Invalid version], please reinstall the app",
+        "systemVersionLow": "The app failed to start [system version too low]",
         "startFromUNC": "The installation path is invalid, please reinstall it to a valid path"
     },
     "MyProfilesEditScreen": {
@@ -494,6 +495,8 @@
     "sort": "Reorder",
     "novice": "Novice Mode",
     "recommended": "Recommend",
+    "innerError":"Inner Error:$p",
+    "logicOperation":"Logic Operation",
     "locales(map)": {
         "en": "English",
         "zh-CN": "简体中文",
