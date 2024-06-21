@@ -282,6 +282,7 @@
     "autoSelect": "اختيار آلي",
     "autoSelectServerInterval": "فاصل الشيكات الكمون",
     "autoSelectServerReTestIfNetworkUpdate": "إعادة اكتشاف متى تتغير الشبكة",
+    "autoSelectServerUpdateCurrentServerAfterManualUrltest": "قم بتحديث الخادم الحالي بعد الكشف اليدوي عن التأخير",
     "autoSelectServerIntervalTips": "كلما كان الفاصل الزمني لاكتشاف التأخير أقصر، كلما تم تحديث بيانات تأخير الخادم في الوقت المناسب، ولكنها ستشغل المزيد من الموارد وتستهلك الكهرباء بشكل أسرع",
     "autoSelectServerFavFirst": "PRI-Use [My Favs]",
     "autoSelectServerFavFirstTips": "إذا لم تكن قائمة [FAVS] فارغة ، فاستخدم الخوادم في [FAVs]",
