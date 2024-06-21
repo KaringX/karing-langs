@@ -284,6 +284,7 @@
         "autoSelectServerReTestIfNetworkUpdate": "Повторное обнаружение изменений в сети",
         "autoSelectServerIntervalTips": "Чем короче временной интервал, тем чаще обновляются данные о задержке сервера. Но это потребует больше ресурсов и энергии",
         "autoSelectServerFavFirst": "Приоритетно [Мои избранные]",
+        "autoSelectServerUpdateCurrentServerAfterManualUrltest": "Обновить текущий сервер после ручного отложенного обнаружения.",
         "autoSelectServerFavFirstTips": "Если список [Мои избранные] не пуст, то будут использоваться серверы из [Мои избранные]",
         "autoSelectServerFilter": "Отфильтровать сервера",
         "autoSelectServerFilterTips": "Неудачные проверки задержки сервера будут отфильтрованы",

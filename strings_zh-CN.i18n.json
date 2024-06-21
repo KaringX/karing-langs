@@ -282,6 +282,7 @@
         "autoSelect": "自动选择",
         "autoSelectServerInterval": "延迟检测时间间隔",
         "autoSelectServerReTestIfNetworkUpdate": "网络变化时重新检测",
+        "autoSelectServerUpdateCurrentServerAfterManualUrltest": "手动延时检测后更新当前服务器",
         "autoSelectServerIntervalTips": "延迟检测时间间隔越短,服务器延迟数据更新越及时,但会占用更多资源,耗电更快",
         "autoSelectServerFavFirst": "优先使用[我的收藏]",
         "autoSelectServerFavFirstTips": "如果[我的收藏]列表不为空,则使用[我的收藏]里的服务器",
