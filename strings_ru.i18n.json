@@ -1,6 +1,6 @@
 {
     "AboutScreen": {
-        "installRefer": "Установленная ссылка"
+        "installRefer": "Установленная ссылка",
         "versionChannel": "Автоматически обновлять каналы",
         "disableUAReport": "Отключить аналитику",
         "disableUAReportTip": "Аналитика помогает нам улучшить качество продукта, ее отключение не способствует быстрой оптимизации и улучшению продукта",
@@ -243,7 +243,7 @@
         "portSetting": "Порт",
         "portSettingRule": "Основано на правилах",
         "portSettingDirectAll": "Полное прямое соединение",
-        "portSettingProxyAll": " "Прокси для всего",
+        "portSettingProxyAll": "Прокси для всего",
         "portSettingControl": "Управление и синхронизация",
         "portSettingCluster": "Кластерный сервис",
         "modifyPort": "Изменить порт",
