@@ -232,6 +232,7 @@
         "tutorial": "Tutorial",
         "commonlyUsedRulesets": "Commonly Used Rulesets",
         "htmlBoard": "Online Panel",
+        "dnsLeakDetection": "DNS Leak Detection",
         "speedTest": "Speed Test",
         "addProfile": "Add Profile",
         "addProfileFromClipboard": "Import From Clipboard",
@@ -387,7 +388,7 @@
         }
     },
     "ServerManager": {
-        "noServerAvaliable": "No server avaliable, Make sure the Profile Link or Profile File is valid",
+        "noServerAvaliable": "No server avaliable, Make sure the Profile Link or Profile File is valid;  if your Profile comes from GitHub, please obtain the link from the [Raw] button on the page",
         "filePathCannotEmpty": "The file path can not be empty",
         "fileNotExist": "File does not exist:$p",
         "urlCannotEmpty": "Link can not be empty",

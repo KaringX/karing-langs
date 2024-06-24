@@ -232,6 +232,7 @@
         "tutorial": "使用教程",
         "commonlyUsedRulesets": "常用规则集",
         "htmlBoard": "在线面板",
+        "dnsLeakDetection": "DNS泄露检测",
         "speedTest": "测速",
         "addProfile": "添加配置",
         "addProfileFromClipboard": "从剪切板导入",
@@ -387,7 +388,7 @@
         }
     },
     "ServerManager": {
-        "noServerAvaliable": "无可用服务器,请确保配置链接或配置文件有效",
+        "noServerAvaliable": "无可用服务器,请确保配置链接或配置文件有效;如果你的配置来源于GitHub,请从页面上的[Raw]按钮获取链接地址",
         "filePathCannotEmpty": "文件路径不能为空",
         "fileNotExist": "文件不存在:$p",
         "urlCannotEmpty": "链接不能为空",

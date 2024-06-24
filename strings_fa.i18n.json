@@ -232,6 +232,7 @@
         "tutorial": "آموزش",
         "commonlyUsedRulesets": "قوانین رایج",
         "htmlBoard": "پنل آنلاین",
+        "dnsLeakDetection": "تشخیص نشت DNS",
         "speedTest": "تست سرعت",
         "addProfile": "افزودن پروفایل",
         "addProfileFromClipboard": "افزودن از کلیپ‌برد",
@@ -387,7 +388,7 @@
         }
     },
     "ServerManager": {
-        "noServerAvaliable": "هیچ‌ سروری دردسترس نیست؛ از معتبر بودن لینک پروفایل یا فایل پروفایل مطمعن شوید",
+        "noServerAvaliable": "هیچ سروری در دسترس نیست، لطفاً مطمئن شوید که پیوند پیکربندی یا فایل پیکربندی معتبر است، اگر پیکربندی شما از GitHub آمده است، لطفاً آدرس پیوند را از دکمه [Raw] در صفحه دریافت کنید",
         "filePathCannotEmpty": "مسیر فایل نمی‌تواند خالی باشد",
         "fileNotExist": "فایل وجود ندارد:$p",
         "urlCannotEmpty": "لینک نمی‌تواند خالی باشد",
