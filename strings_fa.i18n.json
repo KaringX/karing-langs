@@ -251,6 +251,7 @@
         "ipStrategyTips": "قبل‌از فعال‌سازی لطفا مطمعن شوید شبکه شما از IPv6 پشتیبانی می‌کند، وگرنه برخی ترافیک‌ها نمی‌توانند به‌صورت نرمال دردسترس باشند",
         "tunAppendHttpProxy": "پیوست دادن پروکسی HTTP به وی‌پی‌ان",
         "tunAppendHttpProxyTips": "برخی نرم‌افزار‌ها از کارت شبکه مجازی رد میشوند و مستقیم به پروکسی HTTP متصل می‌شوند",
+        "tlsInsecureEnable": "خطاهای گواهی را نادیده بگیرید",
         "tlsFragmentEnable": "بخش بندی TLS را فعال کنید",
         "tlsFragmentSize": "اندازه بخش TLS",
         "tlsFragmentSleep": "خواب بخش‌بندی شده TLS",
@@ -498,6 +499,7 @@
     "recommended": "پیشنهادی",
     "innerError": "خطای داخلی: $p",
     "logicOperation": "عملیات منطقی",
+    "share": "اشتراک گذاری",
     "locales(map)": {
         "en": "English",
         "zh-CN": "简体中文",

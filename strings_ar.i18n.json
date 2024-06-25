@@ -251,6 +251,7 @@
     "ipStrategyTips": "قبل التمكين ، يرجى تأكيد أن شبكتك تدعم IPv6 ، وإلا لا يمكن الوصول إلى بعض حركة المرور بشكل طبيعي.",
     "tunAppendHttpProxy": "إلحاق وكيل HTTP إلى VPN",
     "tunAppendHttpProxyTips": "ستجاوز بعض التطبيقات جهاز NIC الظاهري والاتصال مباشرة بوكيل HTTP",
+    "tlsInsecureEnable": "تجاهل أخطاء الشهادة",
     "tlsFragmentEnable": "تمكين تجزئة TLS",
     "tlsFragmentSize": "حجم شريحة TLS",
     "tlsFragmentSleep": "TLS النوم المجزأ",
@@ -498,6 +499,7 @@
   "recommended": "يوصي",
   "innerError": "خطأ داخلي: $p",
   "logicOperation": "عملية منطقية",
+  "share": "يشارك",
   "locales(map)": {
     "en": "English",
     "zh-CN": "简体中文",
