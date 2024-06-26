@@ -15,19 +15,14 @@
     "AclRulesetScreen": {
         "setGeositeRule": "Совет: После включения опции перейдите в[Правила перенаправления], и установите их, иначе опция не будет действовать"
     },
-    "AddProfileByCustomScreen": {
-        "title": "Добавить кастомный профиль"
-    },
     "AddProfileByImportFromFileScreen": {
         "title": "Импорт файла конфигурации",
-        "enableDiversionRules": "Группа правил перенаправления",
         "chooseFile": "Выбрать файл",
         "invalidFileType": "Неверный тип файла:$p",
         "configExist": "Профиль уже существует, пожалуйста, не добавляйте его повторно"
     },
     "AddProfileByLinkOrContentScreen": {
         "title": "Добавление подписки",
-        "enableDiversionRules": "Группа правил перенаправления",
         "updateTimerInterval": "Интервал обновления",
         "updateTimerIntervalTips": "Чтобы отключить, установите:< 5 мин",
         "profileLinkContent": "Ссылка подписки/содержание",
@@ -60,17 +55,12 @@
         "webdavListFailed": "Не удалось получить список файлов:"
     },
     "DiversionGroupCustomEditScreen": {
-        "title": "Изменить группу перенаправления",
         "invalidDomain": "Неверный [Domain]:$p",
         "invalidIpCidr": "Неверный [IP Cidr]:$p",
         "invalidPort": "Неверный [Port]:$p",
         "invalidRuleSet": "Неверный [Rule Set]:$p, URL-адрес должен быть действительным URL-адресом https и двоичным файлом с расширением .srs/.json",
         "invalidRuleSetBuildIn": "Неверный [RuleSet(build-in)]:$p, формат: geosite:xxx или geoip:xxx или acl:xxx, а xxx должно быть допустимым именем правила.",
         "setDiversionRule": "Совет: после сохранения перейдите в раздел [Правила перенаправления]и установите их, иначе изменения не будут действовать"
-    },
-    "DiversionGroupCustomScreen": {
-        "title": "Пользовательские правила",
-        "add": "Добавить группу шунтов"
     },
     "DiversionRuleDetectScreen": {
         "title": "Определение правил перенаправления",
@@ -91,8 +81,7 @@
     "FeedbackScreen": {
         "content": "Содержание",
         "contentHit": "Обязательно, до 500 символов",
-        "contentCannotEmpty": "Содержание не может быть пустым",
-        "submitDone": "Спасибо за ваш отзыв."
+        "contentCannotEmpty": "Содержание не может быть пустым"
     },
     "FileContentViewerScreen": {
         "title": "Просмотр содержимого файла",
@@ -125,7 +114,6 @@
     "MyProfilesEditScreen": {
         "title": "Редактирование профилей",
         "urlExist": "URL-адрес уже существует, используйте другой URL-адрес",
-        "enableDiversionRules": "Группа правил перенаправления",
         "updateTimerInterval": "Интервал обновления",
         "updateTimerIntervalTips": "Чтобы отключить, установите:< 5 мин",
         "reloadAfterProfileUpdate": "Перезагрузить после обновления конфигурации",
@@ -349,9 +337,6 @@
         "title": "Преобразование текста в QR-код",
         "convert": "Конвертировать"
     },
-    "UrlTestGroupCustomScreen": {
-        "title": "Пользовательская группа агентов"
-    },
     "UrlTestSettingsScreen": {
         "title": "URL-адрес измерения задержки",
         "error": "https URL должен быть действительным"
@@ -431,6 +416,10 @@
     "required": "Необходимо",
     "diversion": "Правила",
     "diversionRules": "Правила перенаправления",
+    "diversionRulesEnable":  "Группа правил перенаправления",
+    "diversionCustomGroup": "Пользовательские правила",
+    "diversionCustomGroupPreset": "Предустановка [Пользовательские правила]",
+    "urlTestCustomGroup":  "Пользовательская группа агентов",
     "other": "Другой",
     "dns": "DNS",
     "url": "URL",

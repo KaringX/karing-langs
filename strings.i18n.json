@@ -15,19 +15,14 @@
     "AclRulesetScreen": {
         "setGeositeRule": "Tip: After turning on the options, please go to[Diversion Rules]to set the relevant rules, otherwise they will not take effect"
     },
-    "AddProfileByCustomScreen": {
-        "title": "Add Custom Profile"
-    },
     "AddProfileByImportFromFileScreen": {
         "title": "Import Profile File",
-        "enableDiversionRules": "Enable Diversion Rules",
         "chooseFile": "Select File",
         "invalidFileType": "Invalid file type:$p",
         "configExist": "The Profile already exists, please do not add it repeatedly"
     },
     "AddProfileByLinkOrContentScreen": {
         "title": "Add Profile Link",
-        "enableDiversionRules": "Enable Diversion Rules",
         "updateTimerInterval": "Update interval",
         "updateTimerIntervalTips": "To disable please set to:<5m",
         "profileLinkContent": "Profile Link/Content",
@@ -60,17 +55,12 @@
         "webdavListFailed": "Failed to get file list:"
     },
     "DiversionGroupCustomEditScreen": {
-        "title": "Edit Diversion Group",
         "invalidDomain": "Invalid [Domain]:$p",
         "invalidIpCidr": "Invalid [IP Cidr]:$p",
         "invalidPort": "Invalid [Port]:$p",
         "invalidRuleSet": "Invalid [Rule Set]:$p, The URL must be a valid https URL and a binary file with the file extension .srs/.json",
         "invalidRuleSetBuildIn": "Invalid [Rule Set(build-in)]:$p, The format is geosite:xxx or geoip:xxx or acl:xxx, and xxx should be a valid rule name",
         "setDiversionRule": "Tip: After saving, please go to [Diversion Rules] to set relevant rules, otherwise they will not take effect"
-    },
-    "DiversionGroupCustomScreen": {
-        "title": "Custom Diversion Group",
-        "add": "Add Diversion Group"
     },
     "DiversionRuleDetectScreen": {
         "title": "Diversion Rule Detect",
@@ -91,8 +81,7 @@
     "FeedbackScreen": {
         "content": "Feedback Content",
         "contentHit": "Required, up to 500 characters",
-        "contentCannotEmpty": "Feedback content can not be empty",
-        "submitDone": "Thanks for your feedback"
+        "contentCannotEmpty": "Feedback content can not be empty"
     },
     "FileContentViewerScreen": {
         "title": "File Content Viewer",
@@ -125,7 +114,6 @@
     "MyProfilesEditScreen": {
         "title": "Profile Edit",
         "urlExist": "URL already exists, please use another URL",
-        "enableDiversionRules": "Enable Diversion Rules",
         "updateTimerInterval": "Update interval",
         "updateTimerIntervalTips": "To disable please set to:<5m",
         "reloadAfterProfileUpdate": "Reload after Profile update",
@@ -349,9 +337,6 @@
         "title": "Text To QR Code",
         "convert": "Convert"
     },
-    "UrlTestGroupCustomScreen": {
-        "title": "Custom Proxy Group"
-    },
     "UrlTestSettingsScreen": {
         "title": "Latency Checks URL",
         "error": "Must be Valid https URL"
@@ -431,6 +416,10 @@
     "required": "Required",
     "diversion": "Diversion",
     "diversionRules": "Diversion Rules",
+    "diversionRulesEnable": "Enable Diversion Rules",
+    "diversionCustomGroup": "Custom Diversion Group",
+    "diversionCustomGroupPreset": "Preset [Custom Diversion Group]",
+    "urlTestCustomGroup": "Custom Proxy Group",
     "other": "Other",
     "dns": "DNS",
     "url": "URL",

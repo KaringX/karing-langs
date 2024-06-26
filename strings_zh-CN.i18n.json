@@ -15,19 +15,14 @@
     "AclRulesetScreen": {
         "setGeositeRule": "提示:开启选项后,请到[分流规则]设置相关规则,否则不会生效"
     },
-    "AddProfileByCustomScreen": {
-        "title": "添加自定义配置"
-    },
     "AddProfileByImportFromFileScreen": {
         "title": "导入配置文件",
-        "enableDiversionRules": "启用分流规则",
         "chooseFile": "选择文件",
         "invalidFileType": "无效的文件类型:$p",
         "configExist": "配置已存在,请勿重复添加"
     },
     "AddProfileByLinkOrContentScreen": {
         "title": "添加配置链接",
-        "enableDiversionRules": "启用分流规则",
         "updateTimerInterval": "更新时间间隔",
         "updateTimerIntervalTips": "禁用请设置为:<5m",
         "profileLinkContent": "配置链接/内容",
@@ -60,17 +55,12 @@
         "webdavListFailed": "获取文件列表失败:"
     },
     "DiversionGroupCustomEditScreen": {
-        "title": "编辑分流组",
         "invalidDomain": "无效的 [Domain]:$p",
         "invalidIpCidr": "无效的 [IP Cidr]:$p",
         "invalidPort": "无效的 [Port]:$p",
         "invalidRuleSet": "无效的 [Rule Set]:$p, URL必须是有效的https URL,并且文件扩展名为.srs/.json的binary文件",
         "invalidRuleSetBuildIn": "无效的 [Rule Set(build-in)]:$p, 格式为geosite:xxx 或 geoip:xxx 或 acl:xxx,并且xxx应为有效的规则名",
         "setDiversionRule": "提示:保存后,请到[分流规则]设置相关规则,否则不会生效"
-    },
-    "DiversionGroupCustomScreen": {
-        "title": "自定义分流组",
-        "add": "添加分流组"
     },
     "DiversionRuleDetectScreen": {
         "title": "分流规则探测",
@@ -91,8 +81,7 @@
     "FeedbackScreen": {
         "content": "反馈内容",
         "contentHit": "必填, 最长500字符",
-        "contentCannotEmpty": "反馈内容不能为空",
-        "submitDone": "谢谢您的支持"
+        "contentCannotEmpty": "反馈内容不能为空"
     },
     "FileContentViewerScreen": {
         "title": "文件内容查看",
@@ -125,7 +114,6 @@
     "MyProfilesEditScreen": {
         "title": "编辑配置",
         "urlExist": "URL已存在,请使用其他URL",
-        "enableDiversionRules": "启用分流规则",
         "updateTimerInterval": "更新时间间隔",
         "updateTimerIntervalTips": "禁用请设置为:<5m",
         "reloadAfterProfileUpdate": "配置更新后重新加载",
@@ -349,9 +337,6 @@
         "title": "文本转二维码",
         "convert": "转换"
     },
-    "UrlTestGroupCustomScreen": {
-        "title": "自定义代理组"
-    },
     "UrlTestSettingsScreen": {
         "title": "延迟检测URL",
         "error": "必须为有效的 https URL"
@@ -431,6 +416,10 @@
     "required": "必填",
     "diversion": "分流",
     "diversionRules": "分流规则",
+    "diversionRulesEnable": "启用分流规则",
+    "diversionCustomGroup": "自定义分流组",
+    "diversionCustomGroupPreset": "预置[自定义分流组]",
+    "urlTestCustomGroup": "自定义代理组",
     "other": "其他",
     "dns": "DNS",
     "url": "URL",

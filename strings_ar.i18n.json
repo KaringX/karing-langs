@@ -15,19 +15,14 @@
   "AclRulesetScreen": {
     "setGeositeRule": "نصيحة: بعد تشغيل الخيارات ، يرجى الانتقال إلى [قواعد التحويل] لتعيين القواعد ذات الصلة ، وإلا فلن تدخل ساري المفعول "
   },
-  "AddProfileByCustomScreen": {
-    "title": "أضف ملف تعريف مخصص"
-  },
   "AddProfileByImportFromFileScreen": {
     "title": "استيراد ملف الملف الشخصي",
-    "enableDiversionRules": "تمكين قواعد التحويل",
     "chooseFile": "حدد الملف",
     "invalidFileType": "نوع الملف غير صالح:$p",
     "configExist": "الملف الشخصي موجود بالفعل ، من فضلك لا تضيفه مرارًا وتكرارًا"
   },
   "AddProfileByLinkOrContentScreen": {
     "title": "إضافة رابط ملف التعريف",
-    "enableDiversionRules": "تمكين قواعد التحويل",
     "updateTimerInterval": "الفاصل الزمني للتحديث",
     "updateTimerIntervalTips": "لتعطيل من فضلك ضبط على:<5m",
     "profileLinkContent": "رابط/محتوى الملف الشخصي",
@@ -60,17 +55,12 @@
     "webdavListFailed": "فشل في الحصول على قائمة الملفات:"
   },
   "DiversionGroupCustomEditScreen": {
-    "title": "تحرير مجموعة التحويل",
     "invalidDomain": "غير صالح [Domain]:$p",
     "invalidIpCidr": "غير صالح [IP Cidr]:$p",
     "invalidPort": "غير صالح [Port]:$p",
     "invalidRuleSet": "غير صالح [Rule Set]:$p, يجب أن يكون عنوان URL عنوان URL HTTPS صالحًا وملفًا ثنائيًا مع ملحق الملف .SRS",
     "invalidRuleSetBuildIn": "غير صالح [Rule Set(build-in)]:$p غير صالحة، التنسيق هو geosite:xxx أو geoip:xxx أو acl:xxx، ويجب أن يكون xxx اسم قاعدة صالحًا",
     "setDiversionRule": "نصيحة: بعد الحفظ، يرجى الانتقال إلى [قواعد التحويل] لتعيين القواعد ذات الصلة، وإلا فلن تصبح سارية المفعول."
-  },
-  "DiversionGroupCustomScreen": {
-    "title": "مجموعة تحويل مخصصة",
-    "add": "إضافة مجموعة التحويل"
   },
   "DiversionRuleDetectScreen": {
     "title": "قاعدة التحويل اكتشف",
@@ -91,8 +81,7 @@
   "FeedbackScreen": {
     "content": "محتوى ردود الفعل",
     "contentHit": "مطلوب ، ما يصل إلى 500 حرف",
-    "contentCannotEmpty": "لا يمكن أن يكون محتوى التعليقات فارغًا",
-    "submitDone": "شكرا لملاحظاتك"
+    "contentCannotEmpty": "لا يمكن أن يكون محتوى التعليقات فارغًا"
   },
   "FileContentViewerScreen": {
     "title": "ملف محتوى الملف",
@@ -125,7 +114,6 @@
   "MyProfilesEditScreen": {
     "title": "تحرير الملف الشخصي",
     "urlExist": "عنوان URL موجود بالفعل ، يرجى استخدام عنوان URL آخر",
-    "enableDiversionRules": "تمكين قواعد التحويل",
     "updateTimerInterval": "الفاصل الزمني للتحديث",
     "updateTimerIntervalTips": "لتعطيل يرجى تعيين:<5m",
     "reloadAfterProfileUpdate": "إعادة التحميل بعد تحديث الملف الشخصي",
@@ -349,9 +337,6 @@
     "title": "رسالة نصية إلى رمز الاستجابة السريعة",
     "convert": "يتحول"
   },
-  "UrlTestGroupCustomScreen": {
-    "title": "مجموعة الوكيل المخصصة"
-  },
   "UrlTestSettingsScreen": {
     "title": "عنوان URL لاكتشاف التأخير",
     "error": "يجب أن يكون عنوان URL HTTPS صالح"
@@ -431,6 +416,10 @@
   "required": "مطلوب",
   "diversion": "تحويل",
   "diversionRules": "قواعد التحويل",
+  "diversionRulesEnable": "تمكين قواعد التحويل",
+  "diversionCustomGroup": "مجموعة تحويل مخصصة",
+  "diversionCustomGroupPreset": "الإعداد المسبق [مجموعة تحويل مخصصة]",
+  "urlTestCustomGroup": "مجموعة الوكيل المخصصة",
   "other": "آخر",
   "dns": "DNS",
   "url": "URL",

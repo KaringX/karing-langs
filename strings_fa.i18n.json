@@ -15,19 +15,14 @@
     "AclRulesetScreen": {
         "setGeositeRule": "راهنمایی: پس‌از ذخیره کردن لطفا به [قوانین انحراف] رفته و قوانین مربوط زا تنظیم کنید؛ درغیراین صورت اعمال نخواهند شد"
     },
-    "AddProfileByCustomScreen": {
-        "title": "افزودن پروفایل سفارشی"
-    },
     "AddProfileByImportFromFileScreen": {
         "title": "وارد‌کردن فایل پروفایل",
-        "enableDiversionRules": "فعال‌سازی قوانین انحراف",
         "chooseFile": "انتخاب فایل",
         "invalidFileType": "نوع فایل نامعتبر:$p",
         "configExist": "پروفایل از‌قبل وجود دارد، لطفا آن را به‌طور مکرر اضافه نکنید"
     },
     "AddProfileByLinkOrContentScreen": {
         "title": "افزودن لینک پروفایل",
-        "enableDiversionRules": "فعال‌سازی قوانین انحراف",
         "updateTimerInterval": "فاصله‌ی به‌روزرسانی",
         "updateTimerIntervalTips": "برای غیرفعال‌ کردن لطفا تنظیم کنید روی:<5m",
         "profileLinkContent": "لینک/محتوای پروفایل",
@@ -60,17 +55,12 @@
         "webdavListFailed": "دریافت لیست فایل ناموفق بود:"
     },
     "DiversionGroupCustomEditScreen": {
-        "title": "ویرایش گروه انحراف",
         "invalidDomain": "نامعتبر [Domain]:$p",
         "invalidIpCidr": "نامعتبر [IP Cidr]:$p",
         "invalidPort": "نامعتبر [Port]:$p",
         "invalidRuleSet": "نامعتبر [Rule Set]:$p باید URL یک URL معتبر https باشد و یک فایل دودویی(binary) با پسوند فایل .srs/.json باشد",
         "invalidRuleSetBuildIn": "نامعتبر [Rule Set(build-in)]:$p نامعتبر است، قالب geosite:xxx یا geoip:xxx یا acl:xxx است و xxx باید یک نام قانون معتبر باشد",
         "setDiversionRule": "راهنمایی: پس‌از ذخیره کردن لطفا به [قوانین انحراف] رفته و قوانین مربوط زا تنظیم کنید؛ درغیراین صورت اعمال نخواهند شد"
-    },
-    "DiversionGroupCustomScreen": {
-        "title": "گروه انحراف سفارشی",
-        "add": "افزودن گروه انحراف"
     },
     "DiversionRuleDetectScreen": {
         "title": "کشف قانون انحراف",
@@ -91,8 +81,7 @@
     "FeedbackScreen": {
         "content": "محتوای بازخورد",
         "contentHit": "الزامی، تا 500 حرف",
-        "contentCannotEmpty": "محتوای بازخورد نمی‌تواند خالی باشد",
-        "submitDone": "از بازخورد شما ممنونیم"
+        "contentCannotEmpty": "محتوای بازخورد نمی‌تواند خالی باشد"
     },
     "FileContentViewerScreen": {
         "title": "نمایش دهنده محتوای فایل",
@@ -125,7 +114,6 @@
     "MyProfilesEditScreen": {
         "title": "ویرایش پروفایل",
         "urlExist": "آدرس URL از‌قبل وجود دارد، لطفا از URL دیگری استفاده کنید",
-        "enableDiversionRules": "فعال‌سازی قوانین انحراف",
         "updateTimerInterval": "فاصله‌ی به‌روزرسانی",
         "updateTimerIntervalTips": "برای غیرفعال‌ کردن لطفا تنظیم کنید روی:<5m",
         "reloadAfterProfileUpdate": "بارگذاری مجدد پس‌از به‌روزرسانی پروفایل",
@@ -349,9 +337,6 @@
         "title": "متن به کد QR",
         "convert": "تبدیل"
     },
-    "UrlTestGroupCustomScreen": {
-        "title": "گروه پروکسی سفارشی"
-    },
     "UrlTestSettingsScreen": {
         "title": "URL بررسی تاخیر",
         "error": "باید یک URL معتبر https باشد"
@@ -431,6 +416,10 @@
     "required": "الزامی",
     "diversion": "انحراف",
     "diversionRules": "قوانین انحراف",
+    "diversionRulesEnable":  "فعال‌سازی قوانین انحراف",
+    "diversionCustomGroup": "گروه انحراف سفارشی",
+    "diversionCustomGroupPreset": "از پیش تنظیم شده [گروه انحراف سفارشی]",
+    "urlTestCustomGroup": "گروه پروکسی سفارشی",
     "other": "دیگر",
     "dns": "DNS",
     "url": "URL",
