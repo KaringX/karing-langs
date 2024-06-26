@@ -23,9 +23,7 @@
     "enableDiversionRules": "تمكين قواعد التحويل",
     "chooseFile": "حدد الملف",
     "invalidFileType": "نوع الملف غير صالح:$p",
-    "configExist": "الملف الشخصي موجود بالفعل ، من فضلك لا تضيفه مرارًا وتكرارًا",
-    "addSuccess": "اضيف بنجاح",
-    "addFailed": "إضافة فشل:$p"
+    "configExist": "الملف الشخصي موجود بالفعل ، من فضلك لا تضيفه مرارًا وتكرارًا"
   },
   "AddProfileByLinkOrContentScreen": {
     "title": "إضافة رابط ملف التعريف",
@@ -37,13 +35,10 @@
     "subscriptionCannotEmpty": "لا يمكن أن يكون رابط الملف الشخصي فارغًا",
     "configExist": "الملف الشخصي موجود بالفعل ، من فضلك لا تضيفه مرارًا وتكرارًا",
     "invalidUrl": "رابط الملف الطويل جدًا",
-    "addSuccess": "اضيف بنجاح",
-    "addFailed": "إضافة فشل:$p",
     "addFailedFormatException": "التنسيق خاطئ ، يرجى تصحيحه وإضافته مرة أخرى:",
     "addFailedThenDownloadAndImport": "فشلت إضافة: $p، يرجى محاولة تعديل [UserAgent] والمحاولة مرة أخرى، أو استخدم المتصفح الخاص بالجهاز لفتح رابط التكوين واستيراد ملف التكوين الذي تم تنزيله بواسطة المتصفح إلى هذا التطبيق"
   },
   "AddProfileByScanQrcodeScanScreen": {
-    "title": "Scan QR Code",
     "copy": "Copy Link",
     "open": "Open Link",
     "requestCameraPermission": "يرجى تمكين إذن الكاميرا",
@@ -75,8 +70,7 @@
   },
   "DiversionGroupCustomScreen": {
     "title": "مجموعة تحويل مخصصة",
-    "add": "إضافة مجموعة التحويل",
-    "confirmDel": "هل انت متأكد من الحذف؟"
+    "add": "إضافة مجموعة التحويل"
   },
   "DiversionRuleDetectScreen": {
     "title": "قاعدة التحويل اكتشف",
@@ -115,7 +109,6 @@
     "disabledServer": "معطل ، الرجاء اختيار مرة أخرى",
     "expiredServer": "لا يوجد خادم متاح: قد يكون التكوين قديمًا أو معطلاً",
     "systemProxyTips": "جوارب:$sp,http(s):$hp",
-    "updateFailed": "فشل التحديث:$p",
     "trafficTotal": "إجمالي حركة المرور",
     "trafficProxy": "وكيل حركة المرور",
     "myLinkEmpty": "الرجاء الإعداد [الاختصار وصلة] قبل استخدامه",
@@ -149,8 +142,6 @@
   },
   "MyProfilesScreen": {
     "title": "مظهر",
-    "updateFailed": "فشل التحديث:$p",
-    "confirmDel": "هل انت متأكد من الحذف؟",
     "atLeastOneEnable": "لا يمكن تعطيله ، يرجى الاحتفاظ بملف تعريف واحد على الأقل"
   },
   "NetCheckScreen": {
@@ -201,9 +192,6 @@
     "share": "شارك الرابط",
     "shareImage": "شارك رمز الاستجابة السريعة"
   },
-  "QrcodeScanScreen": {
-    "title": "مسح رمز الاستجابة السريعة"
-  },
   "RegionSettingsScreen": {
     "title": "الدولة او المنطقة",
     "Regions": "  نصيحة: يرجى تعيين بلدك أو منطقتك الحالية بشكل صحيح ، وإلا فقد يتسبب في مشاكل في تحويل الشبكة"
@@ -213,7 +201,6 @@
     "autoSelectServer": "تلقائي حدد الخادم بأقل زمن انتقال",
     "recentUse": "مستخدم حديثا",
     "myFav": "المفضل لدي",
-    "updateFailed": "فشل التحديث:$p",
     "selectLocal": "الخادم المحدد هو عنوان محلي وقد لا يعمل بشكل صحيح:$p",
     "selectRequireEnableIPv6": "الخادم المحدد هو عنوان IPv6 ويتطلب [تمكين IPv6]",
     "selectDisabled": "تم تعطيل هذا الخادم",
@@ -234,7 +221,6 @@
     "htmlBoard": "لوحة على الانترنت",
     "dnsLeakDetection": "كشف تسرب DNS",
     "speedTest": "اختبار السرعة",
-    "addProfile": "إضافة ملف تعريف",
     "addProfileFromClipboard": "استيراد من الحافظة",
     "downloadProfilePreferProxy": "تفضل الوكيل لتنزيل الملف الشخصي",
     "downloadProfilePreferProxyTips": "إذا كان متصلاً حاليًا ، فسيتم تنزيل الملف الشخصي من خلال الوكيل المتصالح أولاً",
@@ -339,7 +325,6 @@
     "handleClashScheme": "مقبض clash:// Call",
     "handleSingboxScheme": "مقبض sing-box:// يتصل",
     "removeSystemVPNConfig": "حذف تكوين VPN النظام",
-    "removeSystemVPNConfigConfirm": "تأكيد لحذف تكوين VPN النظام؟",
     "timeConnectOrDisconnect": "المقرر يتصل/قطع الاتصال",
     "timeConnectOrDisconnectTips": "يجب أن يكون VPN متصلاً ليصبح مفيدًا ؛بعد تشغيله ، سيتم تعطيل [النوم التلقائي]",
     "timeConnectAndDisconnectInterval": "ال cاتصاللا يمكن أن يكون فاصل الانفصال أقل من $p دقائق",
@@ -383,11 +368,6 @@
   "CommonWidget": {
     "diableAlwayOnVPN": "إذا تم تشغيل [Always on VPN]، فيرجى إيقاف تشغيل [Always on VPN] ومحاولة الاتصال مرة أخرى."
   },
-  "DialogUtils": {
-    "showQRContentDialog": {
-      "scanResult": "نتيجة المسح"
-    }
-  },
   "ServerManager": {
     "noServerAvaliable": "لا يوجد خادم متاح، يرجى التأكد من صلاحية رابط التكوين أو ملف التكوين؛ وإذا كان التكوين الخاص بك يأتي من GitHub، فيرجى الحصول على عنوان الرابط من الزر [Raw] الموجود في الصفحة",
     "filePathCannotEmpty": "لا يمكن أن يكون مسار الملف فارغًا",
@@ -414,6 +394,9 @@
   "edit": "يحرر",
   "view": "يفحص",
   "addProfile": "إضافة ملف تعريف",
+  "addSuccess": "اضيف بنجاح",
+  "addFailed": "إضافة فشل:$p",
+  "removeConfirm": "هل انت متأكد من الحذف؟",
   "tips": "معلومات",
   "copy": "ينسخ",
   "ok": "نعم",
@@ -422,6 +405,7 @@
   "faq": "أسئلة مكررة",
   "download": "تحميل",
   "loading": "تحميل...",
+  "updateFailed": "فشل التحديث:$p",
   "days": "أيام",
   "hours": "ساعات",
   "minutes": "دقائق",
@@ -484,6 +468,8 @@
   "rule": "قاعدة",
   "global": "عالمي",
   "qrcode": "رمز الاستجابة السريعة",
+  "scanQrcode": "مسح رمز الاستجابة السريعة",
+  "scanResult": "نتيجة المسح",
   "backupAndSync": "النسخ الاحتياطي والمزامنة",
   "importAndExport": "استيراد وتصدير",
   "import": "يستورد",

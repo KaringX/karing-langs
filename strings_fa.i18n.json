@@ -23,9 +23,7 @@
         "enableDiversionRules": "فعال‌سازی قوانین انحراف",
         "chooseFile": "انتخاب فایل",
         "invalidFileType": "نوع فایل نامعتبر:$p",
-        "configExist": "پروفایل از‌قبل وجود دارد، لطفا آن را به‌طور مکرر اضافه نکنید",
-        "addSuccess": "با‌موفقیت اضافه شد",
-        "addFailed": "افزودن ناموفق بود:$p"
+        "configExist": "پروفایل از‌قبل وجود دارد، لطفا آن را به‌طور مکرر اضافه نکنید"
     },
     "AddProfileByLinkOrContentScreen": {
         "title": "افزودن لینک پروفایل",
@@ -37,13 +35,10 @@
         "subscriptionCannotEmpty": "لینک پروفایل نمی‌تواند خالی باشد",
         "configExist": "پروفایل از‌قبل وجود دارد، لطفا آن را به‌طور مکرر اضافه نکنید",
         "invalidUrl": "لینک پروفایل خیلی طولانی است",
-        "addSuccess": "با‌موفقیت اضافه شد",
-        "addFailed": "افزودن ناموفق بود:$p",
         "addFailedFormatException": "فرمت اشتباه است، لطفا آن را اصلاح کرده و مجدد اضافه کنید:",
         "addFailedThenDownloadAndImport": "افزودن نشد: $p، لطفاً [UserAgent] را تغییر دهید و دوباره امتحان کنید، یا از مرورگر خود دستگاه برای باز کردن پیوند پیکربندی و وارد کردن فایل پیکربندی دانلود شده توسط مرورگر به این برنامه استفاده کنید."
     },
     "AddProfileByScanQrcodeScanScreen": {
-        "title": "اسکن QRکد",
         "copy": "کپی‌کردن لینک",
         "open": "بازکردن لینک",
         "requestCameraPermission": "لطفا مجوز دسترسی دوربین را فعال کنید",
@@ -75,8 +70,7 @@
     },
     "DiversionGroupCustomScreen": {
         "title": "گروه انحراف سفارشی",
-        "add": "افزودن گروه انحراف",
-        "confirmDel": "آیا از حذف اطمینان دارین؟"
+        "add": "افزودن گروه انحراف"
     },
     "DiversionRuleDetectScreen": {
         "title": "کشف قانون انحراف",
@@ -115,7 +109,6 @@
         "disabledServer": "غیرفعال است، لطفا مجدد انتخاب کنید",
         "expiredServer": "هیچ سروری در دسترس نیست: ممکن است پیکربندی قدیمی یا غیرفعال باشد",
         "systemProxyTips": "socks:$sp,http(s):$hp",
-        "updateFailed": "افزودن ناموفق بود:$p",
         "trafficTotal": "کل ترافیک",
         "trafficProxy": "ترافیک پروکسی",
         "myLinkEmpty": "لطفا قبل‌از استفاده [لینک میان‌بر] را راه‌اندازی کنید",
@@ -149,8 +142,6 @@
     },
     "MyProfilesScreen": {
         "title": "پروفایل‌ها",
-        "updateFailed": "به‌روزرسانی ناموفق بود:$p",
-        "confirmDel": "آیا از حذف مطمعن هستید؟",
         "atLeastOneEnable": "نمی‌تواند غیرغعال شود، لطفا حداقل یک پروفایل را فعال نگه دارید"
     },
     "NetCheckScreen": {
@@ -201,9 +192,6 @@
         "share": "اشتراک لینک",
         "shareImage": "اشتراک کدQR"
     },
-    "QrcodeScanScreen": {
-        "title": "اسکن کد QR"
-    },
     "RegionSettingsScreen": {
         "title": "کشور یا منطقه",
         "Regions": "راهنمایی: لطفا کشور یا منطقه فعلی خود را انتخاب کنید درغیراین‌صورت ممکن‌است باعث مشکلات انحراف شبکه شود"
@@ -213,7 +201,6 @@
         "autoSelectServer": "خودکار سرور با کمترین تاخیر را انتخاب کن",
         "recentUse": "اخیرا استفاده‌شده",
         "myFav": "علاقه‌مندی‌های من",
-        "updateFailed": "به‌روزرسانی ناموفق بود:$p",
         "selectLocal": "سرور انتخاب شده یک آدرس محلی است و شاید به درستی عمل نکند :$p",
         "selectRequireEnableIPv6": "سرور انتخاب شده یک آدرس IPv6 است و نیاز به [فعال‌سازی IPv6] دارد",
         "selectDisabled": "این سرور غیرفعال شده است",
@@ -234,7 +221,6 @@
         "htmlBoard": "پنل آنلاین",
         "dnsLeakDetection": "تشخیص نشت DNS",
         "speedTest": "تست سرعت",
-        "addProfile": "افزودن پروفایل",
         "addProfileFromClipboard": "افزودن از کلیپ‌برد",
         "downloadProfilePreferProxy": "برای دانلود پروفایل پروکسی را ترجیح بده",
         "downloadProfilePreferProxyTips": "اگر اکنون متصل هستین، پروفایل ابتدا از پروکسی متصل دانلود می‌شود",
@@ -339,7 +325,6 @@
         "handleClashScheme": "رسیدگی به‌ ندای clash://",
         "handleSingboxScheme": "رسیدگی به ندای sing-box://",
         "removeSystemVPNConfig": "حذف پیکربندی وی‌پی‌ان سیستم",
-        "removeSystemVPNConfigConfirm": "حذف پیکربندی وی‌پی‌ان سیستم را تایید می‌کنید؟",
         "timeConnectOrDisconnect": "اتصال/قطع اتصال برنامه‌ریزی شده",
         "timeConnectOrDisconnectTips": "برای اعمال شدن وی‌پی‌ان باید متصل باشد. پس‌از روشن‌شدن [خواب خودکار] غیرفعال می‌شود",
         "timeConnectAndDisconnectInterval": "The connection/disconnection interval cannot be less than $p minutes",
@@ -383,11 +368,6 @@
     "CommonWidget": {
         "diableAlwayOnVPN": "اگر [وی‌پی‌ان همیشه روشن] روشن است لطفا [وی‌پی‌ان همیشه روشن] را خاموش کنید و مجدد برای اتصال تلاش کنید"
     },
-    "DialogUtils": {
-        "showQRContentDialog": {
-            "scanResult": "نتایج اسکن"
-        }
-    },
     "ServerManager": {
         "noServerAvaliable": "هیچ سروری در دسترس نیست، لطفاً مطمئن شوید که پیوند پیکربندی یا فایل پیکربندی معتبر است، اگر پیکربندی شما از GitHub آمده است، لطفاً آدرس پیوند را از دکمه [Raw] در صفحه دریافت کنید",
         "filePathCannotEmpty": "مسیر فایل نمی‌تواند خالی باشد",
@@ -414,6 +394,9 @@
     "edit": "ویرایش کنید",
     "view": "بررسی",
     "addProfile": "افزودن پروفایل",
+    "addSuccess": "با‌موفقیت اضافه شد",
+    "addFailed": "افزودن ناموفق بود:$p",
+    "removeConfirm": "آیا از حذف اطمینان دارین؟",
     "tips": "اطلاعات",
     "copy": "کپی",
     "ok": "خُب",
@@ -422,6 +405,7 @@
     "faq": "سوالات متداول",
     "download": "دانلود",
     "loading": "درحال بارگذاری…",
+    "updateFailed": "به‌روزرسانی ناموفق بود:$p",
     "days": "روز",
     "hours": "ساعت",
     "minutes": "دقیقه",
@@ -484,6 +468,8 @@
     "rule": "قانون",
     "global": "عمومی",
     "qrcode": "کد QR",
+    "scanQrcode": "اسکن QRکد",
+    "scanResult": "نتایج اسکن",
     "backupAndSync": "پشتیبان‌گیری و همگام‌سازی",
     "importAndExport": "وارد‌کردن و خروجی‌گرفتن",
     "import": "وارد‌کردن",

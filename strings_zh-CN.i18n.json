@@ -23,9 +23,7 @@
         "enableDiversionRules": "启用分流规则",
         "chooseFile": "选择文件",
         "invalidFileType": "无效的文件类型:$p",
-        "configExist": "配置已存在,请勿重复添加",
-        "addSuccess": "添加成功",
-        "addFailed": "添加失败:$p"
+        "configExist": "配置已存在,请勿重复添加"
     },
     "AddProfileByLinkOrContentScreen": {
         "title": "添加配置链接",
@@ -37,13 +35,10 @@
         "subscriptionCannotEmpty": "配置链接不能为空",
         "configExist": "配置已存在,请勿重复添加",
         "invalidUrl": "配置链接长度过长",
-        "addSuccess": "添加成功",
-        "addFailed": "添加失败:$p",
         "addFailedFormatException": "格式错误,请订正后重新添加:",
         "addFailedThenDownloadAndImport": "添加失败:$p, 请尝试修改[UserAgent]后重试,或者用设备自带的浏览器打开配置链接,并将浏览器下载的配置文件导入到本应用"
     },
     "AddProfileByScanQrcodeScanScreen": {
-        "title": "扫描二维码",
         "copy": "拷贝链接",
         "open": "打开链接",
         "requestCameraPermission": "请开启摄像头权限",
@@ -75,8 +70,7 @@
     },
     "DiversionGroupCustomScreen": {
         "title": "自定义分流组",
-        "add": "添加分流组",
-        "confirmDel": "确认删除?"
+        "add": "添加分流组"
     },
     "DiversionRuleDetectScreen": {
         "title": "分流规则探测",
@@ -115,7 +109,6 @@
         "disabledServer": "已被禁用,请重新选择",
         "expiredServer": "无可用服务器:配置可能已过期或被禁用",
         "systemProxyTips": "socks:$sp,http(s):$hp",
-        "updateFailed": "更新失败:$p",
         "trafficTotal": "总流量",
         "trafficProxy": "代理流量",
         "myLinkEmpty": "请先设置[快捷链接]后再使用",
@@ -149,8 +142,6 @@
     },
     "MyProfilesScreen": {
         "title": "我的配置",
-        "updateFailed": "更新失败:$p",
-        "confirmDel": "确认删除?",
         "atLeastOneEnable": "无法禁用,请至少保留一个配置可用"
     },
     "NetCheckScreen": {
@@ -201,9 +192,6 @@
         "share": "分享链接",
         "shareImage": "分享二维码"
     },
-    "QrcodeScanScreen": {
-        "title": "扫码二维码"
-    },
     "RegionSettingsScreen": {
         "title": "国家与地区",
         "Regions": "提示:请正确设置你当前所在国家或地区,否则可能会导致分流错误"
@@ -213,7 +201,6 @@
         "autoSelectServer": "自动选择连接延迟最低的服务器",
         "recentUse": "最近使用",
         "myFav": "我的收藏",
-        "updateFailed": "更新失败:$p",
         "selectLocal": "所选服务器为本地地址,可能无法正常使用:$p",
         "selectRequireEnableIPv6": "所选服务器为IPv6地址,需要[启用IPv6]",
         "selectDisabled": "该服务器已被禁用",
@@ -234,7 +221,6 @@
         "htmlBoard": "在线面板",
         "dnsLeakDetection": "DNS泄露检测",
         "speedTest": "测速",
-        "addProfile": "添加配置",
         "addProfileFromClipboard": "从剪切板导入",
         "downloadProfilePreferProxy": "优先使用代理下载配置",
         "downloadProfilePreferProxyTips": "如果当前已连接,则优先通过已连接的代理下载配置",
@@ -339,7 +325,6 @@
         "handleClashScheme": "处理clash://调用",
         "handleSingboxScheme": "处理sing-box://调用",
         "removeSystemVPNConfig": "删除系统VPN配置",
-        "removeSystemVPNConfigConfirm": "确认删除系统VPN配置?",
         "timeConnectOrDisconnect": "定时连接/断开",
         "timeConnectOrDisconnectTips": "VPN必须处于连接状态才会生效;开启后,[自动休眠]将失效",
         "timeConnectAndDisconnectInterval": "连接/断开时间间隔不能低于$p分钟",
@@ -383,11 +368,6 @@
     "CommonWidget": {
         "diableAlwayOnVPN": "如果开启了[始终开启VPN], 请关闭[始终开启VPN]后重试连接"
     },
-    "DialogUtils": {
-        "showQRContentDialog": {
-            "scanResult": "扫描结果"
-        }
-    },
     "ServerManager": {
         "noServerAvaliable": "无可用服务器,请确保配置链接或配置文件有效;如果你的配置来源于GitHub,请从页面上的[Raw]按钮获取链接地址",
         "filePathCannotEmpty": "文件路径不能为空",
@@ -414,6 +394,9 @@
     "edit": "编辑",
     "view": "查看",
     "addProfile": "添加配置",
+    "addSuccess": "添加成功",
+    "addFailed": "添加失败:$p",
+    "removeConfirm": "确认删除?",
     "tips": "提示",
     "copy": "拷贝",
     "ok": "确定",
@@ -422,6 +405,7 @@
     "faq": "常见问题",
     "download": "下载",
     "loading": "加载中...",
+    "updateFailed": "更新失败:$p",
     "days": "天",
     "hours": "时",
     "minutes": "分",
@@ -484,6 +468,8 @@
     "rule": "规则",
     "global": "全局",
     "qrcode": "二维码",
+    "scanQrcode": "扫描二维码",
+    "scanResult": "扫描结果",
     "backupAndSync": "备份与同步",
     "importAndExport": "导入/导出",
     "import": "导入",

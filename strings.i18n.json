@@ -23,9 +23,7 @@
         "enableDiversionRules": "Enable Diversion Rules",
         "chooseFile": "Select File",
         "invalidFileType": "Invalid file type:$p",
-        "configExist": "The Profile already exists, please do not add it repeatedly",
-        "addSuccess": "Added successfully",
-        "addFailed": "Add failed:$p"
+        "configExist": "The Profile already exists, please do not add it repeatedly"
     },
     "AddProfileByLinkOrContentScreen": {
         "title": "Add Profile Link",
@@ -37,13 +35,10 @@
         "subscriptionCannotEmpty": "Profile Link can not be empty",
         "configExist": "The Profile already exists, please do not add it repeatedly",
         "invalidUrl": "The Profile Link is too long",
-        "addSuccess": "Added successfully",
-        "addFailed": "Add failed:$p",
         "addFailedFormatException": "The format is wrong, please correct it and add it again:",
         "addFailedThenDownloadAndImport": "Add failed: $p, please try to modify the [UserAgent] and try again, or use the device's built-in browser to open the configuration link and import the configuration file downloaded by the browser into this application"
     },
     "AddProfileByScanQrcodeScanScreen": {
-        "title": "Scan QR Code",
         "copy": "Copy Link",
         "open": "Open Link",
         "requestCameraPermission": "Please enable camera permission",
@@ -75,8 +70,7 @@
     },
     "DiversionGroupCustomScreen": {
         "title": "Custom Diversion Group",
-        "add": "Add Diversion Group",
-        "confirmDel": "Are you sure to delete?"
+        "add": "Add Diversion Group"
     },
     "DiversionRuleDetectScreen": {
         "title": "Diversion Rule Detect",
@@ -115,7 +109,6 @@
         "disabledServer": "is disabled, please choose again",
         "expiredServer": "No servers available, profiles may be expired or disabled",
         "systemProxyTips": "socks:$sp,http(s):$hp",
-        "updateFailed": "Update failed:$p",
         "trafficTotal": "Traffic Total",
         "trafficProxy": "Traffic Proxy",
         "myLinkEmpty": "Please set up [Shortcut Link] before using it",
@@ -149,8 +142,6 @@
     },
     "MyProfilesScreen": {
         "title": "Profiles",
-        "updateFailed": "Update failed:$p",
-        "confirmDel": "Are you sure to delete?",
         "atLeastOneEnable": "Cannot be disabled, please keep at least one profile enable"
     },
     "NetCheckScreen": {
@@ -201,9 +192,6 @@
         "share": "Share Link",
         "shareImage": "Share QR Code"
     },
-    "QrcodeScanScreen": {
-        "title": "Scan QR code"
-    },
     "RegionSettingsScreen": {
         "title": "Country Or Region",
         "Regions": "Tip: Please set your current country or region correctly, otherwise it may cause network diversion problems"
@@ -213,7 +201,6 @@
         "autoSelectServer": "Auto select the server with the lowest latency",
         "recentUse": "Recently Used",
         "myFav": "My Favs",
-        "updateFailed": "Update failed:$p",
         "selectLocal": "The selected server is a local address and may not work properly:$p",
         "selectRequireEnableIPv6": "The selected server is an IPv6 address and requires [Enable IPv6]",
         "selectDisabled": "This server has been disabled",
@@ -234,7 +221,6 @@
         "htmlBoard": "Online Panel",
         "dnsLeakDetection": "DNS Leaks Detection",
         "speedTest": "Speed Test",
-        "addProfile": "Add Profile",
         "addProfileFromClipboard": "Import From Clipboard",
         "downloadProfilePreferProxy": "Prefer Proxy to Download Profile",
         "downloadProfilePreferProxyTips": "If currently connected, the profile will be downloaded through the connected proxy first",
@@ -339,7 +325,6 @@
         "handleClashScheme": "Handle clash:// Call",
         "handleSingboxScheme": "Handle sing-box:// Call",
         "removeSystemVPNConfig": "Delete system VPN configuration",
-        "removeSystemVPNConfigConfirm": "Confirm To Delete system VPN configuration?",
         "timeConnectOrDisconnect": "Scheduled connect/disconnect",
         "timeConnectOrDisconnectTips": "VPN must be connected to take effect; after it is turned on, [Automatic Sleep] will be disabled",
         "timeConnectAndDisconnectInterval": "The connection/disconnection interval cannot be less than $p minutes",
@@ -383,11 +368,6 @@
     "CommonWidget": {
         "diableAlwayOnVPN": "If [Always on VPN] is turned on, please turn off [Always on VPN] and try connecting again"
     },
-    "DialogUtils": {
-        "showQRContentDialog": {
-            "scanResult": "Scan Result"
-        }
-    },
     "ServerManager": {
         "noServerAvaliable": "No server avaliable, Make sure the Profile Link or Profile File is valid;  if your Profile comes from GitHub, please obtain the link from the [Raw] button on the page",
         "filePathCannotEmpty": "The file path can not be empty",
@@ -414,6 +394,9 @@
     "edit": "Edit",
     "view": "View",
     "addProfile": "Add Profile",
+    "addSuccess": "Added successfully",
+    "addFailed": "Add failed:$p",
+    "removeConfirm": "Are you sure to delete?",
     "tips": "Info",
     "copy": "Copy",
     "ok": "Ok",
@@ -422,6 +405,7 @@
     "faq": "FAQ",
     "download": "Download",
     "loading": "Loading...",
+    "updateFailed": "Update failed:$p",
     "days": "Days",
     "hours": "Hours",
     "minutes": "Minutes",
@@ -484,6 +468,8 @@
     "rule": "Rule",
     "global": "Global",
     "qrcode": "QR Code",
+    "scanQrcode": "Scan QR Code",
+    "scanResult": "Scan Result",
     "backupAndSync": "Backup and Sync",
     "importAndExport": "Import and Export",
     "import": "Import",
