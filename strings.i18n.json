@@ -12,9 +12,6 @@
         "openDir": "Open File Directory",
         "useOriginalSBProfile": "Use original sing-box Profile"
     },
-    "AclRulesetScreen": {
-        "setGeositeRule": "Tip: After turning on the options, please go to[Diversion Rules]to set the relevant rules, otherwise they will not take effect"
-    },
     "AddProfileByImportFromFileScreen": {
         "title": "Import Profile File",
         "chooseFile": "Select File",
@@ -88,9 +85,6 @@
         "chooseFile": "Select File",
         "clearFileContent": "Are you sure to clear the content of the file?",
         "clearFileContentTips": "Are you sure to clear the content of the Profile file? Clearing the Profile file may cause data loss or abnormal application functions, please operate with caution"
-    },
-    "GeoSiteRulesetScreen": {
-        "setGeositeRule": "Tip: After turning on the options, please go to[Diversion Rules]to set the relevant rules, otherwise they will not take effect"
     },
     "HomeScreen": {
         "toSelectServer": "Please Select a Server",
@@ -406,6 +400,7 @@
     "language": "Language",
     "next": "Next",
     "done": "Done",
+    "apply": "Apply",
     "refresh": "Refresh",
     "retry": "Retry?",
     "none": "None",
@@ -419,7 +414,9 @@
     "diversionRulesEnable": "Enable Diversion Rules",
     "diversionCustomGroup": "Custom Diversion Group",
     "diversionCustomGroupPreset": "Preset [Custom Diversion Group]",
+    "diversionCustomGroupPresetApply": "This operation will overwrite the group with the same name in [Custom Diversion Group]. Do you want to continue?",
     "urlTestCustomGroup": "Custom Proxy Group",
+    "rulesetEnableTips": "Tip: After turning on the options, please go to[Diversion Rules]to set the relevant rules, otherwise they will not take effect",
     "other": "Other",
     "dns": "DNS",
     "url": "URL",
