@@ -3,14 +3,14 @@
         "installRefer": "Установленная ссылка",
         "versionChannel": "Автоматически обновлять каналы",
         "disableUAReport": "Отключить аналитику",
-        "disableUAReportTip": "Аналитика помогает нам улучшить качество продукта, ее отключение не способствует быстрой оптимизации и улучшению продукта",
+        "disableUAReportTip": "Аналитика помогает нам улучшить качество продукта, ее отключение не способствует быстрой оптимизации и улучшению продукта.",
         "devOptions": "Параметры разработчика",
         "enableDebugLog": "Включить debug-лог",
         "viewFilsContent": "Посмотреть файлы",
         "enablePprof": "Включить pprof",
         "pprofPanel": "pprof панель",
         "openDir": "Открыть каталог файлов",
-        "useOriginalSBProfile": "Использовать исходную конфигурацию Sing-Box"
+        "useOriginalSBProfile": "Использовать исходную конфигурацию Sing-box"
     },
     "AddProfileByImportFromFileScreen": {
         "title": "Импорт файла конфигурации",
@@ -23,7 +23,7 @@
         "updateTimerInterval": "Интервал обновления",
         "updateTimerIntervalTips": "Чтобы отключить, установите:< 5 мин",
         "profileLinkContent": "Ссылка подписки/содержание",
-        "profileLinkContentHit": "Ссылка подписки/содержание [обязательно] (Поддержка Clash,V2ray(пакетная поддержка),Stash,Karing,Sing-box,Shadowsocks,Sub Ссылки на профиль)",
+        "profileLinkContentHit": "Ссылка подписки/содержание [обязательно] (Поддержка Clash,V2ray(c пакетом поддержки),Stash,Karing,Sing-box,Shadowsocks,Sub; Ссылка на конфигурацию)",
         "subscriptionCannotEmpty": "Ссылка на подписку не может быть пустой",
         "configExist": "Профиль уже существует. Пожалуйста, не добавляйте его повторно",
         "invalidUrl": "Ссылка подписки слишком длинная",
@@ -43,7 +43,7 @@
     },
     "BackupAndSyncLanSyncScreen": {
         "title": "Синхронизация по локальной сети",
-        "lanSyncNotQuitTips": "Не выходите из этого интерфейса до завершения синхронизации."
+        "lanSyncNotQuitTips": "Не выходите из этого окна до завершения синхронизации."
     },
     "BackupAndSyncWebdavScreen": {
         "webdavServerUrl": "Адрес сервера",
@@ -111,7 +111,7 @@
         "updateTimerInterval": "Интервал обновления",
         "updateTimerIntervalTips": "Чтобы отключить, установите:< 5 мин",
         "reloadAfterProfileUpdate": "Перезагрузить после обновления профиля",
-        "testLatencyAfterProfileUpdate": "Начать тестирование задержек после обновления профиля.",
+        "testLatencyAfterProfileUpdate": "Начать тестирование задержек после обновления профиля",
         "testLatencyAfterProfileUpdateTips": "VPN необходимо подключить, и включить[Перезагрузить после обновления профиля]",
         "testLatencyAutoRemove": "Автоматически удалять серверы, не прошедшие тесты на задержку",
         "testLatencyAutoRemoveTips": "Попробуйте до 3 раз"
@@ -127,7 +127,7 @@
         "atLeastOneEnable": "Невозможно отключить, оставьте включенным хотя бы один профиль"
     },
     "NetCheckScreen": {
-        "title": "Обнаружение сети",
+        "title": "Диагностика сети",
         "warn": "Примечание. Из-за влияния сетевой среды и правил перенаправления результаты теста не полностью эквивалентны фактическим результатам.",
         "check": "Тест",
         "invalidDomain": "Неверное имя домена",
@@ -138,14 +138,14 @@
         "connectivityTestIpv6Ok": "Ipv6 Соединение выполнено успешно",
         "connectivityTestOk": "Сеть подключена к Интернету",
         "connectivityTestFailed": "Ваша сеть не подключена к Интернету",
-        "outbound": "Прокси сервер",
+        "outbound": "Прокси-сервер",
         "outboundOk": "[$p]Соединение установлено успешно",
         "outboundFailed": "[$p1]Соединение не удалось\nошибка:[$p2]",
         "dnsServer": "DNS сервер",
         "dnsOk": "[$p1]DNS Разобрано успешно\nDNS правило:[$p2]\nЗадерживать:[$p3 ms]\nадрес:[$p4]",
         "dnsFailed": "[$p1]DNS Не удалось выполнить синтаксический анализ\n правило:[$p2]\nошибка:[$p3]",
         "host": "HTTP соединение",
-        "hostConnection": "[$p1]\nПравила пернаправления:[$p2]\nПрокси сервер:[$p3]",
+        "hostConnection": "[$p1]\nПравила пернаправления:[$p2]\nПрокси-сервер:[$p3]",
         "hostConnectionOk": "Соединение установлено успешно",
         "hostConnectionFailed": "Соединение не удалось:[$p]"
     },
@@ -204,10 +204,10 @@
         "dnsLeakDetection": "Обнаружение утечки DNS",
         "speedTest": "Тест скорости",
         "addProfileFromClipboard": "Импорт из буфера обмена",
-        "downloadProfilePreferProxy": "Настройка приоритетной загрузки прокси",
+        "downloadProfilePreferProxy": "Настройка приоритетного выбора прокси-сервера",
         "downloadProfilePreferProxyTips": "Если подключение установлено, профиль вначале будет загружен через подключенный прокси-сервер",
-        "rulesetDirectDownlad": "Rule Set Прямая загрузка",
-        "hideUnusedDiversionGroup": "Скрыть неактивные дельта-группы",
+        "rulesetDirectDownlad": "Rule Set Прямой доступ",
+        "hideUnusedDiversionGroup": "Скрыть неактивные правила перенаправления",
         "disableISPDiversionGroup": "Отключить правила перенаправления ISP",
         "portSetting": "Порт",
         "portSettingRule": "Основано на правилах",
@@ -328,7 +328,7 @@
         "error": "https URL должен быть действительным"
     },
     "TextToQrCodeScreen": {
-        "title": "Преобразование текста (eng) в QR-код",
+        "title": "Преобразование текста в QR-код",
         "convert": "Конвертировать"
     },
     "UrlTestSettingsScreen": {
@@ -348,7 +348,7 @@
         "diableAlwayOnVPN": "Если параметр [Всегда включен VPN] включен, отключите его и попробуйте подключиться еще раз"
     },
     "ServerManager": {
-        "noServerAvaliable": "Нет доступных серверов, убедитесь что подписка или файл профиля корректен. Если ваша конфигурация взята из GitHub, получите адрес ссылки, нажав кнопку [Raw] на странице;",
+        "noServerAvaliable": "Нет доступных серверов, убедитесь что подписка или файл профиля корректен. Если ваша конфигурация взята из GitHub, получите адрес ссылки, нажав кнопку [Raw] на странице.",
         "filePathCannotEmpty": "Путь к файлу не может быть пустым",
         "fileNotExist": "Файла не существует:$p",
         "urlCannotEmpty": "Ссылка не может быть пустой",
@@ -400,7 +400,7 @@
     "language": "Язык",
     "next": "Дальше",
     "done": "Готово",
-    "apply": "применять",
+    "apply": "Применить",
     "refresh": "Обновить",
     "retry": "Хотите попробовать еще раз?",
     "none": "Ничего не делать",
@@ -412,11 +412,11 @@
     "diversion": "Правила",
     "diversionRules": "Правила перенаправления",
     "diversionRulesEnable": "Группа правил перенаправления",
-    "diversionCustomGroup": "Пользовательские правила",
-    "diversionCustomGroupPreset": "Пресеты Пользовательских правил",
-    "diversionCustomGroupPresetApply": "Эта операция перезапишет группу с тем же именем в [Пользовательские правила]. Продолжить?",
-    "urlTestCustomGroup": "Пользовательская группа агентов",
-    "rulesetEnableTips": "Совет: После включения опции перейдите в[Правила перенаправления] и установите их, иначе опция не будет действовать",
+    "diversionCustomGroup": "Личные правила",
+    "diversionCustomGroupPreset": "Шаблоны личных правил",
+    "diversionCustomGroupPresetApply": "Эта операция перезапишет группу с тем же именем в [Личных правилах]. Продолжить?",
+    "urlTestCustomGroup": "Личная группа серверов",
+    "rulesetEnableTips": "Совет: После включения опции перейдите в [Правила перенаправления] и установите их, иначе опция не будет действовать",
     "other": "Другой",
     "dns": "DNS",
     "url": "URL",
