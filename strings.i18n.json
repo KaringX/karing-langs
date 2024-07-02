@@ -414,7 +414,7 @@
     "diversionRulesEnable": "Enable Diversion Rules",
     "diversionCustomGroup": "Custom Diversion Group",
     "diversionCustomGroupPreset": "Preset [Custom Diversion Group]",
-    "diversionCustomGroupPresetApply": "This operation will overwrite the group with the same name in [Custom Diversion Group]. Do you want to continue?",
+    "diversionCustomGroupPresetTips": "Note: Enabled items will be added/overwritten to [Custom Diversion Group] and [Diversion Rules]",
     "urlTestCustomGroup": "Custom Proxy Group",
     "rulesetEnableTips": "Tip: After turning on the options, please go to[Diversion Rules]to set the relevant rules, otherwise they will not take effect",
     "other": "Other",

@@ -414,7 +414,7 @@
     "diversionRulesEnable": "启用分流规则",
     "diversionCustomGroup": "自定义分流组",
     "diversionCustomGroupPreset": "预置[自定义分流组]",
-    "diversionCustomGroupPresetApply": "该操作将会覆盖[自定义分流组]里的同名组,是否继续?",
+    "diversionCustomGroupPresetTips": "注意:启用的项会添加/覆盖到[自定义分流组]和[分流规则]",
     "urlTestCustomGroup": "自定义代理组",
     "rulesetEnableTips": "提示:开启选项后,请到[分流规则]设置相关规则,否则不会生效",
     "other": "其他",
