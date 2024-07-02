@@ -66,7 +66,6 @@
         "outbound": "Прокси-сервер:"
     },
     "DiversionRulesScreen": {
-        "finalSelectTips": "Если ни одно правило не соответствует, используется это правило",
         "diversionRulesMatchTips": "Правила применяются по очереди сверху вниз. Если ни одно соответствие не обнаружено, то действует правило Final"
     },
     "DnsSettingsScreen": {

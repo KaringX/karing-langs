@@ -66,7 +66,6 @@
         "outbound": "Proxy Server:"
     },
     "DiversionRulesScreen": {
-        "finalSelectTips": "If no rule is hit, this rule will be used",
         "diversionRulesMatchTips": "Try to match the rules from top to bottom. If no rule is matched, use final"
     },
     "DnsSettingsScreen": {

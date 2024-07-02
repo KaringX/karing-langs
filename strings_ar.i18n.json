@@ -66,7 +66,6 @@
     "outbound": "مخدم بروكسي:"
   },
   "DiversionRulesScreen": {
-    "finalSelectTips": "إذا لم يتم ضرب أي قاعدة، يتم استخدام هذه القاعدة",
     "diversionRulesMatchTips": "حاول مطابقة القواعد من أعلى إلى أسفل.إذا لم يتم مطابقة قاعدة ، استخدم النهائي"
   },
   "DnsSettingsScreen": {
