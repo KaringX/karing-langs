@@ -165,6 +165,7 @@
         "whiteListMode": "白名单模式",
         "whiteListModeTip": "启用后:仅代理已勾选的App;未启用:仅代理未勾选的App",
         "hideSystemApp": "隐藏系统应用",
+        "hideAppIcon": "隐藏应用图标",
         "enableAppQueryPermission": "开启 [获取应用列表] 权限"
     },
     "QrcodeScreen": {

@@ -165,6 +165,7 @@
         "whiteListMode": "Whitelist Mode",
         "whiteListModeTip": "When enabled: only the apps that have been checked are proxies; when not enabled: only the apps that are not checked are proxies",
         "hideSystemApp": "Hide System Apps",
+        "hideAppIcon": "Hide App Icons",
         "enableAppQueryPermission": "Turn on [App list query] Permission"
     },
     "QrcodeScreen": {
