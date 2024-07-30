@@ -347,7 +347,8 @@
         "cancel": "Not Now"
     },
     "CommonWidget": {
-        "diableAlwayOnVPN": "If [Always on VPN] is turned on, please turn off [Always on VPN] and try connecting again"
+        "diableAlwayOnVPN": "If [Always on VPN] is turned on, please turn off [Always on VPN] and try connecting again",
+        "disableNTP":"Please turn off [NTP] and try connecting again"
     },
     "ServerManager": {
         "noServerAvaliable": "No server avaliable, Make sure the Profile Link or Profile File is valid;  if your Profile comes from GitHub, please obtain the link from the [Raw] button on the page",

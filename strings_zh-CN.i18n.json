@@ -347,7 +347,8 @@
         "cancel": "暂不更新"
     },
     "CommonWidget": {
-        "diableAlwayOnVPN": "如果开启了[始终开启VPN], 请关闭[始终开启VPN]后重试连接"
+        "diableAlwayOnVPN": "如果开启了[始终开启VPN], 请关闭[始终开启VPN]后重试连接",
+        "disableNTP":"请关闭[NTP]后重试连接"
     },
     "ServerManager": {
         "noServerAvaliable": "无可用服务器,请确保配置链接或配置文件有效;如果你的配置来源于GitHub,请从页面上的[Raw]按钮获取链接地址",
