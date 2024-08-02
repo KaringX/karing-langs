@@ -137,6 +137,8 @@
         "connectivityTestIpv6Ok": "اتصال Ipv6 موفق بود",
         "connectivityTestOk": "شبکه به اینترنت متصل است",
         "connectivityTestFailed": "شبکه هنوز به اینترنت متصل نشده",
+        "remoteRulesetsDownloadOk":"همه با موفقیت دانلود شدند",
+        "remoteRulesetsDownloadNotOk":"دانلود شد یا ناموفق بود",
         "outbound": "سرور پروکسی",
         "outboundOk": "[$p] اتصال موفق بود",
         "outboundFailed": "[$p1] اتصال ناموفق \nارور:[$p2]",

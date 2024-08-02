@@ -137,6 +137,8 @@
         "connectivityTestIpv6Ok": "Ipv6 连接成功",
         "connectivityTestOk": "网络已接入互联网",
         "connectivityTestFailed": "网络尚未接入互联网",
+        "remoteRulesetsDownloadOk":"全部下载成功",
+        "remoteRulesetsDownloadNotOk":"正在下载或下载失败",
         "outbound": "代理服务器",
         "outboundOk": "[$p]连接成功",
         "outboundFailed": "[$p1]连接失败\n错误:[$p2]",

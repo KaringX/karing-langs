@@ -137,6 +137,8 @@
         "connectivityTestIpv6Ok": "Ipv6 Соединение выполнено успешно",
         "connectivityTestOk": "Сеть подключена к Интернету",
         "connectivityTestFailed": "Ваша сеть не подключена к Интернету",
+        "remoteRulesetsDownloadOk":"Все успешно скачано",
+        "remoteRulesetsDownloadNotOk":"Загрузка или сбой",
         "outbound": "Прокси-сервер",
         "outboundOk": "[$p]Соединение установлено успешно",
         "outboundFailed": "[$p1]Соединение не удалось\nошибка:[$p2]",

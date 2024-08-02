@@ -137,6 +137,8 @@
     "connectivityTestIpv6Ok": "نجح اتصال IPv6",
     "connectivityTestOk": "الشبكة متصلة بالإنترنت",
     "connectivityTestFailed": "الشبكة ليست متصلة بعد بالإنترنت",
+    "remoteRulesetsDownloadOk":"تم تنزيل كل شيء بنجاح",
+    "remoteRulesetsDownloadNotOk":"التحميل أو فشل",
     "outbound": "مخدم بروكسي",
     "outboundOk": "[$p] نجح الاتصال ",
     "outboundFailed": "[$p1] فشل الاتصال\nError:[$p2]",

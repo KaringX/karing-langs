@@ -137,6 +137,8 @@
         "connectivityTestIpv6Ok": "Ipv6 connection succeeded",
         "connectivityTestOk": "The network is connected to the Internet",
         "connectivityTestFailed": "The network is not yet connected to the Internet",
+        "remoteRulesetsDownloadOk":"All downloaded successfully",
+        "remoteRulesetsDownloadNotOk":"Downloading or download failed",
         "outbound": "Proxy Server",
         "outboundOk": "[$p] connection succeeded",
         "outboundFailed": "[$p1] connection failed\nError:[$p2]",
