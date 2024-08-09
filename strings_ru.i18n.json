@@ -275,6 +275,7 @@
     "myLink": "Быстрая ссылка",
     "myLinkInvalid": "Неверный URL",
     "autoConnectAfterLaunch": "Автоматическое подключение после запуска",
+    "hideAfterLaunch": "Скрыть окно после запуска",
     "autoSetSystemProxy": "Установить прокси после подключения",
     "disconnectWhenQuit": "Отключаться при выходе из приложения",
     "allowBypass": "Разрешить приложениям обходить VPN",

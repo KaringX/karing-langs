@@ -275,6 +275,7 @@
     "myLink": "لینک میان‌بر",
     "myLinkInvalid": "URL نامعتبر",
     "autoConnectAfterLaunch": "اتصال خودکار پس‌از راه‌اندازی",
+    "hideAfterLaunch": "پنهان کردن پنجره پس از راه اندازی",
     "autoSetSystemProxy": "تنظیم خودکار حالت پروکسی سیستم پس‌از اتصال",
     "disconnectWhenQuit": "قطع اتصال هنگام خروج از نرم‌افزار",
     "allowBypass": "به برنامه‌ها اجازه دهید VPN را دور بزنند",

@@ -275,6 +275,7 @@
     "myLink": "ارتباط اختصار",
     "myLinkInvalid": "URL غير صالح",
     "autoConnectAfterLaunch": "اتصال السيارات بعد الإطلاق",
+    "hideAfterLaunch": "إخفاء النافذة بعد بدء التشغيل",
     "autoSetSystemProxy": "وكيل نظام تعيين تلقائي عند الاتصال",
     "disconnectWhenQuit": "افصل عندما يخرج التطبيق",
     "allowBypass": "السماح للتطبيقات بتجاوز VPN",

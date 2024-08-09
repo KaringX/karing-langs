@@ -275,6 +275,7 @@
     "myLink": "Shortcut Link",
     "myLinkInvalid": "Invalid URL",
     "autoConnectAfterLaunch": "Auto Connection after Launch",
+    "hideAfterLaunch": "Hide window after startup",
     "autoSetSystemProxy": "Auto Set System Proxy when Connected",
     "disconnectWhenQuit": "Disconnect when App Exits",
     "allowBypass": "Allow Apps to Bypass VPN",
