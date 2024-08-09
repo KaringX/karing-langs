@@ -137,8 +137,8 @@
     "connectivityTestIpv6Ok": "نجح اتصال IPv6",
     "connectivityTestOk": "الشبكة متصلة بالإنترنت",
     "connectivityTestFailed": "الشبكة ليست متصلة بعد بالإنترنت",
-    "remoteRulesetsDownloadOk":"تم تنزيل كل شيء بنجاح",
-    "remoteRulesetsDownloadNotOk":"التحميل أو فشل",
+    "remoteRulesetsDownloadOk": "تم تنزيل كل شيء بنجاح",
+    "remoteRulesetsDownloadNotOk": "التحميل أو فشل",
     "outbound": "مخدم بروكسي",
     "outboundOk": "[$p] نجح الاتصال ",
     "outboundFailed": "[$p1] فشل الاتصال\nError:[$p2]",
@@ -233,7 +233,6 @@
     "dnsEnableFakeIp": "تمكين وهمية",
     "dnsEnableProxyResolveByProxy": "[حركة الوكيل] حل DNS من خلال خادم الوكيل",
     "dnsEnableFinalResolveByProxy": "[نهائي] حل DNS من خلال خادم الوكيل",
-    "dnsEnablePreDNS": "الحل المسبق لاسم مجال خادم WireGuard",
     "dnsTestDomain": "مجال الاختبار",
     "dnsTestDomainInvalid": "مجال غير صالح",
     "dnsTypeOutbound": "مخدم بروكسي",
@@ -350,7 +349,7 @@
   },
   "CommonWidget": {
     "diableAlwayOnVPN": "إذا تم تشغيل [Always on VPN]، فيرجى إيقاف تشغيل [Always on VPN] ومحاولة الاتصال مرة أخرى.",
-    "disableNTP":"الرجاء إغلاق [NTP] ومحاولة الاتصال مرة أخرى"
+    "disableNTP": "الرجاء إغلاق [NTP] ومحاولة الاتصال مرة أخرى"
   },
   "ServerManager": {
     "noServerAvaliable": "لا يوجد خادم متاح، يرجى التأكد من صلاحية رابط التكوين أو ملف التكوين؛ وإذا كان التكوين الخاص بك يأتي من GitHub، فيرجى الحصول على عنوان الرابط من الزر [Raw] الموجود في الصفحة",
@@ -424,6 +423,7 @@
   "diversionCustomGroupPresetTips": "ملاحظة: ستتم إضافة/تغطية العناصر الممكّنة إلى [مجموعة التحويل المخصصة] و[قواعد التحويل]",
   "urlTestCustomGroup": "مجموعة الوكيل المخصصة",
   "rulesetEnableTips": "نصيحة: بعد تشغيل الخيارات ، يرجى الانتقال إلى [قواعد التحويل] لتعيين القواعد ذات الصلة ، وإلا فلن تدخل ساري المفعول ",
+  "staticIP":"رقم تعريف حاسوب ثابت",
   "other": "آخر",
   "dns": "DNS",
   "url": "URL",
