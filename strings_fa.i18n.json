@@ -231,6 +231,7 @@
     "tlsPaddingSize": "اندازه پد TLS",
     "dnsEnableRule": "فعال‌سازی قوانین انحراف دی‌ان‌اس",
     "dnsEnableFakeIp": "فعال‌سازی آی‌پی جعلی",
+    "dnsEnableClientSubnet": "ECS را فعال کنید",
     "dnsEnableProxyResolveByProxy": "دی‌ان‌اس را از [ترافیک پروکسی] سرور پروکسی عبور می‌دهد",
     "dnsEnableFinalResolveByProxy": "دی‌ان‌اس را از سرور پروکسی [نهایی] عبور می‌دهد",
     "dnsTestDomain": "تست دامنه",

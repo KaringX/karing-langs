@@ -231,6 +231,7 @@
     "tlsPaddingSize": "TLS填充大小",
     "dnsEnableRule": "启用DNS分流规则",
     "dnsEnableFakeIp": "启用FakeIP",
+    "dnsEnableClientSubnet": "启用ECS",
     "dnsEnableProxyResolveByProxy": "[代理流量]通过代理服务器解析DNS",
     "dnsEnableFinalResolveByProxy": "[final]通过代理服务器解析DNS",
     "dnsTestDomain": "测试域名",

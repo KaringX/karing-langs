@@ -231,6 +231,7 @@
     "tlsPaddingSize": "Размер заполнения TLS",
     "dnsEnableRule": "Включить правила DNS",
     "dnsEnableFakeIp": "Включить FakeIP",
+    "dnsEnableClientSubnet": "Включить ECS",
     "dnsEnableProxyResolveByProxy": "[действующий поток] Разрешать DNS через прокси-сервер",
     "dnsEnableFinalResolveByProxy": "[final] Разрешать DNS через прокси-сервер",
     "dnsTestDomain": "Тестовое доменное имя",

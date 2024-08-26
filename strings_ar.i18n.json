@@ -231,6 +231,7 @@
     "tlsPaddingSize": "حجم الحشو TLS",
     "dnsEnableRule": "تمكين قواعد تحويل DNS",
     "dnsEnableFakeIp": "تمكين وهمية",
+    "dnsEnableClientSubnet": "تمكين ECS",
     "dnsEnableProxyResolveByProxy": "[حركة الوكيل] حل DNS من خلال خادم الوكيل",
     "dnsEnableFinalResolveByProxy": "[نهائي] حل DNS من خلال خادم الوكيل",
     "dnsTestDomain": "مجال الاختبار",

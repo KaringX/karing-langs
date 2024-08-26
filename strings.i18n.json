@@ -231,6 +231,7 @@
     "tlsPaddingSize": "TLS Padding Size",
     "dnsEnableRule": "Enable DNS Diversion rules",
     "dnsEnableFakeIp": "Enable FakeIP",
+    "dnsEnableClientSubnet": "Enable ECS",
     "dnsEnableProxyResolveByProxy": "[Proxy Traffic]Resolve DNS through proxy server",
     "dnsEnableFinalResolveByProxy": "[final]Resolve DNS through proxy server",
     "dnsTestDomain": "Test Domain",
