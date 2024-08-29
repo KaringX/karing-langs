@@ -251,8 +251,6 @@
     "privateDirect": "Прямое подключение к частной сети",
     "inboundDomainResolveTips": "Отключение этой функции может повлиять на правила перенаправления на основе IP. Включение [FakeIP] эквивалентно ee отключению.",
     "useRomoteRes": "Использовать удаленные ресурсы",
-    "geoSiteAppleDirect": "Прямое соединение Apple",
-    "geoSiteAppleDirectTips": "При включении Apple GeoSite [apple, apple-ads, apple-dev, apple-pki, apple-update] будет использоваться режим прямого подключения для улучшения работы сети",
     "autoSelect": "Автовыбор",
     "autoSelectServerInterval": "Интервал проверок задержки",
     "autoSelectServerReTestIfNetworkUpdate": "Перетестировать после смены сети",

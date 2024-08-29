@@ -251,8 +251,6 @@
     "privateDirect": "私有网络直连",
     "inboundDomainResolveTips": "关闭后可能会影响到基于IP的分流规则;开启[FakeIP]后,此功能等同于关闭",
     "useRomoteRes": "使用远程资源",
-    "geoSiteAppleDirect": "苹果直连",
-    "geoSiteAppleDirectTips": "开启后,苹果GeoSite[apple,apple-ads,apple-dev,apple-pki,apple-update]将使用直连模式,以便获取更快的网络体验",
     "autoSelect": "自动选择",
     "autoSelectServerInterval": "延迟检测时间间隔",
     "autoSelectServerReTestIfNetworkUpdate": "网络变化时重新检测",

@@ -251,8 +251,6 @@
     "privateDirect": "اتصال مباشر بالشبكة الخاصة",
     "inboundDomainResolveTips": "قد يؤثر إيقاف تشغيلها على قواعد التحويل المستندة إلى IP؛ تشغيل [FakeIP]، هذه الوظيفة تعادل إيقاف التشغيل",
     "useRomoteRes": "استخدم الموارد البعيدة",
-    "geoSiteAppleDirect": "اتصال أبل المباشر",
-    "geoSiteAppleDirectTips": "عند تشغيله ، ستستخدم Apple Geosite [Apple و Apple-Ads و Apple-Dev و Apple-PKI و Apple-Update] وضع الاتصال المباشر للحصول على تجربة شبكة أفضل",
     "autoSelect": "اختيار آلي",
     "autoSelectServerInterval": "فاصل الشيكات الكمون",
     "autoSelectServerReTestIfNetworkUpdate": "إعادة اكتشاف متى تتغير الشبكة",

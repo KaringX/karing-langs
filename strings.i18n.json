@@ -251,8 +251,6 @@
     "privateDirect": "Private Network Direct connection",
     "inboundDomainResolveTips": "Turning it off may affect IP-based diversion rules; turning [FakeIP] on, this function is equivalent to turning off",
     "useRomoteRes": "Use Remote Resources",
-    "geoSiteAppleDirect": "Apple Direct connection",
-    "geoSiteAppleDirectTips": "When turned on, Apple GeoSite[apple,apple-ads,apple-dev,apple-pki,apple-update] will use the direct connection mode to obtain a better network experience",
     "autoSelect": "Auto Select",
     "autoSelectServerInterval": "Latency Checks Interval",
     "autoSelectServerReTestIfNetworkUpdate": "Re-check Latency when Network Changes",
