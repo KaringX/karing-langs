@@ -191,10 +191,6 @@
     "selectDisabled": "该服务器已被禁用",
     "error404": "延迟检测遇到错误,请检查是否存在内容相同的配置"
   },
-  "ServerSelectKeywordsScreen": {
-    "title": "候选词",
-    "keywordsOrRegx": "关键词/正则"
-  },
   "SettingsScreen": {
     "ispFaq": "FAQ[$p]",
     "cleanISP": "清除ISP[$p]",
@@ -247,6 +243,8 @@
     "dnsTypeProxyTips": "用于代理流量的域名解析",
     "dnsTypeResolverTips": "用于DNS服务器的域名解析",
     "dnsTypeFinalTips": "用于其他流量的域名解析",
+    "dnsAutoSetServer": "自动设置服务器",
+    "dnsResetServer": "重置服务器",
     "inboundDomainResolve": "解析入站域名",
     "privateDirect": "私有网络直连",
     "inboundDomainResolveTips": "关闭后可能会影响到基于IP的分流规则;开启[FakeIP]后,此功能等同于关闭",
@@ -348,8 +346,7 @@
     "cancel": "暂不更新"
   },
   "CommonWidget": {
-    "diableAlwayOnVPN": "如果开启了[始终开启VPN], 请关闭[始终开启VPN]后重试连接",
-    "disableNTP": "请关闭[NTP]后重试连接"
+    "diableAlwayOnVPN": "如果开启了[始终开启VPN], 请关闭[始终开启VPN]后重试连接"
   },
   "ServerManager": {
     "noServerAvaliable": "无可用服务器,请确保配置链接或配置文件有效;如果你的配置来源于GitHub,请从页面上的[Raw]按钮获取链接地址",
@@ -481,6 +478,8 @@
   "innerError": "内部错误:$p",
   "logicOperation": "逻辑运算",
   "share": "分享",
+  "candidateWord": "候选词",
+  "keywordsOrRegx": "关键词/正则",
   "locales(map)": {
     "en": "English",
     "zh-CN": "简体中文",

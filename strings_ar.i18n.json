@@ -191,10 +191,6 @@
     "selectDisabled": "تم تعطيل هذا الخادم",
     "error404": "واجه اكتشاف الكمون خطأ ، يرجى التحقق مما إذا كان هناك تكوين مع نفس المحتوى"
   },
-  "ServerSelectKeywordsScreen": {
-    "title": "كلمات المرشح",
-    "keywordsOrRegx": "الكلمات الرئيسية/العادية"
-  },
   "SettingsScreen": {
     "ispFaq": "أسئلة مكررة[$p]",
     "cleanISP": "ISP واضح[$p]",
@@ -247,6 +243,8 @@
     "dnsTypeProxyTips": "حل اسم المجال لحركة المرور الوكيل",
     "dnsTypeResolverTips": "دقة اسم المجال لخادم DNS الآخر",
     "dnsTypeFinalTips": "حل اسم المجال لحركة المرور الأخرى",
+    "dnsAutoSetServer": "إعداد الخادم تلقائيا",
+    "dnsResetServer": "إعادة تعيين الخادم",
     "inboundDomainResolve": "حل أسماء النطاقات الواردة",
     "privateDirect": "اتصال مباشر بالشبكة الخاصة",
     "inboundDomainResolveTips": "قد يؤثر إيقاف تشغيلها على قواعد التحويل المستندة إلى IP؛ تشغيل [FakeIP]، هذه الوظيفة تعادل إيقاف التشغيل",
@@ -348,8 +346,7 @@
     "cancel": "ليس الآن"
   },
   "CommonWidget": {
-    "diableAlwayOnVPN": "إذا تم تشغيل [Always on VPN]، فيرجى إيقاف تشغيل [Always on VPN] ومحاولة الاتصال مرة أخرى.",
-    "disableNTP": "الرجاء إغلاق [NTP] ومحاولة الاتصال مرة أخرى"
+    "diableAlwayOnVPN": "إذا تم تشغيل [Always on VPN]، فيرجى إيقاف تشغيل [Always on VPN] ومحاولة الاتصال مرة أخرى."
   },
   "ServerManager": {
     "noServerAvaliable": "لا يوجد خادم متاح، يرجى التأكد من صلاحية رابط التكوين أو ملف التكوين؛ وإذا كان التكوين الخاص بك يأتي من GitHub، فيرجى الحصول على عنوان الرابط من الزر [Raw] الموجود في الصفحة",
@@ -481,6 +478,8 @@
   "innerError": "خطأ داخلي: $p",
   "logicOperation": "عملية منطقية",
   "share": "يشارك",
+  "candidateWord": "كلمات المرشح",
+  "keywordsOrRegx": "الكلمات الرئيسية/العادية",
   "locales(map)": {
     "en": "English",
     "zh-CN": "简体中文",

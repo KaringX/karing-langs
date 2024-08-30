@@ -191,10 +191,6 @@
     "selectDisabled": "This server has been disabled",
     "error404": "Latency detection encountered an error, please check if there is a configuration with the same content"
   },
-  "ServerSelectKeywordsScreen": {
-    "title": "Candidate Words",
-    "keywordsOrRegx": "Keywords/regular"
-  },
   "SettingsScreen": {
     "ispFaq": "FAQ[$p]",
     "cleanISP": "Clear ISP[$p]",
@@ -247,6 +243,8 @@
     "dnsTypeProxyTips": "Domain name resolution for Proxy Traffic",
     "dnsTypeResolverTips": "Domain name resolution for Other DNS Server",
     "dnsTypeFinalTips": "Domain name resolution for Other Traffic",
+    "dnsAutoSetServer": "Auto Setup Server",
+    "dnsResetServer": "Reset Server",
     "inboundDomainResolve": "Resolve Inbound Domain names",
     "privateDirect": "Private Network Direct connection",
     "inboundDomainResolveTips": "Turning it off may affect IP-based diversion rules; turning [FakeIP] on, this function is equivalent to turning off",
@@ -348,8 +346,7 @@
     "cancel": "Not Now"
   },
   "CommonWidget": {
-    "diableAlwayOnVPN": "If [Always on VPN] is turned on, please turn off [Always on VPN] and try connecting again",
-    "disableNTP": "Please turn off [NTP] and try connecting again"
+    "diableAlwayOnVPN": "If [Always on VPN] is turned on, please turn off [Always on VPN] and try connecting again"
   },
   "ServerManager": {
     "noServerAvaliable": "No server avaliable, Make sure the Profile Link or Profile File is valid;  if your Profile comes from GitHub, please obtain the link from the [Raw] button on the page",
@@ -481,6 +478,8 @@
   "innerError": "Inner Error:$p",
   "logicOperation": "Logic Operation",
   "share": "Share",
+  "candidateWord": "Candidate Words",
+  "keywordsOrRegx": "Keywords/Regular",
   "locales(map)": {
     "en": "English",
     "zh-CN": "简体中文",
