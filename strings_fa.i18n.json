@@ -66,7 +66,7 @@
     "outbound": "سرور پروکسی:"
   },
   "DiversionRulesScreen": {
-    "diversionRulesMatchTips": "سعی کنین قوانین را از بالا تطبیق دهید. اگر هیچ قانونی تطبیق داده نشد از نهایی استفاده کنید"
+    "diversionRulesMatchTips": "نکته: سعی کنید قوانین را از بالا به پایین مطابقت دهید، از [نهایی] استفاده کنید."
   },
   "DnsSettingsScreen": {
     "ispCanNotEmpty": "ISP نمی‌تواند خالی باشد",
@@ -418,6 +418,7 @@
   "diversionCustomGroup": "گروه انحراف سفارشی",
   "diversionCustomGroupPreset": "از پیش تنظیم شده [گروه انحراف سفارشی]",
   "diversionCustomGroupPresetTips": "توجه: موارد فعال به [گروه انحراف سفارشی] و [قوانین انحراف] اضافه/پوشش داده خواهند شد",
+  "diversionCustomGroupAddTips": "توجه: ممکن است لازم باشد پس از افزودن مرتب‌سازی به‌صورت دستی آن را تنظیم کنید، در غیر این صورت انحراف تازه اضافه‌شده ممکن است اعمال نشود.",
   "urlTestCustomGroup": "گروه پروکسی سفارشی",
   "rulesetEnableTips": "راهنمایی: پس‌از ذخیره کردن لطفا به [قوانین انحراف] رفته و قوانین مربوط زا تنظیم کنید؛ درغیراین صورت اعمال نخواهند شد",
   "staticIP":"IP استاتیک",
@@ -480,6 +481,7 @@
   "share": "اشتراک گذاری",
   "candidateWord": "کلمات نامزد",
   "keywordsOrRegx": "کلمات کلیدی / معمولی",
+  "server": "سرور",
   "locales(map)": {
     "en": "English",
     "zh-CN": "简体中文",

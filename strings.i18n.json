@@ -66,7 +66,7 @@
     "outbound": "Proxy Server:"
   },
   "DiversionRulesScreen": {
-    "diversionRulesMatchTips": "Try to match the rules from top to bottom. If no rule is matched, use final"
+    "diversionRulesMatchTips": "Tip: Try to match the rules from top to bottom. If no rule is matched, use [final]"
   },
   "DnsSettingsScreen": {
     "ispCanNotEmpty": "ISP can not be empty",
@@ -418,6 +418,7 @@
   "diversionCustomGroup": "Custom Diversion Group",
   "diversionCustomGroupPreset": "Preset [Custom Diversion Group]",
   "diversionCustomGroupPresetTips": "Note: Enabled items will be added/overwritten to [Custom Diversion Group] and [Diversion Rules]",
+  "diversionCustomGroupAddTips": "Note: After adding, you may need to manually adjust the order, otherwise the newly added diversion may not take effect",
   "urlTestCustomGroup": "Custom Proxy Group",
   "rulesetEnableTips": "Tip: After turning on the options, please go to[Diversion Rules]to set the relevant rules, otherwise they will not take effect",
   "staticIP":"Static IP",
@@ -480,6 +481,7 @@
   "share": "Share",
   "candidateWord": "Candidate Words",
   "keywordsOrRegx": "Keywords/Regular",
+  "server": "Server",
   "locales(map)": {
     "en": "English",
     "zh-CN": "简体中文",

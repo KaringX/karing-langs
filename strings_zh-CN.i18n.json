@@ -66,7 +66,7 @@
     "outbound": "代理服务器:"
   },
   "DiversionRulesScreen": {
-    "diversionRulesMatchTips": "从上到下依次尝试匹配规则,如果没有匹配到规则,则使用final"
+    "diversionRulesMatchTips": "提示:从上到下依次尝试匹配规则,如果没有匹配到规则,则使用[final]"
   },
   "DnsSettingsScreen": {
     "ispCanNotEmpty": "ISP 不能为空",
@@ -418,6 +418,7 @@
   "diversionCustomGroup": "自定义分流组",
   "diversionCustomGroupPreset": "预置[自定义分流组]",
   "diversionCustomGroupPresetTips": "注意:启用的项会添加/覆盖到[自定义分流组]和[分流规则]",
+  "diversionCustomGroupAddTips": "注意:添加完毕后可能需要手动调整排序,否则新添加的分流可能不会生效",
   "urlTestCustomGroup": "自定义代理组",
   "rulesetEnableTips": "提示:开启选项后,请到[分流规则]设置相关规则,否则不会生效",
   "staticIP":"静态IP",
@@ -480,6 +481,7 @@
   "share": "分享",
   "candidateWord": "候选词",
   "keywordsOrRegx": "关键词/正则",
+  "server": "服务器",
   "locales(map)": {
     "en": "English",
     "zh-CN": "简体中文",

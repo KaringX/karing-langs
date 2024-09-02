@@ -66,7 +66,7 @@
     "outbound": "مخدم بروكسي:"
   },
   "DiversionRulesScreen": {
-    "diversionRulesMatchTips": "حاول مطابقة القواعد من أعلى إلى أسفل.إذا لم يتم مطابقة قاعدة ، استخدم النهائي"
+    "diversionRulesMatchTips": "نصيحة: حاول مطابقة القواعد من الأعلى إلى الأسفل، إذا لم تتم مطابقة أي قاعدة، استخدم [نهائي]"
   },
   "DnsSettingsScreen": {
     "ispCanNotEmpty": "لا يمكن أن يكون ISP فارغًا",
@@ -418,6 +418,7 @@
   "diversionCustomGroup": "مجموعة تحويل مخصصة",
   "diversionCustomGroupPreset": "الإعداد المسبق [مجموعة تحويل مخصصة]",
   "diversionCustomGroupPresetTips": "ملاحظة: ستتم إضافة/تغطية العناصر الممكّنة إلى [مجموعة التحويل المخصصة] و[قواعد التحويل]",
+  "diversionCustomGroupAddTips": "ملاحظة: قد تحتاج إلى ضبط الفرز يدويًا بعد إضافته، وإلا فإن التحويل المضاف حديثًا قد لا يسري مفعوله.",
   "urlTestCustomGroup": "مجموعة الوكيل المخصصة",
   "rulesetEnableTips": "نصيحة: بعد تشغيل الخيارات ، يرجى الانتقال إلى [قواعد التحويل] لتعيين القواعد ذات الصلة ، وإلا فلن تدخل ساري المفعول ",
   "staticIP":"رقم تعريف حاسوب ثابت",
@@ -480,6 +481,7 @@
   "share": "يشارك",
   "candidateWord": "كلمات المرشح",
   "keywordsOrRegx": "الكلمات الرئيسية/العادية",
+  "server": "الخادم",
   "locales(map)": {
     "en": "English",
     "zh-CN": "简体中文",
