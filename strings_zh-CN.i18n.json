@@ -3,7 +3,7 @@
     "installRefer": "安装参考",
     "versionChannel": "自动更新通道",
     "disableUAReport": "关闭行为数据上报",
-    "disableUAReportTip": "行为数据上报有助于我们改进产品体验,关闭后将不利于产品的快速优化改进",
+    "disableUAReportTip": "行为数据上报有助于我们改进产品体验;低于主版本的版本将自动关闭的所有数据上报([应用激活]除外)",
     "devOptions": "开发者选项",
     "enableDebugLog": "开启调试日志",
     "viewFilsContent": "查看文件",
@@ -237,7 +237,7 @@
     "dnsTypeProxy": "代理流量",
     "dnsTypeResolver": "DNS服务器",
     "dnsEnableRuleTips": "启用后,域名会根据分流规则选择对应的DNS服务器进行解析",
-    "dnsEnableFakeIpTips": "启用FakeIP后,如果断开VPN连接,你的应用需要重启",
+    "dnsEnableFakeIpTips": "启用FakeIP后,如果断开VPN连接,你的应用可能需要重启;此功能需要开启[TUN模式]",
     "dnsTypeOutboundTips": "用于代理服务器的域名解析",
     "dnsTypeDirectTips": "用于直连流量的域名解析",
     "dnsTypeProxyTips": "用于代理流量的域名解析",
@@ -247,7 +247,7 @@
     "dnsResetServer": "重置服务器",
     "inboundDomainResolve": "解析入站域名",
     "privateDirect": "私有网络直连",
-    "inboundDomainResolveTips": "关闭后可能会影响到基于IP的分流规则;开启[FakeIP]后,此功能等同于关闭",
+    "inboundDomainResolveTips": "关闭后可能会影响到基于IP的分流规则;此功能需要开启[TUN模式]",
     "useRomoteRes": "使用远程资源",
     "autoSelect": "自动选择",
     "autoSelectServerInterval": "延迟检测时间间隔",
@@ -346,7 +346,8 @@
     "cancel": "暂不更新"
   },
   "CommonWidget": {
-    "diableAlwayOnVPN": "如果开启了[始终开启VPN], 请关闭[始终开启VPN]后重试连接"
+    "diableAlwayOnVPN": "如果开启了[始终开启VPN], 请关闭[始终开启VPN]后重试连接",
+    "resetPort": "请将端口改为其他可用端口或者关闭占用该端口的应用"
   },
   "ServerManager": {
     "noServerAvaliable": "无可用服务器,请确保配置链接或配置文件有效;如果你的配置来源于GitHub,请从页面上的[Raw]按钮获取链接地址",
