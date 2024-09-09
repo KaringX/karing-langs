@@ -27,8 +27,9 @@
     "subscriptionCannotEmpty": "Profile Link can not be empty",
     "configExist": "The Profile already exists, please do not add it repeatedly",
     "invalidUrl": "The Profile Link is too long",
-    "addFailedFormatException": "The format is wrong, please correct it and add it again:",
-    "addFailedThenDownloadAndImport": "Add failed: $p, please try to modify the [UserAgent] and try again, or use the device's built-in browser to open the configuration link and import the configuration file downloaded by the browser into this application"
+    "addFailedFormatException": "The format is wrong, please correct it and add it again:$p",
+    "addFailedThenDownloadAndImport": "Add failed: $p, please try to modify the [UserAgent] and try again, or use the device's built-in browser to open the configuration link and import the configuration file downloaded by the browser into this application",
+    "addFailedHandshakeException": "Add failed: $p, please tun on the proxy or modify the current proxy node and try again"
   },
   "AddProfileByScanQrcodeScanScreen": {
     "copy": "Copy Link",
@@ -202,7 +203,6 @@
     "htmlBoard": "Online Panel",
     "dnsLeakDetection": "DNS Leaks Detection",
     "speedTest": "Speed Test",
-    "addProfileFromClipboard": "Import From Clipboard",
     "downloadProfilePreferProxy": "Prefer Proxy to Download Profile",
     "downloadProfilePreferProxyTips": "If currently connected, the profile will be downloaded through the connected proxy first",
     "rulesetDirectDownlad": "Rule Set Direct Download",
@@ -482,6 +482,8 @@
   "share": "Share",
   "candidateWord": "Candidate Words",
   "keywordsOrRegx": "Keywords/Regular",
+  "importFromClipboard": "Import From Clipboard",
+  "exportToClipboard": "Export to Clipboard",
   "server": "Server",
   "locales(map)": {
     "en": "English",

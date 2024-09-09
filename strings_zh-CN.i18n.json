@@ -27,8 +27,9 @@
     "subscriptionCannotEmpty": "配置链接不能为空",
     "configExist": "配置已存在,请勿重复添加",
     "invalidUrl": "配置链接长度过长",
-    "addFailedFormatException": "格式错误,请订正后重新添加:",
-    "addFailedThenDownloadAndImport": "添加失败:$p, 请尝试修改[UserAgent]后重试,或者用设备自带的浏览器打开配置链接,并将浏览器下载的配置文件导入到本应用"
+    "addFailedFormatException": "格式错误,请订正后重新添加:$p",
+    "addFailedThenDownloadAndImport": "添加失败:$p, 请尝试修改[UserAgent]后重试,或者用设备自带的浏览器打开配置链接,并将浏览器下载的配置文件导入到本应用",
+    "addFailedHandshakeException": "添加失败:$p, 请打开代理或者修改当前代理节点后重试"
   },
   "AddProfileByScanQrcodeScanScreen": {
     "copy": "拷贝链接",
@@ -202,7 +203,6 @@
     "htmlBoard": "在线面板",
     "dnsLeakDetection": "DNS泄露检测",
     "speedTest": "测速",
-    "addProfileFromClipboard": "从剪切板导入",
     "downloadProfilePreferProxy": "优先使用代理下载配置",
     "downloadProfilePreferProxyTips": "如果当前已连接,则优先通过已连接的代理下载配置",
     "rulesetDirectDownlad": "Rule Set直连下载",
@@ -482,6 +482,8 @@
   "share": "分享",
   "candidateWord": "候选词",
   "keywordsOrRegx": "关键词/正则",
+  "importFromClipboard": "从剪切板导入",
+  "exportToClipboard": "导出到剪切板",
   "server": "服务器",
   "locales(map)": {
     "en": "English",

@@ -27,8 +27,9 @@
     "subscriptionCannotEmpty": "لا يمكن أن يكون رابط الملف الشخصي فارغًا",
     "configExist": "الملف الشخصي موجود بالفعل ، من فضلك لا تضيفه مرارًا وتكرارًا",
     "invalidUrl": "رابط الملف الطويل جدًا",
-    "addFailedFormatException": "التنسيق خاطئ ، يرجى تصحيحه وإضافته مرة أخرى:",
-    "addFailedThenDownloadAndImport": "فشلت إضافة: $p، يرجى محاولة تعديل [UserAgent] والمحاولة مرة أخرى، أو استخدم المتصفح الخاص بالجهاز لفتح رابط التكوين واستيراد ملف التكوين الذي تم تنزيله بواسطة المتصفح إلى هذا التطبيق"
+    "addFailedFormatException": "التنسيق خاطئ ، يرجى تصحيحه وإضافته مرة أخرى:$p",
+    "addFailedThenDownloadAndImport": "فشلت إضافة: $p، يرجى محاولة تعديل [UserAgent] والمحاولة مرة أخرى، أو استخدم المتصفح الخاص بالجهاز لفتح رابط التكوين واستيراد ملف التكوين الذي تم تنزيله بواسطة المتصفح إلى هذا التطبيق",
+    "addFailedHandshakeException": "فشلت إضافة: $p، يرجى فتح الوكيل أو تعديل عقدة الوكيل الحالية والمحاولة مرة أخرى"
   },
   "AddProfileByScanQrcodeScanScreen": {
     "copy": "Copy Link",
@@ -202,7 +203,6 @@
     "htmlBoard": "لوحة على الانترنت",
     "dnsLeakDetection": "كشف تسرب DNS",
     "speedTest": "اختبار السرعة",
-    "addProfileFromClipboard": "استيراد من الحافظة",
     "downloadProfilePreferProxy": "تفضل الوكيل لتنزيل الملف الشخصي",
     "downloadProfilePreferProxyTips": "إذا كان متصلاً حاليًا ، فسيتم تنزيل الملف الشخصي من خلال الوكيل المتصالح أولاً",
     "rulesetDirectDownlad": "مجموعة القواعد تحميل مباشر",
@@ -482,6 +482,8 @@
   "share": "يشارك",
   "candidateWord": "كلمات المرشح",
   "keywordsOrRegx": "الكلمات الرئيسية/العادية",
+  "importFromClipboard": "استيراد من الحافظة",
+  "exportToClipboard": "تصدير إلى الحافظة",
   "server": "الخادم",
   "locales(map)": {
     "en": "English",

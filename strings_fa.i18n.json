@@ -27,8 +27,9 @@
     "subscriptionCannotEmpty": "لینک پروفایل نمی‌تواند خالی باشد",
     "configExist": "پروفایل از‌قبل وجود دارد، لطفا آن را به‌طور مکرر اضافه نکنید",
     "invalidUrl": "لینک پروفایل خیلی طولانی است",
-    "addFailedFormatException": "فرمت اشتباه است، لطفا آن را اصلاح کرده و مجدد اضافه کنید:",
-    "addFailedThenDownloadAndImport": "افزودن نشد: $p، لطفاً [UserAgent] را تغییر دهید و دوباره امتحان کنید، یا از مرورگر خود دستگاه برای باز کردن پیوند پیکربندی و وارد کردن فایل پیکربندی دانلود شده توسط مرورگر به این برنامه استفاده کنید."
+    "addFailedFormatException": "فرمت اشتباه است، لطفا آن را اصلاح کرده و مجدد اضافه کنید:$p",
+    "addFailedThenDownloadAndImport": "افزودن نشد: $p، لطفاً [UserAgent] را تغییر دهید و دوباره امتحان کنید، یا از مرورگر خود دستگاه برای باز کردن پیوند پیکربندی و وارد کردن فایل پیکربندی دانلود شده توسط مرورگر به این برنامه استفاده کنید.",
+    "addFailedHandshakeException": "اضافه کردن: $p ناموفق بود، لطفاً عامل را باز کنید یا گره عامل فعلی را تغییر دهید و دوباره امتحان کنید"
   },
   "AddProfileByScanQrcodeScanScreen": {
     "copy": "کپی‌کردن لینک",
@@ -202,7 +203,6 @@
     "htmlBoard": "پنل آنلاین",
     "dnsLeakDetection": "تشخیص نشت DNS",
     "speedTest": "تست سرعت",
-    "addProfileFromClipboard": "افزودن از کلیپ‌برد",
     "downloadProfilePreferProxy": "برای دانلود پروفایل پروکسی را ترجیح بده",
     "downloadProfilePreferProxyTips": "اگر اکنون متصل هستین، پروفایل ابتدا از پروکسی متصل دانلود می‌شود",
     "rulesetDirectDownlad": "دانلود مستقیم مجموعه قوانین",
@@ -482,6 +482,8 @@
   "share": "اشتراک گذاری",
   "candidateWord": "کلمات نامزد",
   "keywordsOrRegx": "کلمات کلیدی / معمولی",
+  "importFromClipboard": "افزودن از کلیپ‌برد",
+  "exportToClipboard": "صادرات به کلیپ بورد",
   "server": "سرور",
   "locales(map)": {
     "en": "English",
