@@ -278,7 +278,6 @@
     "disconnectWhenQuit": "قطع اتصال هنگام خروج از نرم‌افزار",
     "allowBypass": "به برنامه‌ها اجازه دهید VPN را دور بزنند",
     "lanSyncTo": "همگام‌سازی با دیگران",
-    "lanSyncToAppleTV": "Sync to Apple TV",
     "lanSyncFrom": "همگام‌سازی از دیگران",
     "lanSyncScanQRcode": "اسکن کدQR و همگام‌سازی",
     "invalidFileType": "نوع فایل نامعتبر:$p",
@@ -491,6 +490,9 @@
   "importFromClipboard": "افزودن از کلیپ‌برد",
   "exportToClipboard": "صادرات به کلیپ بورد",
   "server": "سرور",
+  "appleTVConnectFailed": "اتصال به Apple TV [$p] ناموفق بود، لطفاً مطمئن شوید که دستگاه در همان LAN است و [اتصال مستقیم شبکه خصوصی] را فعال کنید.",
+  "appleTVSync": "پیکربندی هسته فعلی را با Apple TV همگام کنید",
+  "appleTVUrlInvalid": "URL نامعتبر است، لطفاً Apple TV - Karing را باز کنید، کد QR نمایش داده شده توسط Karing را اسکن کنید",
   "locales(map)": {
     "en": "English",
     "zh-CN": "简体中文",

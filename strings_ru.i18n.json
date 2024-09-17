@@ -278,7 +278,6 @@
     "disconnectWhenQuit": "Отключаться при выходе из приложения",
     "allowBypass": "Разрешить приложениям обходить VPN",
     "lanSyncTo": "Синхронизировать на другие устройства",
-    "lanSyncToAppleTV": "Sync to Apple TV",
     "lanSyncFrom": "Синхронизация с других устройств",
     "lanSyncScanQRcode": "Сканируйте QR-код для синхронизации",
     "invalidFileType": "Неверный тип файла:$p",
@@ -491,6 +490,9 @@
   "importFromClipboard": "Импорт из буфера обмена",
   "exportToClipboard": "Экспорт в буфер обмена",
   "server": "сервер",
+  "appleTVConnectFailed": "Не удалось подключиться к Apple TV [$p]. Убедитесь, что устройство находится в той же локальной сети, и включите [Прямое подключение к частной сети].",
+  "appleTVSync":"Синхронизируйте текущую конфигурацию ядра с Apple TV.",
+  "appleTVUrlInvalid": "Неверный URL-адрес. Откройте Apple TV — Karing, отсканируйте QR-код, отображаемый Karing.",
   "locales(map)": {
     "en": "English",
     "zh-CN": "简体中文",

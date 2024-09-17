@@ -278,7 +278,6 @@
     "disconnectWhenQuit": "Disconnect when App Exits",
     "allowBypass": "Allow Apps to Bypass VPN",
     "lanSyncTo": "Sync to others",
-    "lanSyncToAppleTV": "Sync to Apple TV",
     "lanSyncFrom": "Sync from others",
     "lanSyncScanQRcode": "Scan QR code to Sync",
     "invalidFileType": "Invalid file type:$p",
@@ -491,6 +490,9 @@
   "importFromClipboard": "Import From Clipboard",
   "exportToClipboard": "Export to Clipboard",
   "server": "Server",
+  "appleTVConnectFailed": "Failed to connect to Apple TV[$p]. Please make sure the devices are in the same LAN and enable [Private Network Direct Connection]",
+  "appleTVSync": "Sync the current core configuration to Apple TV",
+  "appleTVUrlInvalid": "Invalid URL, please open Apple TV - Karing and scan the QR code displayed by Karing",
   "locales(map)": {
     "en": "English",
     "zh-CN": "简体中文",

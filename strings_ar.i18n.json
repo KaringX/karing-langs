@@ -278,7 +278,6 @@
     "disconnectWhenQuit": "افصل عندما يخرج التطبيق",
     "allowBypass": "السماح للتطبيقات بتجاوز VPN",
     "lanSyncTo": "مزامنة للآخرين ",
-    "lanSyncToAppleTV": "Sync to Apple TV",
     "lanSyncFrom": "مزامنة من الآخرين",
     "lanSyncScanQRcode": "مسح رمز الاستجابة السريعة للمزامنة ",
     "invalidFileType": "نوع الملف غير صالح:$p",
@@ -491,6 +490,9 @@
   "importFromClipboard": "استيراد من الحافظة",
   "exportToClipboard": "تصدير إلى الحافظة",
   "server": "الخادم",
+  "appleTVConnectFailed": "فشل الاتصال بـ Apple TV [$p]، يرجى التأكد من وجود الجهاز في نفس الشبكة المحلية (LAN) وتمكين [الاتصال المباشر بالشبكة الخاصة]",
+  "appleTVSync": "مزامنة التكوين الأساسي الحالي مع Apple TV",
+  "appleTVUrlInvalid": "عنوان URL غير صالح، يرجى فتح Apple TV - Karing، ومسح رمز QR الذي يعرضه Karing",
   "locales(map)": {
     "en": "English",
     "zh-CN": "简体中文",

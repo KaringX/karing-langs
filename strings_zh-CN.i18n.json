@@ -278,7 +278,6 @@
     "disconnectWhenQuit": "退出应用时关闭连接",
     "allowBypass": "允许应用绕过VPN",
     "lanSyncTo": "同步给他人",
-    "lanSyncToAppleTV": "同步给Apple TV",
     "lanSyncFrom": "从他人同步",
     "lanSyncScanQRcode": "扫码同步",
     "invalidFileType": "无效的文件类型:$p",
@@ -491,6 +490,9 @@
   "importFromClipboard": "从剪切板导入",
   "exportToClipboard": "导出到剪切板",
   "server": "服务器",
+  "appleTVConnectFailed": "连接Apple TV[$p]失败,请确保设备在同一个局域网内,并且开启[私有网络直连]",
+  "appleTVSync":"同步当前核心配置到Apple TV",
+  "appleTVUrlInvalid": "无效的URL,请打开Apple TV - Karing,扫描Karing显示的二维码",
   "locales(map)": {
     "en": "English",
     "zh-CN": "简体中文",
