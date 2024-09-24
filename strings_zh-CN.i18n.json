@@ -247,7 +247,7 @@
     "dnsResetServer": "重置服务器",
     "inboundDomainResolve": "解析入站域名",
     "privateDirect": "私有网络直连",
-    "inboundDomainResolveTips": "关闭后可能会影响到基于IP的分流,仅影响代理端口[$p]的入站请求",
+    "inboundDomainResolveTips": "某些未配置分流规则的域名需要解析后才可能命中基于IP的分流规则;此功能影响代理端口[$p]的入站请求",
     "useRomoteRes": "使用远程资源",
     "autoSelect": "自动选择",
     "autoSelectServerIgnorePerProxyServer": "忽略[前置代理]代理服务器",
@@ -498,6 +498,7 @@
   "appleTVRemoveCoreConfig": "删除Apple TV - Karing核心配置",
   "appleTVRemoveCoreConfigDone": "Apple TV - Karing的核心配置文件已删除;VPN服务已断开连接",
   "appleTVUrlInvalid": "无效的URL,请打开Apple TV - Karing,扫描Karing显示的二维码",
+  "remoteProfileEditConfirm": "配置更新后,节点的修改将会被还原,是否继续?",
   "locales(map)": {
     "en": "English",
     "zh-CN": "简体中文",

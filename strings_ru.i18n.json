@@ -247,7 +247,7 @@
     "dnsResetServer": "Сбросить сервер",
     "inboundDomainResolve": "Разрешение входящих доменных имен",
     "privateDirect": "Прямое подключение к частной сети",
-    "inboundDomainResolveTips": "После закрытия он может повлиять на разгрузку на основе IP и повлиять только на входящие запросы к порту прокси [$p].",
+    "inboundDomainResolveTips": "Некоторые доменные имена без настроенных правил переадресации необходимо разрешить, прежде чем они смогут соответствовать правилам переадресации на основе IP; эта функция влияет на входящие запросы к порту прокси [$p]",
     "useRomoteRes": "Использовать удаленные ресурсы",
     "autoSelect": "Автовыбор",
     "autoSelectServerIgnorePerProxyServer": "Игнорировать прокси-сервер [передний прокси]",
@@ -498,6 +498,7 @@
   "appleTVRemoveCoreConfig": "Удаление Apple TV — базовая конфигурация Karing",
   "appleTVRemoveCoreConfigDone": "Apple TV — основной профиль Karing удален; VPN-сервис отключен;",
   "appleTVUrlInvalid": "Неверный URL-адрес. Откройте Apple TV — Karing, отсканируйте QR-код, отображаемый Karing.",
+  "remoteProfileEditConfirm": "После обновления конфигурации изменения узла будут восстановлены. Продолжить?",
   "locales(map)": {
     "en": "English",
     "zh-CN": "简体中文",

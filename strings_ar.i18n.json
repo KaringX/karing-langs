@@ -247,7 +247,7 @@
     "dnsResetServer": "إعادة تعيين الخادم",
     "inboundDomainResolve": "حل أسماء النطاقات الواردة",
     "privateDirect": "اتصال مباشر بالشبكة الخاصة",
-    "inboundDomainResolveTips": "بعد إغلاقه، قد يؤثر ذلك على التفريغ المستند إلى IP ويؤثر فقط على الطلبات الواردة إلى منفذ الوكيل [$p].",
+    "inboundDomainResolveTips": "تحتاج بعض أسماء النطاقات التي لا تحتوي على قواعد تحويل تم تكوينها إلى حلها قبل أن تتمكن من الوصول إلى قواعد التحويل المستندة إلى IP؛ وتؤثر هذه الميزة على الطلبات الواردة إلى منفذ الوكيل [$p]",
     "useRomoteRes": "استخدم الموارد البعيدة",
     "autoSelect": "اختيار آلي",
     "autoSelectServerIgnorePerProxyServer": "تجاهل الخادم الوكيل [الوكيل الأمامي].",
@@ -498,6 +498,7 @@
   "appleTVRemoveCoreConfig": "إزالة Apple TV - Karing Core Configuration",
   "appleTVRemoveCoreConfigDone": "Apple TV - تم حذف الملف التعريفي الأساسي لـ Karing؛ وتم قطع اتصال خدمة VPN",
   "appleTVUrlInvalid": "عنوان URL غير صالح، يرجى فتح Apple TV - Karing، ومسح رمز QR الذي يعرضه Karing",
+  "remoteProfileEditConfirm": "بعد تحديث التكوين، ستتم استعادة تعديلات العقدة. هل تريد المتابعة؟",
   "locales(map)": {
     "en": "English",
     "zh-CN": "简体中文",

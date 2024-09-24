@@ -247,7 +247,7 @@
     "dnsResetServer": "بازنشانی سرور",
     "inboundDomainResolve": "حل نام دامنه های ورودی",
     "privateDirect": "اتصال مستقیم شبکه خصوصی",
-    "inboundDomainResolveTips": "پس از بسته شدن، ممکن است بر بارگذاری مبتنی بر IP تأثیر بگذارد و فقط بر درخواست‌های ورودی به درگاه پروکسی [$p] تأثیر بگذارد.",
+    "inboundDomainResolveTips": "برخی از نام‌های دامنه بدون قوانین انحراف پیکربندی شده باید حل و فصل شوند تا بتوانند قوانین انحراف مبتنی بر IP را تحت تأثیر قرار دهند [$p].",
     "useRomoteRes": "از منابع راه‌دور استفاده کنید",
     "autoSelect": "انتخاب خودکار",
     "autoSelectServerIgnorePerProxyServer": "سرور پروکسی [پراکسی جلو] را نادیده بگیرید",
@@ -498,6 +498,7 @@
   "appleTVRemoveCoreConfig": "حذف Apple TV - Karing Core Configuration",
   "appleTVRemoveCoreConfigDone": "Apple TV - نمایه اصلی کارینگ حذف شد",
   "appleTVUrlInvalid": "URL نامعتبر است، لطفاً Apple TV - Karing را باز کنید، کد QR نمایش داده شده توسط Karing را اسکن کنید",
+  "remoteProfileEditConfirm": "پس از به روز رسانی تنظیمات، تغییرات گره بازیابی می شوند آیا می خواهید ادامه دهید؟",
   "locales(map)": {
     "en": "English",
     "zh-CN": "简体中文",

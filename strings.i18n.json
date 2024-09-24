@@ -247,7 +247,7 @@
     "dnsResetServer": "Reset Server",
     "inboundDomainResolve": "Resolve Inbound Domain names",
     "privateDirect": "Private Network Direct connection",
-    "inboundDomainResolveTips": "Disabling this may affect IP-based traffic diversion, only affects inbound requests to the proxy port [$p]",
+    "inboundDomainResolveTips": "Some domain names that are not configured with diversion rules need to be resolved before they can hit the IP-based diversion rules; this feature affects inbound requests to the proxy port [$p]",
     "useRomoteRes": "Use Remote Resources",
     "autoSelect": "Auto Select",
     "autoSelectServerIgnorePerProxyServer": "Ignore [Per-Proxy] proxy server",
@@ -498,6 +498,7 @@
   "appleTVRemoveCoreConfig": "Delete Apple TV - Karing Core Configuration",
   "appleTVRemoveCoreConfigDone": "Apple TV - Karing's Core Configuration deleted; VPN service disconnected",
   "appleTVUrlInvalid": "Invalid URL, please open Apple TV - Karing and scan the QR code displayed by Karing",
+  "remoteProfileEditConfirm": "After the Profile is updated, the node changes will be restored. Continue?",
   "locales(map)": {
     "en": "English",
     "zh-CN": "简体中文",
