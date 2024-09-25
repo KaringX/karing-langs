@@ -15,7 +15,6 @@
   "AddProfileByImportFromFileScreen": {
     "title": "Import Profile File",
     "chooseFile": "Select File",
-    "invalidFileType": "Invalid file type:$p",
     "configExist": "The Profile already exists, please do not add it repeatedly"
   },
   "AddProfileByLinkOrContentScreen": {
@@ -280,7 +279,6 @@
     "lanSyncTo": "Sync to others",
     "lanSyncFrom": "Sync from others",
     "lanSyncScanQRcode": "Scan QR code to Sync",
-    "invalidFileType": "Invalid file type:$p",
     "importSuccess": "Import Success",
     "rewriteConfirm": "This file will overwrite the existing local configuration. Do you want to continue?",
     "networkShare": "Network Sharing",
@@ -499,6 +497,7 @@
   "appleTVRemoveCoreConfigDone": "Apple TV - Karing's Core Configuration deleted; VPN service disconnected",
   "appleTVUrlInvalid": "Invalid URL, please open Apple TV - Karing and scan the QR code displayed by Karing",
   "remoteProfileEditConfirm": "After the Profile is updated, the node changes will be restored. Continue?",
+  "invalidFileType": "Invalid file type:$p",
   "locales(map)": {
     "en": "English",
     "zh-CN": "简体中文",

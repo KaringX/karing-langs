@@ -15,7 +15,6 @@
   "AddProfileByImportFromFileScreen": {
     "title": "Импорт файла конфигурации",
     "chooseFile": "Выбрать файл",
-    "invalidFileType": "Неверный тип файла:$p",
     "configExist": "Профиль уже существует. Пожалуйста, не добавляйте его повторно"
   },
   "AddProfileByLinkOrContentScreen": {
@@ -280,7 +279,6 @@
     "lanSyncTo": "Синхронизировать на другие устройства",
     "lanSyncFrom": "Синхронизация с других устройств",
     "lanSyncScanQRcode": "Сканируйте QR-код для синхронизации",
-    "invalidFileType": "Неверный тип файла:$p",
     "importSuccess": "Импорт выполнен успешно",
     "rewriteConfirm": "Этот файл перезапишет существующую локальную конфигурацию. Продолжить?",
     "networkShare": "Общий доступ к сети",
@@ -499,6 +497,7 @@
   "appleTVRemoveCoreConfigDone": "Apple TV — основной профиль Karing удален; VPN-сервис отключен;",
   "appleTVUrlInvalid": "Неверный URL-адрес. Откройте Apple TV — Karing, отсканируйте QR-код, отображаемый Karing.",
   "remoteProfileEditConfirm": "После обновления конфигурации изменения узла будут восстановлены. Продолжить?",
+  "invalidFileType": "Неверный тип файла:$p",
   "locales(map)": {
     "en": "English",
     "zh-CN": "简体中文",

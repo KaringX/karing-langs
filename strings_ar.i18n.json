@@ -15,7 +15,6 @@
   "AddProfileByImportFromFileScreen": {
     "title": "استيراد ملف الملف الشخصي",
     "chooseFile": "حدد الملف",
-    "invalidFileType": "نوع الملف غير صالح:$p",
     "configExist": "الملف الشخصي موجود بالفعل ، من فضلك لا تضيفه مرارًا وتكرارًا"
   },
   "AddProfileByLinkOrContentScreen": {
@@ -280,7 +279,6 @@
     "lanSyncTo": "مزامنة للآخرين ",
     "lanSyncFrom": "مزامنة من الآخرين",
     "lanSyncScanQRcode": "مسح رمز الاستجابة السريعة للمزامنة ",
-    "invalidFileType": "نوع الملف غير صالح:$p",
     "importSuccess": "استيراد نجاح ",
     "rewriteConfirm": "سيقوم هذا الملف بكتابة التكوين المحلي الحالي.هل تريد الاستمرار؟",
     "networkShare": "مشاركة الشبكة",
@@ -499,6 +497,7 @@
   "appleTVRemoveCoreConfigDone": "Apple TV - تم حذف الملف التعريفي الأساسي لـ Karing؛ وتم قطع اتصال خدمة VPN",
   "appleTVUrlInvalid": "عنوان URL غير صالح، يرجى فتح Apple TV - Karing، ومسح رمز QR الذي يعرضه Karing",
   "remoteProfileEditConfirm": "بعد تحديث التكوين، ستتم استعادة تعديلات العقدة. هل تريد المتابعة؟",
+  "invalidFileType": "نوع الملف غير صالح:$p",
   "locales(map)": {
     "en": "English",
     "zh-CN": "简体中文",

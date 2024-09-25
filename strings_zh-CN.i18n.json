@@ -15,7 +15,6 @@
   "AddProfileByImportFromFileScreen": {
     "title": "导入配置文件",
     "chooseFile": "选择文件",
-    "invalidFileType": "无效的文件类型:$p",
     "configExist": "配置已存在,请勿重复添加"
   },
   "AddProfileByLinkOrContentScreen": {
@@ -280,7 +279,6 @@
     "lanSyncTo": "同步给他人",
     "lanSyncFrom": "从他人同步",
     "lanSyncScanQRcode": "扫码同步",
-    "invalidFileType": "无效的文件类型:$p",
     "importSuccess": "导入成功",
     "rewriteConfirm": "该文件将覆盖本地已有配置,是否继续?",
     "networkShare": "网络共享",
@@ -499,6 +497,7 @@
   "appleTVRemoveCoreConfigDone": "Apple TV - Karing的核心配置文件已删除;VPN服务已断开连接",
   "appleTVUrlInvalid": "无效的URL,请打开Apple TV - Karing,扫描Karing显示的二维码",
   "remoteProfileEditConfirm": "配置更新后,节点的修改将会被还原,是否继续?",
+  "invalidFileType": "无效的文件类型:$p",
   "locales(map)": {
     "en": "English",
     "zh-CN": "简体中文",

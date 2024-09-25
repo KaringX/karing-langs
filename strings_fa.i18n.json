@@ -15,7 +15,6 @@
   "AddProfileByImportFromFileScreen": {
     "title": "وارد‌کردن فایل پروفایل",
     "chooseFile": "انتخاب فایل",
-    "invalidFileType": "نوع فایل نامعتبر:$p",
     "configExist": "پروفایل از‌قبل وجود دارد، لطفا آن را به‌طور مکرر اضافه نکنید"
   },
   "AddProfileByLinkOrContentScreen": {
@@ -280,7 +279,6 @@
     "lanSyncTo": "همگام‌سازی با دیگران",
     "lanSyncFrom": "همگام‌سازی از دیگران",
     "lanSyncScanQRcode": "اسکن کدQR و همگام‌سازی",
-    "invalidFileType": "نوع فایل نامعتبر:$p",
     "importSuccess": "افزودن موفق بود",
     "rewriteConfirm": "این فایل کانفیگ‌های محلی موجود را بازنویسی می‌کند. آیا می‌خواهید ادامه بدین؟",
     "networkShare": "اشتراک‌گذاری شبکه",
@@ -499,6 +497,7 @@
   "appleTVRemoveCoreConfigDone": "Apple TV - نمایه اصلی کارینگ حذف شد",
   "appleTVUrlInvalid": "URL نامعتبر است، لطفاً Apple TV - Karing را باز کنید، کد QR نمایش داده شده توسط Karing را اسکن کنید",
   "remoteProfileEditConfirm": "پس از به روز رسانی تنظیمات، تغییرات گره بازیابی می شوند آیا می خواهید ادامه دهید؟",
+  "invalidFileType": "نوع فایل نامعتبر:$p",
   "locales(map)": {
     "en": "English",
     "zh-CN": "简体中文",
