@@ -376,6 +376,7 @@
   "more": "More",
   "addProfile": "Add Profile",
   "addSuccess": "Added successfully",
+  "addSuccessThen": "Profile generated successfully, please go to [$p] to view",
   "addFailed": "Add failed:$p",
   "removeConfirm": "Are you sure to delete?",
   "tips": "Info",

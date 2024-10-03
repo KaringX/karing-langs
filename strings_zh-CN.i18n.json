@@ -376,6 +376,7 @@
   "more": "更多",
   "addProfile": "添加配置",
   "addSuccess": "添加成功",
+  "addSuccessThen": "配置生成成功,请到[$p]查看",
   "addFailed": "添加失败:$p",
   "removeConfirm": "确认删除?",
   "tips": "提示",
