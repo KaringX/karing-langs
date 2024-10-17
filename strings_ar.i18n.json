@@ -286,7 +286,7 @@
     "rewriteConfirm": "سيقوم هذا الملف بكتابة التكوين المحلي الحالي.هل تريد الاستمرار؟",
     "networkShare": "مشاركة الشبكة",
     "frontProxy": "الوكيل الأمامي",
-    "frontProxyTips": "بيانات->خادم الوكيل الأمامي->مخدم بروكسي->الخادم الهدف",
+    "frontProxyTips": "البيانات->الخادم الوكيل الأمامي [خوادم بروكسي أمامية متعددة: من الأعلى إلى الأسفل]->الخادم الوكيل [$p]->الخادم الهدف",
     "allowOtherHostsConnect": "اسمح للآخرين بالاتصال",
     "allowOtherHostsConnectTips": "socks:$sp,http(s):$hp",
     "tunAutoRoute": "Auto Route",

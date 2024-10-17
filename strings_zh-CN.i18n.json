@@ -286,7 +286,7 @@
     "rewriteConfirm": "该文件将覆盖本地已有配置,是否继续?",
     "networkShare": "网络共享",
     "frontProxy": "前置代理",
-    "frontProxyTips": "数据->前置代理服务器->代理服务器->目标服务器",
+    "frontProxyTips": "数据->前置代理服务器[多个前置代理服务器:由上到下]->代理服务器[$p]->目标服务器",
     "allowOtherHostsConnect": "允许其他主机接入",
     "allowOtherHostsConnectTips": "socks:$sp,http(s):$hp",
     "tunAutoRoute": "Auto Route",

@@ -286,7 +286,7 @@
     "rewriteConfirm": "This file will overwrite the existing local configuration. Do you want to continue?",
     "networkShare": "Network Sharing",
     "frontProxy": "Per-Proxy",
-    "frontProxyTips": "Data->Per-Proxy server->Proxy server->Target server",
+    "frontProxyTips": "Data->Pre-Proxy Server [Multiple Pre-Proxy Servers: from top to bottom]->Proxy Server [$p]->Target Server",
     "allowOtherHostsConnect": "Allow Others to Connect",
     "allowOtherHostsConnectTips": "socks:$sp,http(s):$hp",
     "tunAutoRoute": "Auto Route",
