@@ -215,6 +215,7 @@
     "portSettingControl": "控制与同步",
     "portSettingCluster": "集群服务",
     "modifyPort": "修改端口",
+    "modifyPortOccupied": "端口已被占用,请使用其他端口",
     "ipStrategyTips": "启用前,请先确认你的网络已支持IPv6,否则某些流量无法正常访问",
     "tunAppendHttpProxy": "附加HTTP代理到VPN",
     "tunAppendHttpProxyTips": "一些App会绕过虚拟网卡设备直连HTTP代理",
@@ -303,6 +304,7 @@
     "handleKaringScheme": "处理karing://调用",
     "handleClashScheme": "处理clash://调用",
     "handleSingboxScheme": "处理sing-box://调用",
+    "alwayOnVPN": "始终开启连接",
     "removeSystemVPNConfig": "删除系统VPN配置",
     "timeConnectOrDisconnect": "定时连接/断开",
     "timeConnectOrDisconnectTips": "VPN必须处于连接状态才会生效;开启后,[自动休眠]将失效",
@@ -322,16 +324,11 @@
     "rateInAppStore": "在App Store上评分"
   },
   "SpeedTestSettingsScreen": {
-    "title": "测速URL",
-    "error": "必须为有效的 https URL"
+    "title": "测速URL"
   },
   "TextToQrCodeScreen": {
     "title": "文本转二维码",
     "convert": "转换"
-  },
-  "UrlTestSettingsScreen": {
-    "title": "延迟检测URL",
-    "error": "必须为有效的 https URL"
   },
   "UserAgreementScreen": {
     "privacyFirst": "您的隐私很重要",
@@ -494,8 +491,8 @@
   "share": "分享",
   "candidateWord": "候选词",
   "keywordOrRegx": "关键词/正则",
-  "importFromClipboard": "从剪切板导入",
-  "exportToClipboard": "导出到剪切板",
+  "importFromClipboard": "从剪贴板导入",
+  "exportToClipboard": "导出到剪贴板",
   "server": "服务器",
   "appleTVConnectTurnOfprivateDirect": "请先开启[私有网络直连]",
   "targetConnectFailed": "连接[$p]失败,请确保设备在同一个局域网内,并且开启[私有网络直连]",
@@ -506,7 +503,14 @@
   "appleTVUrlInvalid": "无效的URL,请打开Apple TV - Karing,扫描Karing显示的二维码",
   "remoteProfileEditConfirm": "配置更新后,节点的修改将会被还原,是否继续?",
   "invalidFileType": "无效的文件类型:$p",
+  "mustBeValidHttpsURL": "必须为有效的 https URL",
   "fileNotExistReinstall": "文件缺失[$p],请重新安装",
+  "latencyTest": "延迟检测",
+  "latencyTestResolveIP": "手动检测时,同时解析出口IP",
+  "uwpExemption": "UWP网络隔离豁免",
+  "removeBannerAds": "去除广告",
+  "removeBannerAdsByReward": "观看一段数秒广告,将会获得7天无广告奖励",
+  "removeBannerAdsByRewardDone": "已获得7天无广告奖励",
   "locales(map)": {
     "en": "English",
     "zh-CN": "简体中文",

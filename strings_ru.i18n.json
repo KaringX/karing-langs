@@ -215,6 +215,7 @@
     "portSettingControl": "Управление и синхронизация",
     "portSettingCluster": "Кластерный сервис",
     "modifyPort": "Изменить порт",
+    "modifyPortOccupied": "Порт занят, используйте другой порт",
     "ipStrategyTips": "Перед включением убедитесь, что ваша сеть поддерживает IPv6, в противном случае нормальный доступ к части трафика будет невозможен",
     "tunAppendHttpProxy": "Подключите HTTP-прокси к VPN",
     "tunAppendHttpProxyTips": "Некоторые приложения будут обходить устройство виртуальной сетевой карты и напрямую подключаться к HTTP-прокси.",
@@ -303,6 +304,7 @@
     "handleKaringScheme": "Кнопка karing:// Позвонить",
     "handleClashScheme": "Кнопка clash:// Позвонить",
     "handleSingboxScheme": "Кнопка sing-box:// Позвонить",
+    "alwayOnVPN": "всегда открытое соединение",
     "removeSystemVPNConfig": "Удалить профиль VPN",
     "timeConnectOrDisconnect": "Запланированное подключение/отключение",
     "timeConnectOrDisconnectTips": "Чтобы это заработало, необходимо подключить VPN; после его подключения [автоматическое засыпание] будет отключено",
@@ -322,16 +324,11 @@
     "rateInAppStore": "Оценить нас в App Store"
   },
   "SpeedTestSettingsScreen": {
-    "title": "URL-адрес теста скорости",
-    "error": "https URL должен быть действительным"
+    "title": "URL-адрес теста скорости"
   },
   "TextToQrCodeScreen": {
     "title": "Преобразование текста в QR-код",
     "convert": "Конвертировать"
-  },
-  "UrlTestSettingsScreen": {
-    "title": "URL-адрес измерения задержки",
-    "error": "https URL должен быть действительным"
   },
   "UserAgreementScreen": {
     "privacyFirst": "Ваша конфиденциальность превыше всего",
@@ -506,7 +503,14 @@
   "appleTVUrlInvalid": "Неверный URL-адрес. Откройте Apple TV — Karing, отсканируйте QR-код, отображаемый Karing.",
   "remoteProfileEditConfirm": "После обновления конфигурации изменения узла будут восстановлены. Продолжить?",
   "invalidFileType": "Неверный тип файла:$p",
+  "mustBeValidHttpsURL": "https URL должен быть действительным",
   "fileNotExistReinstall": "Файл отсутствует [$p], пожалуйста, переустановите",
+  "latencyTest": "Обнаружение задержки",
+  "latencyTestResolveIP": "При ручном определении также анализируется экспортный IP-адрес.",
+  "uwpExemption": "Исключение из изоляции сети UWP",
+  "removeBannerAds": "Удалить рекламу",
+  "removeBannerAdsByReward": "Посмотрите несколько секунд рекламы, и вы будете вознаграждены 7 днями без рекламы.",
+  "removeBannerAdsByRewardDone": "Получил награду в течение 7 дней без рекламы",
   "locales(map)": {
     "en": "English",
     "zh-CN": "简体中文",

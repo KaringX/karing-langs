@@ -215,6 +215,7 @@
     "portSettingControl": "السيطرة والمزامنة",
     "portSettingCluster": "خدمة الكتلة",
     "modifyPort": "تعديل المنفذ",
+    "modifyPortOccupied": "المنفذ مشغول، يرجى استخدام منفذ آخر",
     "ipStrategyTips": "قبل التمكين ، يرجى تأكيد أن شبكتك تدعم IPv6 ، وإلا لا يمكن الوصول إلى بعض حركة المرور بشكل طبيعي.",
     "tunAppendHttpProxy": "إلحاق وكيل HTTP إلى VPN",
     "tunAppendHttpProxyTips": "ستجاوز بعض التطبيقات جهاز NIC الظاهري والاتصال مباشرة بوكيل HTTP",
@@ -303,6 +304,7 @@
     "handleKaringScheme": "مقبض karing:// Call",
     "handleClashScheme": "مقبض clash:// Call",
     "handleSingboxScheme": "مقبض sing-box:// يتصل",
+    "alwayOnVPN": "اتصال مفتوح دائمًا",
     "removeSystemVPNConfig": "حذف تكوين VPN النظام",
     "timeConnectOrDisconnect": "المقرر يتصل/قطع الاتصال",
     "timeConnectOrDisconnectTips": "يجب أن يكون VPN متصلاً ليصبح مفيدًا ؛بعد تشغيله ، سيتم تعطيل [النوم التلقائي]",
@@ -322,16 +324,11 @@
     "rateInAppStore": "قيمنا في متجر التطبيقات"
   },
   "SpeedTestSettingsScreen": {
-    "title": "URL اختبار السرعة",
-    "error": "يجب أن يكون عنوان URL HTTPS صالح"
+    "title": "URL اختبار السرعة"
   },
   "TextToQrCodeScreen": {
     "title": "رسالة نصية إلى رمز الاستجابة السريعة",
     "convert": "يتحول"
-  },
-  "UrlTestSettingsScreen": {
-    "title": "عنوان URL لاكتشاف التأخير",
-    "error": "يجب أن يكون عنوان URL HTTPS صالح"
   },
   "UserAgreementScreen": {
     "privacyFirst": "خصوصيتك تأتي أولا",
@@ -506,7 +503,14 @@
   "appleTVUrlInvalid": "عنوان URL غير صالح، يرجى فتح Apple TV - Karing، ومسح رمز QR الذي يعرضه Karing",
   "remoteProfileEditConfirm": "بعد تحديث التكوين، ستتم استعادة تعديلات العقدة. هل تريد المتابعة؟",
   "invalidFileType": "نوع الملف غير صالح:$p",
+  "mustBeValidHttpsURL": "يجب أن يكون عنوان URL HTTPS صالح",
   "fileNotExistReinstall": "الملف مفقود [$p]، يرجى إعادة التثبيت",
+  "latencyTest": "كشف التأخير",
+  "latencyTestResolveIP": "أثناء الكشف اليدوي، يتم أيضًا تحليل عنوان IP الخاص بالتصدير.",
+  "uwpExemption": "إعفاء عزل شبكة UWP",
+  "removeBannerAds": "إزالة الإعلانات",
+  "removeBannerAdsByReward": "شاهد بضع ثوانٍ من الإعلانات التجارية وستتم مكافأتك بـ 7 أيام من عدم وجود إعلانات تجارية",
+  "removeBannerAdsByRewardDone": "حصلت على مكافأة خالية من الإعلانات لمدة 7 أيام",
   "locales(map)": {
     "en": "English",
     "zh-CN": "简体中文",

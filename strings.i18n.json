@@ -215,6 +215,7 @@
     "portSettingControl": "Control and Sync",
     "portSettingCluster": "Cluster Service",
     "modifyPort": "Modify Port",
+    "modifyPortOccupied": "The port is occupied, please use another port",
     "ipStrategyTips": "Before enabling, please confirm that your network supports IPv6, otherwise some traffic cannot be accessed normally.",
     "tunAppendHttpProxy": "Append HTTP Proxy to VPN",
     "tunAppendHttpProxyTips": "Some apps will bypass virtual NIC Device and directly connect to HTTP proxy",
@@ -303,6 +304,7 @@
     "handleKaringScheme": "Handle karing:// Call",
     "handleClashScheme": "Handle clash:// Call",
     "handleSingboxScheme": "Handle sing-box:// Call",
+    "alwayOnVPN": "Always-on Connection",
     "removeSystemVPNConfig": "Delete system VPN configuration",
     "timeConnectOrDisconnect": "Scheduled connect/disconnect",
     "timeConnectOrDisconnectTips": "VPN must be connected to take effect; after it is turned on, [Automatic Sleep] will be disabled",
@@ -322,16 +324,11 @@
     "rateInAppStore": "Rate Us in AppStore"
   },
   "SpeedTestSettingsScreen": {
-    "title": "Speed Test URL",
-    "error": "Must be Valid https URL"
+    "title": "Speed Test URL"
   },
   "TextToQrCodeScreen": {
     "title": "Text To QR Code",
     "convert": "Convert"
-  },
-  "UrlTestSettingsScreen": {
-    "title": "Latency Checks URL",
-    "error": "Must be Valid https URL"
   },
   "UserAgreementScreen": {
     "privacyFirst": "Your Privacy Comes First",
@@ -506,7 +503,14 @@
   "appleTVUrlInvalid": "Invalid URL, please open Apple TV - Karing and scan the QR code displayed by Karing",
   "remoteProfileEditConfirm": "After the Profile is updated, the node changes will be restored. Continue?",
   "invalidFileType": "Invalid file type:$p",
+  "mustBeValidHttpsURL": "Must be Valid https URL",
   "fileNotExistReinstall": "File missing [$p], please reinstall",
+  "latencyTest": "Latency Checks",
+  "latencyTestResolveIP": "When manually checking, resolve the outlet IP",
+  "uwpExemption": "UWP Network Isolation Exemptions",
+  "removeBannerAds": "Remove ads",
+  "removeBannerAdsByReward": "Watch a few seconds of advertising and you will get 7 days of ad-free rewards",
+  "removeBannerAdsByRewardDone": "Received 7 days of ad-free reward",
   "locales(map)": {
     "en": "English",
     "zh-CN": "简体中文",
