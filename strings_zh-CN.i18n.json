@@ -495,7 +495,7 @@
   "exportToClipboard": "导出到剪贴板",
   "server": "服务器",
   "appleTVConnectTurnOfprivateDirect": "请先开启[私有网络直连]",
-  "targetConnectFailed": "连接[$p]失败,请确保设备在同一个局域网内,并且开启[私有网络直连]",
+  "targetConnectFailed": "连接[$p]失败,请确保设备在同一个局域网内",
   "appleTVSync": "同步当前核心配置到Apple TV - Karing",
   "appleTVSyncDone": "同步完成,请到Apple TV - Karing开启连接/重启连接",
   "appleTVRemoveCoreConfig": "删除Apple TV - Karing核心配置",

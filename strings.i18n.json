@@ -495,7 +495,7 @@
   "exportToClipboard": "Export to Clipboard",
   "server": "Server",
   "appleTVConnectTurnOfprivateDirect": "Please turn on [Private network direct connection] first",
-  "targetConnectFailed": "Failed to connect to [$p]. Please make sure the devices are in the same LAN and enable [Private Network Direct Connection]",
+  "targetConnectFailed": "Failed to connect to [$p]. Please make sure the devices are in the same LAN",
   "appleTVSync": "Synchronize the current core configuration to Apple TV - Karing",
   "appleTVSyncDone": "Synchronization is complete. Please go to Apple TV - Karing to start the connection/restart the connection",
   "appleTVRemoveCoreConfig": "Delete Apple TV - Karing Core Configuration",

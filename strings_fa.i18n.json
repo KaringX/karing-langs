@@ -495,7 +495,7 @@
   "exportToClipboard": "صادرات به کلیپ بورد",
   "server": "سرور",
   "appleTVConnectTurnOfprivateDirect": "لطفاً ابتدا [اتصال مستقیم شبکه خصوصی] را فعال کنید",
-  "targetConnectFailed": "اتصال به [$p] ناموفق بود، لطفاً مطمئن شوید که دستگاه در همان LAN است و [اتصال مستقیم شبکه خصوصی] را فعال کنید.",
+  "targetConnectFailed": "اتصال به [$p] ناموفق بود، لطفاً مطمئن شوید که دستگاه در همان LAN است",
   "appleTVSync": "همگام سازی پیکربندی هسته فعلی با Apple TV - Karing",
   "appleTVSyncDone": "همگام سازی کامل شد، لطفاً برای باز کردن/راه اندازی مجدد اتصال به Apple TV - Karing بروید",
   "appleTVRemoveCoreConfig": "حذف Apple TV - Karing Core Configuration",

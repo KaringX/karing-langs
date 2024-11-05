@@ -495,7 +495,7 @@
   "exportToClipboard": "تصدير إلى الحافظة",
   "server": "الخادم",
   "appleTVConnectTurnOfprivateDirect": "يرجى تمكين [الاتصال المباشر بالشبكة الخاصة] أولاً",
-  "targetConnectFailed": "فشل الاتصال بـ [$p]، يرجى التأكد من وجود الجهاز في نفس الشبكة المحلية (LAN) وتمكين [الاتصال المباشر بالشبكة الخاصة]",
+  "targetConnectFailed": "فشل الاتصال بـ [$p]، يرجى التأكد من وجود الجهاز في نفس الشبكة المحلية (LAN)",
   "appleTVSync": "مزامنة التكوين الأساسي الحالي مع Apple TV - Karing",
   "appleTVSyncDone": "اكتملت المزامنة، برجاء الانتقال إلى Apple TV - Karing لفتح/إعادة تشغيل الاتصال",
   "appleTVRemoveCoreConfig": "إزالة Apple TV - Karing Core Configuration",
