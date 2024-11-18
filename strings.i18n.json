@@ -87,8 +87,8 @@
   },
   "HomeScreen": {
     "toSelectServer": "Please Select a Server",
-    "invalidServer": "is invalid, please choose again",
-    "disabledServer": "is disabled, please choose again",
+    "invalidServer": "is invalid, please select again",
+    "disabledServer": "is disabled, please select again",
     "expiredServer": "No servers available, profiles may be expired or disabled",
     "systemProxyTips": "socks:$sp,http(s):$hp",
     "trafficTotal": "Traffic Total",
