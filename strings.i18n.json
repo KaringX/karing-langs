@@ -374,6 +374,7 @@
   "edit": "Edit",
   "view": "View",
   "more": "More",
+  "getProfile": "Get Profile",
   "addProfile": "Add Profile",
   "addSuccess": "Added successfully",
   "addSuccessThen": "Profile generated successfully, please go to [$p] to view",

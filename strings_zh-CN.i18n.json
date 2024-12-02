@@ -374,6 +374,7 @@
   "edit": "编辑",
   "view": "查看",
   "more": "更多",
+  "getProfile": "获取配置",
   "addProfile": "添加配置",
   "addSuccess": "添加成功",
   "addSuccessThen": "配置生成成功,请到[$p]查看",
