@@ -193,6 +193,8 @@
   },
   "SettingsScreen": {
     "ispFaq": "أسئلة مكررة[$p]",
+    "ispCustomerService": "خدمة العملاء[$p]",
+    "ispFollow": "متابعة[$p]",
     "cleanISP": "ISP واضح[$p]",
     "openISP": "فتح ISP رابط",
     "cleanISPNoParam": "مسح معلومات مزود خدمة الإنترنت ",
@@ -517,7 +519,7 @@
   "removeBannerAdsByShareTip": "شارك مرة واحدة وستحصل على $p من الأيام بدون مكافآت إعلانية (يمكن تكديسها، حتى $d من الأيام)",
   "removeBannerAdsByRewardTip": "شاهد إعلانًا وستحصل على مكافأة للأيام الخالية من الإعلانات بقيمة $p (لا يمكن تجميعها)",
   "removeBannerAdsDone": "تلقى $p أيام مكافأة خالية من الإعلانات",
-  "edgeRuntimeNotInstalled": "لم يقم الجهاز الحالي بتثبيت وقت تشغيل Edge أو Edge WebView2، لذلك لا يمكن عرض الصفحة، يرجى تنزيل Edge WebView2 runtime (x64) وتثبيته، وإعادة تشغيل التطبيق والمحاولة مرة أخرى.",
+  "edgeRuntimeNotInstalled": "لم يتم تثبيت وقت تشغيل Edge WebView2 على الجهاز الحالي ولا يمكن عرض الصفحة، يرجى تنزيل وتثبيت وقت تشغيل Edge WebView2 (x64)، وإعادة تشغيل التطبيق والمحاولة مرة أخرى.",
   "locales(map)": {
     "en": "English",
     "zh-CN": "简体中文",

@@ -193,6 +193,8 @@
   },
   "SettingsScreen": {
     "ispFaq": "سوالات متداول[$p]",
+    "ispCustomerService": "خدمات مشتری[$p]",
+    "ispFollow": "دنبال کردن[$p]",
     "cleanISP": "پاک‌سازی ISP [$p]",
     "openISP": "بازکردن لینک ISP",
     "cleanISPNoParam": "پاک‌سازی اطلاعات ISP",
@@ -517,7 +519,7 @@
   "removeBannerAdsByShareTip": "یک بار به اشتراک بگذارید و $p روز بدون پاداش تبلیغاتی دریافت خواهید کرد (تا $d  روز قابل انباشته شدن است)",
   "removeBannerAdsByRewardTip": "یک تبلیغ را تماشا کنید و پاداش روز بدون آگهی $p دریافت خواهید کرد (نمی توان روی هم گذاشت)",
   "removeBannerAdsDone": "پاداش $p روز بدون آگهی دریافت کرد",
-  "edgeRuntimeNotInstalled": "دستگاه فعلی Edge یا Edge WebView2 را نصب نکرده است، بنابراین صفحه نمی تواند نمایش داده شود، لطفاً Edge WebView2 (x64) را دانلود و نصب کنید، برنامه را مجدداً راه اندازی کنید و دوباره امتحان کنید.",
+  "edgeRuntimeNotInstalled": "زمان اجرا Edge WebView2 روی دستگاه فعلی نصب نشده است و صفحه قابل نمایش نیست لطفاً زمان اجرا Edge WebView2 (x64) را بارگیری و نصب کنید، برنامه را مجدداً راه اندازی کنید و دوباره امتحان کنید.",
   "locales(map)": {
     "en": "English",
     "zh-CN": "简体中文",

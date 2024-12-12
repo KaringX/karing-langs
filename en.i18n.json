@@ -193,6 +193,8 @@
   },
   "SettingsScreen": {
     "ispFaq": "FAQ[$p]",
+    "ispCustomerService": "Telegram[$p]",
+    "ispFollow": "Follow[$p]",
     "cleanISP": "Clear ISP[$p]",
     "openISP": "Open ISP link",
     "cleanISPNoParam": "Clear ISP Info",
@@ -517,7 +519,7 @@
   "removeBannerAdsByShareTip": "Share once and you will get $p days of ad-free rewards (can be stacked, up to $d days)",
   "removeBannerAdsByRewardTip": "Watch an ad and you will get $p days of ad-free rewards (not cumulative)",
   "removeBannerAdsDone": "Received $p days of ad-free rewards",
-  "edgeRuntimeNotInstalled": "The current device has not installed Edge or Edge WebView2 runtime, so the page cannot be displayed. Please download and install Edge WebView2 runtime (x64), restart the app and try again.",
+  "edgeRuntimeNotInstalled": "The current device has not installed the Edge WebView2 runtime, so the page cannot be displayed. Please download and install the Edge WebView2 runtime (x64), restart the App and try again.",
   "locales(map)": {
     "en": "English",
     "zh-CN": "简体中文",
