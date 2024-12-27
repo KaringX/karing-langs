@@ -1,6 +1,7 @@
 {
   "AboutScreen": {
     "installRefer": "مرجع نصب",
+    "installTime": "زمان نصب",
     "versionChannel": "کانال به‌روزرسانی خودکار",
     "disableUAReport": "خاموش کردن گزارش اطلاعات عملکرد",
     "disableUAReportTip": "گزارش‌دهی داده‌های رفتاری به ما کمک می‌کند تا نسخه‌های پایین‌تر از نسخه اصلی را بهبود بخشیم، همه گزارش‌های داده را به‌طور خودکار خاموش می‌کند (به‌جز [فعال‌سازی برنامه]).",
@@ -198,6 +199,7 @@
     "howToRemoveAds": "نحوه حذف تبلیغات",
     "htmlBoard": "پنل آنلاین",
     "dnsLeakDetection": "تشخیص نشت DNS",
+    "proxyLeakDetection": "تشخیص نشت عامل",
     "speedTest": "تست سرعت",
     "downloadProfilePreferProxy": "برای دانلود پروفایل پروکسی را ترجیح بده",
     "downloadProfilePreferProxyTips": "اگر اکنون متصل هستین، پروفایل ابتدا از پروکسی متصل دانلود می‌شود",
@@ -316,6 +318,7 @@
     "hasNewVersion": "به‌روزرسانی نسخه $p ",
     "follow": "مارو دنبال کنید",
     "contactUs": "ارتباط باما",
+    "supportUs": "از ما حمایت کنید",
     "rateInApp": "امتیاز به ما",
     "rateInAppStore": "به ما در اپ‌استور امتیاز بدین"
   },
@@ -515,6 +518,8 @@
   "latencyTestTimeout": "تایم اوت",
   "uwpExemption": "معافیت جداسازی شبکه UWP",
   "ads": "تبلیغات را حذف کنید",
+  "adsBanner": "تبلیغات بنری",
+  "donate": "اهدا کنید",
   "removeBannerAdsByShare": "اشتراک گذاری[Karing]رفتن به تبلیغات",
   "removeBannerAdsByReward": "تماشای تبلیغات برو به تبلیغات",
   "removeBannerAdsByShareTip": "یک بار به اشتراک بگذارید و $p روز بدون پاداش تبلیغاتی دریافت خواهید کرد (تا $d  روز قابل انباشته شدن است)",

@@ -1,6 +1,7 @@
 {
   "AboutScreen": {
     "installRefer": "تثبيت الرجوع",
+    "installTime": "وقت التثبيت",
     "versionChannel": "تحديث القنوات تلقائيا",
     "disableUAReport": "قم بإيقاف تشغيل تقرير بيانات الإجراء",
     "disableUAReportTip": "تساعدنا تقارير البيانات السلوكية على تحسين تجربة المنتج؛ ستقوم الإصدارات الأقل من الإصدار الرئيسي بإيقاف تشغيل جميع تقارير البيانات تلقائيًا (باستثناء [تنشيط التطبيق])",
@@ -198,6 +199,7 @@
     "howToRemoveAds": "كيفية إزالة الإعلانات",
     "htmlBoard": "لوحة على الانترنت",
     "dnsLeakDetection": "كشف تسرب DNS",
+    "proxyLeakDetection": "كشف تسرب الوكيل",
     "speedTest": "اختبار السرعة",
     "downloadProfilePreferProxy": "تفضل الوكيل لتنزيل الملف الشخصي",
     "downloadProfilePreferProxyTips": "إذا كان متصلاً حاليًا ، فسيتم تنزيل الملف الشخصي من خلال الوكيل المتصالح أولاً",
@@ -316,6 +318,7 @@
     "hasNewVersion": "تحديث الإصدار $p",
     "follow": "تابعنا",
     "contactUs": "اتصل بنا",
+    "supportUs": "ادعمنا",
     "rateInApp": "قيمنا",
     "rateInAppStore": "قيمنا في متجر التطبيقات"
   },
@@ -515,6 +518,8 @@
   "latencyTestTimeout": "نفذ الوقت",
   "uwpExemption": "إعفاء عزل شبكة UWP",
   "ads": "إزالة الإعلانات",
+  "adsBanner": "إعلانات البانر",
+  "donate": "يتبرع",
   "removeBannerAdsByShare": "شارك[Karing]اذهب إلى الإعلانات",
   "removeBannerAdsByReward": "مشاهدة الإعلانات انتقل إلى الإعلانات",
   "removeBannerAdsByShareTip": "شارك مرة واحدة وستحصل على $p من الأيام بدون مكافآت إعلانية (يمكن تكديسها، حتى $d من الأيام)",

@@ -1,6 +1,7 @@
 {
   "AboutScreen": {
     "installRefer": "Install Refer",
+    "installTime": "Install Time",
     "versionChannel": "Auto Update Channel",
     "disableUAReport": "Turn Off Action Data Report",
     "disableUAReportTip": "Behavioral data reporting helps us improve the product experience; versions lower than the main version will automatically turn off all data reporting (except [App Activation])",
@@ -198,6 +199,7 @@
     "howToRemoveAds": "How to remove ads",
     "htmlBoard": "Online Panel",
     "dnsLeakDetection": "DNS Leaks Detection",
+    "proxyLeakDetection": "Proxy Leaks Detection",
     "speedTest": "Speed Test",
     "downloadProfilePreferProxy": "Prefer Proxy to Download Profile",
     "downloadProfilePreferProxyTips": "If currently connected, the profile will be downloaded through the connected proxy first",
@@ -316,6 +318,7 @@
     "hasNewVersion": "Update Version $p",
     "follow": "Follow Us",
     "contactUs": "Contact Us",
+    "supportUs": "Support Us",
     "rateInApp": "Rate Us",
     "rateInAppStore": "Rate Us in AppStore"
   },
@@ -428,8 +431,8 @@
   "dns": "DNS",
   "url": "URL",
   "isp": "ISP",
-  "ispBind": "[ISP] Binding",
-  "ispUnbind": "Unbinding[$p]",
+  "ispBind": "[ISP] Bind",
+  "ispUnbind": "Unbind[$p]",
   "ispFaq": "FAQ[$p]",
   "ispCustomerService": "Telegram[$p]",
   "ispFollow": "Follow[$p]",
@@ -515,6 +518,8 @@
   "latencyTestTimeout": "Timeout",
   "uwpExemption": "UWP Network Isolation Exemptions",
   "ads": "Remove ads",
+  "adsBanner": "Banner ads",
+  "donate": "Donate",
   "removeBannerAdsByShare": "Share [Karing] to remove ads",
   "removeBannerAdsByReward": "Watch an ad to remove ads",
   "removeBannerAdsByShareTip": "Share once and you will get $p days of ad-free rewards (can be stacked, up to $d days)",
