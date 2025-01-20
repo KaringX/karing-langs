@@ -24,6 +24,7 @@
         "invalidPort": "Неверный [Port]:$p",
         "invalidRuleSet": "Неверный [Rule Set]:$p, URL-адрес должен быть действительным URL-адресом https двоичного файлом с расширением .srs/.json",
         "invalidRuleSetBuildIn": "Неверный [RuleSet(build-in)]:$p, формат: geosite:xxx или geoip:xxx или acl:xxx, а xxx должно быть допустимым именем правила.",
+        "invalidPackageId": "Неверный [@:{meta.appPackage}]:$p",
         "setDiversionRule": "Совет: после сохранения перейдите в раздел [@:{meta.diversionRules}] и настройте их, иначе изменения не будут действовать."
     },
     "DiversionRuleDetectScreen": {
@@ -134,7 +135,7 @@
         "downloadProfilePreferProxy": "Настройка приоритетного выбора прокси-сервера",
         "downloadProfilePreferProxyTips": "Если подключение установлено, профиль вначале будет загружен через подключенный прокси-сервер",
         "rulesetDirectDownlad": "Правила прямой загрузки",
-        "hideUnusedDiversionGroup": "Скрыть неактивные правила перенаправления",
+        "hideUnusedDiversionGroup": "Скрыть неактивные правила перенаправления трафика",
         "disableISPDiversionGroup": "Отключить правила перенаправления [@:{meta.isp}]",
         "portSettingRule": "Действуют все правила",
         "portSettingDirectAll": "Всё подключено напрямую",
@@ -451,7 +452,7 @@
         "profileAddNoServerAvaliable": "Нет доступных серверов, убедитесь что подписка или файл профиля корректен. Если ваша конфигурация взята из GitHub, получите адрес ссылки, нажав кнопку [Raw] на странице.",
         "profileAddWrapSuccess": "Конфигурация сгенерирована успешно. Для просмотра перейдите в [@:{meta.myProfiles}]"
     },
-    "diversionRulesEnable": "Включить правила перенаправления [@:{meta.isp}]",
+    "diversionRulesKeep": "Сохраните [@:{meta.isp}]@:{meta.diversionRules}",
     "diversionCustomGroupPreset": "Предустановка[@:{meta.diversionCustomGroup}]",
     "diversionCustomGroupPresetTips": "Примечание. Включенные элементы будут добавлены в [@:{meta.diversionCustomGroup}] и [@:{meta.diversionRules}].",
     "diversionCustomGroupAddTips": "Примечание. Возможно, вам придется вручную настроить порядок правил после их добавления, иначе добавленное перенаправление может работать не так, как ожидалось.",

@@ -24,6 +24,7 @@
         "invalidPort": "غير صالح [Port]:$p",
         "invalidRuleSet": "غير صالح [Rule Set]:$p, يجب أن يكون عنوان URL عنوان URL HTTPS صالحًا وملفًا ثنائيًا مع ملحق الملف .SRS",
         "invalidRuleSetBuildIn": "غير صالح [Rule Set(build-in)]:$p غير صالحة، التنسيق هو geosite:xxx أو geoip:xxx أو acl:xxx، ويجب أن يكون xxx اسم قاعدة صالحًا",
+        "invalidPackageId": "غير صالح [@:{meta.appPackage}]:$p",
         "setDiversionRule": "نصيحة: بعد الحفظ، يرجى الانتقال إلى [قواعد التحويل] لتعيين القواعد ذات الصلة، وإلا فلن تصبح سارية المفعول."
     },
     "DiversionRuleDetectScreen": {
@@ -134,7 +135,7 @@
         "downloadProfilePreferProxy": "تفضل الوكيل لتنزيل الملف الشخصي",
         "downloadProfilePreferProxyTips": "إذا كان متصلاً حاليًا ، فسيتم تنزيل الملف الشخصي من خلال الوكيل المتصالح أولاً",
         "rulesetDirectDownlad": "مجموعة القواعد تحميل مباشر",
-        "hideUnusedDiversionGroup": "إخفاء مجموعات التحويل غير المستخدمة",
+        "hideUnusedDiversionGroup": "إخفاء قواعد تحويل حركة المرور غير النشطة",
         "disableISPDiversionGroup": "تعطيل قواعد تحويل [@:{meta.isp}]",
         "portSettingRule": "القاعدة القائمة",
         "portSettingDirectAll": "توجيه كل شيء",
@@ -451,7 +452,7 @@
         "profileAddNoServerAvaliable": "لا يوجد خادم متاح، يرجى التأكد من صلاحية رابط التكوين أو ملف التكوين؛ وإذا كان التكوين الخاص بك يأتي من GitHub، فيرجى الحصول على عنوان الرابط من الزر [Raw] الموجود في الصفحة",
         "profileAddWrapSuccess": "تم إنشاء التكوين بنجاح، يرجى الانتقال إلى [@:{meta.myProfiles}] للعرض"
     },
-    "diversionRulesEnable": "تمكين قواعد تفريغ [@:{meta.isp}]",
+    "diversionRulesKeep": "احتفظ بـ [@:{meta.isp}]@:{meta.diversionRules}",
     "diversionCustomGroupPreset": "الإعداد المسبق [مجموعة تحويل مخصصة]",
     "diversionCustomGroupPresetTips": "ملاحظة: ستتم إضافة/تغطية العناصر الممكّنة إلى [مجموعة التحويل المخصصة] و[قواعد التحويل]",
     "diversionCustomGroupAddTips": "ملاحظة: قد تحتاج إلى ضبط الفرز يدويًا بعد إضافته، وإلا فإن التحويل المضاف حديثًا قد لا يسري مفعوله.",

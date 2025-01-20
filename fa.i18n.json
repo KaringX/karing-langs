@@ -24,6 +24,7 @@
         "invalidPort": "نامعتبر [Port]:$p",
         "invalidRuleSet": "نامعتبر [Rule Set]:$p باید URL یک URL معتبر https باشد و یک فایل دودویی(binary) با پسوند فایل .srs/.json باشد",
         "invalidRuleSetBuildIn": "نامعتبر [Rule Set(build-in)]:$p نامعتبر است، قالب geosite:xxx یا geoip:xxx یا acl:xxx است و xxx باید یک نام قانون معتبر باشد",
+        "invalidPackageId": "نامعتبر [@:{meta.appPackage}]:$p",
         "setDiversionRule": "راهنمایی: پس‌از ذخیره کردن لطفا به [قوانین انحراف] رفته و قوانین مربوط زا تنظیم کنید؛ درغیراین صورت اعمال نخواهند شد"
     },
     "DiversionRuleDetectScreen": {
@@ -134,7 +135,7 @@
         "downloadProfilePreferProxy": "برای دانلود پروفایل پروکسی را ترجیح بده",
         "downloadProfilePreferProxyTips": "اگر اکنون متصل هستین، پروفایل ابتدا از پروکسی متصل دانلود می‌شود",
         "rulesetDirectDownlad": "دانلود مستقیم مجموعه قوانین",
-        "hideUnusedDiversionGroup": "مخفی‌کردن گروه‌های انحراف به‌کار نرفته",
+        "hideUnusedDiversionGroup": "قوانین غیرفعال انحراف ترافیک را پنهان کنید",
         "disableISPDiversionGroup": "قوانین انحراف [@:{meta.isp}] را غیرفعال کنید",
         "portSettingRule": "قانون محور",
         "portSettingDirectAll": "مستقیم‌شدن همه",
@@ -451,7 +452,7 @@
         "profileAddNoServerAvaliable": "هیچ سروری در دسترس نیست، لطفاً مطمئن شوید که پیوند پیکربندی یا فایل پیکربندی معتبر است، اگر پیکربندی شما از GitHub آمده است، لطفاً آدرس پیوند را از دکمه [Raw] در صفحه دریافت کنید",
         "profileAddWrapSuccess": "پیکربندی با موفقیت ایجاد شد، لطفاً برای مشاهده به [@:{meta.myProfiles}] بروید"
     },
-    "diversionRulesEnable": "قوانین انحراف [@:{meta.isp}] را فعال کنید",
+    "diversionRulesKeep": "[@:{meta.isp}]@:{meta.diversionRules} را نگه دارید",
     "diversionCustomGroupPreset": "از پیش تنظیم شده [گروه انحراف سفارشی]",
     "diversionCustomGroupPresetTips": "توجه: موارد فعال به [گروه انحراف سفارشی] و [قوانین انحراف] اضافه/پوشش داده خواهند شد",
     "diversionCustomGroupAddTips": "توجه: ممکن است لازم باشد پس از افزودن مرتب‌سازی به‌صورت دستی آن را تنظیم کنید، در غیر این صورت انحراف تازه اضافه‌شده ممکن است اعمال نشود.",

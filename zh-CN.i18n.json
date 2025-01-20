@@ -24,6 +24,7 @@
         "invalidPort": "无效的 [Port]:$p",
         "invalidRuleSet": "无效的 [Rule Set]:$p, URL必须是有效的https URL,并且文件扩展名为.srs/.json的binary文件",
         "invalidRuleSetBuildIn": "无效的 [Rule Set(build-in)]:$p, 格式为geosite:xxx 或 geoip:xxx 或 acl:xxx,并且xxx应为有效的规则名",
+        "invalidPackageId": "无效的 [@:{meta.appPackage}]:$p",
         "setDiversionRule": "提示:保存后,请到[@:{meta.diversionRules}]设置相关规则,否则不会生效"
     },
     "DiversionRuleDetectScreen": {
@@ -134,7 +135,7 @@
         "downloadProfilePreferProxy": "优先使用代理下载配置",
         "downloadProfilePreferProxyTips": "如果当前已连接,则优先通过已连接的代理下载配置",
         "rulesetDirectDownlad": "Rule Set直连下载",
-        "hideUnusedDiversionGroup": "隐藏未启用的分流组",
+        "hideUnusedDiversionGroup": "隐藏未启用的分流规则",
         "disableISPDiversionGroup": "禁用[@:{meta.isp}]@:{meta.diversionRules}",
         "portSettingRule": "基于规则",
         "portSettingDirectAll": "全直连",
@@ -451,7 +452,7 @@
         "profileAddNoServerAvaliable": "无可用服务器,请确保配置链接或配置文件有效;如果你的配置来源于GitHub,请从页面上的[Raw]按钮获取链接地址",
         "profileAddWrapSuccess": "配置生成成功,请到[@:{meta.myProfiles}]查看"
     },
-    "diversionRulesEnable": "启用[@:{meta.isp}]@:{meta.diversionRules}",
+    "diversionRulesKeep": "保留[@:{meta.isp}]@:{meta.diversionRules}",
     "diversionCustomGroupPreset": "预置[@:{meta.diversionCustomGroup}]",
     "diversionCustomGroupPresetTips": "注意:启用的项会添加/覆盖到[@:{meta.diversionCustomGroup}]和[@:{meta.diversionRules}]",
     "diversionCustomGroupAddTips": "注意:添加完毕后可能需要手动调整排序,否则新添加的分流可能不会生效",

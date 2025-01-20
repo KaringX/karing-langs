@@ -24,6 +24,7 @@
         "invalidPort": "Invalid [Port]:$p",
         "invalidRuleSet": "Invalid [Rule Set]:$p, The URL must be a valid https URL and a binary file with the file extension .srs/.json",
         "invalidRuleSetBuildIn": "Invalid [Rule Set(build-in)]:$p, The format is geosite:xxx or geoip:xxx or acl:xxx, and xxx should be a valid rule name",
+        "invalidPackageId": "Invalid [@:{meta.appPackage}]:$p",
         "setDiversionRule": "Tip: After saving, please go to [@:{meta.diversionRules}] to set relevant rules, otherwise they will not take effect"
     },
     "DiversionRuleDetectScreen": {
@@ -134,7 +135,7 @@
         "downloadProfilePreferProxy": "Prefer Proxy to Download Profile",
         "downloadProfilePreferProxyTips": "If currently connected, the profile will be downloaded through the connected proxy first",
         "rulesetDirectDownlad": "Rule Set Direct Download",
-        "hideUnusedDiversionGroup": "Hide Unused Diversion Groups",
+        "hideUnusedDiversionGroup": "Hide Unused Diversion Rules",
         "disableISPDiversionGroup": "Disable [@:{meta.isp}] @:{meta.diversionRules}",
         "portSettingRule": "Rule Based",
         "portSettingDirectAll": "Direct All",
@@ -451,7 +452,7 @@
         "profileAddNoServerAvaliable": "No server avaliable, Make sure the Profile Link or Profile File is valid;  if your Profile comes from GitHub, please obtain the link from the [Raw] button on the page",
         "profileAddWrapSuccess": "Profile generated successfully, please go to [@:{meta.myProfiles}] to view"
     },
-    "diversionRulesEnable": "Enable [@:{meta.isp}] @:{meta.diversionRules}",
+    "diversionRulesKeep": "Keep [@:{meta.isp}] @:{meta.diversionRules}",
     "diversionCustomGroupPreset": "Preset [@:{meta.diversionCustomGroup}]",
     "diversionCustomGroupPresetTips": "Note: Enabled items will be added/overwritten to [@:{meta.diversionCustomGroup}] and [@:{meta.diversionRules}]",
     "diversionCustomGroupAddTips": "Note: After adding, you may need to manually adjust the order, otherwise the newly added diversion may not take effect",
