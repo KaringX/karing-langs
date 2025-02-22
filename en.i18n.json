@@ -132,8 +132,6 @@
         "dnsLeakDetection": "DNS Leaks Detection",
         "proxyLeakDetection": "Proxy Leaks Detection",
         "speedTest": "Speed Test",
-        "downloadProfilePreferProxy": "Prefer Proxy to Download Profile",
-        "downloadProfilePreferProxyTips": "If currently connected, the profile will be downloaded through the connected proxy first",
         "rulesetDirectDownlad": "Rule Set Direct Download",
         "hideUnusedDiversionGroup": "Hide Unused Diversion Rules",
         "disableISPDiversionGroup": "Disable [@:{meta.isp}] @:{meta.diversionRules}",
@@ -148,7 +146,7 @@
         "tunAppendHttpProxy": "Append HTTP Proxy to VPN",
         "tunAppendHttpProxyTips": "Some apps will bypass virtual NIC Device and directly connect to HTTP proxy",
         "dnsEnableRule": "Enable DNS Diversion rules",
-        "dnsEnableProxyResolveMode": "[@:{SettingsScreen.dnsTypeProxy}] Resolve mode",
+        "dnsEnableProxyResolveMode": "[@:{SettingsScreen.dnsTypeProxy}] Resolve Channel",
         "dnsEnableClientSubnet": "[@:{SettingsScreen.dnsTypeDirect}] Enable ECS",
         "dnsTestDomain": "Test Domain",
         "dnsTestDomainInvalid": "Invalid Domain",
@@ -353,6 +351,7 @@
         "appPackage": "App Package Id",
         "processName": "Process Name",
         "processPath": "Process Path",
+        "processDir": "Process Directory",
         "systemProxy": "System Proxy",
         "netInterfaces": "Net Interfaces",
         "netSpeed": "Speed",
@@ -483,18 +482,25 @@
         "paddingEnable": "Enable TLS Padding",
         "paddingSize": "TLS Padding Size"
     },
-    "dnsProxyResolveMode": {
-        "proxy": "Proxy",
-        "direct": "Direct",
-        "fakeip": "FakeIP"
-    },
-    "dnsProxyResolveModeTips": "[@:{dnsProxyResolveMode.proxy}]: Connect to the DNS server through the proxy server to resolve the domain name\n[@:{dnsProxyResolveMode.direct}]: Connect directly to the DNS server to resolve the domain name\n[@:{dnsProxyResolveMode.fakeip}]: The proxy server resolves the domain name on your behalf; if you disconnect the VPN connection, your application may need to be restarted; only effective for [TUN] inbound traffic",
     "outboundRuleMode": {
         "currentSelected": "Current Selected",
         "urltest": "Auto Select",
         "direct": "Direct",
         "block": "Block"
     },
+    "dnsProxyResolveMode": {
+        "proxy": "@:{outboundRuleMode.currentSelected}",
+        "direct": "@:{outboundRuleMode.direct}",
+        "fakeip": "FakeIP"
+    },
+    "proxyStrategy": {
+        "perferProxy": "@:{meta.prefer} @:{outboundRuleMode.currentSelected}",
+        "perferDirect": "@:{meta.prefer} @:{outboundRuleMode.direct}",
+        "onlyProxy": "@:{meta.only} @:{outboundRuleMode.currentSelected}",
+        "onlyDirect": "@:{meta.only} @:{outboundRuleMode.direct}"
+    },
+    "downloadProxyStrategy": "Download Channel",
+    "dnsProxyResolveModeTips": "[@:{dnsProxyResolveMode.proxy}]: Connect to the DNS server through the proxy server to resolve the domain name\n[@:{dnsProxyResolveMode.direct}]: Connect directly to the DNS server to resolve the domain name\n[@:{dnsProxyResolveMode.fakeip}]: The proxy server resolves the domain name on your behalf; if you disconnect the VPN connection, your application may need to be restarted; only effective for [TUN] inbound traffic",
     "routeFinal": "final",
     "protocolSniff": "Protocol Sniff",
     "protocolSniffOverrideDestination": "The Sniff domain name override the connection target address",

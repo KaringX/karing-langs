@@ -132,8 +132,6 @@
         "dnsLeakDetection": "تشخیص نشت DNS",
         "proxyLeakDetection": "تشخیص نشت عامل",
         "speedTest": "تست سرعت",
-        "downloadProfilePreferProxy": "برای دانلود پروفایل پروکسی را ترجیح بده",
-        "downloadProfilePreferProxyTips": "اگر اکنون متصل هستین، پروفایل ابتدا از پروکسی متصل دانلود می‌شود",
         "rulesetDirectDownlad": "دانلود مستقیم مجموعه قوانین",
         "hideUnusedDiversionGroup": "قوانین غیرفعال انحراف ترافیک را پنهان کنید",
         "disableISPDiversionGroup": "قوانین انحراف [@:{meta.isp}] را غیرفعال کنید",
@@ -148,7 +146,7 @@
         "tunAppendHttpProxy": "پیوست دادن پروکسی HTTP به وی‌پی‌ان",
         "tunAppendHttpProxyTips": "برخی نرم‌افزار‌ها از کارت شبکه مجازی رد میشوند و مستقیم به پروکسی HTTP متصل می‌شوند",
         "dnsEnableRule": "فعال‌سازی قوانین انحراف دی‌ان‌اس",
-        "dnsEnableProxyResolveMode": "[@:{SettingsScreen.dnsTypeProxy}] حالت وضوح",
+        "dnsEnableProxyResolveMode": "[@:{SettingsScreen.dnsTypeProxy}] کانال رزولوشن",
         "dnsEnableClientSubnet": "[@:{SettingsScreen.dnsTypeDirect}] ECS را فعال کنید",
         "dnsTestDomain": "تست دامنه",
         "dnsTestDomainInvalid": "دامنه نامعتبر",
@@ -353,6 +351,7 @@
         "appPackage": "شناسه بسته برنامه",
         "processName": "نام اجرایی پروسه",
         "processPath": "مسیر پروسه",
+        "processDir": "فهرست فرآیندها",
         "systemProxy": "پروکسی سیستم",
         "netInterfaces": "رابط شبکه",
         "netSpeed": "سرعت",
@@ -483,18 +482,25 @@
         "paddingEnable": "فعال کردن TLS Padding",
         "paddingSize": "اندازه پد TLS"
     },
-    "dnsProxyResolveMode": {
-        "proxy": "بازیگری",
-        "direct": "ارتباط مستقیم",
-        "fakeip": "FakeIP"
-    },
-    "dnsProxyResolveModeTips": "[@:{dnsProxyResolveMode.proxy}]: اتصال به سرور DNS از طریق سرور پروکسی برای حل نام دامنه\n[@:{dnsProxyResolveMode.direct}]: برای حل نام دامنه مستقیماً به سرور DNS متصل شوید\n[ @:{dnsProxyResolveMode.fakeip}: توسط پروکسی سرور از طرف شما نام دامنه را حل می کند، در صورت قطع ارتباط با VPN، ممکن است برنامه شما فقط برای ترافیک ورودی از [TUN] اعمال شود.",
     "outboundRuleMode": {
         "currentSelected": "فعلی انتخاب شده",
         "urltest": "انتخاب خودکار",
         "direct": "مستقیم",
         "block": "مسدود"
     },
+    "dnsProxyResolveMode": {
+        "proxy": "@:{outboundRuleMode.currentSelected}",
+        "direct": "@:{outboundRuleMode.direct}",
+        "fakeip": "FakeIP"
+    },
+    "proxyStrategy": {
+        "perferProxy": "@:{meta.prefer} @:{outboundRuleMode.currentSelected}",
+        "perferDirect": "@:{meta.prefer} @:{outboundRuleMode.direct}",
+        "onlyProxy": "@:{meta.only} @:{outboundRuleMode.currentSelected}",
+        "onlyDirect": "@:{meta.only} @:{outboundRuleMode.direct}"
+    },
+    "downloadProxyStrategy": "کانال دانلود",
+    "dnsProxyResolveModeTips": "[@:{dnsProxyResolveMode.proxy}]: اتصال به سرور DNS از طریق سرور پروکسی برای حل نام دامنه\n[@:{dnsProxyResolveMode.direct}]: برای حل نام دامنه مستقیماً به سرور DNS متصل شوید\n[ @:{dnsProxyResolveMode.fakeip}: توسط پروکسی سرور از طرف شما نام دامنه را حل می کند، در صورت قطع ارتباط با VPN، ممکن است برنامه شما فقط برای ترافیک ورودی از [TUN] اعمال شود.",
     "routeFinal": "نهایی",
     "protocolSniff": "تشخیص پروتکل",
     "protocolSniffOverrideDestination": "نام دامنه شناسایی شده آدرس هدف اتصال را پوشش می دهد",

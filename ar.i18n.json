@@ -132,8 +132,6 @@
         "dnsLeakDetection": "كشف تسرب DNS",
         "proxyLeakDetection": "كشف تسرب الوكيل",
         "speedTest": "اختبار السرعة",
-        "downloadProfilePreferProxy": "تفضل الوكيل لتنزيل الملف الشخصي",
-        "downloadProfilePreferProxyTips": "إذا كان متصلاً حاليًا ، فسيتم تنزيل الملف الشخصي من خلال الوكيل المتصالح أولاً",
         "rulesetDirectDownlad": "مجموعة القواعد تحميل مباشر",
         "hideUnusedDiversionGroup": "إخفاء قواعد تحويل حركة المرور غير النشطة",
         "disableISPDiversionGroup": "تعطيل قواعد تحويل [@:{meta.isp}]",
@@ -148,7 +146,7 @@
         "tunAppendHttpProxy": "إلحاق وكيل HTTP إلى VPN",
         "tunAppendHttpProxyTips": "ستجاوز بعض التطبيقات جهاز NIC الظاهري والاتصال مباشرة بوكيل HTTP",
         "dnsEnableRule": "تمكين قواعد تحويل DNS",
-        "dnsEnableProxyResolveMode": "[@:{SettingsScreen.dnsTypeProxy}] وضع الدقة",
+        "dnsEnableProxyResolveMode": "[@:{SettingsScreen.dnsTypeProxy}] قناة الدقة",
         "dnsEnableClientSubnet": "[@:{SettingsScreen.dnsTypeDirect}] تمكين ECS",
         "dnsTestDomain": "مجال الاختبار",
         "dnsTestDomainInvalid": "مجال غير صالح",
@@ -353,6 +351,7 @@
         "appPackage": "معرف حزمة التطبيق",
         "processName": "اسم العملية",
         "processPath": "مسار العملية",
+        "processDir": "دليل العمليات",
         "systemProxy": "وكيل النظام",
         "netInterfaces": "واجهات صافية",
         "netSpeed": "سرعة",
@@ -483,18 +482,25 @@
         "paddingEnable": "تمكين الحشو TLS",
         "paddingSize": "حجم الحشو TLS"
     },
-    "dnsProxyResolveMode": {
-        "proxy": "التمثيل",
-        "direct": "اتصال مباشر",
-        "fakeip": "FakeIP"
-    },
-    "dnsProxyResolveModeTips": "[@:{dnsProxyResolveMode.proxy}]: الاتصال بخادم DNS من خلال خادم الوكيل لحل اسم المجال\n[@:{dnsProxyResolveMode.direct}]: الاتصال مباشرة بخادم DNS لحل اسم المجال\n[ @:{dnsProxyResolveMode.fakeip}]: بواسطة الوكيل يقوم الخادم بحل اسم المجال نيابةً عنك؛ إذا انفصلت عن شبكة VPN، فقد يلزم إعادة تشغيل تطبيقك؛ ينطبق فقط على حركة المرور الواردة من [TUN]",
     "outboundRuleMode": {
         "currentSelected": "المحدد الحالي",
         "urltest": "اختيار آلي",
         "direct": "مباشر",
         "block": "حاجز"
     },
+    "dnsProxyResolveMode": {
+        "proxy": "@:{outboundRuleMode.currentSelected}",
+        "direct": "@:{outboundRuleMode.direct}",
+        "fakeip": "FakeIP"
+    },
+    "proxyStrategy": {
+        "perferProxy": "@:{meta.prefer} @:{outboundRuleMode.currentSelected}",
+        "perferDirect": "@:{meta.prefer} @:{outboundRuleMode.direct}",
+        "onlyProxy": "@:{meta.only} @:{outboundRuleMode.currentSelected}",
+        "onlyDirect": "@:{meta.only} @:{outboundRuleMode.direct}"
+    },
+    "downloadProxyStrategy": "تحميل القناة",
+    "dnsProxyResolveModeTips": "[@:{dnsProxyResolveMode.proxy}]: الاتصال بخادم DNS من خلال خادم الوكيل لحل اسم المجال\n[@:{dnsProxyResolveMode.direct}]: الاتصال مباشرة بخادم DNS لحل اسم المجال\n[ @:{dnsProxyResolveMode.fakeip}]: بواسطة الوكيل يقوم الخادم بحل اسم المجال نيابةً عنك؛ إذا انفصلت عن شبكة VPN، فقد يلزم إعادة تشغيل تطبيقك؛ ينطبق فقط على حركة المرور الواردة من [TUN]",
     "routeFinal": "أخير",
     "protocolSniff": "الكشف عن البروتوكول",
     "protocolSniffOverrideDestination": "يغطي اسم المجال المكتشف عنوان هدف الاتصال",

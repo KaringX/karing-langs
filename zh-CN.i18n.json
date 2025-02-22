@@ -132,8 +132,6 @@
         "dnsLeakDetection": "DNS泄露检测",
         "proxyLeakDetection": "代理泄露检测",
         "speedTest": "测速",
-        "downloadProfilePreferProxy": "优先使用代理下载配置",
-        "downloadProfilePreferProxyTips": "如果当前已连接,则优先通过已连接的代理下载配置",
         "rulesetDirectDownlad": "Rule Set直连下载",
         "hideUnusedDiversionGroup": "隐藏未启用的分流规则",
         "disableISPDiversionGroup": "禁用[@:{meta.isp}]@:{meta.diversionRules}",
@@ -148,7 +146,7 @@
         "tunAppendHttpProxy": "附加HTTP代理到VPN",
         "tunAppendHttpProxyTips": "一些App会绕过虚拟网卡设备直连HTTP代理",
         "dnsEnableRule": "启用DNS分流规则",
-        "dnsEnableProxyResolveMode": "[@:{SettingsScreen.dnsTypeProxy}]解析模式",
+        "dnsEnableProxyResolveMode": "[@:{SettingsScreen.dnsTypeProxy}]解析通道",
         "dnsEnableClientSubnet": "[@:{SettingsScreen.dnsTypeDirect}]启用ECS",
         "dnsTestDomain": "测试域名",
         "dnsTestDomainInvalid": "无效的域名",
@@ -353,6 +351,7 @@
         "appPackage": "应用包Id",
         "processName": "进程名称",
         "processPath": "进程路径",
+        "processDir": "进程目录",
         "systemProxy": "系统代理",
         "netInterfaces": "网络接口",
         "netSpeed": "速度",
@@ -483,18 +482,25 @@
         "paddingEnable": "启用TLS填充",
         "paddingSize": "TLS填充大小"
     },
-    "dnsProxyResolveMode": {
-        "proxy": "代理",
-        "direct": "直连",
-        "fakeip": "FakeIP"
-    },
-    "dnsProxyResolveModeTips": "[@:{dnsProxyResolveMode.proxy}]:通过代理服务器连接DNS服务器解析域名\n[@:{dnsProxyResolveMode.direct}]:直接连接DNS服务器解析域名\n[@:{dnsProxyResolveMode.fakeip}]:由代理服务器代为解析域名;如果断开VPN连接,你的应用可能需要重启;仅对[TUN]入站的流量生效",
     "outboundRuleMode": {
         "currentSelected": "当前选择",
         "urltest": "自动选择",
         "direct": "直连",
         "block": "拦截"
     },
+    "dnsProxyResolveMode": {
+        "proxy": "@:{outboundRuleMode.currentSelected}",
+        "direct": "@:{outboundRuleMode.direct}",
+        "fakeip": "FakeIP"
+    },
+    "proxyStrategy": {
+        "perferProxy": "@:{meta.prefer} @:{outboundRuleMode.currentSelected}",
+        "perferDirect": "@:{meta.prefer} @:{outboundRuleMode.direct}",
+        "onlyProxy": "@:{meta.only} @:{outboundRuleMode.currentSelected}",
+        "onlyDirect": "@:{meta.only} @:{outboundRuleMode.direct}"
+    },
+    "downloadProxyStrategy": "下载通道",
+    "dnsProxyResolveModeTips": "[@:{dnsProxyResolveMode.proxy}]:通过代理服务器连接DNS服务器解析域名\n[@:{dnsProxyResolveMode.direct}]:直接连接DNS服务器解析域名\n[@:{dnsProxyResolveMode.fakeip}]:由代理服务器代为解析域名;如果断开VPN连接,你的应用可能需要重启;仅对[TUN]入站的流量生效",
     "routeFinal": "final",
     "protocolSniff": "协议探测",
     "protocolSniffOverrideDestination": "探测的域名覆盖连接目标地址",
