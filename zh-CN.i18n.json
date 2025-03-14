@@ -10,6 +10,8 @@
         "viewFilsContent": "查看文件",
         "enablePprof": "启用pprof",
         "pprofPanel": "pprof面板",
+        "allowRemoteAccessPprof": "允许远程访问@:{AboutScreen.pprofPanel}",
+        "allowRemoteAccessHtmlBoard": "允许远程访问@:{SettingsScreen.htmlBoard}",
         "useOriginalSBProfile": "使用原始sing-box配置"
     },
     "BackupAndSyncWebdavScreen": {

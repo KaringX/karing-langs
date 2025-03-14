@@ -10,6 +10,8 @@
         "viewFilsContent": "مشاهده فایل‌ها",
         "enablePprof": "فعال‌سازی pprof",
         "pprofPanel": "پنل pprof",
+        "allowRemoteAccessPprof": "اجازه دسترسی از راه دور به @:{AboutScreen.pprofPanel}",
+        "allowRemoteAccessHtmlBoard": "اجازه دسترسی از راه دور@:{SettingsScreen.htmlBoard}",
         "useOriginalSBProfile": "استفاده از پروفایل اصلی سینگ‌باکس"
     },
     "BackupAndSyncWebdavScreen": {

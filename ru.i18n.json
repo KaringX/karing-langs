@@ -10,6 +10,8 @@
         "viewFilsContent": "Посмотреть файлы",
         "enablePprof": "Включить pprof",
         "pprofPanel": "pprof панель",
+        "allowRemoteAccessPprof": "Разрешить удаленный доступ к @:{AboutScreen.pprofPanel}",
+        "allowRemoteAccessHtmlBoard": "Разрешить удаленный доступ@:{SettingsScreen.htmlBoard}",
         "useOriginalSBProfile": "Использовать исходную конфигурацию Sing-box"
     },
     "BackupAndSyncWebdavScreen": {

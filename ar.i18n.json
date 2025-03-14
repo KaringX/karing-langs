@@ -10,6 +10,8 @@
         "viewFilsContent": "عرض الملفات",
         "enablePprof": "يُمكَِن pprof",
         "pprofPanel": "pprof لوحة",
+        "allowRemoteAccessPprof": "السماح بالوصول عن بعد إلى @:{AboutScreen.pprofPanel}",
+        "allowRemoteAccessHtmlBoard": "السماح بالوصول عن بعد@:{SettingsScreen.htmlBoard}",
         "useOriginalSBProfile": "استخدم تكوين صندوق الغناء الأصلي"
     },
     "BackupAndSyncWebdavScreen": {
