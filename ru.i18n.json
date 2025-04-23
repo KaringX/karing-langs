@@ -147,6 +147,7 @@
         "ipStrategyTips": "Перед включением убедитесь, что ваша сеть поддерживает IPv6, в противном случае нормальный доступ к части трафика будет невозможен",
         "tunAppendHttpProxy": "Подключите HTTP-прокси к VPN",
         "tunAppendHttpProxyTips": "Некоторые приложения будут обходить устройство виртуальной сетевой карты и напрямую подключаться к HTTP-прокси.",
+        "tunAllowBypassHttpProxyDomain": "Домены, которым разрешено обходить HTTP-прокси",
         "dnsEnableRule": "Включить правила для DNS",
         "dnsEnableProxyResolveMode": "[@:{SettingsScreen.dnsTypeProxy}] Способ разрешения в DNS",
         "dnsEnableClientSubnet": "[@:{SettingsScreen.dnsTypeDirect}] Включить ECS",
